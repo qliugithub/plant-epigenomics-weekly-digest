@@ -173,7 +173,82 @@
       }
     },
     "url": "https://www.sciencedirect.com/science/article/pii/S259034622600386X",
-    "related_papers": []
+    "related_papers": [],
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-09-04T06:25:06.589416+00:00",
+      "source_updated_at": "2026-09-03T10:48:47.769340",
+      "id": "https://openalex.org/W7204867699",
+      "doi": "10.1016/j.xplc.2026.102078",
+      "cited_by_count": 0,
+      "referenced_works_count": 0,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "Jingyu Wang",
+          "url": "https://openalex.org/A5148936475",
+          "orcid": null
+        },
+        {
+          "name": "Tianhua Peng",
+          "url": "https://openalex.org/A5085249253",
+          "orcid": null
+        },
+        {
+          "name": "Chi Zhang",
+          "url": "https://openalex.org/A5148940536",
+          "orcid": null
+        },
+        {
+          "name": "Ying Gao",
+          "url": "https://openalex.org/A5148904329",
+          "orcid": null
+        },
+        {
+          "name": "Hongyu Wu",
+          "url": "https://openalex.org/A5148895562",
+          "orcid": null
+        },
+        {
+          "name": "Chunyan Wei",
+          "url": "https://openalex.org/A5148912094",
+          "orcid": null
+        },
+        {
+          "name": "Xueying Guan",
+          "url": "https://openalex.org/A5148846107",
+          "orcid": null
+        },
+        {
+          "name": "Bo Zhang",
+          "url": "https://openalex.org/A5135457463",
+          "orcid": null
+        }
+      ],
+      "institutions": [
+        {
+          "name": "Zhejiang University",
+          "url": "https://openalex.org/I76130692",
+          "country": "CN"
+        },
+        {
+          "name": "Chongqing University",
+          "url": "https://openalex.org/I158842170",
+          "country": "CN"
+        },
+        {
+          "name": "ZheJiang Academy of Agricultural Sciences",
+          "url": "https://openalex.org/I4210126939",
+          "country": "CN"
+        }
+      ],
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1016/j.xplc.2026.102078",
+      "pdf_url": null,
+      "is_retracted": false
+    }
   },
   {
     "classification": {
@@ -366,7 +441,107 @@
       }
     },
     "url": "https://doi.org/10.64898/2026.08.25.747117",
-    "related_papers": []
+    "related_papers": [],
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-09-04T06:25:06.763638+00:00",
+      "source_updated_at": "2026-09-02T07:38:04.252551",
+      "id": "https://openalex.org/W7204246348",
+      "doi": "10.64898/2026.08.25.747117",
+      "cited_by_count": 0,
+      "referenced_works_count": 0,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "Yan He",
+          "url": "https://openalex.org/A5077425025",
+          "orcid": "https://orcid.org/0000-0003-3640-8502"
+        },
+        {
+          "name": "Ming Wang",
+          "url": "https://openalex.org/A5148573845",
+          "orcid": null
+        },
+        {
+          "name": "Tyler Buckley",
+          "url": "https://openalex.org/A5016125535",
+          "orcid": "https://orcid.org/0000-0002-6015-9801"
+        },
+        {
+          "name": "Brandon A. Boone",
+          "url": "https://openalex.org/A5049558604",
+          "orcid": "https://orcid.org/0000-0002-6475-8000"
+        },
+        {
+          "name": "Erika Li",
+          "url": "https://openalex.org/A5060922279",
+          "orcid": null
+        },
+        {
+          "name": "Janice Yerin Shin",
+          "url": "https://openalex.org/A5148198993",
+          "orcid": null
+        },
+        {
+          "name": "Nicholas Alvarado",
+          "url": "https://openalex.org/A5148372058",
+          "orcid": null
+        },
+        {
+          "name": "Bohao Xu",
+          "url": "https://openalex.org/A5137965650",
+          "orcid": null
+        },
+        {
+          "name": "Anh Nguyen",
+          "url": "https://openalex.org/A5148368132",
+          "orcid": null
+        },
+        {
+          "name": "Shuya Wang",
+          "url": "https://openalex.org/A5148582120",
+          "orcid": null
+        },
+        {
+          "name": "Yuxing Zhou",
+          "url": "https://openalex.org/A5101719790",
+          "orcid": "https://orcid.org/0009-0000-2008-8642"
+        },
+        {
+          "name": "Suhua Feng",
+          "url": "https://openalex.org/A5148596848",
+          "orcid": null
+        },
+        {
+          "name": "Steven E. Jacobsen",
+          "url": "https://openalex.org/A5022888501",
+          "orcid": "https://orcid.org/0000-0001-9483-138X"
+        }
+      ],
+      "institutions": [
+        {
+          "name": "University of California, Los Angeles",
+          "url": "https://openalex.org/I161318765",
+          "country": "US"
+        },
+        {
+          "name": "UCLA Health",
+          "url": "https://openalex.org/I2799798094",
+          "country": "US"
+        },
+        {
+          "name": "Institute of Zoology",
+          "url": "https://openalex.org/I4210120615",
+          "country": "KZ"
+        }
+      ],
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/26/2026.08.25.747117.full.pdf",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/26/2026.08.25.747117.full.pdf",
+      "is_retracted": false
+    }
   },
   {
     "classification": {
@@ -540,7 +715,87 @@
       }
     },
     "url": "https://doi.org/10.1093/plcell/koag182",
-    "related_papers": []
+    "related_papers": [],
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-09-04T06:25:06.957543+00:00",
+      "source_updated_at": "2026-08-21T09:56:20.448147",
+      "id": "https://openalex.org/W7164754159",
+      "doi": "10.1093/plcell/koag182",
+      "cited_by_count": 0,
+      "referenced_works_count": 0,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "Rishabh Pankaj",
+          "url": "https://openalex.org/A5036401354",
+          "orcid": "https://orcid.org/0000-0001-8757-3271"
+        },
+        {
+          "name": "Rita Baltazar de Lima",
+          "url": "https://openalex.org/A5074873275",
+          "orcid": "https://orcid.org/0000-0002-2001-0172"
+        },
+        {
+          "name": "Guan-Yu Louh",
+          "url": "https://openalex.org/A5040459224",
+          "orcid": "https://orcid.org/0000-0002-5973-2455"
+        },
+        {
+          "name": "Sinah Ehlert",
+          "url": "https://openalex.org/A5093359345",
+          "orcid": null
+        },
+        {
+          "name": "Gerardo Del Toro-De León",
+          "url": "https://openalex.org/A5022837551",
+          "orcid": "https://orcid.org/0000-0003-2079-1746"
+        },
+        {
+          "name": "Heinrich Bente",
+          "url": "https://openalex.org/A5008235479",
+          "orcid": "https://orcid.org/0000-0001-9229-5149"
+        },
+        {
+          "name": "Pascal Finger",
+          "url": "https://openalex.org/A5093359346",
+          "orcid": null
+        },
+        {
+          "name": "Hikaru Sato",
+          "url": "https://openalex.org/A5048621891",
+          "orcid": "https://orcid.org/0000-0001-7628-0414"
+        },
+        {
+          "name": "Duarte D. Figueiredo",
+          "url": "https://openalex.org/A5004244154",
+          "orcid": "https://orcid.org/0000-0001-7990-3592"
+        }
+      ],
+      "institutions": [
+        {
+          "name": "Max Planck Institute of Molecular Plant Physiology",
+          "url": "https://openalex.org/I4210105972",
+          "country": "DE"
+        },
+        {
+          "name": "University of Potsdam",
+          "url": "https://openalex.org/I176453806",
+          "country": "DE"
+        },
+        {
+          "name": "Tokyo Kasei University",
+          "url": "https://openalex.org/I191055192",
+          "country": "JP"
+        }
+      ],
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1093/plcell/koag182",
+      "pdf_url": null,
+      "is_retracted": false
+    }
   },
   {
     "classification": {
@@ -696,7 +951,52 @@
       }
     },
     "url": "https://doi.org/10.64898/2026.08.14.744917",
-    "related_papers": []
+    "related_papers": [],
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-09-04T06:25:07.166858+00:00",
+      "source_updated_at": "2026-08-23T07:36:19.812096",
+      "id": "https://openalex.org/W7203793204",
+      "doi": "10.64898/2026.08.14.744917",
+      "cited_by_count": 0,
+      "referenced_works_count": 19,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "Kerry L. Bubb",
+          "url": "https://openalex.org/A5054191319",
+          "orcid": "https://orcid.org/0000-0002-1117-2591"
+        },
+        {
+          "name": "Molly Perchlik",
+          "url": "https://openalex.org/A5078028845",
+          "orcid": "https://orcid.org/0000-0001-5158-9079"
+        },
+        {
+          "name": "Josh T. Cuperus",
+          "url": "https://openalex.org/A5073324399",
+          "orcid": "https://orcid.org/0000-0002-8019-7733"
+        },
+        {
+          "name": "Christine Queitsch",
+          "url": "https://openalex.org/A5050779824",
+          "orcid": "https://orcid.org/0000-0002-0905-4705"
+        }
+      ],
+      "institutions": [
+        {
+          "name": "University of Washington",
+          "url": "https://openalex.org/I201448701",
+          "country": "US"
+        }
+      ],
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://doi.org/10.64898/2026.08.14.744917",
+      "pdf_url": null,
+      "is_retracted": false
+    }
   },
   {
     "classification": {
@@ -875,7 +1175,87 @@
       }
     },
     "url": "https://doi.org/10.1038/s41467-026-75947-0",
-    "related_papers": []
+    "related_papers": [],
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-09-04T06:25:07.424868+00:00",
+      "source_updated_at": "2026-09-03T10:48:47.769340",
+      "id": "https://openalex.org/W7172383872",
+      "doi": "10.1038/s41467-026-75947-0",
+      "cited_by_count": 0,
+      "referenced_works_count": 92,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "Abraham Morales‐Cruz",
+          "url": "https://openalex.org/A5086355361",
+          "orcid": "https://orcid.org/0000-0002-6122-2649"
+        },
+        {
+          "name": "Sharon Greenblum",
+          "url": "https://openalex.org/A5056199651",
+          "orcid": "https://orcid.org/0000-0001-6148-3016"
+        },
+        {
+          "name": "Peng Wang",
+          "url": "https://openalex.org/A5025947987",
+          "orcid": "https://orcid.org/0000-0001-5927-6739"
+        },
+        {
+          "name": "Yu Zhang",
+          "url": "https://openalex.org/A5030893447",
+          "orcid": "https://orcid.org/0000-0003-4495-3447"
+        },
+        {
+          "name": "Lin Yang",
+          "url": "https://openalex.org/A5144341179",
+          "orcid": null
+        },
+        {
+          "name": "Chris Daum",
+          "url": "https://openalex.org/A5047824262",
+          "orcid": "https://orcid.org/0000-0003-3895-5892"
+        },
+        {
+          "name": "Jenifer Johnson",
+          "url": "https://openalex.org/A5112809973",
+          "orcid": null
+        },
+        {
+          "name": "Leo Baumgart",
+          "url": "https://openalex.org/A5052760267",
+          "orcid": "https://orcid.org/0000-0002-2773-5897"
+        },
+        {
+          "name": "Ronan C. O’Malley",
+          "url": "https://openalex.org/A5035216726",
+          "orcid": "https://orcid.org/0000-0002-4907-0339"
+        }
+      ],
+      "institutions": [
+        {
+          "name": "Lawrence Berkeley National Laboratory",
+          "url": "https://openalex.org/I148283060",
+          "country": "US"
+        },
+        {
+          "name": "Joint Genome Institute",
+          "url": "https://openalex.org/I196679689",
+          "country": "US"
+        },
+        {
+          "name": "University of Chicago",
+          "url": "https://openalex.org/I40347166",
+          "country": "US"
+        }
+      ],
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1038/s41467-026-75947-0",
+      "pdf_url": null,
+      "is_retracted": false
+    }
   },
   {
     "classification": {
@@ -1059,7 +1439,92 @@
       }
     },
     "url": "https://doi.org/10.64898/2026.08.19.745791",
-    "related_papers": []
+    "related_papers": [],
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-09-04T06:25:07.595772+00:00",
+      "source_updated_at": "2026-08-23T07:36:19.812096",
+      "id": "https://openalex.org/W7203826908",
+      "doi": "10.64898/2026.08.19.745791",
+      "cited_by_count": 0,
+      "referenced_works_count": 0,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "Davar Abedini",
+          "url": "https://openalex.org/A5000401630",
+          "orcid": null
+        },
+        {
+          "name": "Fred White",
+          "url": "https://openalex.org/A5135354190",
+          "orcid": "https://orcid.org/0000-0003-0434-6028"
+        },
+        {
+          "name": "Rahul Jain",
+          "url": "https://openalex.org/A5121520936",
+          "orcid": null
+        },
+        {
+          "name": "Alessandra Guerrieri",
+          "url": "https://openalex.org/A5012061434",
+          "orcid": null
+        },
+        {
+          "name": "Robin Schram",
+          "url": "https://openalex.org/A5147531250",
+          "orcid": null
+        },
+        {
+          "name": "Gertjan Kramer",
+          "url": "https://openalex.org/A5017331599",
+          "orcid": "https://orcid.org/0000-0002-8541-0337"
+        },
+        {
+          "name": "M. Homma",
+          "url": "https://openalex.org/A5102737354",
+          "orcid": "https://orcid.org/0009-0005-1836-128X"
+        },
+        {
+          "name": "Johan Westerhuis",
+          "url": "https://openalex.org/A5135395098",
+          "orcid": null
+        },
+        {
+          "name": "Age Smilde",
+          "url": "https://openalex.org/A5135284742",
+          "orcid": null
+        },
+        {
+          "name": "Harro Bouwmeester",
+          "url": "https://openalex.org/A5121564056",
+          "orcid": null
+        },
+        {
+          "name": "Lemeng Dong",
+          "url": "https://openalex.org/A5048333556",
+          "orcid": "https://orcid.org/0000-0002-1435-1907"
+        }
+      ],
+      "institutions": [
+        {
+          "name": "Netherlands Institute for Neuroscience",
+          "url": "https://openalex.org/I1295801184",
+          "country": "NL"
+        },
+        {
+          "name": "University of Amsterdam",
+          "url": "https://openalex.org/I887064364",
+          "country": "NL"
+        }
+      ],
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/20/2026.08.19.745791.full.pdf",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/20/2026.08.19.745791.full.pdf",
+      "is_retracted": false
+    }
   },
   {
     "classification": {
@@ -1251,7 +1716,127 @@
       }
     },
     "url": "https://doi.org/10.64898/2026.08.12.744101",
-    "related_papers": []
+    "related_papers": [],
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-09-04T06:25:07.780517+00:00",
+      "source_updated_at": "2026-09-03T10:48:47.769340",
+      "id": "https://openalex.org/W7202349180",
+      "doi": "10.64898/2026.08.12.744101",
+      "cited_by_count": 0,
+      "referenced_works_count": 0,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "Yarui Dong",
+          "url": "https://openalex.org/A5102537235",
+          "orcid": null
+        },
+        {
+          "name": "Jinye Li",
+          "url": "https://openalex.org/A5122942048",
+          "orcid": null
+        },
+        {
+          "name": "Futing Li",
+          "url": "https://openalex.org/A5147084685",
+          "orcid": null
+        },
+        {
+          "name": "Jilin Luo",
+          "url": "https://openalex.org/A5104271507",
+          "orcid": null
+        },
+        {
+          "name": "Yudong Jia",
+          "url": "https://openalex.org/A5100523820",
+          "orcid": null
+        },
+        {
+          "name": "Yudong Jia",
+          "url": "https://openalex.org/A5100523820",
+          "orcid": null
+        },
+        {
+          "name": "Li Wang",
+          "url": "https://openalex.org/A5100335904",
+          "orcid": "https://orcid.org/0000-0001-9639-1058"
+        },
+        {
+          "name": "Li Wang",
+          "url": "https://openalex.org/A5100335904",
+          "orcid": "https://orcid.org/0000-0001-9639-1058"
+        },
+        {
+          "name": "Juan Hu",
+          "url": "https://openalex.org/A5147076211",
+          "orcid": null
+        },
+        {
+          "name": "Juan Hu",
+          "url": "https://openalex.org/A5147076211",
+          "orcid": null
+        },
+        {
+          "name": "Yi Shang",
+          "url": "https://openalex.org/A5101661391",
+          "orcid": "https://orcid.org/0000-0001-5866-7543"
+        },
+        {
+          "name": "Sanwen Huang",
+          "url": "https://openalex.org/A5036428702",
+          "orcid": "https://orcid.org/0000-0002-8547-5309"
+        },
+        {
+          "name": "Yujuan Zhu",
+          "url": "https://openalex.org/A5059023653",
+          "orcid": "https://orcid.org/0000-0002-5164-8785"
+        },
+        {
+          "name": "Yuxin Jia",
+          "url": "https://openalex.org/A5027215950",
+          "orcid": "https://orcid.org/0000-0001-8808-2466"
+        },
+        {
+          "name": "Yuxin Jia",
+          "url": "https://openalex.org/A5027215950",
+          "orcid": "https://orcid.org/0000-0001-8808-2466"
+        }
+      ],
+      "institutions": [
+        {
+          "name": "Yunnan Normal University",
+          "url": "https://openalex.org/I120825670",
+          "country": "CN"
+        },
+        {
+          "name": "Beijing University of Posts and Telecommunications",
+          "url": "https://openalex.org/I139759216",
+          "country": "CN"
+        },
+        {
+          "name": "Agricultural Genomics Institute at Shenzhen",
+          "url": "https://openalex.org/I4210088191",
+          "country": "CN"
+        },
+        {
+          "name": "Chinese Academy of Agricultural Sciences",
+          "url": "https://openalex.org/I4210138501",
+          "country": "CN"
+        },
+        {
+          "name": "Ministry of Agriculture and Rural Affairs",
+          "url": "https://openalex.org/I4210151987",
+          "country": "CN"
+        }
+      ],
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/13/2026.08.12.744101.full.pdf",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/13/2026.08.12.744101.full.pdf",
+      "is_retracted": false
+    }
   },
   {
     "classification": {
@@ -1410,7 +1995,57 @@
       }
     },
     "url": "https://doi.org/10.64898/2026.08.13.744595",
-    "related_papers": []
+    "related_papers": [],
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-09-04T06:25:07.969234+00:00",
+      "source_updated_at": "2026-08-21T09:56:20.448147",
+      "id": "https://openalex.org/W7202363539",
+      "doi": "10.64898/2026.08.13.744595",
+      "cited_by_count": 0,
+      "referenced_works_count": 0,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "Wen Gong",
+          "url": "https://openalex.org/A5103745733",
+          "orcid": null
+        },
+        {
+          "name": "Uwe Schwartz",
+          "url": "https://openalex.org/A5085624993",
+          "orcid": "https://orcid.org/0000-0002-7628-2687"
+        },
+        {
+          "name": "Lifei Fu",
+          "url": "https://openalex.org/A5032144929",
+          "orcid": "https://orcid.org/0000-0001-7852-3491"
+        },
+        {
+          "name": "Gernot Längst",
+          "url": "https://openalex.org/A5088212001",
+          "orcid": "https://orcid.org/0000-0002-8232-1179"
+        },
+        {
+          "name": "Thomas Dresselhaus",
+          "url": "https://openalex.org/A5013870582",
+          "orcid": "https://orcid.org/0000-0001-6442-4302"
+        }
+      ],
+      "institutions": [
+        {
+          "name": "University of Regensburg",
+          "url": "https://openalex.org/I60668342",
+          "country": "DE"
+        }
+      ],
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/13/2026.08.13.744595.full.pdf",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/13/2026.08.13.744595.full.pdf",
+      "is_retracted": false
+    }
   },
   {
     "classification": {
@@ -1611,7 +2246,87 @@
         "source_url": "https://academic.oup.com/hr/article/13/6/uhag076/8506998"
       }
     ],
-    "related_papers": []
+    "related_papers": [],
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-09-04T06:25:08.167576+00:00",
+      "source_updated_at": "2026-08-21T09:56:20.448147",
+      "id": "https://openalex.org/W7133733891",
+      "doi": "10.1093/hr/uhag076",
+      "cited_by_count": 0,
+      "referenced_works_count": 70,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "Shuangling Xie",
+          "url": "https://openalex.org/A5082689816",
+          "orcid": null
+        },
+        {
+          "name": "Tong Li",
+          "url": "https://openalex.org/A5128213122",
+          "orcid": null
+        },
+        {
+          "name": "Jing Yang",
+          "url": "https://openalex.org/A5128197062",
+          "orcid": null
+        },
+        {
+          "name": "Jingrui Wang",
+          "url": "https://openalex.org/A5128191026",
+          "orcid": null
+        },
+        {
+          "name": "Jinli Gong",
+          "url": "https://openalex.org/A5074122907",
+          "orcid": "https://orcid.org/0000-0002-3784-3592"
+        },
+        {
+          "name": "Minghui Wang",
+          "url": null,
+          "orcid": null
+        },
+        {
+          "name": "Xiaoli Hu",
+          "url": "https://openalex.org/A5100636667",
+          "orcid": "https://orcid.org/0000-0002-0725-9109"
+        },
+        {
+          "name": "Xiaolong Li",
+          "url": "https://openalex.org/A5100371535",
+          "orcid": "https://orcid.org/0000-0001-7493-2650"
+        },
+        {
+          "name": "Xuepeng Sun",
+          "url": "https://openalex.org/A5103202429",
+          "orcid": "https://orcid.org/0000-0003-3471-8275"
+        }
+      ],
+      "institutions": [
+        {
+          "name": "Zhejiang A & F University",
+          "url": "https://openalex.org/I1284762954",
+          "country": "CN"
+        },
+        {
+          "name": "ZheJiang Academy of Agricultural Sciences",
+          "url": "https://openalex.org/I4210126939",
+          "country": "CN"
+        },
+        {
+          "name": "Zhejiang University",
+          "url": "https://openalex.org/I76130692",
+          "country": "CN"
+        }
+      ],
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1093/hr/uhag076",
+      "pdf_url": null,
+      "is_retracted": false
+    }
   },
   {
     "classification": {
@@ -1834,7 +2549,197 @@
     },
     "url": "https://www.nature.com/articles/s41467-026-73180-3",
     "doi": "10.1038/s41467-026-73180-3",
-    "related_papers": []
+    "related_papers": [],
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-09-04T06:25:08.392507+00:00",
+      "source_updated_at": "2026-09-03T10:48:47.769340",
+      "id": "https://openalex.org/W7164880810",
+      "doi": "10.1038/s41467-026-73180-3",
+      "cited_by_count": 0,
+      "referenced_works_count": 0,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "Tian‐Feng Lü",
+          "url": "https://openalex.org/A5082005968",
+          "orcid": "https://orcid.org/0000-0003-3110-1405"
+        },
+        {
+          "name": "Xiao-Yu Chen",
+          "url": "https://openalex.org/A5138755649",
+          "orcid": "https://orcid.org/0009-0008-9962-314X"
+        },
+        {
+          "name": "Nicola Trozzi",
+          "url": "https://openalex.org/A5073047303",
+          "orcid": "https://orcid.org/0000-0003-3951-6533"
+        },
+        {
+          "name": "Wen He",
+          "url": "https://openalex.org/A5138757514",
+          "orcid": null
+        },
+        {
+          "name": "Quan Yuan",
+          "url": "https://openalex.org/A5100742296",
+          "orcid": "https://orcid.org/0000-0001-7062-3519"
+        },
+        {
+          "name": "Yu Han",
+          "url": "https://openalex.org/A5138741344",
+          "orcid": null
+        },
+        {
+          "name": "Limin Lu",
+          "url": "https://openalex.org/A5035962577",
+          "orcid": "https://orcid.org/0000-0001-6973-7877"
+        },
+        {
+          "name": "Chaobin Li",
+          "url": "https://openalex.org/A5027791629",
+          "orcid": "https://orcid.org/0000-0001-7951-0350"
+        },
+        {
+          "name": "Jie Cheng",
+          "url": "https://openalex.org/A5026717736",
+          "orcid": "https://orcid.org/0000-0002-7065-2747"
+        },
+        {
+          "name": "Adrien Sicard",
+          "url": "https://openalex.org/A5060280482",
+          "orcid": "https://orcid.org/0000-0002-4104-6844"
+        },
+        {
+          "name": "Yao Zhang",
+          "url": "https://openalex.org/A5100773647",
+          "orcid": "https://orcid.org/0000-0002-3225-8255"
+        },
+        {
+          "name": "Yanan Su",
+          "url": "https://openalex.org/A5110929528",
+          "orcid": null
+        },
+        {
+          "name": "Yanjun Zan",
+          "url": "https://openalex.org/A5015657779",
+          "orcid": "https://orcid.org/0000-0001-5571-4578"
+        },
+        {
+          "name": "Michael Lenhard",
+          "url": "https://openalex.org/A5071271784",
+          "orcid": "https://orcid.org/0000-0001-8661-6911"
+        },
+        {
+          "name": "Hongzhi Kong",
+          "url": "https://openalex.org/A5017182113",
+          "orcid": "https://orcid.org/0000-0002-0034-0510"
+        },
+        {
+          "name": "Mateusz Majda",
+          "url": "https://openalex.org/A5000150635",
+          "orcid": "https://orcid.org/0000-0003-3405-2901"
+        },
+        {
+          "name": "Lars Østergaard",
+          "url": "https://openalex.org/A5044035519",
+          "orcid": "https://orcid.org/0000-0002-8497-7657"
+        },
+        {
+          "name": "Yang Dong",
+          "url": "https://openalex.org/A5021494115",
+          "orcid": "https://orcid.org/0000-0003-2117-538X"
+        }
+      ],
+      "institutions": [
+        {
+          "name": "Chinese Academy of Sciences",
+          "url": "https://openalex.org/I19820366",
+          "country": "CN"
+        },
+        {
+          "name": "Beijing Botanical Garden",
+          "url": "https://openalex.org/I2800525753",
+          "country": "CN"
+        },
+        {
+          "name": "Institute of Botany of the Slovak Academy of Sciences",
+          "url": "https://openalex.org/I4210095746",
+          "country": "SK"
+        },
+        {
+          "name": "Institute of Botany",
+          "url": "https://openalex.org/I4210158097",
+          "country": "CN"
+        },
+        {
+          "name": "China National Botanical Garden",
+          "url": "https://openalex.org/I4403928345",
+          "country": null
+        },
+        {
+          "name": "University of Chinese Academy of Sciences",
+          "url": "https://openalex.org/I4210165038",
+          "country": "CN"
+        },
+        {
+          "name": "University of Lausanne",
+          "url": "https://openalex.org/I97565354",
+          "country": "CH"
+        },
+        {
+          "name": "KU Leuven",
+          "url": "https://openalex.org/I99464096",
+          "country": "BE"
+        },
+        {
+          "name": "Uppsala University",
+          "url": "https://openalex.org/I123387679",
+          "country": "SE"
+        },
+        {
+          "name": "Bio-Works (Sweden)",
+          "url": "https://openalex.org/I4210100622",
+          "country": "SE"
+        },
+        {
+          "name": "Henan Agricultural University",
+          "url": "https://openalex.org/I4750791",
+          "country": "CN"
+        },
+        {
+          "name": "Tobacco Research Institute",
+          "url": "https://openalex.org/I4210094602",
+          "country": "CN"
+        },
+        {
+          "name": "Umeå Plant Science Centre",
+          "url": "https://openalex.org/I4210120671",
+          "country": "SE"
+        },
+        {
+          "name": "Chinese Academy of Agricultural Sciences",
+          "url": "https://openalex.org/I4210138501",
+          "country": "CN"
+        },
+        {
+          "name": "University of Potsdam",
+          "url": "https://openalex.org/I176453806",
+          "country": "DE"
+        },
+        {
+          "name": "University of Oxford",
+          "url": "https://openalex.org/I40120149",
+          "country": "GB"
+        }
+      ],
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-026-73180-3_reference.pdf",
+      "pdf_url": "https://www.nature.com/articles/s41467-026-73180-3_reference.pdf",
+      "is_retracted": false
+    }
   },
   {
     "classification": {
@@ -2002,7 +2907,77 @@
       }
     },
     "url": "https://www.biorxiv.org/content/10.64898/2026.07.22.740070v2",
-    "related_papers": []
+    "related_papers": [],
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-09-04T06:25:08.599626+00:00",
+      "source_updated_at": "2026-08-21T09:56:20.448147",
+      "id": "https://openalex.org/W7170093169",
+      "doi": "10.64898/2026.07.22.740070",
+      "cited_by_count": 0,
+      "referenced_works_count": 52,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "Jie Yao",
+          "url": "https://openalex.org/A5037649298",
+          "orcid": "https://orcid.org/0000-0002-7898-1799"
+        },
+        {
+          "name": "Jiaqi Li",
+          "url": "https://openalex.org/A5140682042",
+          "orcid": "https://orcid.org/0000-0002-4626-9000"
+        },
+        {
+          "name": "Xuan Zhang",
+          "url": "https://openalex.org/A5143461036",
+          "orcid": null
+        },
+        {
+          "name": "Xiang Li",
+          "url": "https://openalex.org/A5015315074",
+          "orcid": "https://orcid.org/0000-0003-0257-6110"
+        },
+        {
+          "name": "Alexandre P. Marand",
+          "url": "https://openalex.org/A5039340001",
+          "orcid": "https://orcid.org/0000-0001-9100-8320"
+        },
+        {
+          "name": "Ethan Pickering",
+          "url": "https://openalex.org/A5061968827",
+          "orcid": "https://orcid.org/0000-0002-4485-6359"
+        },
+        {
+          "name": "Robert J. Schmitz",
+          "url": "https://openalex.org/A5088429228",
+          "orcid": "https://orcid.org/0000-0001-7538-6663"
+        }
+      ],
+      "institutions": [
+        {
+          "name": "University of Georgia",
+          "url": "https://openalex.org/I165733156",
+          "country": "US"
+        },
+        {
+          "name": "Zhejiang University",
+          "url": "https://openalex.org/I76130692",
+          "country": "CN"
+        },
+        {
+          "name": "University of Michigan",
+          "url": "https://openalex.org/I27837315",
+          "country": "US"
+        }
+      ],
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "pdf_url": null,
+      "is_retracted": false
+    }
   },
   {
     "classification": {
@@ -2155,7 +3130,47 @@
       }
     },
     "url": "https://www.biorxiv.org/content/10.64898/2026.07.15.738754v1.full-text",
-    "related_papers": []
+    "related_papers": [],
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-09-04T06:25:08.783898+00:00",
+      "source_updated_at": "2026-08-25T07:29:55.448023",
+      "id": "https://openalex.org/W7169856371",
+      "doi": "10.64898/2026.07.15.738754",
+      "cited_by_count": 0,
+      "referenced_works_count": 0,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "XUAN ZHANG",
+          "url": "https://openalex.org/A5141292359",
+          "orcid": null
+        },
+        {
+          "name": "Mark Allan Alexander Minow",
+          "url": "https://openalex.org/A5141302359",
+          "orcid": null
+        },
+        {
+          "name": "Robert J. Schmitz",
+          "url": "https://openalex.org/A5141253696",
+          "orcid": null
+        }
+      ],
+      "institutions": [
+        {
+          "name": "University of Georgia",
+          "url": "https://openalex.org/I165733156",
+          "country": "US"
+        }
+      ],
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/21/2026.07.15.738754.full.pdf",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/21/2026.07.15.738754.full.pdf",
+      "is_retracted": false
+    }
   },
   {
     "classification": {
@@ -2355,6 +3370,141 @@
       }
     },
     "url": "https://www.biorxiv.org/content/10.64898/2026.07.09.737558v1.full-text",
-    "related_papers": []
+    "related_papers": [],
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-09-04T06:25:08.976672+00:00",
+      "source_updated_at": "2026-08-25T07:29:55.448023",
+      "id": "https://openalex.org/W7167934589",
+      "doi": "10.64898/2026.07.09.737558",
+      "cited_by_count": 0,
+      "referenced_works_count": 0,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "Niharika Nonavinakere Chandrakanth",
+          "url": "https://openalex.org/A5080824076",
+          "orcid": "https://orcid.org/0000-0002-8819-8597"
+        },
+        {
+          "name": "Matthew McGowan",
+          "url": "https://openalex.org/A5045232150",
+          "orcid": "https://orcid.org/0000-0002-0745-8140"
+        },
+        {
+          "name": "Nicolás Gaitán",
+          "url": "https://openalex.org/A5103107832",
+          "orcid": "https://orcid.org/0009-0009-2979-2703"
+        },
+        {
+          "name": "Fan Lin",
+          "url": "https://openalex.org/A5071441776",
+          "orcid": "https://orcid.org/0000-0003-3742-5291"
+        },
+        {
+          "name": "Vivian Ng",
+          "url": "https://openalex.org/A5140416771",
+          "orcid": null
+        },
+        {
+          "name": "Anna Lipzen",
+          "url": "https://openalex.org/A5033279804",
+          "orcid": "https://orcid.org/0000-0003-2293-9329"
+        },
+        {
+          "name": "Vasanth Singan",
+          "url": "https://openalex.org/A5014106602",
+          "orcid": "https://orcid.org/0000-0002-9983-5707"
+        },
+        {
+          "name": "Chris Daum",
+          "url": "https://openalex.org/A5047824262",
+          "orcid": "https://orcid.org/0000-0003-3895-5892"
+        },
+        {
+          "name": "Yuko Yoshinaga",
+          "url": "https://openalex.org/A5057960297",
+          "orcid": "https://orcid.org/0000-0002-4978-9394"
+        },
+        {
+          "name": "S L Li",
+          "url": "https://openalex.org/A5056400382",
+          "orcid": null
+        },
+        {
+          "name": "Lingtao Su",
+          "url": "https://openalex.org/A5069298792",
+          "orcid": "https://orcid.org/0000-0002-9156-8763"
+        },
+        {
+          "name": "Dong Xu",
+          "url": "https://openalex.org/A5082428303",
+          "orcid": "https://orcid.org/0000-0002-4809-0514"
+        },
+        {
+          "name": "Stephen Ficklin",
+          "url": "https://openalex.org/A5015114586",
+          "orcid": "https://orcid.org/0000-0001-9138-6292"
+        },
+        {
+          "name": "Jorge Duitama",
+          "url": "https://openalex.org/A5047586175",
+          "orcid": "https://orcid.org/0000-0002-9105-6266"
+        },
+        {
+          "name": "Laura Bartley",
+          "url": "https://openalex.org/A5038022178",
+          "orcid": "https://orcid.org/0000-0001-8610-7551"
+        }
+      ],
+      "institutions": [
+        {
+          "name": "Washington State University",
+          "url": "https://openalex.org/I72951846",
+          "country": "US"
+        },
+        {
+          "name": "Universidad de Los Andes",
+          "url": "https://openalex.org/I162096671",
+          "country": "CO"
+        },
+        {
+          "name": "Fujian University of Technology",
+          "url": "https://openalex.org/I83791580",
+          "country": "CN"
+        },
+        {
+          "name": "University of Oklahoma",
+          "url": "https://openalex.org/I8692664",
+          "country": "US"
+        },
+        {
+          "name": "Lawrence Berkeley National Laboratory",
+          "url": "https://openalex.org/I148283060",
+          "country": "US"
+        },
+        {
+          "name": "Joint Genome Institute",
+          "url": "https://openalex.org/I196679689",
+          "country": "US"
+        },
+        {
+          "name": "University of Missouri",
+          "url": "https://openalex.org/I76835614",
+          "country": "US"
+        },
+        {
+          "name": "University of South Florida",
+          "url": "https://openalex.org/I2613432",
+          "country": "US"
+        }
+      ],
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/10/2026.07.09.737558.full.pdf",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/07/10/2026.07.09.737558.full.pdf",
+      "is_retracted": false
+    }
   }
 ]
