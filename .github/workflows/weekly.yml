@@ -18,6 +18,31 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Verify API access on manual runs
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
+        run: |
+          python - <<'PY'
+          import os
+          from urllib.error import HTTPError
+          from scripts.update_digest import request
+          key = os.environ.get("OPENAI_API_KEY", "").strip()
+          if not key:
+              raise SystemExit("OPENAI_API_KEY repository secret is missing or empty.")
+          try:
+              result = request(
+                  "https://api.openai.com/v1/responses",
+                  {"model": os.environ["OPENAI_MODEL"], "input": "Reply with OK.", "max_output_tokens": 32},
+                  key,
+              )
+          except HTTPError as exc:
+              raise SystemExit(f"API verification failed: HTTP {exc.code}. Check API key, project model access and billing.")
+          if result.get("status") != "completed":
+              raise SystemExit("API response did not complete; check model settings.")
+          print("API access verified. Existing digest content has not been changed.")
+          PY
       - name: Retrieve and archive literature
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
