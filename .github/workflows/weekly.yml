@@ -25,9 +25,11 @@ jobs:
           python-version: '3.12'
       - name: Validate bilingual records and reader tools
         run: |
+          python scripts/build_site.py
           python tests/test_pipeline.py
           python tests/test_import.py
           python tests/test_openalex.py
+          python tests/test_journal_club.py
           node tests/test_ui.cjs
       - name: Verify API access on manual runs
         if: github.event_name == 'workflow_dispatch'

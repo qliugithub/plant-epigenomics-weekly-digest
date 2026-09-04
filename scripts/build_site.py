@@ -11,9 +11,18 @@ except ImportError:
 ROOT=Path(__file__).resolve().parents[1]
 def build():
     papers=read('papers.json',[]);issues=read('issues.json',[])
+    curated=read('journal_club.json',{})
+    known_ids={p['id'] for p in papers}
+    if any(key not in known_ids for key in curated):raise ValueError('Journal Club source paper is missing')
     ids=set()
     for p in papers:
+        if p['id'] in curated:p['journal_club']=curated[p['id']]
         enrich_paper(p)
+        try:
+            from .journal_club import validate
+        except ImportError:
+            from journal_club import validate
+        validate(p.get('journal_club'))
         if p['id'] in ids:raise ValueError('Duplicate stable paper ID: '+p['id'])
         ids.add(p['id'])
         if any(not isinstance(s.get('text'),str) or not s['text'].strip() for s in p['sections']):raise ValueError('Complete Chinese commentary required: '+p['id'])
@@ -42,7 +51,7 @@ def build():
     for p in papers:
         sections=''.join('<li><strong>'+escape(s['label'])+'：</strong>'+escape(s['text'])+'</li>' for s in p['sections'])
         page=template.replace('<title>Plant Epigenomics Weekly Digest</title>','<title>'+escape(p['title'])+' | Plant Epigenomics Weekly Digest</title>')
-        for asset in ['style.css','app.js','reader.js','i18n.js']:page=page.replace('"'+asset+'"','"../../'+asset+'"')
+        for asset in ['style.css','app.js','reader.js','i18n.js','journal-club.js']:page=page.replace('"'+asset+'"','"../../'+asset+'"')
         page=page.replace('<body>','<body data-base="../../" data-paper="'+p['id']+'">').replace('href="./"','href="../../"')
         page=page.replace('<div id="papers"></div>','<div id="papers"><h2>'+escape(p['title'])+'</h2><ul>'+sections+'</ul></div>')
         dest=ROOT/'dist/papers'/p['id']/'index.html';dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(page)

@@ -2,7 +2,7 @@ const fs=require('fs'),vm=require('vm'),assert=require('assert');
 class Node{constructor(tag){this.tag=tag;this.children=[];this.dataset={};this.textContent='';this.classList={toggle(){}};this.attributes={};}append(...xs){for(const x of xs){this.children.push(x);if(x&&typeof x==='object')x.parentNode=this;}}prepend(...xs){this.children.unshift(...xs);}appendChild(x){this.append(x);return x;}replaceChildren(...xs){this.children=[];this.append(...xs);}setAttribute(k,v){this.attributes[k]=v;}click(){this.onclick?.();}}
 const nodes=new Map(),local=new Map(),document={body:{dataset:{}},documentElement:{},getElementById:id=>{if(!nodes.has(id))nodes.set(id,new Node('div'));return nodes.get(id)},createElement:t=>new Node(t),createTextNode:text=>({textContent:text}),querySelector:()=>new Node('div'),querySelectorAll:()=>[]};
 const ctx={document,window:{addEventListener(){}},localStorage:{getItem:k=>local.get(k),setItem:(k,v)=>local.set(k,v)},fetch:()=>new Promise(()=>{}),history:{replaceState(){}},location:{pathname:'/',search:'',reload(){}},URLSearchParams,URL,Date,Set,Blob,setTimeout,console};vm.createContext(ctx);
-for(const file of ['i18n','reader','app'])vm.runInContext(fs.readFileSync('dist/'+file+'.js','utf8'),ctx);
+for(const file of ['i18n','reader','journal-club','app'])vm.runInContext(fs.readFileSync('dist/'+file+'.js','utf8'),ctx);
 for(const[k,f]of [['data','digest'],['catalog','catalog'],['topics','topics'],['pool','candidates'],['revisions','revisions']])vm.runInContext(k+'='+fs.readFileSync('dist/'+f+'.json','utf8'),ctx);
 const run=s=>vm.runInContext(s,ctx),walk=n=>[n,...(n.children||[]).flatMap(walk)],text=n=>walk(n).map(x=>x.textContent||'').join(' ');
 assert.equal(run('filteredPapers().length'),run('catalog.papers.length'));
@@ -35,3 +35,14 @@ run("access='unknown'");assert.equal(run("matchesAccess({})"),true);run("access=
 const metric=run("renderMetrics({openalex:{status:'matched',checked_at:'2026-09-04',cited_by_count:0,referenced_works_count:12,is_oa:true,authors:[],counts_by_year:[{year:2026,cited_by_count:0}]}},true)");assert(text(metric).includes('0'));assert(walk(metric).some(n=>n.tag==='table'));assert(!text(metric).includes('undefined'));
 const missing=run("renderMetrics({},false)");assert(text(missing).includes('unavailable'));assert(!text(missing).includes('undefined'));
 console.log('PASS: bibliometric sorting, unknown versus zero, OA filtering, annual table and missing-data rendering.');
+run("lang='en';view='journalclub';render()");assert(text(document.getElementById('papers')).includes('CrJAG'));assert(text(document.getElementById('papers')).includes('functional conservation remain unverified'));
+const jcID=run('catalog.papers.find(p=>p.journal_club).id');
+run(`window.JournalClub.set('${jcID}',{tracked:true,state:'evidence',reason:'Check orthology',action:'Read the source',owner:'Researcher'});view='projects';render()`);
+assert(text(document.getElementById('papers')).includes('CrJAG'));
+const jcBefore=run('JSON.stringify(window.JournalClub.backup())');
+assert.throws(()=>run("window.JournalClub.restore({format:'pepper-improvement-journal-club',version:1,records:{bad:{}}})"));assert.equal(run('JSON.stringify(window.JournalClub.backup())'),jcBefore);
+run(`window.JournalClub.restore({format:'pepper-improvement-journal-club',version:1,records:{'${jcID}':{tracked:false,state:'paused',reason:'old',action:'',owner:'',due:'',updated_at:'2020-01-01'}}})`);assert.equal(run(`window.JournalClub.get('${jcID}').state`),'evidence');
+assert.equal(run(`window.JournalClub.set('${jcID}',{reason:'Preserve on quota failure'})`),false);assert.equal(run(`window.JournalClub.get('${jcID}').reason`),'Preserve on quota failure');
+const sourceRecords=run('JSON.stringify(window.DigestReader.backup())');run(`window.JournalClub.set('${jcID}',{state:'priority'})`);assert.equal(run('JSON.stringify(window.DigestReader.backup())'),sourceRecords);
+run("lang='zh';view='journalclub';render()");assert(text(document.getElementById('papers')).includes('下一步最小行动'));
+console.log('PASS: Journal Club routes, bilingual cards, project decisions, atomic backup import and isolated local storage.');

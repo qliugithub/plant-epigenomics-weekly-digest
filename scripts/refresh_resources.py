@@ -30,6 +30,7 @@ def doi_of(p):
 def today():return dt.datetime.now(dt.timezone.utc).date()
 def timestamp():return dt.datetime.now(dt.timezone.utc).isoformat()
 LANES={
+ 'improvement':'(plant OR crop OR Capsicum OR tomato OR Solanaceae) AND ("gene editing" OR CRISPR OR "gene function" OR overexpression OR "loss of function") AND ("disease resistance" OR "stress tolerance" OR architecture OR flowering OR yield OR "nutritional quality")',
  'solanaceae':'(Capsicum OR tomato OR Solanaceae OR potato) AND (epigenom* OR methylation OR histone OR chromatin OR "multi-omics" OR "fruit development" OR "fruit ripening")',
  'general':'(plant OR Arabidopsis OR fruit) AND ("DNA methylation" OR "histone modification" OR "chromatin accessibility" OR "chromatin remodeling" OR "H3K27me3")',
  'method':'(plant OR Capsicum OR tomato OR Arabidopsis) AND ("Fiber-seq" OR "CUT&Tag" OR "single-cell multiome" OR "single-nucleus" OR "epigenome editing" OR "multi-omics database" OR "cis-regulatory grammar")'
@@ -41,7 +42,7 @@ except ImportError:
 
 def collect(force=False):
     pool=read('candidates.json',{'records':[],'searches':[]});now=today()
-    if not force and (pool.get('updated_at') or '')[:10]==str(now) and pool.get('searches') and all(s.get('ok') for s in pool['searches']):return pool
+    if not force and (pool.get('updated_at') or '')[:10]==str(now) and pool.get('searches') and {s.get('lane') for s in pool['searches']}==set(LANES) and all(s.get('ok') for s in pool['searches']):return pool
     start=now-dt.timedelta(days=28);papers=read('papers.json',[])
     seen_titles={normalize(p['title']) for p in papers};seen_dois={doi_of(p) for p in papers if doi_of(p)}
     existing={r['key']:r for r in pool.get('records',[])};searches=[];total=0
@@ -68,7 +69,7 @@ def collect(force=False):
         total+=count
     records=sorted(existing.values(),key=lambda r:(r.get('date',''),r['score']),reverse=True)
     pool=dict(updated_at=timestamp(),records=records,searches=searches,retrieved=total,partial=not all(s['ok'] for s in searches))
-    write('candidates.json',pool);print(f'Candidate pool: {len(records)} unique retained records; {sum(s["ok"] for s in searches)}/3 complete search lanes.')
+    write('candidates.json',pool);print(f'Candidate pool: {len(records)} unique retained records; {sum(s["ok"] for s in searches)}/{len(LANES)} complete search lanes.')
     return pool
 
 def metadata_from(p,message):

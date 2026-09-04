@@ -1,0 +1,26 @@
+{
+  "paper-304c8839081530e0": {
+    "traits": [
+      "fruit_quality"
+    ],
+    "kind": "hypothesis",
+    "origin": "literature",
+    "conservation": "unverified",
+    "zh": {
+      "goal": "探索能否通过调节果实形态发生获得符合育种目标的辣椒果形；先定义果实长宽比和整齐度目标。",
+      "strategy_results": "原周报报道：Capsella rubella 的 CrJAG 与染色质调控和果实形态发生相关，突变伴随可及性及组蛋白修饰变化。此卡沿用已有解读，讨论前需要核对原论文的遗传干预、表型方向和证据。",
+      "pepper_basis": "这是来自其他植物基因功能的跨物种设想。辣椒对应同源基因、旁系同源关系及功能保守性尚未核验，不能仅凭基因名称认定可迁移。",
+      "engineering_outcome": "待验证设想：若同源功能和剂量效应得到支持，可比较表达调节或启动子调节方案；预期影响果形，但方向和幅度未知，暂不把完全敲除作为默认方案。",
+      "tradeoffs_metrics": "评估果实长宽比、果形一致性，同时记录单果重、坐果率、种子数和总产量，避免以果形变化替代实际改良收益。",
+      "next_step": "先阅读原文的干预和果形结果，确定理想果形；再核对目标辣椒品种中的同源基因及复制情况，据此决定是否值得设计改造。"
+    },
+    "en": {
+      "goal": "Explore whether modulation of fruit morphogenesis can produce pepper fruit shapes aligned with breeding goals. Define target length-to-width ratio and uniformity first.",
+      "strategy_results": "The archived digest reports a link between CrJAG, chromatin regulation and fruit morphogenesis in Capsella rubella, with accessibility and histone-mark changes in mutants. This card reuses that commentary; verify the original genetic intervention, phenotype direction and evidence before discussion.",
+      "pepper_basis": "This is a cross-species hypothesis inspired by gene function. Pepper orthology, paralogy and functional conservation have not been checked; gene names alone do not establish transferability.",
+      "engineering_outcome": "Untested proposal: if conserved function and dosage effects are supported, compare expression or promoter modulation. Fruit shape might change, but direction and magnitude are unknown. A complete knockout is not the default strategy.",
+      "tradeoffs_metrics": "Measure fruit length-to-width ratio and shape uniformity alongside fruit weight, fruit set, seed number and total yield, so a shape change is not mistaken for an improvement.",
+      "next_step": "Read the intervention and fruit-shape results and define the desired shape. Then check orthology and gene copies in the target pepper cultivar before deciding whether engineering is justified."
+    }
+  }
+}

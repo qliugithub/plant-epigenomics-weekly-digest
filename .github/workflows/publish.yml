@@ -27,9 +27,11 @@ jobs:
           python-version: '3.12'
       - name: Validate bilingual records and reader tools
         run: |
+          python scripts/build_site.py
           python tests/test_pipeline.py
           python tests/test_import.py
           python tests/test_openalex.py
+          python tests/test_journal_club.py
           node tests/test_ui.cjs
       - name: Refresh candidate pool and bibliographic checks
         run: python scripts/refresh_resources.py

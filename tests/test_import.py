@@ -22,7 +22,7 @@ with tempfile.TemporaryDirectory() as folder:
  prior=[{'date':'2026-09-04','entries':[]}];store.write('issues.json',prior)
  section_labels=['真正的新发现','机制或方法上的关键点','与你的辣椒研究关系','对22组织图谱的具体启示','需要注意','建议优先看']
  en_labels=['What is new','Mechanistic or methodological key point','Relevance to pepper research','Implications for the 22-tissue atlas','Limitations','What to read first']
- result={'summary':'历史补录','summary_en':'Historical backfill','papers':[{'id':0,'heading':'解读','priority':'全文精读','tags':[],'classification':{k:[] for k in TAXONOMY},'sections':[{'label':v,'text':'完整解读'} for v in section_labels],'translations':{'en':{'heading':'Commentary','sections':[{'label':v,'text':'Full commentary'} for v in en_labels]}}}]}
+ result={'summary':'历史补录','summary_en':'Historical backfill','papers':[{'id':0,'journal_club':None,'heading':'解读','priority':'全文精读','tags':[],'classification':{k:[] for k in TAXONOMY},'sections':[{'label':v,'text':'完整解读'} for v in section_labels],'translations':{'en':{'heading':'Commentary','sections':[{'label':v,'text':'Full commentary'} for v in en_labels]}}}]}
  os.environ['OPENAI_API_KEY']='offline-test'
  u.request=lambda *a,**k:{'status':'completed','output':[{'content':[{'type':'output_text','text':json.dumps(result)}]}]}
  u.main('10.1234/a')
