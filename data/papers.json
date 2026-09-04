@@ -122,7 +122,57 @@
     "revision": 1,
     "issues": [
       "2026-09-04"
-    ]
+    ],
+    "metadata": {
+      "status": "matched",
+      "bibliography": {
+        "title": "iCUT&Tag-based pan-fruit epigenomic profiling identifies recurrent H3K9 acetylation enrichment during fleshy fruit ripening",
+        "doi": "10.1016/j.xplc.2026.102078",
+        "journal": "Plant Communications",
+        "date": "2026-09",
+        "authors": [
+          {
+            "family": "Wang",
+            "given": "Jingyu"
+          },
+          {
+            "family": "Peng",
+            "given": "Tianhua"
+          },
+          {
+            "family": "Zhang",
+            "given": "Chi"
+          },
+          {
+            "family": "Gao",
+            "given": "Ying"
+          },
+          {
+            "family": "Wu",
+            "given": "Hongyu"
+          },
+          {
+            "family": "Wei",
+            "given": "Chunyan"
+          },
+          {
+            "family": "Guan",
+            "given": "Xueying"
+          },
+          {
+            "family": "Zhang",
+            "given": "Bo"
+          }
+        ],
+        "type": "journal-article"
+      },
+      "differences": [],
+      "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-04T05:51:25.406473+00:00",
+      "source_url": "https://api.crossref.org/works?query.title=iCUT%26Tag-based+pan-fruit+epigenomic+profiling+identifies+recurrent+H3K9+acetylation+enrichment+during+fleshy+fruit+ripening&rows=1",
+      "update_check": "unavailable"
+    }
   },
   {
     "date": "2026-08-26",
@@ -244,7 +294,77 @@
     "revision": 1,
     "issues": [
       "2026-09-04"
-    ]
+    ],
+    "metadata": {
+      "status": "matched",
+      "bibliography": {
+        "title": "Chromatin-Assisted Targeting Enables Precise DNA Methylation Editing in Plants",
+        "doi": "10.64898/2026.08.25.747117",
+        "journal": "",
+        "date": "2026-08-26",
+        "authors": [
+          {
+            "family": "He",
+            "given": "Yan"
+          },
+          {
+            "family": "Wang",
+            "given": "Ming"
+          },
+          {
+            "family": "Buckley",
+            "given": "Tyler J."
+          },
+          {
+            "family": "Boone",
+            "given": "Brandon A."
+          },
+          {
+            "family": "Li",
+            "given": "Erika"
+          },
+          {
+            "family": "Shin",
+            "given": "Janice Yerin"
+          },
+          {
+            "family": "Alvarado",
+            "given": "Nicholas"
+          },
+          {
+            "family": "Xu",
+            "given": "Bohao"
+          },
+          {
+            "family": "Nguyen",
+            "given": "Anh"
+          },
+          {
+            "family": "Wang",
+            "given": "Shuya"
+          },
+          {
+            "family": "Zhou",
+            "given": "Yuxing"
+          },
+          {
+            "family": "Feng",
+            "given": "Suhua"
+          },
+          {
+            "family": "Jacobsen",
+            "given": "Steven E."
+          }
+        ],
+        "type": "posted-content"
+      },
+      "differences": [],
+      "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-04T05:51:25.842825+00:00",
+      "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.25.747117",
+      "update_check": "completed"
+    }
   },
   {
     "date": "2026-06-13",
@@ -363,7 +483,61 @@
     "revision": 1,
     "issues": [
       "2026-08-28"
-    ]
+    ],
+    "metadata": {
+      "status": "matched",
+      "bibliography": {
+        "title": "Removal of seed coat H3K27me3 in Arabidopsis requires noncanonical functions of brassinosteroid receptors",
+        "doi": "10.1093/plcell/koag182",
+        "journal": "The Plant Cell",
+        "date": "2026-06-13",
+        "authors": [
+          {
+            "family": "Pankaj",
+            "given": "Rishabh"
+          },
+          {
+            "family": "Lima",
+            "given": "Rita B"
+          },
+          {
+            "family": "Luo",
+            "given": "Guan-Yu"
+          },
+          {
+            "family": "Ehlert",
+            "given": "Sinah T"
+          },
+          {
+            "family": "Del Toro-De León",
+            "given": "Gerardo"
+          },
+          {
+            "family": "Bente",
+            "given": "Heinrich"
+          },
+          {
+            "family": "Finger",
+            "given": "Pascal"
+          },
+          {
+            "family": "Sato",
+            "given": "Hikaru"
+          },
+          {
+            "family": "Figueiredo",
+            "given": "Duarte D"
+          }
+        ],
+        "type": "journal-article"
+      },
+      "differences": [],
+      "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-04T05:51:26.688410+00:00",
+      "source_url": "https://api.crossref.org/works/10.1093%2Fplcell%2Fkoag182",
+      "update_check": "unavailable"
+    }
   },
   {
     "date": "2026-08-19",
@@ -484,7 +658,41 @@
     "revision": 1,
     "issues": [
       "2026-08-21"
-    ]
+    ],
+    "metadata": {
+      "status": "matched",
+      "bibliography": {
+        "title": "Unpacking Chromatin Accessibility with Fiber-seq",
+        "doi": "10.64898/2026.08.14.744917",
+        "journal": "",
+        "date": "2026-08-19",
+        "authors": [
+          {
+            "family": "Bubb",
+            "given": "Kerry L."
+          },
+          {
+            "family": "Perchlik",
+            "given": "Molly"
+          },
+          {
+            "family": "Cuperus",
+            "given": "Joshua T."
+          },
+          {
+            "family": "Queitsch",
+            "given": "Christine"
+          }
+        ],
+        "type": "posted-content"
+      },
+      "differences": [],
+      "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-04T05:51:27.136879+00:00",
+      "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.14.744917",
+      "update_check": "unavailable"
+    }
   },
   {
     "date": "2026-08-04",
@@ -608,7 +816,61 @@
     "revision": 1,
     "issues": [
       "2026-08-21"
-    ]
+    ],
+    "metadata": {
+      "status": "matched",
+      "bibliography": {
+        "title": "Positional grammar of transcription factor binding partitions developmental and stress-response regulation in plants",
+        "doi": "10.1038/s41467-026-75947-0",
+        "journal": "Nature Communications",
+        "date": "2026-08-04",
+        "authors": [
+          {
+            "family": "Morales-Cruz",
+            "given": "Abraham"
+          },
+          {
+            "family": "Greenblum",
+            "given": "Sharon I."
+          },
+          {
+            "family": "Wang",
+            "given": "Peng"
+          },
+          {
+            "family": "Zhang",
+            "given": "Yu"
+          },
+          {
+            "family": "Yang",
+            "given": "Lin"
+          },
+          {
+            "family": "Daum",
+            "given": "Chris G."
+          },
+          {
+            "family": "Johnson",
+            "given": "Jenifer"
+          },
+          {
+            "family": "Baumgart",
+            "given": "Leo A."
+          },
+          {
+            "family": "O’Malley",
+            "given": "Ronan C."
+          }
+        ],
+        "type": "journal-article"
+      },
+      "differences": [],
+      "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-04T05:51:27.804122+00:00",
+      "source_url": "https://api.crossref.org/works/10.1038%2Fs41467-026-75947-0",
+      "update_check": "unavailable"
+    }
   },
   {
     "date": "2026-08-20",
@@ -729,7 +991,69 @@
     "revision": 1,
     "issues": [
       "2026-08-21"
-    ]
+    ],
+    "metadata": {
+      "status": "matched",
+      "bibliography": {
+        "title": "Multi-omics data analysis reveals a novel beneficial role for strigolactones in tomato",
+        "doi": "10.64898/2026.08.19.745791",
+        "journal": "",
+        "date": "2026-08-20",
+        "authors": [
+          {
+            "family": "Abedini",
+            "given": "Davar"
+          },
+          {
+            "family": "White",
+            "given": "Fred"
+          },
+          {
+            "family": "Jain",
+            "given": "Rahul"
+          },
+          {
+            "family": "Guerrieri",
+            "given": "Alessandra"
+          },
+          {
+            "family": "Schram",
+            "given": "Robin"
+          },
+          {
+            "family": "Kramer",
+            "given": "Gertjan"
+          },
+          {
+            "family": "Homma",
+            "given": "Masato"
+          },
+          {
+            "family": "Westerhuis",
+            "given": "Johan"
+          },
+          {
+            "family": "Smilde",
+            "given": "Age"
+          },
+          {
+            "family": "Bouwmeester",
+            "given": "Harro"
+          },
+          {
+            "family": "Dong",
+            "given": "Lemeng"
+          }
+        ],
+        "type": "posted-content"
+      },
+      "differences": [],
+      "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-04T05:51:28.357600+00:00",
+      "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.19.745791",
+      "update_check": "completed"
+    }
   },
   {
     "date": "2026-08-13",
@@ -850,7 +1174,77 @@
     "revision": 1,
     "issues": [
       "2026-08-21"
-    ]
+    ],
+    "metadata": {
+      "status": "matched",
+      "bibliography": {
+        "title": "Potato Agent: AI-Driven Data and Knowledge Exploration on an Agent-Ready Potato Multi-Omics Platform",
+        "doi": "10.64898/2026.08.12.744101",
+        "journal": "",
+        "date": "2026-08-13",
+        "authors": [
+          {
+            "family": "Dong",
+            "given": "Yarui"
+          },
+          {
+            "family": "Li",
+            "given": "Jinye"
+          },
+          {
+            "family": "Li",
+            "given": "Futing"
+          },
+          {
+            "family": "Luo",
+            "given": "Jilin"
+          },
+          {
+            "family": "Jia",
+            "given": "Yudong"
+          },
+          {
+            "family": "Li",
+            "given": "Dawei"
+          },
+          {
+            "family": "Wang",
+            "given": "Li"
+          },
+          {
+            "family": "Su",
+            "given": "Xiaoqi"
+          },
+          {
+            "family": "Hu",
+            "given": "Juan"
+          },
+          {
+            "family": "Shang",
+            "given": "Yi"
+          },
+          {
+            "family": "Huang",
+            "given": "Sanwen"
+          },
+          {
+            "family": "Zhu",
+            "given": "Yujuan"
+          },
+          {
+            "family": "Jia",
+            "given": "Yuxin"
+          }
+        ],
+        "type": "posted-content"
+      },
+      "differences": [],
+      "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-04T05:51:29.123725+00:00",
+      "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.12.744101",
+      "update_check": "completed"
+    }
   },
   {
     "date": "2026-08-13",
@@ -970,7 +1364,45 @@
     "revision": 1,
     "issues": [
       "2026-08-21"
-    ]
+    ],
+    "metadata": {
+      "status": "matched",
+      "bibliography": {
+        "title": "The SWI/SNF subunit SWI3B functions with the m\n                  6\n                  A writer complex to establish embryo patterning in Arabidopsis",
+        "doi": "10.64898/2026.08.13.744595",
+        "journal": "",
+        "date": "2026-08-13",
+        "authors": [
+          {
+            "family": "Gong",
+            "given": "Wen"
+          },
+          {
+            "family": "Schwartz",
+            "given": "Uwe"
+          },
+          {
+            "family": "Fu",
+            "given": "Lifei"
+          },
+          {
+            "family": "Längst",
+            "given": "Gernot"
+          },
+          {
+            "family": "Dresselhaus",
+            "given": "Thomas"
+          }
+        ],
+        "type": "posted-content"
+      },
+      "differences": [],
+      "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-04T05:51:29.933544+00:00",
+      "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.13.744595",
+      "update_check": "completed"
+    }
   },
   {
     "date": "2026-06-02",
@@ -1097,7 +1529,24 @@
     "revision": 1,
     "issues": [
       "2026-08-14"
-    ]
+    ],
+    "metadata": {
+      "status": "conflict",
+      "bibliography": {
+        "title": "A high-resolution 3D genome map of kiwifruit provides insights into chromatin architecture and transcriptional activity",
+        "doi": "10.1093/hr/uhag076"
+      },
+      "differences": [
+        {
+          "zh": "检索标题与原记录不一致，请核对原文。",
+          "en": "The retrieved title differs from the archived record. Check the original."
+        }
+      ],
+      "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-04T05:51:31.059531+00:00",
+      "source_url": "https://api.crossref.org/works?query.title=A+high-resolution+3D+genome+map+of+kiwifruit+provides+insights+into+tissue-specific+chromatin+architecture&rows=1"
+    }
   },
   {
     "date": "2026-06-16",
@@ -1221,7 +1670,13 @@
     "revision": 1,
     "issues": [
       "2026-08-14"
-    ]
+    ],
+    "metadata": {
+      "status": "error",
+      "checked_at": "2026-09-04T05:51:31.265340+00:00",
+      "source_url": "https://api.crossref.org/works?query.title=Epigenetic+regulation+of+fruit+shape+determination+by+the+JAGGED+gene+in+Capsella+rubella&rows=1",
+      "error": "HTTPError"
+    }
   },
   {
     "date": "2026-07-22",
@@ -1342,7 +1797,53 @@
     "revision": 1,
     "issues": [
       "2026-08-14"
-    ]
+    ],
+    "metadata": {
+      "status": "matched",
+      "bibliography": {
+        "title": "Sequence-based modeling of plant epigenomes reveals cell-type-specific\n                  cis\n                  -regulatory grammar",
+        "doi": "10.64898/2026.07.22.740070",
+        "journal": "",
+        "date": "2026-07-22",
+        "authors": [
+          {
+            "family": "Yao",
+            "given": "Jie"
+          },
+          {
+            "family": "Li",
+            "given": "Jiaqi"
+          },
+          {
+            "family": "Zhang",
+            "given": "Xuan"
+          },
+          {
+            "family": "Li",
+            "given": "Xiang"
+          },
+          {
+            "family": "Marand",
+            "given": "Alexandre P."
+          },
+          {
+            "family": "Pickering",
+            "given": "Ethan"
+          },
+          {
+            "family": "Schmitz",
+            "given": "Robert J."
+          }
+        ],
+        "type": "posted-content"
+      },
+      "differences": [],
+      "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-04T05:51:31.739083+00:00",
+      "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.22.740070",
+      "update_check": "completed"
+    }
   },
   {
     "date": "2026-07-21",
@@ -1464,7 +1965,37 @@
     "revision": 1,
     "issues": [
       "2026-08-14"
-    ]
+    ],
+    "metadata": {
+      "status": "matched",
+      "bibliography": {
+        "title": "Easy-Multiome enables joint profiling of gene expression and chromatin accessibility in single cells",
+        "doi": "10.64898/2026.07.15.738754",
+        "journal": "",
+        "date": "2026-07-21",
+        "authors": [
+          {
+            "family": "Zhang",
+            "given": "Xuan"
+          },
+          {
+            "family": "Minow",
+            "given": "Mark A.A."
+          },
+          {
+            "family": "Schmitz",
+            "given": "Robert J."
+          }
+        ],
+        "type": "posted-content"
+      },
+      "differences": [],
+      "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-04T05:51:32.233149+00:00",
+      "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.15.738754",
+      "update_check": "completed"
+    }
   },
   {
     "date": "2026-07-10",
@@ -1585,6 +2116,84 @@
     "revision": 1,
     "issues": [
       "2026-08-14"
-    ]
+    ],
+    "metadata": {
+      "status": "matched",
+      "bibliography": {
+        "title": "Genic Position and Methylation Context Shape DNA Methylation-Expression Relationships in Rice Internode Development",
+        "doi": "10.64898/2026.07.09.737558",
+        "journal": "",
+        "date": "2026-07-10",
+        "authors": [
+          {
+            "family": "Nonavinakere Chandrakanth",
+            "given": "Niharika"
+          },
+          {
+            "family": "McGowan",
+            "given": "Matthew T."
+          },
+          {
+            "family": "Gaitán",
+            "given": "Nicolás"
+          },
+          {
+            "family": "Lin",
+            "given": "Fan"
+          },
+          {
+            "family": "Ng",
+            "given": "Vivian"
+          },
+          {
+            "family": "Lipzen",
+            "given": "Anna"
+          },
+          {
+            "family": "Singan",
+            "given": "Vasanth"
+          },
+          {
+            "family": "Daum",
+            "given": "Chris"
+          },
+          {
+            "family": "Yoshinaga",
+            "given": "Yuko"
+          },
+          {
+            "family": "Li",
+            "given": "Su"
+          },
+          {
+            "family": "Su",
+            "given": "Lingtao"
+          },
+          {
+            "family": "Xu",
+            "given": "Dong"
+          },
+          {
+            "family": "Ficklin",
+            "given": "Stephen P."
+          },
+          {
+            "family": "Duitama",
+            "given": "Jorge"
+          },
+          {
+            "family": "Bartley",
+            "given": "Laura E."
+          }
+        ],
+        "type": "posted-content"
+      },
+      "differences": [],
+      "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-04T05:51:33.022565+00:00",
+      "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.09.737558",
+      "update_check": "completed"
+    }
   }
 ]
