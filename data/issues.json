@@ -1,0 +1,99 @@
+[
+  {
+    "date": "2026-09-04",
+    "provenance": "历史归档：根据用户提供的原周报整理，保留原有论文信息与判断；此次建站未重新核验全文、图表及补充材料。",
+    "summary": "本期 2 篇：跨物种果实成熟的 H3K9ac 研究，以及植物定点甲基化编辑方法。先读 iCUT&Tag，再看 SunTag-NOVA 的验证设计。",
+    "entries": [
+      {
+        "paper_id": "paper-2c36efbc13da5de8",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-694b64ec0a8a94e4",
+        "revision": 1,
+        "priority": "全文精读"
+      }
+    ],
+    "summary_en": "Two papers: H3K9ac across fruit-ripening systems and locus-specific methylation editing. Read iCUT&Tag first, then the SunTag-NOVA validation strategy."
+  },
+  {
+    "date": "2026-08-28",
+    "provenance": "历史归档：根据用户提供的原周报整理，保留原有论文信息与判断；此次建站未重新核验全文、图表及补充材料。",
+    "summary": "本期补入 1 篇与 H3K27me3 主动去除高度相关的机制论文。原周报在当周检索中未找到足够相关的新论文。",
+    "entries": [
+      {
+        "paper_id": "paper-1ceae5449cb47746",
+        "revision": 1,
+        "priority": "全文精读"
+      }
+    ],
+    "summary_en": "One previously missed study on active H3K27me3 removal. The original digest did not identify sufficiently relevant new papers for that week."
+  },
+  {
+    "date": "2026-08-21",
+    "provenance": "历史归档：根据用户提供的原周报整理，保留原有论文信息与判断；此次建站未重新核验全文、图表及补充材料。",
+    "summary": "本期 5 项，重点是染色质可及性方法与顺式调控语法。优先阅读 Fiber-seq 和 TF 结合位置语法。",
+    "entries": [
+      {
+        "paper_id": "paper-20daa61d0b242f79",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-c4cba688c2739903",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-8bb358b4ebb46b86",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-a9c8e8511884f193",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-a8fe561848aa1da7",
+        "revision": 1,
+        "priority": "背景参考"
+      }
+    ],
+    "summary_en": "Five items focusing on accessibility methods and cis-regulatory grammar. Prioritize Fiber-seq and TF binding-position grammar."
+  },
+  {
+    "date": "2026-08-14",
+    "provenance": "历史归档：根据用户提供的原周报整理，保留原有论文信息与判断；此次建站未重新核验全文、图表及补充材料。",
+    "summary": "本期 5 篇，优先读猕猴桃 3D 多组学与 CrJAG 机制研究；PEAgent 重点关注 motif grammar。",
+    "entries": [
+      {
+        "paper_id": "paper-0135781c0a209ba9",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-304c8839081530e0",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-51952c37317c1c40",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-e45bd064871a0e48",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-8fa61922c04df173",
+        "revision": 1,
+        "priority": "快速浏览"
+      }
+    ],
+    "summary_en": "Five papers. Prioritize kiwifruit 3D multi-omics and the CrJAG mechanism; focus on motif grammar in PEAgent."
+  }
+]

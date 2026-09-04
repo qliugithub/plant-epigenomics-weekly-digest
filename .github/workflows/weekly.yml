@@ -18,6 +18,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Validate bilingual records and reader tools
+        run: |
+          python tests/test_pipeline.py
+          node tests/test_ui.cjs
       - name: Verify API access on manual runs
         if: github.event_name == 'workflow_dispatch'
         env:
@@ -52,13 +56,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
+          python scripts/refresh_resources.py
           python scripts/capture_status.py
           python scripts/build_site.py
       - name: Commit archive
         run: |
           git config user.name 'Digest Bot'
           git config user.email 'digest-bot@users.noreply.github.com'
-          git add dist
+          git add data dist
           if ! git diff --cached --quiet; then
             git commit -m 'Archive weekly plant epigenomics digest'
             git push

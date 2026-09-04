@@ -1,35 +1,41 @@
-"""Generate directly addressable article pages from the preserved issue archive."""
+"""Build bilingual catalog and immutable issue snapshots from canonical records."""
 import json
 from html import escape
 from pathlib import Path
 try:
     from .catalog import TAXONOMY, enrich_paper
+    from .store import read, write, record_revision
 except ImportError:
     from catalog import TAXONOMY, enrich_paper
-ROOT = Path(__file__).resolve().parents[1]
-
+    from store import read, write, record_revision
+ROOT=Path(__file__).resolve().parents[1]
 def build():
-    data=json.loads((ROOT/'dist/digest.json').read_text())
-    catalog={}
-    for issue in data['issues']:
-        for paper in issue['papers']:
-            enrich_paper(paper)
-            if paper['id'] in catalog and catalog[paper['id']]['title'] != paper['title']:
-                raise ValueError('Conflicting paper identity')
-            catalog.setdefault(paper['id'],{**paper,'issues':[]})['issues'].append(issue['date'])
-    (ROOT/'dist/catalog.json').write_text(json.dumps({'taxonomy':TAXONOMY,'papers':list(catalog.values())},ensure_ascii=False,indent=2))
-    (ROOT/'dist/digest.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
-    for p in catalog.values():
-        esc=escape
-        sections=''.join('<li><strong>'+esc(s['label'])+'：</strong>'+esc(s['text'])+'</li>' for s in p['sections'])
-        # Text is escaped both in server-rendered fallback and the enhanced UI.
-        fallback=f'<h1>{esc(p["heading"])}</h1><h2>{esc(p["title"])}</h2><p>{esc(p["journal"])} · {esc(p["date"])} · {esc(p["kind"])}</p><p>内容待核验；研究启示不等同于论文结论。</p><ul>{sections}</ul><a href="{esc(p["url"],quote=True)}">论文原文</a>'
-        template=(ROOT/'dist/index.html').read_text()
-        template=template.replace('<title>Plant Epigenomics Weekly Digest</title>',f'<title>{esc(p["title"])} | Plant Epigenomics Weekly Digest</title>')
-        template=template.replace('href="style.css"','href="../../style.css"').replace('src="app.js"','src="../../app.js"')
-        template=template.replace('<body>','<body data-base="../../" data-paper="'+p['id']+'">')
-        template=template.replace('<a class="brand" href="./">','<a class="brand" href="../../">')
-        template=template.replace('<div id="papers" aria-live="polite"></div>','<div id="papers" aria-live="polite">'+fallback+'</div>')
-        dest=ROOT/'dist/papers'/p['id']/'index.html';dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(template)
-    print(f'Built {len(catalog)} article pages; all six sections retained.')
+    papers=read('papers.json',[]);issues=read('issues.json',[])
+    for p in papers:
+        enrich_paper(p)
+        en=p.get('translations',{}).get('en',{})
+        if not en.get('heading') or len(en.get('sections',[]))!=6 or any(not s.get('text','').strip() for s in en['sections']):raise ValueError('Complete English commentary required: '+p['id'])
+        record_revision(p,'Bilingual commentary update')
+        p['issues']=[i['date'] for i in issues if any(e['paper_id']==p['id'] for e in i['entries'])]
+    write('papers.json',papers)
+    revisions=read('revisions.json',{});by_id={p['id']:p for p in papers}
+    rendered=[]
+    for issue in issues:
+        rows=[]
+        for entry in issue['entries']:
+            p=by_id[entry['paper_id']]
+            revision=next(r for r in revisions[p['id']] if r['version']==entry['revision'])
+            rows.append({**p,**revision['content'],'revision':entry['revision'],'priority':entry['priority']})
+        rendered.append({**issue,'papers':rows})
+    outputs={'catalog.json':{'taxonomy':TAXONOMY,'papers':papers},'digest.json':{'issues':rendered},'topics.json':read('topics.json',[]),'candidates.json':read('candidates.json',{}),'revisions.json':revisions}
+    for name,value in outputs.items():(ROOT/'dist'/name).write_text(json.dumps(value,ensure_ascii=False,indent=2))
+    template=(ROOT/'dist/index.html').read_text()
+    for p in papers:
+        sections=''.join('<li><strong>'+escape(s['label'])+'：</strong>'+escape(s['text'])+'</li>' for s in p['sections'])
+        page=template.replace('<title>Plant Epigenomics Weekly Digest</title>','<title>'+escape(p['title'])+' | Plant Epigenomics Weekly Digest</title>')
+        for asset in ['style.css','app.js','reader.js','i18n.js']:page=page.replace('"'+asset+'"','"../../'+asset+'"')
+        page=page.replace('<body>','<body data-base="../../" data-paper="'+p['id']+'">').replace('href="./"','href="../../"')
+        page=page.replace('<div id="papers"></div>','<div id="papers"><h2>'+escape(p['title'])+'</h2><ul>'+sections+'</ul></div>')
+        dest=ROOT/'dist/papers'/p['id']/'index.html';dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(page)
+    print(f'Built {len(papers)} bilingual papers, {len(issues)} version-pinned issues.')
 if __name__=='__main__':build()

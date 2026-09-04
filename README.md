@@ -1,63 +1,65 @@
 # Plant Epigenomics Weekly Digest
 
-植物表观基因组、果实发育与多组学整合文献周报。已导入 2026-08-14、08-21、08-28、09-04 四期，共 13 篇文献。
+A bilingual literature workspace for plant epigenomics, fruit development and multi-omics, emphasizing Capsicum and Solanaceae.
 
-支持按期浏览、关键词搜索、阅读优先级筛选，以及研究新意、关联、阅读重点和原文链接。
+**Website:** https://qliugithub.github.io/plant-epigenomics-weekly-digest/
 
-## 启用网站与每周更新
+## Reading workspace / 文献工作台
 
-仓库代码与工作流已经准备好。是否能运行仍取决于下列仓库设置；代码上传不等于自动任务已成功运行。
+- Switch **中文 / English** at the top right. Every archived paper has the same complete six-part commentary in both languages; language, tags and filters have shareable URLs.
+- Combine the tag bar with species, process, regulation, method, evidence type, article type and reading-priority filters. Tags describe the actual study, not proposed pepper applications.
+- Four bilingual research guides: H3K27me3 and ripening, fruit TF networks, the 22-tissue atlas, and metabolism. These are research guides, not systematic reviews.
+- Open independent paper pages to read sources, commentary versions, registered publication relations and correction/retraction records.
+- Save papers, mark to-read/read and add personal notes. **Notes stay in this browser**, may be visible to other users of the device, and do not synchronize or enter this public repository. Export/import JSON backups to move them. Import keeps the newer record per paper without deleting others. Export remains available if browser storage fails.
+- Export one paper or filtered results as RIS / BibTeX. Missing authors are never invented. Unmatched bibliography is marked unverified; confirm before citing.
+- The left sidebar uses an AI-generated decorative pepper image, not a scientific specimen photograph.
 
-1. 打开 [Pages 设置](https://github.com/qliugithub/plant-epigenomics-weekly-digest/settings/pages)，把 Source 设为 **GitHub Actions**。
-2. 打开 [Publish existing archive](https://github.com/qliugithub/plant-epigenomics-weekly-digest/actions/workflows/publish.yml)，点击 **Run workflow**。这一步不需要 API 密钥，只发布已有周报。网站 URL 以成功的部署结果为准。
-3. 在 [Actions Secrets](https://github.com/qliugithub/plant-epigenomics-weekly-digest/settings/secrets/actions) 添加名为 `OPENAI_API_KEY` 的 Repository secret。密钥只填写在 GitHub，不能提交进代码。OpenAI API 费用与 ChatGPT 订阅分开计费。
-4. 可选：在 Actions Variables 设置 `OPENAI_MODEL`；默认 `gpt-4.1-mini`。
-5. 打开 [Weekly literature digest](https://github.com/qliugithub/plant-epigenomics-weekly-digest/actions/workflows/weekly.yml)，点击 **Run workflow** 验证检索、分析、归档和发布。当天周报已经存在时脚本保留原内容，跳过生成，因而这种运行不能验证模型密钥。
-6. 流程安排为每周五 **01:00 UTC / 09:00 Asia/Singapore**。GitHub 定时任务可能延迟；请检查 Actions 的运行记录和失败通知。公开仓库长期无活动时定时工作流可能暂停。
+## Data and versions
 
-## 自动流程
+Authoritative files live in `data/`:
 
-- Europe PMC 检索最近 21 天的记录，分页获取并按标题 / DOI 去重，以覆盖收录延迟。
-- 对相关候选摘要排序，最多将 35 篇交给 OpenAI Responses API，筛选 0–5 篇值得关注的文献。
-- 返回的论文必须来自候选记录；标题、日期、来源和链接由原始检索记录填入。
-- 以中文说明研究新意、与辣椒表观组研究的关系、阅读重点和局限。
-- 成功后追加到 `dist/digest.json` 并提交至仓库，再发布 GitHub Pages。
-- 检索或分析失败会中止，不覆盖旧归档；每个新加坡日期仅归档一期。
-- 既有 ChatGPT 自动任务不受本仓库控制，也不会自动写入 ChatGPT Project。
+| File | Purpose |
+| --- | --- |
+| `papers.json` | Current paper records, both languages, classifications, source and bibliographic check |
+| `issues.json` | Issue summaries and references to specific paper revision numbers |
+| `revisions.json` | Append-only commentary snapshots; historical issues keep their referenced content |
+| `candidates.json` | All retained retrieved candidates, selection state and search coverage |
+| `topics.json` | Bilingual research guides and topic matching rules |
 
-## 内容边界
+Run `python scripts/build_site.py` after editing canonical content. It records changed paper content as a new revision, renders `dist/*.json` and creates stable `dist/papers/paper-…/` URLs. Do not edit generated catalog or paper HTML directly. Keep existing issue revision references unchanged when revising a current paper. Git history also retains all committed data changes.
 
-历史四期来自用户提供的原周报；此次建站没有重新核验全部论文及全文。自动生成的分析仅依据摘要，不声称阅读了全文、图表或补充材料。Europe PMC 有索引延迟与覆盖限制，不能代表全网文献或平台外的实质分析。请保留科研判断。
+The initial four issues (2026-08-14 through 2026-09-04) contain 13 imported historical papers. Chinese source text is retained; the English commentary mirrors it. **Imported scientific claims have not all been independently verified.**
 
-## Sites 与 GitHub Pages
+## Retrieval and checks
 
-已有 Sites 地址为私有静态快照：
-https://plant-epigenomics-weekly.lq761244895.chatgpt.site
+`python scripts/refresh_resources.py` runs without a model key:
 
-本仓库的工作流更新 **GitHub Pages**，不会同步刷新上述 Sites URL。GitHub Pages 是否已上线，以 Actions 成功结果为准。
+- Europe PMC searches in three lanes: Capsicum/Solanaceae, plant epigenomics, and methods/resources. A 28-day publication **or first-indexing** window helps recover late-indexed records. Each lane paginates up to 500 results; truncation and failures are marked incomplete rather than silently called complete.
+- The candidate pool retains retrieved records, including unselected records and records without abstracts. Candidate inclusion is not a recommendation.
+- Crossref DOI/title checks use a conservative title-match threshold. Registered authors, dates, DOI relations and publication updates are recorded, with original dates retained and differences shown. Checks refresh at most weekly; failures never erase a previous successful match.
+- A bibliographic match **does not verify full-text scientific conclusions**. Missing records do not establish that a paper is invalid. Crossref relations and update notices are not exhaustive.
 
-## 本地验证
+Source documentation: [Europe PMC](https://europepmc.org/RestfulWebService), [Crossref API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/), [Crossref relation/update filters](https://www.crossref.org/documentation/retrieve-metadata/rest-api/rest-api-filters/).
+
+## Weekly generation and deployment
+
+- The weekly workflow runs Friday **01:00 UTC / 09:00 Singapore**. GitHub can delay scheduled runs. Check the Actions run history for actual results.
+- It refreshes candidates, deduplicates by title/DOI and balances candidates across three lanes (up to 36 unique abstracts). The model may select 0–5 worthwhile papers, preserving preprint uncertainty and separating findings from research proposals.
+- Every selected paper must have six substantive sections in **both languages**, an English/Chinese issue summary and valid controlled classifications. Missing English or incomplete analysis causes failure before changing the archive.
+- Analysis uses abstracts, not an assumed full-text review. Retrieval coverage is limited to indexed sources; no qualifying papers is distinct from failed retrieval.
+- Same-date issues are preserved. Candidate checks may refresh, but duplicate dates do not regenerate a historical issue.
+- Both workflows build and publish GitHub Pages and commit refreshed canonical data. Website publication uses no model key. A weekly generation needs repository secret `OPENAI_API_KEY`; optional repository variable `OPENAI_MODEL` defaults to `gpt-4.1-mini`. Never place secrets in site code or data.
+- Manual weekly runs check API access before generation. API charges are separate from a ChatGPT subscription.
+- Configure Pages source as **GitHub Actions**. Both workflows share a concurrency group so scheduled generation and publication do not overwrite each other.
+- This repository updates the public GitHub Pages site; the earlier private Sites snapshot and the separate ChatGPT scheduled conversation are not synchronized by this workflow.
+
+## Validation
 
 ```sh
+python tests/test_pipeline.py
+node tests/test_ui.cjs
+python scripts/build_site.py
 node --check dist/app.js
-python -m py_compile scripts/update_digest.py
 ```
 
-用任意 HTTP 静态服务器服务 `dist` 目录即可预览。
-
-## 官方参考
-
-- [Europe PMC API](https://europepmc.org/RestfulWebService)
-- [OpenAI Responses API](https://developers.openai.com/api/reference/resources/responses/methods/create/)
-- [GitHub Pages 发布设置](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
-
-
-## 文献库 v2
-
-- 首页支持物种、生物学过程、表观调控、技术、证据类型、文章类型与阅读优先级组合筛选。筛选条件保存在 URL 查询参数中，可分享。
-- 每篇论文生成 `papers/paper-<stable-hash>/` 独立静态页面，保留完整六段解读、原文链接和收录周报链接。首页解读仍完整显示。
-- 历史内容标为“历史周报 / 待核验”；未来自动内容标为“仅摘要 / 待核验”，保留生成依据的摘要及获取时间。分类标签不构成经过验证的证据评级。
-- 首页从公开 GitHub Actions API 查询周报及发布任务状态，不需要把密钥交给浏览器。API 不可用时显示带提示的构建快照；快照不是实时状态。
-- `dist/status.json` 的 `last_search` 只在真实检索生成流程完成时更新，包含检索、候选、分析及推荐数量。重复日期跳过和密钥验证不增加检索计数。零推荐与运行失败分开呈现。
-- `scripts/build_site.py` 生成论文页面及 `dist/catalog.json`；`scripts/catalog.py` 定义受控词表和稳定标识。周报生成和发布工作流均执行构建。
-- 现有 `dist/digest.json` 仍是周报编辑源，`catalog.json` 和独立页面由构建产生，请勿直接修改生成文件。私密笔记不属于本次版本，也不要写入公开仓库。
+Tests use mocked network/model responses and a DOM harness. They cover bilingual completeness, combined tags, topic routing, browser-only notes, backup validation, citation escaping, mismatched metadata, failed search coverage and immutable revisions. They make no paid API calls. Serve `dist/` with any static HTTP server for local preview.

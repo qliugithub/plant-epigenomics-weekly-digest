@@ -1,0 +1,18 @@
+'use strict';
+window.DigestReader=(()=>{
+ const KEY='plant-epigenomics-weekly-digest:reading:v1';let records={},persistent=true;
+ try{const value=JSON.parse(localStorage.getItem(KEY)||'{}');if(value&&typeof value==='object'&&!Array.isArray(value))records=value;}catch{persistent=false;}
+ const validId=id=>/^paper-[a-f0-9]{16}$/.test(id);
+ const clean=r=>({state:['todo','read'].includes(r.state)?r.state:'',star:r.star===true,note:typeof r.note==='string'?r.note.slice(0,50000):'',updated_at:typeof r.updated_at==='string'&&!Number.isNaN(Date.parse(r.updated_at))?r.updated_at:new Date().toISOString()});
+ records=Object.fromEntries(Object.entries(records).filter(([k,v])=>validId(k)&&v&&typeof v==='object').map(([k,v])=>[k,clean(v)]));
+ function persist(){try{localStorage.setItem(KEY,JSON.stringify(records));persistent=true;}catch{persistent=false;}return persistent;}
+ function set(id,patch){if(!validId(id))return false;records[id]=clean({...records[id],...patch,updated_at:new Date().toISOString()});return persist();}
+ function get(id){return records[id]||{state:'',star:false,note:''};}
+ function backup(){return {format:'plant-epigenomics-reading',version:1,exported_at:new Date().toISOString(),records};}
+ function restore(value){if(!value||value.format!=='plant-epigenomics-reading'||value.version!==1||!value.records||typeof value.records!=='object'||Array.isArray(value.records))throw Error('Invalid backup');const entries=Object.entries(value.records);if(entries.length>10000)throw Error('Too many records');const prepared=[];for(const[id,r]of entries){if(!validId(id)||!r||typeof r!=='object'||typeof r.note!=='string'||r.note.length>50000||!['','todo','read'].includes(r.state)||typeof r.star!=='boolean'||typeof r.updated_at!=='string'||Number.isNaN(Date.parse(r.updated_at)))throw Error('Invalid record');prepared.push([id,clean(r)]);}for(const[id,r]of prepared)if(!records[id]||Date.parse(r.updated_at)>Date.parse(records[id].updated_at))records[id]=r;return persist();}
+ const bibEscape=text=>String(text||'').replace(/[\\{}%&#_$]/g,c=>({'\\':'\\textbackslash{}','{':'\\{','}':'\\}','%':'\\%','&':'\\&','#':'\\#','_':'\\_','$':'\\$'}[c]));
+ function bibliographic(p){const m=p.metadata?.status==='matched'?p.metadata.bibliography||{}:{};return {title:m.title||p.title,journal:m.journal||p.journal,date:m.date||p.date,doi:m.doi||p.doi||'',authors:m.authors||[],url:p.url,verified:p.metadata?.status==='matched'};}
+ function bibtex(papers){return papers.map(p=>{const b=bibliographic(p);const fields={title:b.title,journal:b.journal,year:(b.date||'').slice(0,4),doi:b.doi,url:b.url,note:b.verified?'Bibliographic metadata matched; commentary not full-text verified':'Bibliographic metadata unverified; check before citing'};if(b.authors.length)fields.author=b.authors.map(a=>[a.family,a.given].filter(Boolean).join(', ')).join(' and ');return '@article{'+p.id+',\n'+Object.entries(fields).filter(([,v])=>v).map(([k,v])=>'  '+k+' = {'+bibEscape(v)+'}').join(',\n')+'\n}';}).join('\n\n');}
+ function ris(papers){return papers.map(p=>{const b=bibliographic(p);const cleanText=s=>String(s||'').replace(/[\r\n]+/g,' ');return ['TY  - JOUR','TI  - '+cleanText(b.title),...b.authors.map(a=>'AU  - '+cleanText([a.family,a.given].filter(Boolean).join(', '))),b.journal?'JO  - '+cleanText(b.journal):'',b.date?'PY  - '+cleanText(b.date.slice(0,4)):'',b.doi?'DO  - '+cleanText(b.doi):'','UR  - '+cleanText(b.url),'N1  - '+(b.verified?'Bibliographic match; commentary unverified':'Metadata unverified; check before citing'),'ER  - '].filter(Boolean).join('\r\n');}).join('\r\n\r\n');}
+ return {get,set,backup,restore,bibtex,ris,bibliographic,isPersistent:()=>persistent};
+})();

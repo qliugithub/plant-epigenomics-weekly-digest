@@ -163,6 +163,44 @@
         "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
       },
       "id": "paper-2c36efbc13da5de8",
+      "translations": {
+        "en": {
+          "heading": "H3K9 acetylation across fruit-ripening systems",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "The study applies low-input iCUT&Tag to 12 fruit species from nine families, with input as low as approximately 500 nuclei. In both climacteric and non-climacteric systems, activation of ripening-associated genes repeatedly accompanies H3K9ac enrichment, rather than being restricted to one dominant hormonal system.",
+              "kind": "reported"
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "The key methodological step is overcoming interference from metabolite-rich fruit tissues and linking chromatin profiles to ripening-associated gene activation across species. SlHDA1 perturbation is a particularly important component of the mechanistic evidence to examine.",
+              "kind": "reported"
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "This is a direct reference for asking whether contrasting ripening systems share chromatin-level regulation. The pepper atlas already includes H3K27ac, but H3K9ac and H3K27ac are not interchangeable. The study suggests an additional regulatory layer worth testing beyond the four histone marks currently profiled.",
+              "kind": "application"
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Research proposal: first test H3K9ac at a few key pericarp stages and compare it with H3K27ac and RNA changes before extending to more tissues. Developmental stages and orthologs must be aligned explicitly before cross-tissue or cross-species comparisons.",
+              "kind": "application"
+            },
+            {
+              "label": "Limitations",
+              "text": "A recurring association across species does not establish a shared causal mechanism in all species. The original digest was based on searchable information and a user-supplied abstract; figures and supplementary materials were not fully checked.",
+              "kind": "limitation"
+            },
+            {
+              "label": "What to read first",
+              "text": "Examine nucleus isolation and measures against metabolite interference, stage and ortholog matching, and how SlHDA1 perturbation supports a mechanistic connection between acetylation and ripening.",
+              "kind": "reading"
+            }
+          ]
+        }
+      },
+      "revision": 1,
       "issues": [
         "2026-09-04"
       ]
@@ -247,6 +285,44 @@
         "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
       },
       "id": "paper-694b64ec0a8a94e4",
+      "translations": {
+        "en": {
+          "heading": "From DMR associations to locus-specific causal tests",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "The authors develop SunTag-NOVA by combining the chromatin-associated factor TRBIP1, a methylation-editing module and CHLAMY. The reported advance concerns both targeted methylation efficiency and mitigation of widespread off-target methylation and developmental defects associated with direct-fusion designs.",
+              "kind": "reported"
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "The approach links locus-specific methylation editing to chromatin-associated factors while considering efficiency and specificity together. Target-site effects, genome-wide off-target profiles and developmental phenotypes should all inform the assessment.",
+              "kind": "reported"
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "For candidate DMRs from the 22-tissue atlas, this suggests a way to ask whether methylation at a particular locus is sufficient to change expression without changing the underlying DNA sequence, rather than relying only on WGBS–RNA correlations.",
+              "kind": "application"
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Research proposal: prioritize clearly defined DMRs with interpretable expression changes for future causal tests. Measure local methylation, nearby gene expression and off-target effects together. This is a proposed experiment, not a result already demonstrated in pepper.",
+              "kind": "application"
+            },
+            {
+              "label": "Limitations",
+              "text": "Validation is mainly in Arabidopsis, so direct transfer to pepper cannot be assumed. This method installs methylation and does not replace studies of active demethylation. The work is a preprint, and the original digest did not fully check the text or supplements.",
+              "kind": "limitation"
+            },
+            {
+              "label": "What to read first",
+              "text": "Focus on target selection, genome-wide off-target assessment and inheritance of editing effects. Consider how to build controlled causal experiments around the atlas’s key DMRs.",
+              "kind": "reading"
+            }
+          ]
+        }
+      },
+      "revision": 1,
       "issues": [
         "2026-09-04"
       ]
@@ -328,6 +404,44 @@
         "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
       },
       "id": "paper-1ceae5449cb47746",
+      "translations": {
+        "en": {
+          "heading": "Active H3K27me3 removal and the initiation of tissue development",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "The study reports that seed-coat development requires not only cessation of further PRC2-mediated H3K27me3 deposition, but also active removal of existing H3K27me3 by JMJ proteins including REF6 and ELF6. Loss of BRI1 is associated with elevated H3K27me3, while BRI1 and BRL3 participate through noncanonical and canonical brassinosteroid pathways, respectively.",
+              "kind": "reported"
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "In seed-coat cells undergoing limited division, H3K27me3 cannot simply be diluted through replication and must instead be removed enzymatically. This provides an explanation for how some Polycomb targets can be activated during a developmental transition.",
+              "kind": "reported"
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "This resembles pepper K5 genes that lose H3K27me3 and increase expression during ripening. It motivates examination of pepper REF6/ELF6/JMJ13 homologs, BRI1/BRL3 and BZR/BES1, including their expression, footprints and candidate target regions, rather than considering PRC2 subunits alone.",
+              "kind": "application"
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Research proposal: identify genes that lose H3K27me3 and gain ATAC/H3K27ac signals during tissue transitions without obvious proliferation. Such patterns may be consistent with active demethylation rather than passive dilution, but the distinction still requires evidence.",
+              "kind": "application"
+            },
+            {
+              "label": "Limitations",
+              "text": "The original digest described strong local H3K27me3 and genetic evidence but noted the lack of a complete tissue-specific H3K27me3 genome-wide atlas. The study therefore does not directly define all genomic JMJ targets.",
+              "kind": "limitation"
+            },
+            {
+              "label": "What to read first",
+              "text": "Prioritize JMJ mutant phenotypes, genetic separation of BRI1 and BRL3 functions, and the model explaining why stopping PRC2 deposition alone is insufficient to eliminate pre-existing H3K27me3.",
+              "kind": "reading"
+            }
+          ]
+        }
+      },
+      "revision": 1,
       "issues": [
         "2026-08-28"
       ]
@@ -411,6 +525,44 @@
         "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
       },
       "id": "paper-20daa61d0b242f79",
+      "translations": {
+        "en": {
+          "heading": "Fiber-seq for single-molecule chromatin accessibility",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "This work discusses experimental design and analysis pitfalls for plant Fiber-seq. The technique can resolve accessible regions, nucleosome positioning and internal TF footprints along individual long DNA molecules, rather than producing only population-average accessibility peaks.",
+              "kind": "reported"
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "Key practices include controlling single-molecule adenine methylation, sequencing depth and overall labeling rates across samples. Long-read mapping bias, per-fiber state inference and differential-accessibility analysis also require attention.",
+              "kind": "reported"
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "Fiber-seq could provide orthogonal validation of pepper ATAC-seq and TF-footprinting, particularly when distinguishing mixed cell states within a fruit stage from genuinely changing accessible regions. It is also methodologically relevant to the repeat-rich Capsicum genome.",
+              "kind": "application"
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Research proposal: select regions with intermediate accessibility or bulk signals that are difficult to interpret and evaluate whether single-molecule validation is worthwhile. Tissue comparisons must consider cell composition and labeling efficiency rather than attributing all signal differences to accessibility changes.",
+              "kind": "application"
+            },
+            {
+              "label": "Limitations",
+              "text": "This is a methods-oriented preprint. Labeling rates, coverage and mapping bias can influence interpretation, and Fiber-seq and ATAC-seq signals should not be treated as equivalent measurements.",
+              "kind": "limitation"
+            },
+            {
+              "label": "What to read first",
+              "text": "Read the quality-control and differential-accessibility sections first, especially labeling controls, single-molecule state definitions and comparisons with population-average measurements.",
+              "kind": "reading"
+            }
+          ]
+        }
+      },
+      "revision": 1,
       "issues": [
         "2026-08-21"
       ]
@@ -497,6 +649,44 @@
         "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
       },
       "id": "paper-c4cba688c2739903",
+      "translations": {
+        "en": {
+          "heading": "TF binding-position grammar in development and stress responses",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "The study combines conserved binding sites for 244 TFs with single-nucleus accessibility, cell-type expression and hormone-response data to investigate the positional grammar of plant TF binding sites.",
+              "kind": "reported"
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "Accessibility close to the TSS alone is a poor predictor of cell-type-specific expression. Binding sites in distal promoters, introns and rare-cell-specific accessible regions are more informative for development, whereas broadly accessible proximal sites are associated more strongly with rapid stress and hormonal responses.",
+              "kind": "reported"
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "This motivates stratifying proximal, distal, intronic and CDS-associated footprints in the pepper ripening network instead of assigning every accessible peak to its nearest gene.",
+              "kind": "application"
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Research proposal: annotate atlas ACRs by position and tissue specificity, and incorporate these properties into enhancer-candidate prioritization. First compare motif and footprint distributions across these classes before revising TF–target assignment.",
+              "kind": "application"
+            },
+            {
+              "label": "Limitations",
+              "text": "A relationship between binding-site position and function does not establish that a particular ACR regulates a particular gene. Nearest-gene assignment and TSS accessibility alone are not causal evidence; application to pepper needs validation.",
+              "kind": "limitation"
+            },
+            {
+              "label": "What to read first",
+              "text": "Focus on positional stratification, cell-type specificity and the developmental versus stress-response framework, then revisit distal and intronic ACR annotations.",
+              "kind": "reading"
+            }
+          ]
+        }
+      },
+      "revision": 1,
       "issues": [
         "2026-08-21"
       ]
@@ -580,6 +770,44 @@
         "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
       },
       "id": "paper-8bb358b4ebb46b86",
+      "translations": {
+        "en": {
+          "heading": "Multi-omics integration of tomato strigolactone responses",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "The study integrates multi-omics data in nitrogen-limited tomato to investigate strigolactones as nitrogen-responsive rhizosphere signals and their potential beneficial functions.",
+              "kind": "reported"
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "The methodological interest lies in integration across data blocks, selection of response variables and separation of shared from specific signals. The original digest did not provide enough detail to identify a particular modeling algorithm confidently.",
+              "kind": "reported"
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "Although it is not a fruit-epigenome study, it is a relevant Solanaceae multi-omics example. It may inform how expression, metabolites and regulatory layers are integrated, particularly the choice of response variables.",
+              "kind": "application"
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Research proposal: distinguish coordinated changes across omics from signals unique to each layer, rather than selecting relationships solely by correlation when tissue differences dominate. The suitability of the study’s method depends on its data structure and modeling details.",
+              "kind": "application"
+            },
+            {
+              "label": "Limitations",
+              "text": "The biological context is nitrogen limitation and rhizosphere signaling, not fruit ripening. Its relevance here is primarily methodological, and its preprint conclusions should not be directly extrapolated to pepper fruit.",
+              "kind": "limitation"
+            },
+            {
+              "label": "What to read first",
+              "text": "Prioritize multi-omics modeling, variable selection and interpretation of shared and specific signals; initially skim the physiological experiments.",
+              "kind": "reading"
+            }
+          ]
+        }
+      },
+      "revision": 1,
       "issues": [
         "2026-08-21"
       ]
@@ -663,6 +891,44 @@
         "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
       },
       "id": "paper-a9c8e8511884f193",
+      "translations": {
+        "en": {
+          "heading": "Natural-language exploration of a potato multi-omics platform",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "The platform integrates genomic resources from 150 accessions, 259 bulk RNA-seq samples and 14 spatial-omics samples, enabling natural-language-driven retrieval across potato datasets.",
+              "kind": "reported"
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "The architectural interest is how data, tools and agents are connected, including consistent gene versions, composable queries, open APIs, task isolation and online result previews.",
+              "kind": "reported"
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "For pepperatlas, the main value is converting curated multi-omics resources into queryable, composable services with traceable results, rather than merely adding a chat interface.",
+              "kind": "application"
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Research proposal: establish consistent gene versions, tissue names and sample metadata across the 22-tissue atlas before designing composable queries. Future natural-language queries should be traceable to specific data records and analytical sources.",
+              "kind": "application"
+            },
+            {
+              "label": "Limitations",
+              "text": "The platform emphasizes resource retrieval and breeding, with limited epigenomic integration. It is a preprint; the original digest did not test every platform function, so design goals should not be mistaken for independently verified capabilities.",
+              "kind": "limitation"
+            },
+            {
+              "label": "What to read first",
+              "text": "Examine data organization, tool interfaces, task isolation, result previews and how identifiers remain consistent across resources.",
+              "kind": "reading"
+            }
+          ]
+        }
+      },
+      "revision": 1,
       "issues": [
         "2026-08-21"
       ]
@@ -745,6 +1011,44 @@
         "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
       },
       "id": "paper-a8fe561848aa1da7",
+      "translations": {
+        "en": {
+          "heading": "Chromatin remodeling and m6A in embryo patterning",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "The study reports direct cooperation between the SWI/SNF subunit SWI3B and the m6A writer MTA, connecting developmental transcript methylation and stability with WOX8 and auxin polarity.",
+              "kind": "reported"
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "The mechanistic significance is the connection between chromatin regulation and post-transcriptional RNA modification. RNA abundance can depend on transcript stability as well as transcription, so accessibility cannot explain every expression change.",
+              "kind": "reported"
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "This provides a possible cross-layer explanation for fruit-ripening cases in which accessibility changes do not fully account for RNA abundance, and motivates consideration of RNA modification or stability evidence.",
+              "kind": "application"
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Research proposal: flag genes with discordant ATAC, histone-mark and RNA changes, then treat post-transcriptional regulation as one hypothesis to test. Discordance alone does not demonstrate m6A regulation.",
+              "kind": "application"
+            },
+            {
+              "label": "Limitations",
+              "text": "The study concerns Arabidopsis embryos, not pepper fruit, and is a preprint. It is useful mechanistic background but does not establish the same regulatory chain in pepper.",
+              "kind": "limitation"
+            },
+            {
+              "label": "What to read first",
+              "text": "First understand the SWI3B–MTA interaction and the proposed connections to transcript stability, WOX8 and auxin polarity; a figure-by-figure reading is not yet essential.",
+              "kind": "reading"
+            }
+          ]
+        }
+      },
+      "revision": 1,
       "issues": [
         "2026-08-21"
       ]
@@ -834,6 +1138,44 @@
         "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
       },
       "id": "paper-0135781c0a209ba9",
+      "translations": {
+        "en": {
+          "heading": "Integrating the kiwifruit 3D genome with multi-omics",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "The study combines fruit and leaf Hi-C with ATAC-seq, WGBS, RNA-seq and seven histone marks, including H3K27ac, H3K27me3, H3K4me1 and H3K4me3. It distinguishes A/B subcompartments, TAD-like domains and loops, reporting subcompartment-rank changes in about 30% of regions while overall structure remains relatively stable.",
+              "kind": "reported"
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "The methodological focus is integration of chromatin structure and epigenomic features across scales, including definitions and interpretation of active, intermediate and heterochromatin-driven domains.",
+              "kind": "reported"
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "The data types closely match the pepper atlas, making the work a useful reference for multi-scale integration, TAD classification, subcompartment changes and figure organization. It is particularly relevant to planned Hi-C analyses.",
+              "kind": "application"
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Research proposal: establish tissue and stage correspondence between Hi-C and other omics before relating domain classes to accessibility, histone marks and methylation. Data from different stages should not be treated as strictly paired by default.",
+              "kind": "application"
+            },
+            {
+              "label": "Limitations",
+              "text": "Fruit Hi-C and other developmental-stage datasets are not all strictly matched, and much of the evidence remains correlational. Coordinated structural and expression changes alone do not establish causality.",
+              "kind": "limitation"
+            },
+            {
+              "label": "What to read first",
+              "text": "Read the subcompartment, TAD-like domain and fruit-specific gene results, plus the HiCExplorer, Calder and ChromHMM integration methods.",
+              "kind": "reading"
+            }
+          ]
+        }
+      },
+      "revision": 1,
       "issues": [
         "2026-08-14"
       ]
@@ -920,6 +1262,44 @@
         "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
       },
       "id": "paper-304c8839081530e0",
+      "translations": {
+        "en": {
+          "heading": "CrJAG connects chromatin state to fruit shape",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "CrJAG interacts with MSI-like histone chaperones to maintain accessibility at fruit morphogenesis genes. The Crjag mutant shows reduced ATAC signal and H3K18ac, increased H3K27me3 and repression of the cell-cycle regulator CrAUR2.",
+              "kind": "reported"
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "The work provides a mechanistic chain beyond an inverse correlation between a histone mark and expression: TF/chaperone complex, chromatin state, target genes and fruit phenotype. Target identification, genetics and pharmacological evidence should be considered together.",
+              "kind": "reported"
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "This is a useful model for interpreting pepper K5/K8 H3K27me3 clusters and prioritizing candidates with coordinated TF footprints, ATAC, H3K27me3 and expression changes.",
+              "kind": "application"
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Research proposal: intersect candidate TF target regions with dynamic chromatin regions and prioritize concordant changes across layers for functional tests. The transferable element is the evidence framework, not an assumption that the same mechanism already operates in pepper.",
+              "kind": "application"
+            },
+            {
+              "label": "Limitations",
+              "text": "The system is Capsella rubella fruit shape, which differs from pepper ripening in both species and developmental process. Cross-species relevance requires independent validation, and omics intersections do not replace direct regulatory evidence.",
+              "kind": "limitation"
+            },
+            {
+              "label": "What to read first",
+              "text": "Examine how CrJAG direct targets are intersected with ATAC-seq and how pharmacological and genetic tests strengthen the omics associations.",
+              "kind": "reading"
+            }
+          ]
+        }
+      },
+      "revision": 1,
       "issues": [
         "2026-08-14"
       ]
@@ -1003,6 +1383,44 @@
         "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
       },
       "id": "paper-51952c37317c1c40",
+      "translations": {
+        "en": {
+          "heading": "PEAgent and cell-type-specific cis-regulatory grammar",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "PEAgent predicts single-cell accessibility from DNA sequence using more than 355,000 cells and 320 cell types from soybean, maize and rice. The authors identify 243 regulatory-pattern classes, approximately half involving composite motifs.",
+              "kind": "reported"
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "The analysis explicitly examines motif spacing, orientation and cooperation. Standard footprint analyses often treat motifs independently, whereas combinations and nucleosome-scale spacing may provide richer explanations.",
+              "kind": "reported"
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "Pepper distal ACRs, H3K27ac-enriched ACRs and NOR/RIN target regions could be examined for motif pairs, spacing and orientation instead of considering only individual TF activity.",
+              "kind": "application"
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Research proposal: compare motif combinations across tissues or chromatin states using existing ACRs and motifs, as a complement to the current network. Evaluate cross-species applicability before making direct predictions with an external model.",
+              "kind": "application"
+            },
+            {
+              "label": "Limitations",
+              "text": "The model was not trained on pepper or Solanaceae, and the work is a preprint. Learned motif combinations do not automatically establish experimentally validated TF interactions.",
+              "kind": "limitation"
+            },
+            {
+              "label": "What to read first",
+              "text": "Focus on composite-motif discovery, spacing and orientation effects, and model validation and generalization.",
+              "kind": "reading"
+            }
+          ]
+        }
+      },
+      "revision": 1,
       "issues": [
         "2026-08-14"
       ]
@@ -1087,6 +1505,44 @@
         "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
       },
       "id": "paper-e45bd064871a0e48",
+      "translations": {
+        "en": {
+          "heading": "Easy-Multiome for joint single-nucleus RNA and ATAC",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "The approach adds in situ reverse transcription before standard droplet-based scATAC-seq to measure RNA and ATAC in the same nucleus. In maize seedlings, more than 20,000 nuclei were analyzed, and approximately 90% of high-quality RNA nuclei also had acceptable ATAC data.",
+              "kind": "reported"
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "The key is joint measurement in the same nucleus, reducing uncertainty from computationally matching separately measured snRNA-seq and snATAC-seq. Applicability depends on nucleus quality, library performance and joint quality control.",
+              "kind": "reported"
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "This is attractive for heterogeneous pepper pericarp and placenta, providing a possible route to resolve cell-type contributions that bulk profiles cannot distinguish.",
+              "kind": "application"
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Research proposal: start with a small set of tissues and assess whether both RNA and ATAC pass nucleus-level QC, not just whether one modality looks good on average. Use the bulk atlas to select informative stages.",
+              "kind": "application"
+            },
+            {
+              "label": "Limitations",
+              "text": "The reported validation concerns maize seedlings and does not establish a reliable pepper-fruit workflow. Nucleus isolation and tissue compatibility still need testing; the study is a preprint.",
+              "kind": "limitation"
+            },
+            {
+              "label": "What to read first",
+              "text": "Inspect nucleus requirements, library structure, reads per nucleus, TSS enrichment and RNA detection before considering a larger fruit experiment.",
+              "kind": "reading"
+            }
+          ]
+        }
+      },
+      "revision": 1,
       "issues": [
         "2026-08-14"
       ]
@@ -1170,6 +1626,44 @@
         "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
       },
       "id": "paper-8fa61922c04df173",
+      "translations": {
+        "en": {
+          "heading": "Gene position and methylation context in expression associations",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "The study combines RNA-seq and WGBS across eight consecutive rice internode sections to compare CG, CHG and CHH methylation in upstream, gene-body, UTR and downstream regions.",
+              "kind": "reported"
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "The results argue against equating methylation with repression in all contexts. Upstream CG and gene-body CHG/CHH are more often associated with low expression, while upstream CHG/CHH, gene-body CG and UTR methylation can coexist with moderate or high expression.",
+              "kind": "reported"
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "This can inform methylation classification in the 22-tissue atlas. Promoter methylation, gene-body methylation and individual sequence contexts should not be interpreted as a single regulatory category.",
+              "kind": "application"
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Research proposal: complement promoter DMRs with context-specific models for promoters, UTRs, CDSs, introns and downstream regions, separating gbM, TE-associated and non-TE genes.",
+              "kind": "application"
+            },
+            {
+              "label": "Limitations",
+              "text": "The evidence is mainly associative, and the tissue gradient also reflects cell-composition changes. It does not demonstrate that methylation causes expression changes. The study is a preprint, and transfer to pepper needs validation.",
+              "kind": "limitation"
+            },
+            {
+              "label": "What to read first",
+              "text": "Prioritize gene-region definitions, CG/CHG/CHH stratification, statistical association methods and separation of gene classes.",
+              "kind": "reading"
+            }
+          ]
+        }
+      },
+      "revision": 1,
       "issues": [
         "2026-08-14"
       ]
