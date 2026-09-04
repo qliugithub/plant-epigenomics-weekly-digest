@@ -172,7 +172,8 @@
         ]
       }
     },
-    "url": "https://www.sciencedirect.com/science/article/pii/S259034622600386X"
+    "url": "https://www.sciencedirect.com/science/article/pii/S259034622600386X",
+    "related_papers": []
   },
   {
     "classification": {
@@ -364,7 +365,8 @@
         ]
       }
     },
-    "url": "https://doi.org/10.64898/2026.08.25.747117"
+    "url": "https://doi.org/10.64898/2026.08.25.747117",
+    "related_papers": []
   },
   {
     "classification": {
@@ -537,7 +539,8 @@
         ]
       }
     },
-    "url": "https://doi.org/10.1093/plcell/koag182"
+    "url": "https://doi.org/10.1093/plcell/koag182",
+    "related_papers": []
   },
   {
     "classification": {
@@ -692,7 +695,8 @@
         ]
       }
     },
-    "url": "https://doi.org/10.64898/2026.08.14.744917"
+    "url": "https://doi.org/10.64898/2026.08.14.744917",
+    "related_papers": []
   },
   {
     "classification": {
@@ -870,7 +874,8 @@
         ]
       }
     },
-    "url": "https://doi.org/10.1038/s41467-026-75947-0"
+    "url": "https://doi.org/10.1038/s41467-026-75947-0",
+    "related_papers": []
   },
   {
     "classification": {
@@ -1053,7 +1058,8 @@
         ]
       }
     },
-    "url": "https://doi.org/10.64898/2026.08.19.745791"
+    "url": "https://doi.org/10.64898/2026.08.19.745791",
+    "related_papers": []
   },
   {
     "classification": {
@@ -1244,7 +1250,8 @@
         ]
       }
     },
-    "url": "https://doi.org/10.64898/2026.08.12.744101"
+    "url": "https://doi.org/10.64898/2026.08.12.744101",
+    "related_papers": []
   },
   {
     "classification": {
@@ -1402,7 +1409,8 @@
         ]
       }
     },
-    "url": "https://doi.org/10.64898/2026.08.13.744595"
+    "url": "https://doi.org/10.64898/2026.08.13.744595",
+    "related_papers": []
   },
   {
     "classification": {
@@ -1602,7 +1610,8 @@
         "en": "English title corrected against the publisher page; the original issue retains the earlier title.",
         "source_url": "https://academic.oup.com/hr/article/13/6/uhag076/8506998"
       }
-    ]
+    ],
+    "related_papers": []
   },
   {
     "classification": {
@@ -1824,7 +1833,8 @@
       }
     },
     "url": "https://www.nature.com/articles/s41467-026-73180-3",
-    "doi": "10.1038/s41467-026-73180-3"
+    "doi": "10.1038/s41467-026-73180-3",
+    "related_papers": []
   },
   {
     "classification": {
@@ -1991,7 +2001,8 @@
         ]
       }
     },
-    "url": "https://www.biorxiv.org/content/10.64898/2026.07.22.740070v2"
+    "url": "https://www.biorxiv.org/content/10.64898/2026.07.22.740070v2",
+    "related_papers": []
   },
   {
     "classification": {
@@ -2143,7 +2154,8 @@
         ]
       }
     },
-    "url": "https://www.biorxiv.org/content/10.64898/2026.07.15.738754v1.full-text"
+    "url": "https://www.biorxiv.org/content/10.64898/2026.07.15.738754v1.full-text",
+    "related_papers": []
   },
   {
     "classification": {
@@ -2342,6 +2354,7 @@
         ]
       }
     },
-    "url": "https://www.biorxiv.org/content/10.64898/2026.07.09.737558v1.full-text"
+    "url": "https://www.biorxiv.org/content/10.64898/2026.07.09.737558v1.full-text",
+    "related_papers": []
   }
 ]
