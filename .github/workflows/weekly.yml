@@ -21,7 +21,7 @@ jobs:
       - name: Verify API access on manual runs
         if: github.event_name == 'workflow_dispatch'
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.PLANT_EPI_WEEKLY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
         run: |
           python - <<'PY'
@@ -30,7 +30,7 @@ jobs:
           from scripts.update_digest import request
           key = os.environ.get("OPENAI_API_KEY", "").strip()
           if not key:
-              raise SystemExit("OPENAI_API_KEY repository secret is missing or empty.")
+              raise SystemExit("PLANT_EPI_WEEKLY repository secret is missing or empty.")
           try:
               result = request(
                   "https://api.openai.com/v1/responses",
@@ -45,7 +45,7 @@ jobs:
           PY
       - name: Retrieve and archive literature
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.PLANT_EPI_WEEKLY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
         run: python scripts/update_digest.py
       - name: Commit archive
