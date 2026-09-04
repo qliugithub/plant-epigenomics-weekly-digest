@@ -1,5 +1,5 @@
 {
-  "snapshot_at": "2026-09-04T05:51:33.975974+00:00",
+  "snapshot_at": "2026-09-04T05:57:04.370474+00:00",
   "runs": {
     "weekly": [
       {
@@ -13,11 +13,19 @@
     ],
     "publish": [
       {
-        "id": 33842023876,
+        "id": 33842386264,
         "status": "in_progress",
         "conclusion": null,
+        "created_at": "2026-09-04T05:56:53Z",
+        "updated_at": "2026-09-04T05:56:56Z",
+        "html_url": "https://github.com/qliugithub/plant-epigenomics-weekly-digest/actions/runs/33842386264"
+      },
+      {
+        "id": 33842023876,
+        "status": "completed",
+        "conclusion": "success",
         "created_at": "2026-09-04T05:51:00Z",
-        "updated_at": "2026-09-04T05:51:05Z",
+        "updated_at": "2026-09-04T05:51:56Z",
         "html_url": "https://github.com/qliugithub/plant-epigenomics-weekly-digest/actions/runs/33842023876"
       },
       {

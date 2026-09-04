@@ -124,7 +124,12 @@
       "kind": "同行评议",
       "limit": "跨物种重复出现关联，不等于所有物种共享同一因果机制。",
       "metadata": {
+        "status": "matched",
         "bibliography": {
+          "title": "iCUT&Tag-based pan-fruit epigenomic profiling identifies recurrent H3K9 acetylation enrichment during fleshy fruit ripening",
+          "doi": "10.1016/j.xplc.2026.102078",
+          "journal": "Plant Communications",
+          "date": "2026-09",
           "authors": [
             {
               "family": "Wang",
@@ -159,19 +164,14 @@
               "given": "Bo"
             }
           ],
-          "date": "2026-09",
-          "doi": "10.1016/j.xplc.2026.102078",
-          "journal": "Plant Communications",
-          "title": "iCUT&Tag-based pan-fruit epigenomic profiling identifies recurrent H3K9 acetylation enrichment during fleshy fruit ripening",
           "type": "journal-article"
         },
-        "checked_at": "2026-09-04T05:51:25.406473+00:00",
         "differences": [],
         "relations": [],
+        "updates": [],
+        "checked_at": "2026-09-04T05:56:59.364827+00:00",
         "source_url": "https://api.crossref.org/works?query.title=iCUT%26Tag-based+pan-fruit+epigenomic+profiling+identifies+recurrent+H3K9+acetylation+enrichment+during+fleshy+fruit+ripening&rows=1",
-        "status": "matched",
-        "update_check": "unavailable",
-        "updates": []
+        "update_check": "completed"
       },
       "novelty": "低输入量 iCUT&Tag 覆盖 9 科、12 种果实，最低约 500 个细胞核；成熟相关基因激活反复伴随 H3K9ac 富集。",
       "priority": "全文精读",
@@ -485,7 +485,12 @@
       "kind": "同行评议",
       "limit": "不能直接由这项研究定义辣椒 JMJ 全基因组靶点；主动去除与复制稀释仍需要独立证据区分。",
       "metadata": {
+        "status": "matched",
         "bibliography": {
+          "title": "Removal of seed coat H3K27me3 in Arabidopsis requires noncanonical functions of brassinosteroid receptors",
+          "doi": "10.1093/plcell/koag182",
+          "journal": "The Plant Cell",
+          "date": "2026-06-13",
           "authors": [
             {
               "family": "Pankaj",
@@ -524,19 +529,14 @@
               "given": "Duarte D"
             }
           ],
-          "date": "2026-06-13",
-          "doi": "10.1093/plcell/koag182",
-          "journal": "The Plant Cell",
-          "title": "Removal of seed coat H3K27me3 in Arabidopsis requires noncanonical functions of brassinosteroid receptors",
           "type": "journal-article"
         },
-        "checked_at": "2026-09-04T05:51:26.688410+00:00",
         "differences": [],
         "relations": [],
+        "updates": [],
+        "checked_at": "2026-09-04T05:57:00.652303+00:00",
         "source_url": "https://api.crossref.org/works/10.1093%2Fplcell%2Fkoag182",
-        "status": "matched",
-        "update_check": "unavailable",
-        "updates": []
+        "update_check": "completed"
       },
       "novelty": "种皮发育需要 REF6、ELF6 等主动清除既有 H3K27me3；BRI1 与 BRL3 通过不同的油菜素内酯信号方式参与。",
       "priority": "全文精读",
@@ -660,7 +660,12 @@
       "kind": "预印本",
       "limit": "需控制样本总体标记率；不能把单分子与群体平均可及性直接等同。",
       "metadata": {
+        "status": "matched",
         "bibliography": {
+          "title": "Unpacking Chromatin Accessibility with Fiber-seq",
+          "doi": "10.64898/2026.08.14.744917",
+          "journal": "",
+          "date": "2026-08-19",
           "authors": [
             {
               "family": "Bubb",
@@ -679,19 +684,14 @@
               "given": "Christine"
             }
           ],
-          "date": "2026-08-19",
-          "doi": "10.64898/2026.08.14.744917",
-          "journal": "",
-          "title": "Unpacking Chromatin Accessibility with Fiber-seq",
           "type": "posted-content"
         },
-        "checked_at": "2026-09-04T05:51:27.136879+00:00",
         "differences": [],
         "relations": [],
+        "updates": [],
+        "checked_at": "2026-09-04T05:57:01.896514+00:00",
         "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.14.744917",
-        "status": "matched",
-        "update_check": "unavailable",
-        "updates": []
+        "update_check": "completed"
       },
       "novelty": "讨论植物 Fiber-seq 实验设计与分析陷阱，在单条 DNA 长分子上解析 ACR、核小体和 TF footprint。",
       "priority": "全文精读",
@@ -818,7 +818,12 @@
       "kind": "同行评议",
       "limit": "不能只凭最近基因分配或 TSS 附近开放程度推断调控因果。",
       "metadata": {
+        "status": "matched",
         "bibliography": {
+          "title": "Positional grammar of transcription factor binding partitions developmental and stress-response regulation in plants",
+          "doi": "10.1038/s41467-026-75947-0",
+          "journal": "Nature Communications",
+          "date": "2026-08-04",
           "authors": [
             {
               "family": "Morales-Cruz",
@@ -857,19 +862,14 @@
               "given": "Ronan C."
             }
           ],
-          "date": "2026-08-04",
-          "doi": "10.1038/s41467-026-75947-0",
-          "journal": "Nature Communications",
-          "title": "Positional grammar of transcription factor binding partitions developmental and stress-response regulation in plants",
           "type": "journal-article"
         },
-        "checked_at": "2026-09-04T05:51:27.804122+00:00",
         "differences": [],
         "relations": [],
+        "updates": [],
+        "checked_at": "2026-09-04T05:57:02.235935+00:00",
         "source_url": "https://api.crossref.org/works/10.1038%2Fs41467-026-75947-0",
-        "status": "matched",
-        "update_check": "unavailable",
-        "updates": []
+        "update_check": "completed"
       },
       "novelty": "结合 244 个 TF 的保守结合位点、单核可及性、表达与激素响应，提出 TFBS 的位置语法。",
       "priority": "全文精读",
@@ -1531,20 +1531,68 @@
       "kind": "同行评议",
       "limit": "不同组学阶段并非全部严格配对，多数结果仍为关联证据。",
       "metadata": {
+        "status": "matched",
         "bibliography": {
+          "title": "A high-resolution 3D genome map of kiwifruit provides insights into chromatin architecture and transcriptional activity",
           "doi": "10.1093/hr/uhag076",
-          "title": "A high-resolution 3D genome map of kiwifruit provides insights into chromatin architecture and transcriptional activity"
+          "journal": "Horticulture Research",
+          "date": "2026-06-02",
+          "authors": [
+            {
+              "family": "Xie",
+              "given": "Shuangling"
+            },
+            {
+              "family": "Li",
+              "given": "Tong"
+            },
+            {
+              "family": "Yang",
+              "given": "Jing"
+            },
+            {
+              "family": "Wang",
+              "given": "Jingrui"
+            },
+            {
+              "family": "Gong",
+              "given": "Jinli"
+            },
+            {
+              "family": "Wang",
+              "given": "Minghui"
+            },
+            {
+              "family": "Hu",
+              "given": "Xiaoli"
+            },
+            {
+              "family": "Li",
+              "given": "Xiaolong"
+            },
+            {
+              "family": "Sun",
+              "given": "Xuepeng"
+            }
+          ],
+          "type": "journal-article"
         },
-        "differences": [
-          {
-            "en": "The retrieved title differs from the archived record. Check the original.",
-            "zh": "检索标题与原记录不一致，请核对原文。"
-          }
-        ],
+        "differences": [],
         "relations": [],
-        "source_url": "https://api.crossref.org/works?query.title=A+high-resolution+3D+genome+map+of+kiwifruit+provides+insights+into+tissue-specific+chromatin+architecture&rows=1",
-        "status": "conflict",
-        "updates": []
+        "updates": [],
+        "checked_at": "2026-09-04T05:57:02.361734+00:00",
+        "source_url": "https://api.crossref.org/works/10.1093%2Fhr%2Fuhag076",
+        "update_check": "completed",
+        "history": [
+          {
+            "at": null,
+            "status": "conflict",
+            "bibliography": {
+              "doi": "10.1093/hr/uhag076",
+              "title": "A high-resolution 3D genome map of kiwifruit provides insights into chromatin architecture and transcriptional activity"
+            }
+          }
+        ]
       },
       "novelty": "整合果实和叶片 Hi-C、ATAC-seq、WGBS、RNA-seq 与多种组蛋白标记，比较亚区室、TAD-like domains 和 loops。",
       "priority": "全文精读",
@@ -1680,9 +1728,101 @@
       "kind": "同行评议",
       "limit": "与辣椒成熟基因群的连接是研究启示，不是已证实的同源机制。",
       "metadata": {
-        "error": "HTTPError",
-        "source_url": "https://api.crossref.org/works?query.title=Epigenetic+regulation+of+fruit+shape+determination+by+the+JAGGED+gene+in+Capsella+rubella&rows=1",
-        "status": "error"
+        "status": "matched",
+        "bibliography": {
+          "title": "Epigenetic regulation of fruit shape determination by the JAGGED gene in Capsella rubella",
+          "doi": "10.1038/s41467-026-73180-3",
+          "journal": "Nature Communications",
+          "date": "2026-06-16",
+          "authors": [
+            {
+              "family": "Lü",
+              "given": "Tian-Feng"
+            },
+            {
+              "family": "Chen",
+              "given": "Xiao-Yu"
+            },
+            {
+              "family": "Trozzi",
+              "given": "Nicola"
+            },
+            {
+              "family": "He",
+              "given": "Wen"
+            },
+            {
+              "family": "Yuan",
+              "given": "Quan"
+            },
+            {
+              "family": "Han",
+              "given": "Yu"
+            },
+            {
+              "family": "Lu",
+              "given": "Li-Min"
+            },
+            {
+              "family": "Li",
+              "given": "Chao-Bin"
+            },
+            {
+              "family": "Cheng",
+              "given": "Jie"
+            },
+            {
+              "family": "Sicard",
+              "given": "Adrien"
+            },
+            {
+              "family": "Zhang",
+              "given": "Yao"
+            },
+            {
+              "family": "Su",
+              "given": "Ya-Nan"
+            },
+            {
+              "family": "Zan",
+              "given": "Yan-Jun"
+            },
+            {
+              "family": "Lenhard",
+              "given": "Michael"
+            },
+            {
+              "family": "Kong",
+              "given": "Hong-Zhi"
+            },
+            {
+              "family": "Majda",
+              "given": "Mateusz"
+            },
+            {
+              "family": "Østergaard",
+              "given": "Lars"
+            },
+            {
+              "family": "Dong",
+              "given": "Yang"
+            }
+          ],
+          "type": "journal-article"
+        },
+        "differences": [],
+        "relations": [],
+        "updates": [],
+        "checked_at": "2026-09-04T05:57:03.713309+00:00",
+        "source_url": "https://api.crossref.org/works/10.1038%2Fs41467-026-73180-3",
+        "update_check": "completed",
+        "history": [
+          {
+            "at": null,
+            "status": "error",
+            "bibliography": null
+          }
+        ]
       },
       "novelty": "CrJAG 与 MSI 类伴侣互作，关联染色质开放、H3K18ac、H3K27me3 和细胞周期调控因子 CrAUR2。",
       "priority": "全文精读",
