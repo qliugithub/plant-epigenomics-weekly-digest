@@ -19,27 +19,33 @@
           "sections": [
             {
               "label": "真正的新发现",
-              "text": "将低输入量 iCUT&Tag 应用于 9 科、12 种果实，最低需要约 500 个细胞核。比较呼吸跃变型与非呼吸跃变型果实，发现成熟相关基因激活反复伴随 H3K9ac 富集，而不局限于某一种主导激素体系。"
+              "text": "将低输入量 iCUT&Tag 应用于 9 科、12 种果实，最低需要约 500 个细胞核。比较呼吸跃变型与非呼吸跃变型果实，发现成熟相关基因激活反复伴随 H3K9ac 富集，而不局限于某一种主导激素体系。",
+              "kind": "reported"
             },
             {
               "label": "机制或方法上的关键点",
-              "text": "关键在于克服代谢物丰富的果实组织对染色质分析的干扰，并将跨物种的组蛋白标记与成熟相关基因激活联系起来。SlHDA1 扰动是需要重点阅读的机制证据。"
+              "text": "关键在于克服代谢物丰富的果实组织对染色质分析的干扰，并将跨物种的组蛋白标记与成熟相关基因激活联系起来。SlHDA1 扰动是需要重点阅读的机制证据。",
+              "kind": "reported"
             },
             {
               "label": "与你的辣椒研究关系",
-              "text": "这是你“不同成熟系统是否共享染色质调控机制”的直接参照。你的辣椒图谱已有 H3K27ac，但不能把 H3K9ac 与 H3K27ac 当作可互换标记；它提示现有四种组蛋白修饰之外，可能还有值得检验的成熟调控层。"
+              "text": "这是你“不同成熟系统是否共享染色质调控机制”的直接参照。你的辣椒图谱已有 H3K27ac，但不能把 H3K9ac 与 H3K27ac 当作可互换标记；它提示现有四种组蛋白修饰之外，可能还有值得检验的成熟调控层。",
+              "kind": "application"
             },
             {
               "label": "对22组织图谱的具体启示",
-              "text": "研究启示：若考虑补实验，可先在少数关键果皮阶段试测 H3K9ac，与 H3K27ac 和 RNA 变化比较，再决定是否扩大到更多组织。跨组织或物种比较前，应先明确发育阶段及同源基因的匹配方式。"
+              "text": "研究启示：若考虑补实验，可先在少数关键果皮阶段试测 H3K9ac，与 H3K27ac 和 RNA 变化比较，再决定是否扩大到更多组织。跨组织或物种比较前，应先明确发育阶段及同源基因的匹配方式。",
+              "kind": "application"
             },
             {
               "label": "需要注意",
-              "text": "不同物种反复出现相同关联，不等于已经证明全部物种共享同一因果机制。原周报依据可检索内容及用户提供的摘要整理，未完成逐图与补充材料核验。"
+              "text": "不同物种反复出现相同关联，不等于已经证明全部物种共享同一因果机制。原周报依据可检索内容及用户提供的摘要整理，未完成逐图与补充材料核验。",
+              "kind": "limitation"
             },
             {
               "label": "建议优先看",
-              "text": "核提取和抗代谢物干扰流程；跨物种发育阶段与同源基因如何匹配；SlHDA1 扰动如何支持乙酰化与成熟之间的机制联系。"
+              "text": "核提取和抗代谢物干扰流程；跨物种发育阶段与同源基因如何匹配；SlHDA1 扰动如何支持乙酰化与成熟之间的机制联系。",
+              "kind": "reading"
             }
           ],
           "tags": [
@@ -48,7 +54,41 @@
             "果实成熟"
           ],
           "title": "iCUT&Tag-based pan-fruit epigenomic profiling identifies recurrent H3K9 acetylation enrichment during fleshy fruit ripening",
-          "url": "https://www.sciencedirect.com/science/article/pii/S259034622600386X"
+          "url": "https://www.sciencedirect.com/science/article/pii/S259034622600386X",
+          "classification": {
+            "species": [
+              "多物种植物",
+              "番茄",
+              "其他果实"
+            ],
+            "process": [
+              "果实成熟"
+            ],
+            "regulation": [
+              "组蛋白乙酰化"
+            ],
+            "methods": [
+              "CUT&Tag",
+              "多组学"
+            ],
+            "evidence_type": [
+              "组学关联",
+              "遗传验证"
+            ],
+            "article_type": [
+              "方法研究",
+              "机制研究"
+            ]
+          },
+          "evidence": {
+            "source_type": "historical_digest",
+            "reading_depth": "未确认全文阅读",
+            "verification": "待核验",
+            "classification_status": "根据原周报归类，待核验",
+            "source_url": "https://www.sciencedirect.com/science/article/pii/S259034622600386X",
+            "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
+          },
+          "id": "paper-2c36efbc13da5de8"
         },
         {
           "date": "2026-08-26",
@@ -63,27 +103,33 @@
           "sections": [
             {
               "label": "真正的新发现",
-              "text": "作者构建 SunTag-NOVA，将染色质相关因子 TRBIP1、甲基化编辑模块与 CHLAMY 结合。关键不只是提高靶向甲基化效率，还包括缓解直接融合方案伴随的广泛脱靶甲基化和发育缺陷。"
+              "text": "作者构建 SunTag-NOVA，将染色质相关因子 TRBIP1、甲基化编辑模块与 CHLAMY 结合。关键不只是提高靶向甲基化效率，还包括缓解直接融合方案伴随的广泛脱靶甲基化和发育缺陷。",
+              "kind": "reported"
             },
             {
               "label": "机制或方法上的关键点",
-              "text": "方法的价值在于将位点甲基化编辑与染色质相关因子结合，并同时考虑效率和特异性。是否真正改进编辑，需要结合靶位点效果、全基因组脱靶和发育表型共同判断。"
+              "text": "方法的价值在于将位点甲基化编辑与染色质相关因子结合，并同时考虑效率和特异性。是否真正改进编辑，需要结合靶位点效果、全基因组脱靶和发育表型共同判断。",
+              "kind": "reported"
             },
             {
               "label": "与你的辣椒研究关系",
-              "text": "对 22 组织图谱筛出的候选 DMR，它提供一种验证思路：在不改变 DNA 序列的情况下，检验某个位点甲基化变化是否足以改变表达，而不是仅依赖 WGBS–RNA 相关性。"
+              "text": "对 22 组织图谱筛出的候选 DMR，它提供一种验证思路：在不改变 DNA 序列的情况下，检验某个位点甲基化变化是否足以改变表达，而不是仅依赖 WGBS–RNA 相关性。",
+              "kind": "application"
             },
             {
               "label": "对22组织图谱的具体启示",
-              "text": "研究启示：可把表达变化清晰、区域定义明确的候选 DMR 排为后续因果验证对象。需要将局部甲基化、邻近基因表达与脱靶评估一起纳入设计；这属于后续实验思路，不是辣椒中已有的验证结果。"
+              "text": "研究启示：可把表达变化清晰、区域定义明确的候选 DMR 排为后续因果验证对象。需要将局部甲基化、邻近基因表达与脱靶评估一起纳入设计；这属于后续实验思路，不是辣椒中已有的验证结果。",
+              "kind": "application"
             },
             {
               "label": "需要注意",
-              "text": "目前主要是拟南芥验证，不能假定可直接移植到辣椒。另外，这是安装甲基化的方法，不能替代对主动去甲基化过程的研究。该研究尚未同行评议，原周报未完成全文及补充材料核验。"
+              "text": "目前主要是拟南芥验证，不能假定可直接移植到辣椒。另外，这是安装甲基化的方法，不能替代对主动去甲基化过程的研究。该研究尚未同行评议，原周报未完成全文及补充材料核验。",
+              "kind": "limitation"
             },
             {
               "label": "建议优先看",
-              "text": "靶位点选择、全基因组脱靶评估和编辑效果的遗传稳定性。优先思考如何为关键 DMR 建立有对照的因果实验。"
+              "text": "靶位点选择、全基因组脱靶评估和编辑效果的遗传稳定性。优先思考如何为关键 DMR 建立有对照的因果实验。",
+              "kind": "reading"
             }
           ],
           "tags": [
@@ -92,7 +138,38 @@
             "表观基因组编辑"
           ],
           "title": "Chromatin-Assisted Targeting Enables Precise DNA Methylation Editing in Plants",
-          "url": "https://doi.org/10.64898/2026.08.25.747117"
+          "url": "https://doi.org/10.64898/2026.08.25.747117",
+          "classification": {
+            "species": [
+              "拟南芥"
+            ],
+            "process": [
+              "通用方法"
+            ],
+            "regulation": [
+              "DNA甲基化"
+            ],
+            "methods": [
+              "表观基因组编辑",
+              "WGBS"
+            ],
+            "evidence_type": [
+              "位点编辑",
+              "方法评估"
+            ],
+            "article_type": [
+              "方法研究"
+            ]
+          },
+          "evidence": {
+            "source_type": "historical_digest",
+            "reading_depth": "未确认全文阅读",
+            "verification": "待核验",
+            "classification_status": "根据原周报归类，待核验",
+            "source_url": "https://doi.org/10.64898/2026.08.25.747117",
+            "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
+          },
+          "id": "paper-694b64ec0a8a94e4"
         }
       ],
       "provenance": "历史归档：根据用户提供的原周报整理，保留原有论文信息与判断；此次建站未重新核验全文、图表及补充材料。",
@@ -114,27 +191,33 @@
           "sections": [
             {
               "label": "真正的新发现",
-              "text": "证明种皮发育不仅需要停止 PRC2 继续沉积 H3K27me3，还需要 REF6、ELF6 等 JMJ 蛋白主动清除已经存在的 H3K27me3。BRI1 缺失会导致 H3K27me3 异常升高；同时，BRI1 与 BRL3 分别通过非经典和经典油菜素内酯途径参与这一过程。"
+              "text": "证明种皮发育不仅需要停止 PRC2 继续沉积 H3K27me3，还需要 REF6、ELF6 等 JMJ 蛋白主动清除已经存在的 H3K27me3。BRI1 缺失会导致 H3K27me3 异常升高；同时，BRI1 与 BRL3 分别通过非经典和经典油菜素内酯途径参与这一过程。",
+              "kind": "reported"
             },
             {
               "label": "机制或方法上的关键点",
-              "text": "在不大量分裂的种皮细胞中，H3K27me3 无法靠复制稀释，因此必须被酶促去除。这为“发育转换时为什么某些 Polycomb 靶基因能够迅速激活”提供了很清晰的解释。"
+              "text": "在不大量分裂的种皮细胞中，H3K27me3 无法靠复制稀释，因此必须被酶促去除。这为“发育转换时为什么某些 Polycomb 靶基因能够迅速激活”提供了很清晰的解释。",
+              "kind": "reported"
             },
             {
               "label": "与你的辣椒研究关系",
-              "text": "这与辣椒成熟过程中 K5 类基因由高 H3K27me3 转为低 H3K27me3 并伴随表达激活非常相似。文章提示你不能只检查 PRC2 亚基，还应系统分析辣椒 REF6/ELF6/JMJ13 homologs、BRI1/BRL3、BZR/BES1 的表达、footprint 及候选靶区。"
+              "text": "这与辣椒成熟过程中 K5 类基因由高 H3K27me3 转为低 H3K27me3 并伴随表达激活非常相似。文章提示你不能只检查 PRC2 亚基，还应系统分析辣椒 REF6/ELF6/JMJ13 homologs、BRI1/BRL3、BZR/BES1 的表达、footprint 及候选靶区。",
+              "kind": "application"
             },
             {
               "label": "对22组织图谱的具体启示",
-              "text": "可以筛选“组织转换时 H3K27me3 下降、ATAC/H3K27ac 上升、但细胞增殖不明显”的基因。这类基因更可能反映主动去甲基化，而非细胞分裂造成的被动稀释。"
+              "text": "可以筛选“组织转换时 H3K27me3 下降、ATAC/H3K27ac 上升、但细胞增殖不明显”的基因。这类基因更可能反映主动去甲基化，而非细胞分裂造成的被动稀释。",
+              "kind": "application"
             },
             {
               "label": "需要注意",
-              "text": "文章的局部 H3K27me3 检测和遗传证据较强，但缺少完整的组织特异 H3K27me3 基因组图谱，因此不能直接定义 JMJ 的全基因组靶点。"
+              "text": "文章的局部 H3K27me3 检测和遗传证据较强，但缺少完整的组织特异 H3K27me3 基因组图谱，因此不能直接定义 JMJ 的全基因组靶点。",
+              "kind": "limitation"
             },
             {
               "label": "建议优先看",
-              "text": "JMJ 突变体表型、BRI1/BRL3 遗传拆分，以及作者关于“PRC2 停止沉积并不足以清除既有 H3K27me3”的模型。"
+              "text": "JMJ 突变体表型、BRI1/BRL3 遗传拆分，以及作者关于“PRC2 停止沉积并不足以清除既有 H3K27me3”的模型。",
+              "kind": "reading"
             }
           ],
           "tags": [
@@ -143,7 +226,35 @@
             "种皮发育"
           ],
           "title": "Removal of seed coat H3K27me3 in Arabidopsis requires noncanonical functions of brassinosteroid receptors",
-          "url": "https://doi.org/10.1093/plcell/koag182"
+          "url": "https://doi.org/10.1093/plcell/koag182",
+          "classification": {
+            "species": [
+              "拟南芥"
+            ],
+            "process": [
+              "胚胎与种子发育",
+              "激素响应"
+            ],
+            "regulation": [
+              "H3K27me3"
+            ],
+            "methods": [],
+            "evidence_type": [
+              "遗传验证"
+            ],
+            "article_type": [
+              "机制研究"
+            ]
+          },
+          "evidence": {
+            "source_type": "historical_digest",
+            "reading_depth": "未确认全文阅读",
+            "verification": "待核验",
+            "classification_status": "根据原周报归类，待核验",
+            "source_url": "https://doi.org/10.1093/plcell/koag182",
+            "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
+          },
+          "id": "paper-1ceae5449cb47746"
         }
       ],
       "provenance": "历史归档：根据用户提供的原周报整理，保留原有论文信息与判断；此次建站未重新核验全文、图表及补充材料。",
@@ -165,27 +276,33 @@
           "sections": [
             {
               "label": "真正的新发现",
-              "text": "系统讨论植物 Fiber-seq 的实验设计与分析陷阱。该技术能在单条长 DNA 分子上同时解析 ACR、核小体定位和内部 TF footprint，而不只是生成群体平均的开放峰。"
+              "text": "系统讨论植物 Fiber-seq 的实验设计与分析陷阱。该技术能在单条长 DNA 分子上同时解析 ACR、核小体定位和内部 TF footprint，而不只是生成群体平均的开放峰。",
+              "kind": "reported"
             },
             {
               "label": "机制或方法上的关键点",
-              "text": "关键实践是控制单分子腺嘌呤甲基化水平、测序深度和样本间总体标记率，同时考虑长读段比对偏差、per-fiber 状态推断及差异可及区检测。"
+              "text": "关键实践是控制单分子腺嘌呤甲基化水平、测序深度和样本间总体标记率，同时考虑长读段比对偏差、per-fiber 状态推断及差异可及区检测。",
+              "kind": "reported"
             },
             {
               "label": "与你的辣椒研究关系",
-              "text": "适合作为辣椒 ATAC-seq / TF-footprinting 的正交验证思路，尤其可用于区分同一果实阶段中混合细胞状态造成的“部分开放”与真正的动态 ACR。对重复序列丰富的 Capsicum 基因组也有方法学参考价值。"
+              "text": "适合作为辣椒 ATAC-seq / TF-footprinting 的正交验证思路，尤其可用于区分同一果实阶段中混合细胞状态造成的“部分开放”与真正的动态 ACR。对重复序列丰富的 Capsicum 基因组也有方法学参考价值。",
+              "kind": "application"
             },
             {
               "label": "对22组织图谱的具体启示",
-              "text": "研究启示：可先从图谱中选取开放程度介于高低之间、或 bulk 信号难以解释的候选区域，评估是否值得做单分子验证。不同组织的比较应考虑细胞组成与标记效率，而不能直接把信号差异都当作开放状态改变。"
+              "text": "研究启示：可先从图谱中选取开放程度介于高低之间、或 bulk 信号难以解释的候选区域，评估是否值得做单分子验证。不同组织的比较应考虑细胞组成与标记效率，而不能直接把信号差异都当作开放状态改变。",
+              "kind": "application"
             },
             {
               "label": "需要注意",
-              "text": "这是方法与分析实践方面的预印本。单分子标记率、覆盖深度和比对偏差均可能影响解释；Fiber-seq 与 ATAC-seq 的信号不能直接视为同一种量。"
+              "text": "这是方法与分析实践方面的预印本。单分子标记率、覆盖深度和比对偏差均可能影响解释；Fiber-seq 与 ATAC-seq 的信号不能直接视为同一种量。",
+              "kind": "limitation"
             },
             {
               "label": "建议优先看",
-              "text": "优先读质控和差异可及性分析部分，特别是标记率控制、单分子状态定义以及与群体平均数据如何比较。"
+              "text": "优先读质控和差异可及性分析部分，特别是标记率控制、单分子状态定义以及与群体平均数据如何比较。",
+              "kind": "reading"
             }
           ],
           "tags": [
@@ -194,7 +311,37 @@
             "TF footprint"
           ],
           "title": "Unpacking Chromatin Accessibility with Fiber-seq",
-          "url": "https://doi.org/10.64898/2026.08.14.744917"
+          "url": "https://doi.org/10.64898/2026.08.14.744917",
+          "classification": {
+            "species": [
+              "多物种植物"
+            ],
+            "process": [
+              "通用方法"
+            ],
+            "regulation": [
+              "染色质可及性"
+            ],
+            "methods": [
+              "Fiber-seq",
+              "TF footprint"
+            ],
+            "evidence_type": [
+              "方法评估"
+            ],
+            "article_type": [
+              "综述或实质分析"
+            ]
+          },
+          "evidence": {
+            "source_type": "historical_digest",
+            "reading_depth": "未确认全文阅读",
+            "verification": "待核验",
+            "classification_status": "根据原周报归类，待核验",
+            "source_url": "https://doi.org/10.64898/2026.08.14.744917",
+            "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
+          },
+          "id": "paper-20daa61d0b242f79"
         },
         {
           "date": "2026-08-04",
@@ -209,27 +356,33 @@
           "sections": [
             {
               "label": "真正的新发现",
-              "text": "联合 244 个 TF 的保守结合位点、单核染色质可及性、细胞类型表达和激素响应数据，提出植物 TFBS 的“位置语法”。"
+              "text": "联合 244 个 TF 的保守结合位点、单核染色质可及性、细胞类型表达和激素响应数据，提出植物 TFBS 的“位置语法”。",
+              "kind": "reported"
             },
             {
               "label": "机制或方法上的关键点",
-              "text": "TSS 附近开放程度本身不能很好预测细胞类型特异表达；远端启动子、内含子和稀有细胞特异 ACR 中的 TFBS 更能解释发育调控。广泛开放的近端 TFBS 则更偏向快速胁迫和激素响应。"
+              "text": "TSS 附近开放程度本身不能很好预测细胞类型特异表达；远端启动子、内含子和稀有细胞特异 ACR 中的 TFBS 更能解释发育调控。广泛开放的近端 TFBS 则更偏向快速胁迫和激素响应。",
+              "kind": "reported"
             },
             {
               "label": "与你的辣椒研究关系",
-              "text": "可直接启发辣椒成熟 TF 网络的改进：把 proximal、distal、intronic 和 CDS 内 footprint 分层建模，而不是将所有 ATAC 峰统一归入最近基因。"
+              "text": "可直接启发辣椒成熟 TF 网络的改进：把 proximal、distal、intronic 和 CDS 内 footprint 分层建模，而不是将所有 ATAC 峰统一归入最近基因。",
+              "kind": "application"
             },
             {
               "label": "对22组织图谱的具体启示",
-              "text": "研究启示：为 22 组织图谱中的 ACR 增加位置类别与组织特异性注释，并在增强子候选排序时结合这些信息。可以先比较不同类别中的 motif / footprint 分布，再决定是否调整 TF–靶基因关联策略。"
+              "text": "研究启示：为 22 组织图谱中的 ACR 增加位置类别与组织特异性注释，并在增强子候选排序时结合这些信息。可以先比较不同类别中的 motif / footprint 分布，再决定是否调整 TF–靶基因关联策略。",
+              "kind": "application"
             },
             {
               "label": "需要注意",
-              "text": "位置与功能的联系不能单独证明某个 ACR 调控某个基因。最近基因分配和 TSS 附近开放程度都不足以建立调控因果关系；移植到辣椒仍需验证。"
+              "text": "位置与功能的联系不能单独证明某个 ACR 调控某个基因。最近基因分配和 TSS 附近开放程度都不足以建立调控因果关系；移植到辣椒仍需验证。",
+              "kind": "limitation"
             },
             {
               "label": "建议优先看",
-              "text": "优先看 TFBS 位置分层、细胞类型特异性和发育 / 胁迫响应的分析框架，并据此重新检查 distal / intronic ACR 的注释方式。"
+              "text": "优先看 TFBS 位置分层、细胞类型特异性和发育 / 胁迫响应的分析框架，并据此重新检查 distal / intronic ACR 的注释方式。",
+              "kind": "reading"
             }
           ],
           "tags": [
@@ -238,7 +391,40 @@
             "ATAC-seq"
           ],
           "title": "Positional grammar of transcription factor binding partitions developmental and stress-response regulation in plants",
-          "url": "https://doi.org/10.1038/s41467-026-75947-0"
+          "url": "https://doi.org/10.1038/s41467-026-75947-0",
+          "classification": {
+            "species": [
+              "其他植物"
+            ],
+            "process": [
+              "胚胎与种子发育",
+              "胁迫响应",
+              "激素响应"
+            ],
+            "regulation": [
+              "染色质可及性"
+            ],
+            "methods": [
+              "ATAC-seq",
+              "单细胞或单核",
+              "计算建模"
+            ],
+            "evidence_type": [
+              "组学关联"
+            ],
+            "article_type": [
+              "关联研究"
+            ]
+          },
+          "evidence": {
+            "source_type": "historical_digest",
+            "reading_depth": "未确认全文阅读",
+            "verification": "待核验",
+            "classification_status": "根据原周报归类，待核验",
+            "source_url": "https://doi.org/10.1038/s41467-026-75947-0",
+            "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
+          },
+          "id": "paper-c4cba688c2739903"
         },
         {
           "date": "2026-08-20",
@@ -253,27 +439,33 @@
           "sections": [
             {
               "label": "真正的新发现",
-              "text": "在番茄氮限制体系中联合分析多组学数据，将独脚金内酯定位为氮响应型根际信号，并解析其潜在有益作用。"
+              "text": "在番茄氮限制体系中联合分析多组学数据，将独脚金内酯定位为氮响应型根际信号，并解析其潜在有益作用。",
+              "kind": "reported"
             },
             {
               "label": "机制或方法上的关键点",
-              "text": "方法上的关注点是跨数据块整合、响应变量选择，以及共同与特异信号如何分解。原周报没有提供具体建模细节，不能据此预设作者使用了某一种算法。"
+              "text": "方法上的关注点是跨数据块整合、响应变量选择，以及共同与特异信号如何分解。原周报没有提供具体建模细节，不能据此预设作者使用了某一种算法。",
+              "kind": "reported"
             },
             {
               "label": "与你的辣椒研究关系",
-              "text": "虽然不是果实表观组研究，但属于直接相关的 Solanaceae 多组学案例。对你整合表达、代谢和调控层有参考价值，尤其可帮助思考如何选择分析的响应变量。"
+              "text": "虽然不是果实表观组研究，但属于直接相关的 Solanaceae 多组学案例。对你整合表达、代谢和调控层有参考价值，尤其可帮助思考如何选择分析的响应变量。",
+              "kind": "application"
             },
             {
               "label": "对22组织图谱的具体启示",
-              "text": "研究启示：可比较不同组学中共同变化与各自特有的变化，避免仅靠相关系数筛选出受组织差异主导的联系。是否采用文中的具体整合方法，应在阅读方法与数据结构后决定。"
+              "text": "研究启示：可比较不同组学中共同变化与各自特有的变化，避免仅靠相关系数筛选出受组织差异主导的联系。是否采用文中的具体整合方法，应在阅读方法与数据结构后决定。",
+              "kind": "application"
             },
             {
               "label": "需要注意",
-              "text": "研究体系是氮限制和根际信号，不是果实成熟；对辣椒果实的联系属于方法借鉴。这是一篇预印本，不能把其生理结论直接外推到你的体系。"
+              "text": "研究体系是氮限制和根际信号，不是果实成熟；对辣椒果实的联系属于方法借鉴。这是一篇预印本，不能把其生理结论直接外推到你的体系。",
+              "kind": "limitation"
             },
             {
               "label": "建议优先看",
-              "text": "优先看多组学建模、变量筛选和共同 / 特异信号解释，生理实验部分可先快速浏览。"
+              "text": "优先看多组学建模、变量筛选和共同 / 特异信号解释，生理实验部分可先快速浏览。",
+              "kind": "reading"
             }
           ],
           "tags": [
@@ -282,7 +474,37 @@
             "独脚金内酯"
           ],
           "title": "Multi-omics data analysis reveals a novel beneficial role for strigolactones in tomato",
-          "url": "https://doi.org/10.64898/2026.08.19.745791"
+          "url": "https://doi.org/10.64898/2026.08.19.745791",
+          "classification": {
+            "species": [
+              "番茄"
+            ],
+            "process": [
+              "胁迫响应",
+              "激素响应"
+            ],
+            "regulation": [
+              "其他或未涉及"
+            ],
+            "methods": [
+              "多组学"
+            ],
+            "evidence_type": [
+              "组学关联"
+            ],
+            "article_type": [
+              "关联研究"
+            ]
+          },
+          "evidence": {
+            "source_type": "historical_digest",
+            "reading_depth": "未确认全文阅读",
+            "verification": "待核验",
+            "classification_status": "根据原周报归类，待核验",
+            "source_url": "https://doi.org/10.64898/2026.08.19.745791",
+            "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
+          },
+          "id": "paper-8bb358b4ebb46b86"
         },
         {
           "date": "2026-08-13",
@@ -297,27 +519,33 @@
           "sections": [
             {
               "label": "真正的新发现",
-              "text": "构建面向智能代理的马铃薯多组学数据库，整合 150 份种质的基因组资源、259 个 bulk RNA-seq 样本和 14 个空间组学样本，允许自然语言查询驱动跨数据检索。"
+              "text": "构建面向智能代理的马铃薯多组学数据库，整合 150 份种质的基因组资源、259 个 bulk RNA-seq 样本和 14 个空间组学样本，允许自然语言查询驱动跨数据检索。",
+              "kind": "reported"
             },
             {
               "label": "机制或方法上的关键点",
-              "text": "平台的参考价值在于数据层、工具层与代理层如何连接，以及统一基因版本、可组合查询、开放 API、任务隔离和结果在线预览这些工程问题。"
+              "text": "平台的参考价值在于数据层、工具层与代理层如何连接，以及统一基因版本、可组合查询、开放 API、任务隔离和结果在线预览这些工程问题。",
+              "kind": "reported"
             },
             {
               "label": "与你的辣椒研究关系",
-              "text": "对 pepperatlas 的价值主要在工程架构：如何把已经整理好的多组学资源变成可查询、可组合、能展示结果的数据服务，而不只是增加一个聊天入口。"
+              "text": "对 pepperatlas 的价值主要在工程架构：如何把已经整理好的多组学资源变成可查询、可组合、能展示结果的数据服务，而不只是增加一个聊天入口。",
+              "kind": "application"
             },
             {
               "label": "对22组织图谱的具体启示",
-              "text": "研究启示：先确保 22 组织图谱的基因版本、组织名称和样本元数据一致，再组织能够组合使用的查询。后续自然语言检索应能回溯到具体数据记录和分析来源。"
+              "text": "研究启示：先确保 22 组织图谱的基因版本、组织名称和样本元数据一致，再组织能够组合使用的查询。后续自然语言检索应能回溯到具体数据记录和分析来源。",
+              "kind": "application"
             },
             {
               "label": "需要注意",
-              "text": "当前重点是资源检索和育种，表观组整合深度有限。该研究为预印本，原周报没有对平台功能逐项测试，不能把设计目标都视为已经验证的能力。"
+              "text": "当前重点是资源检索和育种，表观组整合深度有限。该研究为预印本，原周报没有对平台功能逐项测试，不能把设计目标都视为已经验证的能力。",
+              "kind": "limitation"
             },
             {
               "label": "建议优先看",
-              "text": "关注数据组织、工具接口、任务隔离与结果预览，以及代理如何在不同数据资源之间保持标识符一致。"
+              "text": "关注数据组织、工具接口、任务隔离与结果预览，以及代理如何在不同数据资源之间保持标识符一致。",
+              "kind": "reading"
             }
           ],
           "tags": [
@@ -326,7 +554,37 @@
             "Multi-omics"
           ],
           "title": "Potato Agent: AI-Driven Data and Knowledge Exploration on an Agent-Ready Potato Multi-Omics Platform",
-          "url": "https://doi.org/10.64898/2026.08.12.744101"
+          "url": "https://doi.org/10.64898/2026.08.12.744101",
+          "classification": {
+            "species": [
+              "其他茄科"
+            ],
+            "process": [
+              "通用方法"
+            ],
+            "regulation": [
+              "其他或未涉及"
+            ],
+            "methods": [
+              "数据库",
+              "多组学"
+            ],
+            "evidence_type": [
+              "资源整合"
+            ],
+            "article_type": [
+              "数据库"
+            ]
+          },
+          "evidence": {
+            "source_type": "historical_digest",
+            "reading_depth": "未确认全文阅读",
+            "verification": "待核验",
+            "classification_status": "根据原周报归类，待核验",
+            "source_url": "https://doi.org/10.64898/2026.08.12.744101",
+            "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
+          },
+          "id": "paper-a9c8e8511884f193"
         },
         {
           "date": "2026-08-13",
@@ -341,27 +599,33 @@
           "sections": [
             {
               "label": "真正的新发现",
-              "text": "发现染色质重塑亚基 SWI3B 与 m⁶A writer MTA 直接协作，共同调节特定发育转录本的 m⁶A、稳定性以及 WOX8 / 生长素极性。"
+              "text": "发现染色质重塑亚基 SWI3B 与 m⁶A writer MTA 直接协作，共同调节特定发育转录本的 m⁶A、稳定性以及 WOX8 / 生长素极性。",
+              "kind": "reported"
             },
             {
               "label": "机制或方法上的关键点",
-              "text": "机制上的意义是把染色质调控与转录后 RNA 修饰连接起来。RNA 丰度不仅受转录影响，也可能受转录本稳定性影响，因此不能仅由开放染色质推断全部表达变化。"
+              "text": "机制上的意义是把染色质调控与转录后 RNA 修饰连接起来。RNA 丰度不仅受转录影响，也可能受转录本稳定性影响，因此不能仅由开放染色质推断全部表达变化。",
+              "kind": "reported"
             },
             {
               "label": "与你的辣椒研究关系",
-              "text": "为果实成熟中“开放染色质变化却不能完全解释 RNA 丰度”的现象提供一种跨层解释，也提示未来可考虑 RNA 修饰或稳定性的补充证据。"
+              "text": "为果实成熟中“开放染色质变化却不能完全解释 RNA 丰度”的现象提供一种跨层解释，也提示未来可考虑 RNA 修饰或稳定性的补充证据。",
+              "kind": "application"
             },
             {
               "label": "对22组织图谱的具体启示",
-              "text": "研究启示：可先标记 ATAC、组蛋白修饰和 RNA 变化不一致的基因，再将转录后调控作为待检验解释之一。不能仅因这些组学不一致就断言存在 m⁶A 调控。"
+              "text": "研究启示：可先标记 ATAC、组蛋白修饰和 RNA 变化不一致的基因，再将转录后调控作为待检验解释之一。不能仅因这些组学不一致就断言存在 m⁶A 调控。",
+              "kind": "application"
             },
             {
               "label": "需要注意",
-              "text": "研究是拟南芥胚胎体系，距离辣椒果实成熟较远，且尚未同行评议。它适合作为机制背景，不能直接确认辣椒中存在同样的调控链。"
+              "text": "研究是拟南芥胚胎体系，距离辣椒果实成熟较远，且尚未同行评议。它适合作为机制背景，不能直接确认辣椒中存在同样的调控链。",
+              "kind": "limitation"
             },
             {
               "label": "建议优先看",
-              "text": "先了解 SWI3B–MTA 互作、转录本稳定性和 WOX8 / 生长素极性之间的模型，暂不必逐图精读。"
+              "text": "先了解 SWI3B–MTA 互作、转录本稳定性和 WOX8 / 生长素极性之间的模型，暂不必逐图精读。",
+              "kind": "reading"
             }
           ],
           "tags": [
@@ -370,7 +634,36 @@
             "胚胎发育"
           ],
           "title": "The SWI/SNF subunit SWI3B functions with the m6A writer complex to establish embryo patterning in Arabidopsis",
-          "url": "https://doi.org/10.64898/2026.08.13.744595"
+          "url": "https://doi.org/10.64898/2026.08.13.744595",
+          "classification": {
+            "species": [
+              "拟南芥"
+            ],
+            "process": [
+              "胚胎与种子发育"
+            ],
+            "regulation": [
+              "染色质重塑",
+              "转录后调控"
+            ],
+            "methods": [],
+            "evidence_type": [
+              "直接结合或互作",
+              "遗传验证"
+            ],
+            "article_type": [
+              "机制研究"
+            ]
+          },
+          "evidence": {
+            "source_type": "historical_digest",
+            "reading_depth": "未确认全文阅读",
+            "verification": "待核验",
+            "classification_status": "根据原周报归类，待核验",
+            "source_url": "https://doi.org/10.64898/2026.08.13.744595",
+            "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
+          },
+          "id": "paper-a8fe561848aa1da7"
         }
       ],
       "provenance": "历史归档：根据用户提供的原周报整理，保留原有论文信息与判断；此次建站未重新核验全文、图表及补充材料。",
@@ -392,27 +685,33 @@
           "sections": [
             {
               "label": "真正的新发现",
-              "text": "将果实和叶片 Hi-C 与 ATAC-seq、WGBS、RNA-seq，以及 H3K27ac、H3K27me3、H3K4me1、H3K4me3 等七种组蛋白修饰整合。区分 A/B 亚区室、TAD-like domains 和 loops，并发现约 30% 区域存在亚区室等级变化，但整体结构相对稳定。"
+              "text": "将果实和叶片 Hi-C 与 ATAC-seq、WGBS、RNA-seq，以及 H3K27ac、H3K27me3、H3K4me1、H3K4me3 等七种组蛋白修饰整合。区分 A/B 亚区室、TAD-like domains 和 loops，并发现约 30% 区域存在亚区室等级变化，但整体结构相对稳定。",
+              "kind": "reported"
             },
             {
               "label": "机制或方法上的关键点",
-              "text": "方法重点是多尺度染色质结构与表观特征的整合，以及 active、intermediate、heterochromatin-driven domain 等类别如何定义和解释。"
+              "text": "方法重点是多尺度染色质结构与表观特征的整合，以及 active、intermediate、heterochromatin-driven domain 等类别如何定义和解释。",
+              "kind": "reported"
             },
             {
               "label": "与你的辣椒研究关系",
-              "text": "数据类型几乎覆盖你的辣椒图谱，可直接参考其多尺度整合、TAD 分类、亚区室转换和图形组织方式。对于正在开展的 Hi-C 分析尤其值得阅读。"
+              "text": "数据类型几乎覆盖你的辣椒图谱，可直接参考其多尺度整合、TAD 分类、亚区室转换和图形组织方式。对于正在开展的 Hi-C 分析尤其值得阅读。",
+              "kind": "application"
             },
             {
               "label": "对22组织图谱的具体启示",
-              "text": "研究启示：若将 Hi-C 加入图谱，应先明确与其他组学的组织、发育时期匹配关系，再将结构域类别与可及性、组蛋白修饰和甲基化特征联系起来。不能把不同阶段的数据默认当作严格配对。"
+              "text": "研究启示：若将 Hi-C 加入图谱，应先明确与其他组学的组织、发育时期匹配关系，再将结构域类别与可及性、组蛋白修饰和甲基化特征联系起来。不能把不同阶段的数据默认当作严格配对。",
+              "kind": "application"
             },
             {
               "label": "需要注意",
-              "text": "果实 Hi-C 与多个发育时期的其他组学并非全部严格配对，文章也承认多数结果仍是相关关系。结构特征与表达的共同变化不足以单独证明因果。"
+              "text": "果实 Hi-C 与多个发育时期的其他组学并非全部严格配对，文章也承认多数结果仍是相关关系。结构特征与表达的共同变化不足以单独证明因果。",
+              "kind": "limitation"
             },
             {
               "label": "建议优先看",
-              "text": "Results 中 subcompartment、TAD-like domain、fruit-specific genes 三节，以及 Methods 中 HiCExplorer / Calder / ChromHMM 特征整合。"
+              "text": "Results 中 subcompartment、TAD-like domain、fruit-specific genes 三节，以及 Methods 中 HiCExplorer / Calder / ChromHMM 特征整合。",
+              "kind": "reading"
             }
           ],
           "tags": [
@@ -421,7 +720,43 @@
             "果实发育"
           ],
           "title": "A high-resolution 3D genome map of kiwifruit provides insights into tissue-specific chromatin architecture",
-          "url": "https://academic.oup.com/hr/article/13/6/uhag076/8506998"
+          "url": "https://academic.oup.com/hr/article/13/6/uhag076/8506998",
+          "classification": {
+            "species": [
+              "其他果实"
+            ],
+            "process": [
+              "果实发育"
+            ],
+            "regulation": [
+              "三维基因组",
+              "DNA甲基化",
+              "H3K27me3",
+              "组蛋白乙酰化",
+              "染色质可及性"
+            ],
+            "methods": [
+              "Hi-C",
+              "ATAC-seq",
+              "WGBS",
+              "多组学"
+            ],
+            "evidence_type": [
+              "组学关联"
+            ],
+            "article_type": [
+              "关联研究"
+            ]
+          },
+          "evidence": {
+            "source_type": "historical_digest",
+            "reading_depth": "未确认全文阅读",
+            "verification": "待核验",
+            "classification_status": "根据原周报归类，待核验",
+            "source_url": "https://academic.oup.com/hr/article/13/6/uhag076/8506998",
+            "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
+          },
+          "id": "paper-0135781c0a209ba9"
         },
         {
           "date": "2026-06-16",
@@ -436,27 +771,33 @@
           "sections": [
             {
               "label": "真正的新发现",
-              "text": "CrJAG 与 MSI 类组蛋白伴侣蛋白互作，维持果实形态发生基因的染色质开放。Crjag 突变后出现 ATAC 信号下降、H3K18ac 减少、H3K27me3 增加，并最终抑制细胞周期调控因子 CrAUR2。"
+              "text": "CrJAG 与 MSI 类组蛋白伴侣蛋白互作，维持果实形态发生基因的染色质开放。Crjag 突变后出现 ATAC 信号下降、H3K18ac 减少、H3K27me3 增加，并最终抑制细胞周期调控因子 CrAUR2。",
+              "kind": "reported"
             },
             {
               "label": "机制或方法上的关键点",
-              "text": "提供了比“组蛋白标记与表达负相关”更强的机制证据：TF / 伴侣复合物 → 可及性与组蛋白修饰 → 靶基因 → 果实表型。需要结合靶基因识别、遗传和药理证据理解这条链。"
+              "text": "提供了比“组蛋白标记与表达负相关”更强的机制证据：TF / 伴侣复合物 → 可及性与组蛋白修饰 → 靶基因 → 果实表型。需要结合靶基因识别、遗传和药理证据理解这条链。",
+              "kind": "reported"
             },
             {
               "label": "与你的辣椒研究关系",
-              "text": "可作为解释辣椒 K5 / K8 H3K27me3 clusters 的机制范例，指导从网络中筛选同时具有 TF footprint、ATAC、H3K27me3 和表达反向变化的候选基因。"
+              "text": "可作为解释辣椒 K5 / K8 H3K27me3 clusters 的机制范例，指导从网络中筛选同时具有 TF footprint、ATAC、H3K27me3 和表达反向变化的候选基因。",
+              "kind": "application"
             },
             {
               "label": "对22组织图谱的具体启示",
-              "text": "研究启示：把候选 TF 靶区与动态染色质区域交叉筛选，优先关注多个层次一致变化的调控关系，再设计功能验证。借鉴的是筛选与证据组织方式，不是预先认定辣椒具有相同机制。"
+              "text": "研究启示：把候选 TF 靶区与动态染色质区域交叉筛选，优先关注多个层次一致变化的调控关系，再设计功能验证。借鉴的是筛选与证据组织方式，不是预先认定辣椒具有相同机制。",
+              "kind": "application"
             },
             {
               "label": "需要注意",
-              "text": "这是 Capsella rubella 果实形态研究，与辣椒成熟的物种和过程均不同。跨物种联系需要独立验证，单纯组学交集也不能替代直接调控证据。"
+              "text": "这是 Capsella rubella 果实形态研究，与辣椒成熟的物种和过程均不同。跨物种联系需要独立验证，单纯组学交集也不能替代直接调控证据。",
+              "kind": "limitation"
             },
             {
               "label": "建议优先看",
-              "text": "CrJAG direct targets 与 ATAC-seq 的交集策略，以及药理处理和遗传验证如何补足组学相关性。"
+              "text": "CrJAG direct targets 与 ATAC-seq 的交集策略，以及药理处理和遗传验证如何补足组学相关性。",
+              "kind": "reading"
             }
           ],
           "tags": [
@@ -465,7 +806,40 @@
             "果实形态"
           ],
           "title": "Epigenetic regulation of fruit shape determination by the JAGGED gene in Capsella rubella",
-          "url": "https://www.nature.com/articles/s41467-026-73180-3"
+          "url": "https://www.nature.com/articles/s41467-026-73180-3",
+          "classification": {
+            "species": [
+              "其他植物"
+            ],
+            "process": [
+              "果实发育"
+            ],
+            "regulation": [
+              "H3K27me3",
+              "组蛋白乙酰化",
+              "染色质可及性"
+            ],
+            "methods": [
+              "ATAC-seq"
+            ],
+            "evidence_type": [
+              "遗传验证",
+              "直接结合或互作",
+              "组学关联"
+            ],
+            "article_type": [
+              "机制研究"
+            ]
+          },
+          "evidence": {
+            "source_type": "historical_digest",
+            "reading_depth": "未确认全文阅读",
+            "verification": "待核验",
+            "classification_status": "根据原周报归类，待核验",
+            "source_url": "https://www.nature.com/articles/s41467-026-73180-3",
+            "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
+          },
+          "id": "paper-304c8839081530e0"
         },
         {
           "date": "2026-07-22",
@@ -480,27 +854,33 @@
           "sections": [
             {
               "label": "真正的新发现",
-              "text": "PEAgent 从 DNA 序列直接预测单细胞染色质可及性；模型覆盖大豆、玉米和水稻的 35.5 万多个细胞、320 种细胞类型。作者解析出 243 类调控模式，约一半为复合 motif。"
+              "text": "PEAgent 从 DNA 序列直接预测单细胞染色质可及性；模型覆盖大豆、玉米和水稻的 35.5 万多个细胞、320 种细胞类型。作者解析出 243 类调控模式，约一半为复合 motif。",
+              "kind": "reported"
             },
             {
               "label": "机制或方法上的关键点",
-              "text": "显式研究 motif 的间距、方向和协同效应。传统 footprint 分析常把 motif 独立处理，而 TF 组合、方向和核小体尺度间距可能提供更丰富的解释。"
+              "text": "显式研究 motif 的间距、方向和协同效应。传统 footprint 分析常把 motif 独立处理，而 TF 组合、方向和核小体尺度间距可能提供更丰富的解释。",
+              "kind": "reported"
             },
             {
               "label": "与你的辣椒研究关系",
-              "text": "可尝试在辣椒 distal ACRs、H3K27ac-enriched ACRs，以及 NOR / RIN 网络靶区中分析 motif pair、间距和方向，而不只计算单 TF 活性。"
+              "text": "可尝试在辣椒 distal ACRs、H3K27ac-enriched ACRs，以及 NOR / RIN 网络靶区中分析 motif pair、间距和方向，而不只计算单 TF 活性。",
+              "kind": "application"
             },
             {
               "label": "对22组织图谱的具体启示",
-              "text": "研究启示：先基于现有 ACR 和 motif 结果比较不同组织或状态中的组合模式，并将序列语法分析作为现有网络的补充。直接使用外物种模型做预测前，应评估跨物种适用性。"
+              "text": "研究启示：先基于现有 ACR 和 motif 结果比较不同组织或状态中的组合模式，并将序列语法分析作为现有网络的补充。直接使用外物种模型做预测前，应评估跨物种适用性。",
+              "kind": "application"
             },
             {
               "label": "需要注意",
-              "text": "模型没有在辣椒或茄科训练，跨物种直接预测需要谨慎；目前也尚未同行评议。模型解释出的组合规律不自动等同于经实验验证的 TF 互作。"
+              "text": "模型没有在辣椒或茄科训练，跨物种直接预测需要谨慎；目前也尚未同行评议。模型解释出的组合规律不自动等同于经实验验证的 TF 互作。",
+              "kind": "limitation"
             },
             {
               "label": "建议优先看",
-              "text": "重点看 motif grammar 方法，尤其是组合 motif 的发现、间距和方向效应，以及模型验证与泛化评估。"
+              "text": "重点看 motif grammar 方法，尤其是组合 motif 的发现、间距和方向效应，以及模型验证与泛化评估。",
+              "kind": "reading"
             }
           ],
           "tags": [
@@ -509,7 +889,37 @@
             "单细胞"
           ],
           "title": "Sequence-based modeling of plant epigenomes reveals cell-type-specific cis-regulatory grammar",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.07.22.740070v2"
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.22.740070v2",
+          "classification": {
+            "species": [
+              "多物种植物"
+            ],
+            "process": [
+              "通用方法"
+            ],
+            "regulation": [
+              "染色质可及性"
+            ],
+            "methods": [
+              "单细胞或单核",
+              "计算建模"
+            ],
+            "evidence_type": [
+              "方法评估"
+            ],
+            "article_type": [
+              "方法研究"
+            ]
+          },
+          "evidence": {
+            "source_type": "historical_digest",
+            "reading_depth": "未确认全文阅读",
+            "verification": "待核验",
+            "classification_status": "根据原周报归类，待核验",
+            "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.22.740070v2",
+            "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
+          },
+          "id": "paper-51952c37317c1c40"
         },
         {
           "date": "2026-07-21",
@@ -524,27 +934,33 @@
           "sections": [
             {
               "label": "真正的新发现",
-              "text": "在标准 droplet-based scATAC-seq 前增加一次原位逆转录，即可从同一细胞核联合获得 RNA 与 ATAC；玉米幼苗中分析了超过 20,000 个细胞核，约 90% 的高质量 RNA 核同时具有合格 ATAC 数据。"
+              "text": "在标准 droplet-based scATAC-seq 前增加一次原位逆转录，即可从同一细胞核联合获得 RNA 与 ATAC；玉米幼苗中分析了超过 20,000 个细胞核，约 90% 的高质量 RNA 核同时具有合格 ATAC 数据。",
+              "kind": "reported"
             },
             {
               "label": "机制或方法上的关键点",
-              "text": "方法的核心是同核联合测量，减少分别测 snRNA-seq 和 snATAC-seq 后再做计算匹配的不确定性。能否用于新组织取决于核质量、文库表现和两个模态的共同质控。"
+              "text": "方法的核心是同核联合测量，减少分别测 snRNA-seq 和 snATAC-seq 后再做计算匹配的不确定性。能否用于新组织取决于核质量、文库表现和两个模态的共同质控。",
+              "kind": "reported"
             },
             {
               "label": "与你的辣椒研究关系",
-              "text": "对辣椒果皮和胎座这类细胞组成复杂的组织很有吸引力，可为 bulk 图谱中难以分辨的细胞类型贡献提供后续研究方向。"
+              "text": "对辣椒果皮和胎座这类细胞组成复杂的组织很有吸引力，可为 bulk 图谱中难以分辨的细胞类型贡献提供后续研究方向。",
+              "kind": "application"
             },
             {
               "label": "对22组织图谱的具体启示",
-              "text": "研究启示：若考虑单核扩展，可先选择少数组织试验，关注每核 RNA 与 ATAC 能否同时达标，而不只是单个模态的平均指标。现有 bulk 图谱可用于选择值得进一步解析的阶段。"
+              "text": "研究启示：若考虑单核扩展，可先选择少数组织试验，关注每核 RNA 与 ATAC 能否同时达标，而不只是单个模态的平均指标。现有 bulk 图谱可用于选择值得进一步解析的阶段。",
+              "kind": "application"
             },
             {
               "label": "需要注意",
-              "text": "这是一篇方法预印本，原周报涉及玉米幼苗验证，并不代表已在辣椒果实组织上建立可靠流程。采用前仍需核提取与组织兼容性验证。"
+              "text": "这是一篇方法预印本，原周报涉及玉米幼苗验证，并不代表已在辣椒果实组织上建立可靠流程。采用前仍需核提取与组织兼容性验证。",
+              "kind": "limitation"
             },
             {
               "label": "建议优先看",
-              "text": "重点查看核提取要求、文库结构、每核 reads、TSS enrichment 和 RNA 检出量；等果实组织适用性得到验证后再考虑扩大。"
+              "text": "重点查看核提取要求、文库结构、每核 reads、TSS enrichment 和 RNA 检出量；等果实组织适用性得到验证后再考虑扩大。",
+              "kind": "reading"
             }
           ],
           "tags": [
@@ -553,7 +969,38 @@
             "Multi-omics"
           ],
           "title": "Easy-Multiome enables joint profiling of gene expression and chromatin accessibility in single cells",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.07.15.738754v1.full-text"
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.15.738754v1.full-text",
+          "classification": {
+            "species": [
+              "其他植物"
+            ],
+            "process": [
+              "通用方法"
+            ],
+            "regulation": [
+              "染色质可及性"
+            ],
+            "methods": [
+              "单细胞或单核",
+              "ATAC-seq",
+              "多组学"
+            ],
+            "evidence_type": [
+              "方法评估"
+            ],
+            "article_type": [
+              "方法研究"
+            ]
+          },
+          "evidence": {
+            "source_type": "historical_digest",
+            "reading_depth": "未确认全文阅读",
+            "verification": "待核验",
+            "classification_status": "根据原周报归类，待核验",
+            "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.15.738754v1.full-text",
+            "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
+          },
+          "id": "paper-e45bd064871a0e48"
         },
         {
           "date": "2026-07-10",
@@ -568,27 +1015,33 @@
           "sections": [
             {
               "label": "真正的新发现",
-              "text": "在连续八个水稻节间区段中联合 RNA-seq 与 WGBS，系统比较 CG、CHG、CHH 在 upstream、gene body、UTR 和 downstream 区域与表达的关系。"
+              "text": "在连续八个水稻节间区段中联合 RNA-seq 与 WGBS，系统比较 CG、CHG、CHH 在 upstream、gene body、UTR 和 downstream 区域与表达的关系。",
+              "kind": "reported"
             },
             {
               "label": "机制或方法上的关键点",
-              "text": "“甲基化等于抑制”过于简单。上游 CG、gene-body CHG / CHH 更常伴随低表达，但上游 CHG / CHH、gene-body CG 和 UTR 甲基化也可以与中高表达共存。"
+              "text": "“甲基化等于抑制”过于简单。上游 CG、gene-body CHG / CHH 更常伴随低表达，但上游 CHG / CHH、gene-body CG 和 UTR 甲基化也可以与中高表达共存。",
+              "kind": "reported"
             },
             {
               "label": "与你的辣椒研究关系",
-              "text": "适合用于完善 22 组织图谱中的甲基化分类。不能把 promoter 甲基化、gene-body methylation 和不同 context 的作用统一解释。"
+              "text": "适合用于完善 22 组织图谱中的甲基化分类。不能把 promoter 甲基化、gene-body methylation 和不同 context 的作用统一解释。",
+              "kind": "application"
             },
             {
               "label": "对22组织图谱的具体启示",
-              "text": "研究启示：在 promoter DMR 之外，分别建立 promoter、UTR、CDS、intron 和 downstream 的 context-specific 模型，并区分 gbM、TE-associated genes 和非 TE genes。"
+              "text": "研究启示：在 promoter DMR 之外，分别建立 promoter、UTR、CDS、intron 和 downstream 的 context-specific 模型，并区分 gbM、TE-associated genes 和非 TE genes。",
+              "kind": "application"
             },
             {
               "label": "需要注意",
-              "text": "主要是关联分析，而且组织梯度包含细胞组成变化，不能直接证明甲基化导致表达改变。该研究尚未同行评议，其关系也不能不加验证地外推到辣椒。"
+              "text": "主要是关联分析，而且组织梯度包含细胞组成变化，不能直接证明甲基化导致表达改变。该研究尚未同行评议，其关系也不能不加验证地外推到辣椒。",
+              "kind": "limitation"
             },
             {
               "label": "建议优先看",
-              "text": "优先看基因区域定义、CG / CHG / CHH 分层、表达关联的统计方法，以及如何区分不同基因类别。"
+              "text": "优先看基因区域定义、CG / CHG / CHH 分层、表达关联的统计方法，以及如何区分不同基因类别。",
+              "kind": "reading"
             }
           ],
           "tags": [
@@ -597,11 +1050,42 @@
             "Rice"
           ],
           "title": "Genic Position and Methylation Context Shape DNA Methylation–Expression Relationships in Rice Internode Development",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.07.09.737558v1.full-text"
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.09.737558v1.full-text",
+          "classification": {
+            "species": [
+              "其他植物"
+            ],
+            "process": [
+              "营养生长"
+            ],
+            "regulation": [
+              "DNA甲基化"
+            ],
+            "methods": [
+              "WGBS",
+              "多组学"
+            ],
+            "evidence_type": [
+              "组学关联"
+            ],
+            "article_type": [
+              "关联研究"
+            ]
+          },
+          "evidence": {
+            "source_type": "historical_digest",
+            "reading_depth": "未确认全文阅读",
+            "verification": "待核验",
+            "classification_status": "根据原周报归类，待核验",
+            "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.09.737558v1.full-text",
+            "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
+          },
+          "id": "paper-8fa61922c04df173"
         }
       ],
       "provenance": "历史归档：根据用户提供的原周报整理，保留原有论文信息与判断；此次建站未重新核验全文、图表及补充材料。",
       "summary": "本期 5 篇，优先读猕猴桃 3D 多组学与 CrJAG 机制研究；PEAgent 重点关注 motif grammar。"
     }
-  ]
+  ],
+  "schema_version": 2
 }

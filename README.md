@@ -50,3 +50,14 @@ python -m py_compile scripts/update_digest.py
 - [Europe PMC API](https://europepmc.org/RestfulWebService)
 - [OpenAI Responses API](https://developers.openai.com/api/reference/resources/responses/methods/create/)
 - [GitHub Pages 发布设置](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+
+## 文献库 v2
+
+- 首页支持物种、生物学过程、表观调控、技术、证据类型、文章类型与阅读优先级组合筛选。筛选条件保存在 URL 查询参数中，可分享。
+- 每篇论文生成 `papers/paper-<stable-hash>/` 独立静态页面，保留完整六段解读、原文链接和收录周报链接。首页解读仍完整显示。
+- 历史内容标为“历史周报 / 待核验”；未来自动内容标为“仅摘要 / 待核验”，保留生成依据的摘要及获取时间。分类标签不构成经过验证的证据评级。
+- 首页从公开 GitHub Actions API 查询周报及发布任务状态，不需要把密钥交给浏览器。API 不可用时显示带提示的构建快照；快照不是实时状态。
+- `dist/status.json` 的 `last_search` 只在真实检索生成流程完成时更新，包含检索、候选、分析及推荐数量。重复日期跳过和密钥验证不增加检索计数。零推荐与运行失败分开呈现。
+- `scripts/build_site.py` 生成论文页面及 `dist/catalog.json`；`scripts/catalog.py` 定义受控词表和稳定标识。周报生成和发布工作流均执行构建。
+- 现有 `dist/digest.json` 仍是周报编辑源，`catalog.json` 和独立页面由构建产生，请勿直接修改生成文件。私密笔记不属于本次版本，也不要写入公开仓库。
