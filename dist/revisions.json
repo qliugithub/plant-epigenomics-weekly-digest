@@ -1088,6 +1088,131 @@
           "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
         }
       }
+    },
+    {
+      "version": 2,
+      "at": "2026-09-04T05:54:24.068225+00:00",
+      "reason": "Bilingual commentary update",
+      "hash": "6d68a62360bc5351bb02f1707403966cc65c946958e71091ef39581e1d025f33",
+      "content": {
+        "title": "A high-resolution 3D genome map of kiwifruit provides insights into chromatin architecture and transcriptional activity",
+        "heading": "猕猴桃 3D 基因组与多组学整合",
+        "sections": [
+          {
+            "kind": "reported",
+            "label": "真正的新发现",
+            "text": "将果实和叶片 Hi-C 与 ATAC-seq、WGBS、RNA-seq，以及 H3K27ac、H3K27me3、H3K4me1、H3K4me3 等七种组蛋白修饰整合。区分 A/B 亚区室、TAD-like domains 和 loops，并发现约 30% 区域存在亚区室等级变化，但整体结构相对稳定。"
+          },
+          {
+            "kind": "reported",
+            "label": "机制或方法上的关键点",
+            "text": "方法重点是多尺度染色质结构与表观特征的整合，以及 active、intermediate、heterochromatin-driven domain 等类别如何定义和解释。"
+          },
+          {
+            "kind": "application",
+            "label": "与你的辣椒研究关系",
+            "text": "数据类型几乎覆盖你的辣椒图谱，可直接参考其多尺度整合、TAD 分类、亚区室转换和图形组织方式。对于正在开展的 Hi-C 分析尤其值得阅读。"
+          },
+          {
+            "kind": "application",
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：若将 Hi-C 加入图谱，应先明确与其他组学的组织、发育时期匹配关系，再将结构域类别与可及性、组蛋白修饰和甲基化特征联系起来。不能把不同阶段的数据默认当作严格配对。"
+          },
+          {
+            "kind": "limitation",
+            "label": "需要注意",
+            "text": "果实 Hi-C 与多个发育时期的其他组学并非全部严格配对，文章也承认多数结果仍是相关关系。结构特征与表达的共同变化不足以单独证明因果。"
+          },
+          {
+            "kind": "reading",
+            "label": "建议优先看",
+            "text": "Results 中 subcompartment、TAD-like domain、fruit-specific genes 三节，以及 Methods 中 HiCExplorer / Calder / ChromHMM 特征整合。"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "Integrating the kiwifruit 3D genome with multi-omics",
+            "sections": [
+              {
+                "kind": "reported",
+                "label": "What is new",
+                "text": "The study combines fruit and leaf Hi-C with ATAC-seq, WGBS, RNA-seq and seven histone marks, including H3K27ac, H3K27me3, H3K4me1 and H3K4me3. It distinguishes A/B subcompartments, TAD-like domains and loops, reporting subcompartment-rank changes in about 30% of regions while overall structure remains relatively stable."
+              },
+              {
+                "kind": "reported",
+                "label": "Mechanistic or methodological key point",
+                "text": "The methodological focus is integration of chromatin structure and epigenomic features across scales, including definitions and interpretation of active, intermediate and heterochromatin-driven domains."
+              },
+              {
+                "kind": "application",
+                "label": "Relevance to pepper research",
+                "text": "The data types closely match the pepper atlas, making the work a useful reference for multi-scale integration, TAD classification, subcompartment changes and figure organization. It is particularly relevant to planned Hi-C analyses."
+              },
+              {
+                "kind": "application",
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research proposal: establish tissue and stage correspondence between Hi-C and other omics before relating domain classes to accessibility, histone marks and methylation. Data from different stages should not be treated as strictly paired by default."
+              },
+              {
+                "kind": "limitation",
+                "label": "Limitations",
+                "text": "Fruit Hi-C and other developmental-stage datasets are not all strictly matched, and much of the evidence remains correlational. Coordinated structural and expression changes alone do not establish causality."
+              },
+              {
+                "kind": "reading",
+                "label": "What to read first",
+                "text": "Read the subcompartment, TAD-like domain and fruit-specific gene results, plus the HiCExplorer, Calder and ChromHMM integration methods."
+              }
+            ]
+          }
+        },
+        "priority": "全文精读",
+        "date": "2026-06-02",
+        "journal": "Horticulture Research",
+        "kind": "同行评议",
+        "url": "https://academic.oup.com/hr/article/13/6/uhag076/8506998",
+        "doi": "10.1093/hr/uhag076",
+        "classification": {
+          "article_type": [
+            "关联研究"
+          ],
+          "evidence_type": [
+            "组学关联"
+          ],
+          "methods": [
+            "Hi-C",
+            "ATAC-seq",
+            "WGBS",
+            "多组学"
+          ],
+          "process": [
+            "果实发育"
+          ],
+          "regulation": [
+            "三维基因组",
+            "DNA甲基化",
+            "H3K27me3",
+            "组蛋白乙酰化",
+            "染色质可及性"
+          ],
+          "species": [
+            "其他果实"
+          ]
+        },
+        "tags": [
+          "Hi-C",
+          "Multi-omics",
+          "果实发育"
+        ],
+        "evidence": {
+          "classification_status": "根据原周报归类，待核验",
+          "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。",
+          "reading_depth": "未确认全文阅读",
+          "source_type": "historical_digest",
+          "source_url": "https://academic.oup.com/hr/article/13/6/uhag076/8506998",
+          "verification": "待核验"
+        }
+      }
     }
   ],
   "paper-304c8839081530e0": [
@@ -1209,6 +1334,128 @@
           "classification_status": "根据原周报归类，待核验",
           "source_url": "https://www.nature.com/articles/s41467-026-73180-3",
           "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。"
+        }
+      }
+    },
+    {
+      "version": 2,
+      "at": "2026-09-04T05:54:24.075166+00:00",
+      "reason": "Bilingual commentary update",
+      "hash": "8c3df9d3a429e976d74da8083152687c58cab3effbba363c57e29be7379deffd",
+      "content": {
+        "title": "Epigenetic regulation of fruit shape determination by the JAGGED gene in Capsella rubella",
+        "heading": "CrJAG 连接染色质状态与果实形态",
+        "sections": [
+          {
+            "kind": "reported",
+            "label": "真正的新发现",
+            "text": "CrJAG 与 MSI 类组蛋白伴侣蛋白互作，维持果实形态发生基因的染色质开放。Crjag 突变后出现 ATAC 信号下降、H3K18ac 减少、H3K27me3 增加，并最终抑制细胞周期调控因子 CrAUR2。"
+          },
+          {
+            "kind": "reported",
+            "label": "机制或方法上的关键点",
+            "text": "提供了比“组蛋白标记与表达负相关”更强的机制证据：TF / 伴侣复合物 → 可及性与组蛋白修饰 → 靶基因 → 果实表型。需要结合靶基因识别、遗传和药理证据理解这条链。"
+          },
+          {
+            "kind": "application",
+            "label": "与你的辣椒研究关系",
+            "text": "可作为解释辣椒 K5 / K8 H3K27me3 clusters 的机制范例，指导从网络中筛选同时具有 TF footprint、ATAC、H3K27me3 和表达反向变化的候选基因。"
+          },
+          {
+            "kind": "application",
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：把候选 TF 靶区与动态染色质区域交叉筛选，优先关注多个层次一致变化的调控关系，再设计功能验证。借鉴的是筛选与证据组织方式，不是预先认定辣椒具有相同机制。"
+          },
+          {
+            "kind": "limitation",
+            "label": "需要注意",
+            "text": "这是 Capsella rubella 果实形态研究，与辣椒成熟的物种和过程均不同。跨物种联系需要独立验证，单纯组学交集也不能替代直接调控证据。"
+          },
+          {
+            "kind": "reading",
+            "label": "建议优先看",
+            "text": "CrJAG direct targets 与 ATAC-seq 的交集策略，以及药理处理和遗传验证如何补足组学相关性。"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "CrJAG connects chromatin state to fruit shape",
+            "sections": [
+              {
+                "kind": "reported",
+                "label": "What is new",
+                "text": "CrJAG interacts with MSI-like histone chaperones to maintain accessibility at fruit morphogenesis genes. The Crjag mutant shows reduced ATAC signal and H3K18ac, increased H3K27me3 and repression of the cell-cycle regulator CrAUR2."
+              },
+              {
+                "kind": "reported",
+                "label": "Mechanistic or methodological key point",
+                "text": "The work provides a mechanistic chain beyond an inverse correlation between a histone mark and expression: TF/chaperone complex, chromatin state, target genes and fruit phenotype. Target identification, genetics and pharmacological evidence should be considered together."
+              },
+              {
+                "kind": "application",
+                "label": "Relevance to pepper research",
+                "text": "This is a useful model for interpreting pepper K5/K8 H3K27me3 clusters and prioritizing candidates with coordinated TF footprints, ATAC, H3K27me3 and expression changes."
+              },
+              {
+                "kind": "application",
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research proposal: intersect candidate TF target regions with dynamic chromatin regions and prioritize concordant changes across layers for functional tests. The transferable element is the evidence framework, not an assumption that the same mechanism already operates in pepper."
+              },
+              {
+                "kind": "limitation",
+                "label": "Limitations",
+                "text": "The system is Capsella rubella fruit shape, which differs from pepper ripening in both species and developmental process. Cross-species relevance requires independent validation, and omics intersections do not replace direct regulatory evidence."
+              },
+              {
+                "kind": "reading",
+                "label": "What to read first",
+                "text": "Examine how CrJAG direct targets are intersected with ATAC-seq and how pharmacological and genetic tests strengthen the omics associations."
+              }
+            ]
+          }
+        },
+        "priority": "全文精读",
+        "date": "2026-06-16",
+        "journal": "Nature Communications",
+        "kind": "同行评议",
+        "url": "https://www.nature.com/articles/s41467-026-73180-3",
+        "doi": "10.1038/s41467-026-73180-3",
+        "classification": {
+          "article_type": [
+            "机制研究"
+          ],
+          "evidence_type": [
+            "遗传验证",
+            "直接结合或互作",
+            "组学关联"
+          ],
+          "methods": [
+            "ATAC-seq"
+          ],
+          "process": [
+            "果实发育"
+          ],
+          "regulation": [
+            "H3K27me3",
+            "组蛋白乙酰化",
+            "染色质可及性"
+          ],
+          "species": [
+            "其他植物"
+          ]
+        },
+        "tags": [
+          "H3K27me3",
+          "ATAC-seq",
+          "果实形态"
+        ],
+        "evidence": {
+          "classification_status": "根据原周报归类，待核验",
+          "note": "由原周报整理，尚未独立核对原文、图表和补充材料。前两段为原周报报告的结论；研究关系和图谱启示包含建议，不能作为原文证据。",
+          "reading_depth": "未确认全文阅读",
+          "source_type": "historical_digest",
+          "source_url": "https://www.nature.com/articles/s41467-026-73180-3",
+          "verification": "待核验"
         }
       }
     }

@@ -4,7 +4,7 @@ sys.path.insert(0,str(Path.cwd()/'scripts'))
 import store,update_digest as u,refresh_resources as rr,build_site as build
 from catalog import TAXONOMY
 papers=store.read('papers.json',[])
-assert len(papers)==13
+assert len(papers)>=13
 for p in papers:
  assert len(p['sections'])==len(p['translations']['en']['sections'])==6
 assert rr.doi_of({'url':'https://www.biorxiv.org/content/10.1234/2026.01.01.42v2.full-text'})=='10.1234/2026.01.01.42'

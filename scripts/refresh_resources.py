@@ -3,6 +3,7 @@ import datetime as dt
 import html
 import json
 import re
+import time
 import urllib.parse
 import urllib.request
 from difflib import SequenceMatcher
@@ -14,7 +15,12 @@ except ImportError:
 
 def request(url):
     req=urllib.request.Request(url,headers={'User-Agent':'PlantEpigenomicsWeeklyDigest/3.0 (public research bibliography)','Accept':'application/json'})
-    with urllib.request.urlopen(req,timeout=25) as response:return json.load(response)
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(req,timeout=25) as response:return json.load(response)
+        except Exception as exc:
+            if attempt or (isinstance(exc,HTTPError) and exc.code not in [429,500,502,503,504]):raise
+            time.sleep(1)
 def plain(s):return html.unescape(re.sub('<[^>]+>','',s or '')).strip()
 def normalize(s):return re.sub(r'[^a-z0-9]','',plain(s).lower())
 def doi_of(p):
@@ -82,7 +88,7 @@ def verify(force=False):
     papers=read('papers.json',[]);checked=0
     for p in papers:
         old=p.get('metadata',{})
-        if not force and old.get('checked_at') and (today()-dt.date.fromisoformat(old['checked_at'][:10])).days<7:continue
+        if not force and old.get('checked_at') and (today()-dt.date.fromisoformat(old['checked_at'][:10])).days<7 and old.get('status') not in ['error'] and old.get('update_check')!='unavailable':continue
         doi=doi_of(p);source='https://api.crossref.org/works/'+urllib.parse.quote(doi,safe='') if doi else 'https://api.crossref.org/works?'+urllib.parse.urlencode({'query.title':p['title'],'rows':1})
         try:
             response=request(source);message=response.get('message',{})
@@ -97,7 +103,7 @@ def verify(force=False):
                         target=[u for u in notice.get('update-to',[]) if u.get('DOI','').lower()==result['bibliography']['doi'].lower()]
                         if target and notice.get('DOI'):result['updates'].append({'type':target[0].get('type','update'),'doi':notice['DOI'],'url':'https://doi.org/'+notice['DOI']})
                     result['update_check']='completed'
-                except Exception:result['update_check']='unavailable'
+                except Exception as exc:result['update_check']='unavailable';result['update_error']=type(exc).__name__+(' '+str(exc.code) if isinstance(exc,HTTPError) else '')
             if old and old.get('bibliography')!=result.get('bibliography'):result['history']=old.get('history',[])+[{'at':old.get('checked_at'),'status':old.get('status'),'bibliography':old.get('bibliography')}]
             elif old.get('history'):result['history']=old['history']
             p['metadata']=result
