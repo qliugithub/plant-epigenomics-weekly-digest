@@ -63,3 +63,13 @@ node --check dist/app.js
 ```
 
 Tests use mocked network/model responses and a DOM harness. They cover bilingual completeness, combined tags, topic routing, browser-only notes, backup validation, citation escaping, mismatched metadata, failed search coverage and immutable revisions. They make no paid API calls. Serve `dist/` with any static HTTP server for local preview.
+
+## Historical DOI import / 历史文献补录
+
+Open **历史补录 / Historical import** in the sidebar, paste a DOI or a DOI-containing link, and check for an existing paper. If new, follow the administrator link to **Weekly literature digest → Run workflow**, fill in `import_doi`, and run. Only repository writers can initiate imports; no credentials or API key are entered on the public website. The normal configured model is used and API charges apply.
+
+Imports require an exact DOI match and an indexed Europe PMC abstract. Unindexed papers or missing abstracts fail without adding a paper. Each successful import generates all six sections in Chinese and English and appears in a separate dated backfill archive; existing weekly issues remain unchanged. Repeating an import preserves the existing paper ID, revisions and browser notes. Leave `import_doi` blank for the normal weekly run.
+
+Candidate selection rechecks canonical identities even when the candidate cache is reused. Exact DOI matches are deduplicated; title matching is used only when one record lacks a DOI. Different DOIs are retained as separate publication records, with bidirectional in-site links for matched Crossref preprint/version relations. Registered relations are incomplete and do not imply identical scientific conclusions.
+
+Additional offline regression check: `python tests/test_import.py`.

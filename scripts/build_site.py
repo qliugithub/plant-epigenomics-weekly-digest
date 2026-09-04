@@ -11,12 +11,21 @@ except ImportError:
 ROOT=Path(__file__).resolve().parents[1]
 def build():
     papers=read('papers.json',[]);issues=read('issues.json',[])
+    ids=set()
     for p in papers:
         enrich_paper(p)
+        if p['id'] in ids:raise ValueError('Duplicate stable paper ID: '+p['id'])
+        ids.add(p['id'])
+        if any(not isinstance(s.get('text'),str) or not s['text'].strip() for s in p['sections']):raise ValueError('Complete Chinese commentary required: '+p['id'])
         en=p.get('translations',{}).get('en',{})
         if not en.get('heading') or len(en.get('sections',[]))!=6 or any(not s.get('text','').strip() for s in en['sections']):raise ValueError('Complete English commentary required: '+p['id'])
         record_revision(p,'Bilingual commentary update')
         p['issues']=[i['date'] for i in issues if any(e['paper_id']==p['id'] for e in i['entries'])]
+    try:
+        from .identity import relations
+    except ImportError:
+        from identity import relations
+    for p in papers:p['related_papers']=relations(p,papers)
     write('papers.json',papers)
     revisions=read('revisions.json',{});by_id={p['id']:p for p in papers}
     rendered=[]

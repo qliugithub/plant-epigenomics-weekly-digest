@@ -28,6 +28,7 @@ jobs:
       - name: Validate bilingual records and reader tools
         run: |
           python tests/test_pipeline.py
+          python tests/test_import.py
           node tests/test_ui.cjs
       - name: Refresh candidate pool and bibliographic checks
         run: python scripts/refresh_resources.py

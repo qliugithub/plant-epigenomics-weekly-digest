@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: '0 1 * * 5' # Friday 09:00 Asia/Singapore; GitHub may delay execution.
   workflow_dispatch:
+    inputs:
+      import_doi:
+        description: 'Historical import: DOI or DOI-containing link (leave blank for weekly digest)'
+        required: false
+        type: string
 permissions:
   contents: write
   pages: write
@@ -21,6 +26,7 @@ jobs:
       - name: Validate bilingual records and reader tools
         run: |
           python tests/test_pipeline.py
+          python tests/test_import.py
           node tests/test_ui.cjs
       - name: Verify API access on manual runs
         if: github.event_name == 'workflow_dispatch'
@@ -51,6 +57,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
+          IMPORT_DOI: ${{ inputs.import_doi || '' }}
         run: python scripts/update_digest.py
       - name: Build article pages and status snapshot
         env:

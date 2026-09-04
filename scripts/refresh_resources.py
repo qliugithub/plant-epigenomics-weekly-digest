@@ -34,6 +34,11 @@ LANES={
  'general':'(plant OR Arabidopsis OR fruit) AND ("DNA methylation" OR "histone modification" OR "chromatin accessibility" OR "chromatin remodeling" OR "H3K27me3")',
  'method':'(plant OR Capsicum OR tomato OR Arabidopsis) AND ("Fiber-seq" OR "CUT&Tag" OR "single-cell multiome" OR "single-nucleus" OR "epigenome editing" OR "multi-omics database" OR "cis-regulatory grammar")'
 }
+try:
+    from .identity import duplicate
+except ImportError:
+    from identity import duplicate
+
 def collect(force=False):
     pool=read('candidates.json',{'records':[],'searches':[]});now=today()
     if not force and (pool.get('updated_at') or '')[:10]==str(now) and pool.get('searches') and all(s.get('ok') for s in pool['searches']):return pool
@@ -53,7 +58,7 @@ def collect(force=False):
                     if not title or not rid:continue
                     key=doi or source+':'+rid;old=existing.get(key,{})
                     abstract=plain(r.get('abstractText',''));text=(title+' '+abstract).lower();weights={'capsicum':8,'tomato':6,'solanaceae':6,'fruit':4,'methylation':4,'chromatin':4,'histone':4,'multi-omics':2}
-                    record=dict(key=key,title=title,doi=doi,date=r.get('firstPublicationDate',''),journal=r.get('journalInfo',{}).get('journal',{}).get('title') or 'Europe PMC',kind='预印本' if source=='PPR' or 'preprint' in json.dumps(r.get('pubTypeList',{})).lower() else '期刊记录（审稿状态请核对原文）',url='https://doi.org/'+doi if doi else 'https://europepmc.org/article/'+urllib.parse.quote(source)+'/'+urllib.parse.quote(rid),abstract=abstract,score=sum(w for term,w in weights.items() if term in text),lanes=sorted(set(old.get('lanes',[])+[lane])),first_seen=old.get('first_seen',timestamp()),last_seen=timestamp(),recommended=normalize(title) in seen_titles or bool(doi and doi in seen_dois),source='Europe PMC')
+                    record=dict(key=key,title=title,doi=doi,date=r.get('firstPublicationDate',''),journal=r.get('journalInfo',{}).get('journal',{}).get('title') or 'Europe PMC',kind='预印本' if source=='PPR' or 'preprint' in json.dumps(r.get('pubTypeList',{})).lower() else '期刊记录（审稿状态请核对原文）',url='https://doi.org/'+doi if doi else 'https://europepmc.org/article/'+urllib.parse.quote(source)+'/'+urllib.parse.quote(rid),abstract=abstract,score=sum(w for term,w in weights.items() if term in text),lanes=sorted(set(old.get('lanes',[])+[lane])),first_seen=old.get('first_seen',timestamp()),last_seen=timestamp(),recommended=bool(duplicate({'doi':doi,'title':title},papers)),source='Europe PMC')
                     existing[key]=record;count+=1
                 nxt=result.get('nextCursorMark')
                 if not batch or not nxt or nxt==cursor or count>=int(result.get('hitCount',0)):complete=True;break

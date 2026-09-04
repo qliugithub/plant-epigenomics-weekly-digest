@@ -24,10 +24,10 @@ with tempfile.TemporaryDirectory() as folder:
  assert store.read('issues.json',[])[0]['entries'][0]['revision']==1
  before=store.read('issues.json',[]);u.main();assert store.read('issues.json',[])==before
  # English omissions must fail before adding an issue or changing paper records.
- store.write('issues.json',[]);before=store.read('papers.json',[]);result['papers'][0]['translations']['en']['sections'].pop()
+ store.write('issues.json',[]);before=store.read('papers.json',[]);store.write('papers.json',[]);result['papers'][0]['translations']['en']['sections'].pop()
  try:u.main();raise AssertionError('Missing English accepted')
  except ValueError:pass
- assert store.read('papers.json',[])==before and store.read('issues.json',[])==[]
+ assert store.read('papers.json',[])==[] and store.read('issues.json',[])==[]
  # A revision leaves the prior snapshot intact.
  p=before[0];p['heading']='Revised';store.record_revision(p,'test');assert p['revision']==2
  h=store.read('revisions.json',{})[p['id']];assert h[0]['content']['heading']=='标题'

@@ -20,3 +20,10 @@ run(`R.restore({format:'plant-epigenomics-reading',version:1,records:{'${id}':{s
 assert(run('R.ris(catalog.papers.slice(0,1))').includes('TY  - JOUR'));assert(run('R.bibtex([{...catalog.papers[0],metadata:null,title:"A & B_{x}"}])').includes('A \\& B\\_\\{x\\}'));
 ctx.localStorage.setItem=()=>{throw Error('No quota')};assert.equal(run(`R.set('${id}',{note:'Keep in memory'})`),false);assert.equal(run(`R.backup().records['${id}'].note`),'Keep in memory');
 console.log('PASS: bilingual 13×6, combined tags, filters, topic views, reading state, atomic backup validation, citation escaping and unavailable-storage recovery.');
+assert.equal(run("importDOI('https://www.biorxiv.org/content/10.1234/abc123v2.full-text')"),'10.1234/abc123');
+run("view='import';lang='en';render()");assert.equal(document.getElementById('edition-title').textContent,'Historical import');
+let importNodes=walk(document.getElementById('topic-content')),input=importNodes.find(n=>n.tag==='input'),check=importNodes.find(n=>n.tag==='button');
+input.value=run("catalog.papers.map(p=>p.doi||p.url).find(v=>importDOI(v))");check.click();assert(text(document.getElementById('topic-content')).includes('Already archived'));
+input.value='10.1234/new-paper';check.click();assert(text(document.getElementById('topic-content')).includes('Run workflow'));
+input.value='https://example.com/no-doi';check.click();assert(text(document.getElementById('topic-content')).includes('No DOI recognized'));
+console.log('PASS: import navigation, existing DOI, administrator handoff and invalid input.');
