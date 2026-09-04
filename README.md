@@ -73,3 +73,13 @@ Imports require an exact DOI match and an indexed Europe PMC abstract. Unindexed
 Candidate selection rechecks canonical identities even when the candidate cache is reused. Exact DOI matches are deduplicated; title matching is used only when one record lacks a DOI. Different DOIs are retained as separate publication records, with bidirectional in-site links for matched Crossref preprint/version relations. Registered relations are incomplete and do not imply identical scientific conclusions.
 
 Additional offline regression check: `python tests/test_import.py`.
+
+## OpenAlex bibliometrics
+
+Paper cards now show **Cited by**, indexed reference counts, authors, author institutions, open-access/full-text links and annual citation records. Use the citation/date sort and access filter together with existing topic filters. Metrics always name OpenAlex and the retrieval date. The overview covers only the filtered papers; unknown values are not zero. Full bilingual commentary remains visible.
+
+`python scripts/refresh_openalex.py` refreshes cached metadata at most weekly during both publishing workflows. DOI lookups must also pass a title check. Without a DOI, only a unique exact-title and publication-year match is accepted. DOI redirects to a different publication version are withheld for review. Failed refreshes retain previous matched values and show a stale-data notice; failures cannot erase commentary. Metrics are live snapshots separate from immutable commentary revisions. OpenAlex counts may differ from other indexes, and new papers have had less time to accrue citations.
+
+The API is called during publishing, never by visitors. Optional repository secret `OPENALEX_API_KEY` supports a higher request budget; it is never written to public data. Small singleton lookups can run without a key under OpenAlex's current access policy. Rate limits and service failures show unknown/stale data rather than fabricated zeros.
+
+References: [OpenAlex work attributes](https://help.openalex.org/data/works/attributes/), [citation definitions](https://help.openalex.org/data/works/citations/), [DOI lookups](https://help.openalex.org/api/get-single-entities/).

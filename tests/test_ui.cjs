@@ -27,3 +27,11 @@ input.value=run("catalog.papers.map(p=>p.doi||p.url).find(v=>importDOI(v))");che
 input.value='10.1234/new-paper';check.click();assert(text(document.getElementById('topic-content')).includes('Run workflow'));
 input.value='https://example.com/no-doi';check.click();assert(text(document.getElementById('topic-content')).includes('No DOI recognized'));
 console.log('PASS: import navigation, existing DOI, administrator handoff and invalid input.');
+run("sortBy='cited';access='';view='library';query='';selected='';topicId=''");
+const sorted=run("sortPapers([{id:'unknown',date:'2026-09-01'},{id:'zero',date:'2026-08-01',openalex:{status:'matched',cited_by_count:0}},{id:'cited',date:'2026-07-01',openalex:{status:'matched',cited_by_count:12}}]).map(p=>p.id).join(',')");assert.equal(sorted,'cited,zero,unknown');
+assert.equal(run("citationCount({openalex:{status:'conflict',cited_by_count:99}})"),null);
+run("access='open'");assert.equal(run("matchesAccess({openalex:{status:'matched',is_oa:true}})"),true);assert.equal(run("matchesAccess({})"),false);
+run("access='unknown'");assert.equal(run("matchesAccess({})"),true);run("access=''");
+const metric=run("renderMetrics({openalex:{status:'matched',checked_at:'2026-09-04',cited_by_count:0,referenced_works_count:12,is_oa:true,authors:[],counts_by_year:[{year:2026,cited_by_count:0}]}},true)");assert(text(metric).includes('0'));assert(walk(metric).some(n=>n.tag==='table'));assert(!text(metric).includes('undefined'));
+const missing=run("renderMetrics({},false)");assert(text(missing).includes('unavailable'));assert(!text(missing).includes('undefined'));
+console.log('PASS: bibliometric sorting, unknown versus zero, OA filtering, annual table and missing-data rendering.');

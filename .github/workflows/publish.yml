@@ -29,9 +29,14 @@ jobs:
         run: |
           python tests/test_pipeline.py
           python tests/test_import.py
+          python tests/test_openalex.py
           node tests/test_ui.cjs
       - name: Refresh candidate pool and bibliographic checks
         run: python scripts/refresh_resources.py
+      - name: Refresh OpenAlex citations and access metadata
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: python scripts/refresh_openalex.py
       - name: Build article pages and status snapshot
         env:
           GITHUB_TOKEN: ${{ github.token }}
