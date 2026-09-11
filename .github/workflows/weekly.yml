@@ -1,28 +1,43 @@
 name: Weekly literature digest
+
 on:
+  # Off-hour scheduling reduces GitHub's top-of-hour queue delays.
   schedule:
-    - cron: '0 1 * * 5' # Friday 09:00 Asia/Singapore; GitHub may delay execution.
+    - cron: '17 1 * * 5' # Friday 09:17 Asia/Singapore — primary run
+    - cron: '17 2 * * 5' # Friday 10:17 Asia/Singapore — automatic retry
+    - cron: '17 3 * * 5' # Friday 11:17 Asia/Singapore — final automatic retry
+  # A workflow configuration change runs the full pipeline once for verification.
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/weekly.yml'
   workflow_dispatch:
     inputs:
       import_doi:
         description: 'Historical import: DOI or DOI-containing link (leave blank for weekly digest)'
         required: false
         type: string
+
 permissions:
   contents: write
   pages: write
   id-token: write
+
 concurrency:
   group: weekly-digest
   cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
       - name: Validate bilingual records and reader tools
         run: |
           python scripts/build_site.py
@@ -31,6 +46,7 @@ jobs:
           python tests/test_openalex.py
           python tests/test_journal_club.py
           node tests/test_ui.cjs
+
       - name: Verify API access on manual runs
         if: github.event_name == 'workflow_dispatch'
         env:
@@ -56,16 +72,29 @@ jobs:
               raise SystemExit("API response did not complete; check model settings.")
           print("API access verified. Existing digest content has not been changed.")
           PY
+
       - name: Retrieve and archive literature
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
           IMPORT_DOI: ${{ inputs.import_doi || '' }}
-        run: python scripts/update_digest.py
+        run: |
+          for attempt in 1 2 3; do
+            if python scripts/update_digest.py; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              echo "Attempt $attempt failed; retrying in 30 seconds."
+              sleep 30
+            fi
+          done
+          exit 1
+
       - name: Refresh OpenAlex citations and access metadata
         env:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: python scripts/refresh_openalex.py
+
       - name: Build article pages and status snapshot
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -73,6 +102,7 @@ jobs:
           python scripts/refresh_resources.py
           python scripts/capture_status.py
           python scripts/build_site.py
+
       - name: Commit archive
         run: |
           git config user.name 'Digest Bot'
@@ -82,13 +112,16 @@ jobs:
             git commit -m 'Archive weekly plant epigenomics digest'
             git push
           fi
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+
   deploy:
     needs: update
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
