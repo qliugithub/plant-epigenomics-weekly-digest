@@ -1,4 +1,5 @@
 name: Publish existing archive
+
 on:
   push:
     branches: [main]
@@ -6,26 +7,28 @@ on:
       - 'dist/**'
       - 'data/**'
       - 'scripts/**'
-      - 'scripts/catalog.py'
-      - 'scripts/capture_status.py'
       - '.github/workflows/publish.yml'
   workflow_dispatch:
+
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
+
 concurrency:
-  group: weekly-digest
-  cancel-in-progress: false
+  group: pages-publish
+  cancel-in-progress: true
+
 jobs:
   upload:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Validate bilingual records and reader tools
+      - name: Validate and build archive
         run: |
           python scripts/build_site.py
           python tests/test_pipeline.py
@@ -33,34 +36,15 @@ jobs:
           python tests/test_openalex.py
           python tests/test_journal_club.py
           node tests/test_ui.cjs
-      - name: Refresh candidate pool and bibliographic checks
-        run: python scripts/refresh_resources.py
-      - name: Refresh OpenAlex citations and access metadata
-        env:
-          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
-        run: python scripts/refresh_openalex.py
-      - name: Build article pages and status snapshot
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: |
-          python scripts/capture_status.py
-          python scripts/build_site.py
-      - name: Preserve refreshed records
-        run: |
-          git config user.name 'Digest Bot'
-          git config user.email 'digest-bot@users.noreply.github.com'
-          git add data dist
-          if ! git diff --cached --quiet; then
-            git commit -m 'Refresh candidate pool and bibliographic metadata'
-            git push
-          fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+
   deploy:
     needs: upload
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
