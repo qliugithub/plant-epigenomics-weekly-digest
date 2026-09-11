@@ -105,7 +105,7 @@ def main(import_doi=None):
             from journal_club import PROMPT, TRAITS, FIELDS
         prompt += PROMPT + '\nTRAITS: '+json.dumps(TRAITS)+'\nFIELDS: '+json.dumps(FIELDS)
         if import_doi:prompt += '\nThis is a requested historical import: analyze the one supplied paper regardless of its age. Return exactly one paper. Label it historical backfill, not new research this week.'
-        result=request('https://api.openai.com/v1/responses' ,dict(model=os.environ.get('OPENAI_MODEL','gpt-4.1-mini'),instructions=prompt,input=json.dumps(candidates,ensure_ascii=False),text={'format':{'type':'json_object'}},max_output_tokens=12000),key)
+        result=request('https://api.openai.com/v1/responses' ,dict(model=os.environ.get('OPENAI_MODEL','gpt-4.1-mini'),instructions=prompt,input='Return JSON only.\n'+json.dumps(candidates,ensure_ascii=False),text={'format':{'type':'json_object'}},max_output_tokens=12000),key)
         if result.get('status') != 'completed':
             raise RuntimeError('Analysis did not complete; archive preserved.')
         output=''.join(c.get('text','') for o in result.get('output',[]) for c in o.get('content',[]) if c.get('type')=='output_text')
