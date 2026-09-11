@@ -132,7 +132,18 @@ def main(import_doi=None):
         en_labels=['What is new','Mechanistic or methodological key point','Relevance to pepper research','Implications for the 22-tissue atlas','Limitations','What to read first']
         if not isinstance(english.get('heading'),str) or not english['heading'].strip() or len(english.get('sections',[]))!=6:raise ValueError('Complete English commentary required')
         if any(not isinstance(s,dict) or s.get('label')!=label or not isinstance(s.get('text'),str) or not s['text'].strip() for s,label in zip(english['sections'],en_labels)):raise ValueError('English sections invalid')
-        validate_classification(p.get('classification'))
+        raw_classification = p.get('classification')
+        if not isinstance(raw_classification, dict):
+            raw_classification = {}
+        # Keep only controlled-vocabulary values. Model formatting drift should not
+        # abort an otherwise valid weekly issue; unsupported labels remain unverified.
+        p['classification'] = {
+            key: [value for value in raw_classification.get(key, [])
+                  if value in config['values']]
+            if isinstance(raw_classification.get(key, []), list) else []
+            for key, config in TAXONOMY.items()
+        }
+        validate_classification(p['classification'])
         r=by_id[p['id']]
         paper = {**{k:r[k] for k in ['title','date','journal','kind','url']}, **{k:p[k] for k in ['priority','tags','heading','sections','classification','translations']}}
         try:
