@@ -88,7 +88,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-09-04T05:56:59.364827+00:00",
+      "checked_at": "2026-09-11T05:41:42.976065+00:00",
       "source_url": "https://api.crossref.org/works?query.title=iCUT%26Tag-based+pan-fruit+epigenomic+profiling+identifies+recurrent+H3K9+acetylation+enrichment+during+fleshy+fruit+ripening&rows=1",
       "update_check": "completed"
     },
@@ -291,7 +291,12 @@
     "kind": "预印本",
     "limit": "主要在拟南芥验证；这是安装甲基化的方法，不能替代对主动去甲基化的研究。",
     "metadata": {
+      "status": "matched",
       "bibliography": {
+        "title": "Chromatin-Assisted Targeting Enables Precise DNA Methylation Editing in Plants",
+        "doi": "10.64898/2026.08.25.747117",
+        "journal": "",
+        "date": "2026-08-26",
         "authors": [
           {
             "family": "He",
@@ -346,19 +351,14 @@
             "given": "Steven E."
           }
         ],
-        "date": "2026-08-26",
-        "doi": "10.64898/2026.08.25.747117",
-        "journal": "",
-        "title": "Chromatin-Assisted Targeting Enables Precise DNA Methylation Editing in Plants",
         "type": "posted-content"
       },
-      "checked_at": "2026-09-04T05:51:25.842825+00:00",
       "differences": [],
       "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-11T05:41:43.375183+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.25.747117",
-      "status": "matched",
-      "update_check": "completed",
-      "updates": []
+      "update_check": "completed"
     },
     "novelty": "SunTag-NOVA 将 TRBIP1、甲基化编辑模块与 CHLAMY 结合，旨在提高靶向甲基化效果并缓解脱靶和发育缺陷。",
     "priority": "全文精读",
@@ -630,7 +630,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-09-04T05:57:00.652303+00:00",
+      "checked_at": "2026-09-11T05:41:44.649503+00:00",
       "source_url": "https://api.crossref.org/works/10.1093%2Fplcell%2Fkoag182",
       "update_check": "completed"
     },
@@ -866,7 +866,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-09-04T05:57:01.896514+00:00",
+      "checked_at": "2026-09-11T05:41:45.348701+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.14.744917",
       "update_check": "completed"
     },
@@ -1090,7 +1090,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-09-04T05:57:02.235935+00:00",
+      "checked_at": "2026-09-11T05:41:46.887734+00:00",
       "source_url": "https://api.crossref.org/works/10.1038%2Fs41467-026-75947-0",
       "update_check": "completed"
     },
@@ -1297,7 +1297,12 @@
     "kind": "预印本",
     "limit": "并非果实表观组研究，对成熟机制的联系属于间接参考。",
     "metadata": {
+      "status": "matched",
       "bibliography": {
+        "title": "Multi-omics data analysis reveals a novel beneficial role for strigolactones in tomato",
+        "doi": "10.64898/2026.08.19.745791",
+        "journal": "",
+        "date": "2026-08-20",
         "authors": [
           {
             "family": "Abedini",
@@ -1344,19 +1349,14 @@
             "given": "Lemeng"
           }
         ],
-        "date": "2026-08-20",
-        "doi": "10.64898/2026.08.19.745791",
-        "journal": "",
-        "title": "Multi-omics data analysis reveals a novel beneficial role for strigolactones in tomato",
         "type": "posted-content"
       },
-      "checked_at": "2026-09-04T05:51:28.357600+00:00",
       "differences": [],
       "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-11T05:41:48.648998+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.19.745791",
-      "status": "matched",
-      "update_check": "completed",
-      "updates": []
+      "update_check": "completed"
     },
     "novelty": "在番茄氮限制体系中整合多组学，研究独脚金内酯的氮响应型根际作用。",
     "priority": "快速浏览",
@@ -1566,7 +1566,12 @@
     "kind": "预印本",
     "limit": "资源检索与育种是重点，表观组整合深度有限。",
     "metadata": {
+      "status": "matched",
       "bibliography": {
+        "title": "Potato Agent: AI-Driven Data and Knowledge Exploration on an Agent-Ready Potato Multi-Omics Platform",
+        "doi": "10.64898/2026.08.12.744101",
+        "journal": "",
+        "date": "2026-08-13",
         "authors": [
           {
             "family": "Dong",
@@ -1621,19 +1626,14 @@
             "given": "Yuxin"
           }
         ],
-        "date": "2026-08-13",
-        "doi": "10.64898/2026.08.12.744101",
-        "journal": "",
-        "title": "Potato Agent: AI-Driven Data and Knowledge Exploration on an Agent-Ready Potato Multi-Omics Platform",
         "type": "posted-content"
       },
-      "checked_at": "2026-09-04T05:51:29.123725+00:00",
       "differences": [],
       "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-11T05:41:50.628397+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.12.744101",
-      "status": "matched",
-      "update_check": "completed",
-      "updates": []
+      "update_check": "completed"
     },
     "novelty": "整合马铃薯种质、bulk RNA-seq 和空间组学资源，以自然语言驱动跨数据检索。",
     "priority": "快速浏览",
@@ -1877,7 +1877,12 @@
     "kind": "预印本",
     "limit": "拟南芥胚胎体系，与辣椒果实成熟距离较远。",
     "metadata": {
+      "status": "matched",
       "bibliography": {
+        "title": "The SWI/SNF subunit SWI3B functions with the m\n                  6\n                  A writer complex to establish embryo patterning in Arabidopsis",
+        "doi": "10.64898/2026.08.13.744595",
+        "journal": "",
+        "date": "2026-08-13",
         "authors": [
           {
             "family": "Gong",
@@ -1900,19 +1905,14 @@
             "given": "Thomas"
           }
         ],
-        "date": "2026-08-13",
-        "doi": "10.64898/2026.08.13.744595",
-        "journal": "",
-        "title": "The SWI/SNF subunit SWI3B functions with the m\n                  6\n                  A writer complex to establish embryo patterning in Arabidopsis",
         "type": "posted-content"
       },
-      "checked_at": "2026-09-04T05:51:29.933544+00:00",
       "differences": [],
       "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-11T05:41:50.803268+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.13.744595",
-      "status": "matched",
-      "update_check": "completed",
-      "updates": []
+      "update_check": "completed"
     },
     "novelty": "SWI3B 与 m6A writer MTA 协作，连接染色质重塑、转录本稳定性与胚胎模式形成。",
     "priority": "背景参考",
@@ -2142,7 +2142,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-09-04T05:57:02.361734+00:00",
+      "checked_at": "2026-09-11T05:41:51.669625+00:00",
       "source_url": "https://api.crossref.org/works/10.1093%2Fhr%2Fuhag076",
       "update_check": "completed",
       "history": [
@@ -2456,7 +2456,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-09-04T05:57:03.713309+00:00",
+      "checked_at": "2026-09-11T05:41:52.394492+00:00",
       "source_url": "https://api.crossref.org/works/10.1038%2Fs41467-026-73180-3",
       "update_check": "completed",
       "history": [
@@ -2805,7 +2805,12 @@
     "kind": "预印本",
     "limit": "模型未在辣椒或茄科训练，跨物种直接预测需要验证。",
     "metadata": {
+      "status": "matched",
       "bibliography": {
+        "title": "Sequence-based modeling of plant epigenomes reveals cell-type-specific\n                  cis\n                  -regulatory grammar",
+        "doi": "10.64898/2026.07.22.740070",
+        "journal": "",
+        "date": "2026-07-22",
         "authors": [
           {
             "family": "Yao",
@@ -2836,19 +2841,14 @@
             "given": "Robert J."
           }
         ],
-        "date": "2026-07-22",
-        "doi": "10.64898/2026.07.22.740070",
-        "journal": "",
-        "title": "Sequence-based modeling of plant epigenomes reveals cell-type-specific\n                  cis\n                  -regulatory grammar",
         "type": "posted-content"
       },
-      "checked_at": "2026-09-04T05:51:31.739083+00:00",
       "differences": [],
       "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-11T05:41:53.167564+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.22.740070",
-      "status": "matched",
-      "update_check": "completed",
-      "updates": []
+      "update_check": "completed"
     },
     "novelty": "以序列预测单细胞染色质可及性，并研究复合 motif、间距、方向和协同效应。",
     "priority": "全文精读",
@@ -3044,7 +3044,12 @@
     "kind": "预印本",
     "limit": "在果实组织的适用性仍需验证。",
     "metadata": {
+      "status": "matched",
       "bibliography": {
+        "title": "Easy-Multiome enables joint profiling of gene expression and chromatin accessibility in single cells",
+        "doi": "10.64898/2026.07.15.738754",
+        "journal": "",
+        "date": "2026-07-21",
         "authors": [
           {
             "family": "Zhang",
@@ -3059,19 +3064,14 @@
             "given": "Robert J."
           }
         ],
-        "date": "2026-07-21",
-        "doi": "10.64898/2026.07.15.738754",
-        "journal": "",
-        "title": "Easy-Multiome enables joint profiling of gene expression and chromatin accessibility in single cells",
         "type": "posted-content"
       },
-      "checked_at": "2026-09-04T05:51:32.233149+00:00",
       "differences": [],
       "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-11T05:41:53.831889+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.15.738754",
-      "status": "matched",
-      "update_check": "completed",
-      "updates": []
+      "update_check": "completed"
     },
     "novelty": "在 droplet-based scATAC-seq 前增加原位逆转录，从同一细胞核联合获取 RNA 与 ATAC。",
     "priority": "快速浏览",
@@ -3236,7 +3236,12 @@
     "kind": "预印本",
     "limit": "组织梯度包含细胞组成差异，关联不能证明甲基化导致表达改变。",
     "metadata": {
+      "status": "matched",
       "bibliography": {
+        "title": "Genic Position and Methylation Context Shape DNA Methylation-Expression Relationships in Rice Internode Development",
+        "doi": "10.64898/2026.07.09.737558",
+        "journal": "",
+        "date": "2026-07-10",
         "authors": [
           {
             "family": "Nonavinakere Chandrakanth",
@@ -3299,19 +3304,14 @@
             "given": "Laura E."
           }
         ],
-        "date": "2026-07-10",
-        "doi": "10.64898/2026.07.09.737558",
-        "journal": "",
-        "title": "Genic Position and Methylation Context Shape DNA Methylation-Expression Relationships in Rice Internode Development",
         "type": "posted-content"
       },
-      "checked_at": "2026-09-04T05:51:33.022565+00:00",
       "differences": [],
       "relations": [],
+      "updates": [],
+      "checked_at": "2026-09-11T05:41:54.090187+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.09.737558",
-      "status": "matched",
-      "update_check": "completed",
-      "updates": []
+      "update_check": "completed"
     },
     "novelty": "联合连续水稻节间 RNA-seq 与 WGBS，比较不同基因位置和 CG、CHG、CHH context 的表达关系。",
     "priority": "快速浏览",
