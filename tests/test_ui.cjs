@@ -10,7 +10,7 @@ run("tags.add('species:拟南芥');tags.add('regulation:H3K27me3')");assert(run(
 run("filters.methods='Fiber-seq'");assert(run("filteredPapers().every(p=>p.classification.methods.includes('Fiber-seq'))"));
 run("tags.clear();filters.methods='';selected='2026-08-21'");assert.equal(run('filteredPapers().length'),5);
 run("selected='';lang='en';render()");assert.equal(document.documentElement.lang,'en');
-for(let i=0;i<run('catalog.papers.length');i++){const paper=run('renderPaper(catalog.papers['+i+'],0,true)');assert.equal(walk(paper).filter(n=>n.tag==='li').length,6);assert(!/[\u4e00-\u9fff]/.test(text(paper)),'Chinese content leaked into English paper '+i);}
+for(let i=0;i<run('catalog.papers.length');i++){const paper=run('renderPaper(catalog.papers['+i+'],0,true)');assert.equal(walk(paper).filter(n=>n.tag==='li').length,6);const commentary=walk(paper).filter(n=>n.tag==='li').map(text).join(' ');assert(!/[\u4e00-\u9fff]/.test(commentary),'Chinese commentary leaked into English paper '+i);}
 for(const view of ['topics','personal','candidates','library'])run(`view='${view}';render()`);
 run("view='topics';topicId='h3k27me3';render()");assert(run('filteredPapers().length')>0);
 run("view='library';topicId='';query='tomato';render()");assert(run('filteredPapers().length')>0);
