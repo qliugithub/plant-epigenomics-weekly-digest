@@ -43,6 +43,6 @@ const jcBefore=run('JSON.stringify(window.JournalClub.backup())');
 assert.throws(()=>run("window.JournalClub.restore({format:'pepper-improvement-journal-club',version:1,records:{bad:{}}})"));assert.equal(run('JSON.stringify(window.JournalClub.backup())'),jcBefore);
 run(`window.JournalClub.restore({format:'pepper-improvement-journal-club',version:1,records:{'${jcID}':{tracked:false,state:'paused',reason:'old',action:'',owner:'',due:'',updated_at:'2020-01-01'}}})`);assert.equal(run(`window.JournalClub.get('${jcID}').state`),'evidence');
 assert.equal(run(`window.JournalClub.set('${jcID}',{reason:'Preserve on quota failure'})`),false);assert.equal(run(`window.JournalClub.get('${jcID}').reason`),'Preserve on quota failure');
-const sourceRecords=run('JSON.stringify(window.DigestReader.backup())');run(`window.JournalClub.set('${jcID}',{state:'priority'})`);assert.equal(run('JSON.stringify(window.DigestReader.backup())'),sourceRecords);
+const sourceRecords=run('JSON.stringify(window.DigestReader.backup().records)');run(`window.JournalClub.set('${jcID}',{state:'priority'})`);assert.equal(run('JSON.stringify(window.DigestReader.backup().records)'),sourceRecords);
 run("lang='zh';view='journalclub';render()");assert(text(document.getElementById('papers')).includes('下一步最小行动'));
 console.log('PASS: Journal Club routes, bilingual cards, project decisions, atomic backup import and isolated local storage.');
