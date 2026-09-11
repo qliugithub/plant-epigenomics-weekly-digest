@@ -6,6 +6,7 @@ import os
 import re
 import urllib.parse
 import urllib.request
+import urllib.error
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -41,8 +42,12 @@ def request(url, payload=None, key=None):
     if key:
         headers['Authorization'] = 'Bearer ' + key
     req = urllib.request.Request(url, data=json.dumps(payload).encode() if payload is not None else None, headers=headers)
-    with urllib.request.urlopen(req, timeout=120) as r:
-        return json.load(r)
+    try:
+        with urllib.request.urlopen(req, timeout=300) as r:
+            return json.load(r)
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode('utf-8', errors='replace')[:2000]
+        raise RuntimeError(f'HTTP {exc.code} from {url}: {detail}') from exc
 
 def normalize(title):
     return re.sub(r'\W+', '', title).lower()
@@ -82,7 +87,7 @@ def main(import_doi=None):
     # Round-robin lane quotas prevent general plant papers from drowning out methods.
     chosen={}
     for lane in ['improvement','solanaceae','method','general']:
-        for r in sorted([r for r in eligible if lane in r['lanes']],key=lambda r:r['score'],reverse=True)[:9]:chosen[r['key']]=r
+        for r in sorted([r for r in eligible if lane in r['lanes']],key=lambda r:r['score'],reverse=True)[:6]:chosen[r['key']]=r
     if import_doi:chosen={record['key']:record}
     candidates=[{**r,'id':i} for i,r in enumerate(chosen.values())]
     if not candidates:
@@ -100,7 +105,7 @@ def main(import_doi=None):
             from journal_club import PROMPT, TRAITS, FIELDS
         prompt += PROMPT + '\nTRAITS: '+json.dumps(TRAITS)+'\nFIELDS: '+json.dumps(FIELDS)
         if import_doi:prompt += '\nThis is a requested historical import: analyze the one supplied paper regardless of its age. Return exactly one paper. Label it historical backfill, not new research this week.'
-        result=request('https://api.openai.com/v1/responses' ,dict(model=os.environ.get('OPENAI_MODEL','gpt-4.1-mini'),instructions=prompt,input=json.dumps(candidates,ensure_ascii=False),text={'format':{'type':'json_object'}},max_output_tokens=20000),key)
+        result=request('https://api.openai.com/v1/responses' ,dict(model=os.environ.get('OPENAI_MODEL','gpt-4.1-mini'),instructions=prompt,input=json.dumps(candidates,ensure_ascii=False),text={'format':{'type':'json_object'}},max_output_tokens=12000),key)
         if result.get('status') != 'completed':
             raise RuntimeError('Analysis did not complete; archive preserved.')
         output=''.join(c.get('text','') for o in result.get('output',[]) for c in o.get('content',[]) if c.get('type')=='output_text')
