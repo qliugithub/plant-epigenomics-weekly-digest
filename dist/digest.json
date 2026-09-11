@@ -3636,6 +3636,1118 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-09-11",
+      "entry_type": "weekly",
+      "summary": "本期聚焦辣椒及茄科作物在表观遗传调控、果实发育以及多组学分析方面的最新进展，涵盖DNA甲基化、组蛋白修饰、染色质可及性和转录因子网络。重点审视了辣椒AP2/ERF家族转录因子系统鉴定与生物学功能、辣椒抗寒机制的多组学解析及精准育种策略，以及果实专一启动子的调控特点和应用前景。此外，纳入了甘菊中ABA调控盐胁迫的表观遗传机制研究，为辣椒和茄科作物环境适应和抗逆提供启示。选文还包含了组学资源构建和表观调控综述，为辣椒22组织图谱及果实成熟转录调控网络研究提供参考。",
+      "summary_en": "This issue focuses on recent advances in epigenetic regulation, fruit development, and multi-omics in Capsicum and Solanaceae crops, covering DNA methylation, histone modifications, chromatin accessibility, and transcription factor networks. It highlights the genome-wide identification and functional analysis of the AP2/ERF transcription factor family in chili pepper, multi-omics dissection of cold tolerance and precision breeding strategies in pepper, and the regulatory features and applications of fruit-specific promoters. Studies on ABA-mediated epigenetic modulation of salt tolerance in chrysanthemum provide insights into environmental adaptation in Solanaceae. The selected papers also include resource generation and comprehensive reviews on epigenetic regulation, offering valuable references for the pepper 22-tissue atlas and fruit ripening transcriptional regulatory networks.",
+      "entries": [
+        {
+          "paper_id": "paper-0cae7891e6459970",
+          "revision": 1,
+          "priority": "全文精读"
+        },
+        {
+          "paper_id": "paper-d00312034f6d6e6d",
+          "revision": 1,
+          "priority": "全文精读"
+        },
+        {
+          "paper_id": "paper-5160a1db5397390a",
+          "revision": 1,
+          "priority": "快速浏览"
+        },
+        {
+          "paper_id": "paper-ded89fbe89e606b9",
+          "revision": 1,
+          "priority": "快速浏览"
+        },
+        {
+          "paper_id": "paper-e843643c092ab92e",
+          "revision": 1,
+          "priority": "背景参考"
+        }
+      ],
+      "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified.",
+      "papers": [
+        {
+          "title": "Genome-Wide Identification of AP2/ERF Transcription Factors in <i>Capsicum annuum</i> and Preliminary Functional Analysis of <i>CaBBM</i>.",
+          "date": "2026-07-24",
+          "journal": "Plants (Basel, Switzerland)",
+          "kind": "期刊记录（审稿状态请核对原文）",
+          "url": "https://doi.org/10.3390/plants15152266",
+          "priority": "全文精读",
+          "tags": [
+            "辣椒",
+            "转录因子",
+            "多组学"
+          ],
+          "heading": "辣椒AP2/ERF转录因子家族系统鉴定与CaBBM功能初探",
+          "sections": [
+            {
+              "label": "真正的新发现",
+              "text": "基于辣椒最新的无 gaps 全基因组组装，重新注释了AP2/ERF转录因子家族，鉴定出155个高可信成员，并对其亚家族、基因结构与保守结构域进行了系统分析。确定CaBBM作为AP2亚家族关键基因，在雄蕊中特异高表达。异源表达CaBBM于拟南芥可引发根系短化、叶片和花器官缩小、花粉数目减少等生长发育表型。",
+              "kind": "reported"
+            },
+            {
+              "label": "机制或方法上的关键点",
+              "text": "整合全基因组系统注释、进化树构建、基因结构与保守序列分析、顺式元件预测及基因表达谱，结合qRT-PCR、启动子GUS报告基因分析和亚细胞定位，全面揭示CaBBM功能特征。采用酵母双杂交筛选识别了12个潜在蛋白互作伙伴，但具体结合机制未有详细论述。",
+              "kind": "reported"
+            },
+            {
+              "label": "与你的辣椒研究关系",
+              "text": "该研究补充了辣椒22组织图谱中的AP2/ERF家族基因注释和表达数据，提供了CaBBM在雄蕊中可能的调控角色，为解析果实发育及理化状态调控转录因子网络提供新的候选基因。",
+              "kind": "application"
+            },
+            {
+              "label": "对22组织图谱的具体启示",
+              "text": "通过qRT-PCR和GUS染色实验证实了CaBBM的组织特异表达，结合亚细胞定位支持其核定位功能，有助于结合ATAC-seq和CUT&Tag数据深入理解其调控机制及在果实组织中的功能模块。",
+              "kind": "application"
+            },
+            {
+              "label": "需要注意",
+              "text": "异源表达结果展示了生长发育调控潜力，但辣椒本体的遗传功能验证与互作蛋白功能相关机制尚未阐明，未来需进行辣椒中基因敲除或过表达研究。",
+              "kind": "limitation"
+            },
+            {
+              "label": "建议优先看",
+              "text": "关注辣椒AP2/ERF家族系统注释，CaBBM的表达谱及其功能分析，及酵母双杂交筛选候选互作蛋白，结合22组织图谱的基因表达和组蛋白标记数据。",
+              "kind": "reading"
+            }
+          ],
+          "classification": {
+            "species": [
+              "辣椒"
+            ],
+            "process": [
+              "营养生长"
+            ],
+            "regulation": [
+              "其他或未涉及"
+            ],
+            "methods": [
+              "多组学"
+            ],
+            "evidence_type": [
+              "组学关联"
+            ],
+            "article_type": [
+              "机制研究"
+            ]
+          },
+          "translations": {
+            "en": {
+              "heading": "Genome-wide identification of AP2/ERF transcription factors in Capsicum annuum and preliminary functional analysis of CaBBM",
+              "sections": [
+                {
+                  "label": "What is new",
+                  "text": "Using the latest gap-free genome assembly of pepper, 155 high-confidence AP2/ERF family members were re-annotated and systematically analyzed by subfamily, gene structure, and conserved domains. CaBBM was identified as a key AP2 subfamily gene preferentially expressed in stamens. Heterologous expression of CaBBM in Arabidopsis caused phenotypes such as shortened roots, smaller leaves and floral organs, and decreased pollen number."
+                },
+                {
+                  "label": "Mechanistic or methodological key point",
+                  "text": "Comprehensive approaches including genome-wide annotation, phylogenetics, gene structure and motif analysis, cis-element prediction, gene expression profiling, qRT-PCR, promoter-GUS reporter assay, subcellular localization, and yeast two-hybrid screening were integrated to characterize CaBBM function. Details of specific molecular interactions require further study."
+                },
+                {
+                  "label": "Relevance to pepper research",
+                  "text": "This study enriches the AP2/ERF gene annotation and expression data in pepper 22-tissue atlas and highlights CaBBM’s possible regulatory role in stamen development, providing new candidate genes for fruit development and physiological regulation transcriptional networks."
+                },
+                {
+                  "label": "Implications for the 22-tissue atlas",
+                  "text": "Expression specificity validated by qRT-PCR and GUS assays and nuclear localization support functional roles, facilitating integration with ATAC-seq and CUT&Tag data for mechanistic insights in fruit tissues."
+                },
+                {
+                  "label": "Limitations",
+                  "text": "Heterologous expression shows developmental regulation potential, yet in vivo functional validation and detailed interaction mechanisms remain to be elucidated in pepper."
+                },
+                {
+                  "label": "What to read first",
+                  "text": "Focus on genome-wide AP2/ERF annotation, CaBBM expression and functional analyses, candidate interacting proteins from yeast two-hybrid, and integrate with multi-omics maps."
+                }
+              ]
+            }
+          },
+          "journal_club": {
+            "traits": [
+              "fruit_quality"
+            ],
+            "kind": "transfer",
+            "origin": "literature",
+            "conservation": "unverified",
+            "zh": {
+              "goal": "改善果实发育和品质调控",
+              "strategy_results": "辣椒中鉴定了AP2/ERF转录因子CaBBM，异源表达于拟南芥导致根系短化、花器发育异常等表型",
+              "pepper_basis": "辣椒中该基因高表达且具有核定位，功能迁移合理，缺乏辣椒本体遗传验证",
+              "engineering_outcome": "拟议辣椒中调控CaBBM表达以优化果实形态和发育过程",
+              "tradeoffs_metrics": "可能影响花粉产量及生长速率，成功指标为果实品质和生殖发育的综合改善",
+              "next_step": "辣椒基因编辑或转基因验证CaBBM的具体功能和调控网络"
+            },
+            "en": {
+              "goal": "Improve fruit development and quality regulation",
+              "strategy_results": "CaBBM identified in pepper; heterologous expression in Arabidopsis caused root shortening and altered floral morphology",
+              "pepper_basis": "High expression and nuclear localization in pepper suggest functional conservation, but lacks in planta genetic validation",
+              "engineering_outcome": "Propose modulation of CaBBM expression in pepper to optimize fruit morphology and development",
+              "tradeoffs_metrics": "Potential impacts on pollen yield and growth rate; success measured by combined fruit quality and reproductive development improvements",
+              "next_step": "Genetic editing or transgenic validation of CaBBM function and regulatory network in pepper"
+            }
+          },
+          "doi": "10.3390/plants15152266",
+          "evidence": {
+            "source_type": "abstract",
+            "reading_depth": "仅摘要",
+            "verification": "待核验",
+            "classification_status": "由摘要自动归类，待核验",
+            "source_url": "https://doi.org/10.3390/plants15152266",
+            "retrieved_at": "2026-09-11T05:52:49.055974+00:00",
+            "abstract": "The AP2/ERF transcription factor family is one of the largest transcription factor families in plants and plays essential roles in growth and development. Chili pepper, as a representative member of the Solanaceae family, is an important vegetable crop with enormous economic value. In this study, using the recently released gap-free telomere-to-telomere genome assembly of pepper, we re-annotated the AP2/ERF transcription factor family and identified 155 high-confidence members. Phylogenetic analysis classified these genes into five subfamilies: AP2 (19), ERF (82), DREB (51), RAV (1), and Soloist (2). Comprehensive analyses of gene structure, conserved motifs, chromosomal distribution, collinearity, cis-elements, and expression profiles revealed substantial structural conservation and functional diversification within the family. Expression profiling highlighted CaBBM, a key member of the AP2 subfamily, as a candidate developmental regulator, prompting further functional characterization. Expression analyses using qRT-PCR and promoter-GUS assays showed that CaBBM was preferentially expressed in stamens, while subcellular localization assays confirmed its nuclear localization. Preliminary analysis of biological functions suggests that heterologous expression of CaBBM in Arabidopsis can lead to phenotypes such as shorter primary roots, smaller leaves and floral organs, and decreased pollen number. In addition, yeast two-hybrid screening identified 12 candidate interacting proteins. These results provide a comprehensive framework for understanding the AP2/ERF family in chili pepper and lay a foundation for elucidating the function and regulatory mechanisms of CaBBM.",
+            "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+          },
+          "id": "paper-0cae7891e6459970",
+          "entry_type": "backfill",
+          "revision": 1,
+          "openalex": {
+            "status": "matched",
+            "match_method": "doi_title",
+            "checked_at": "2026-09-11T05:52:49.597994+00:00",
+            "source_updated_at": "2026-08-21T09:56:20.448147",
+            "id": "https://openalex.org/W7170598721",
+            "doi": "10.3390/plants15152266",
+            "cited_by_count": 0,
+            "referenced_works_count": 60,
+            "counts_by_year": [],
+            "authors": [
+              {
+                "name": "Tong Zhao",
+                "url": "https://openalex.org/A5111655842",
+                "orcid": "https://orcid.org/0009-0006-7641-0710"
+              },
+              {
+                "name": "Jianmin Wu",
+                "url": "https://openalex.org/A5020280128",
+                "orcid": "https://orcid.org/0000-0002-0999-9194"
+              },
+              {
+                "name": "Lijun Xian",
+                "url": "https://openalex.org/A5143539635",
+                "orcid": null
+              },
+              {
+                "name": "熊艳杰",
+                "url": "https://openalex.org/A5039779724",
+                "orcid": null
+              },
+              {
+                "name": "Kaiwen Liu",
+                "url": "https://openalex.org/A5075048512",
+                "orcid": "https://orcid.org/0000-0002-2186-8031"
+              },
+              {
+                "name": "Weiqiang Li",
+                "url": "https://openalex.org/A5100681439",
+                "orcid": "https://orcid.org/0000-0002-2324-0387"
+              },
+              {
+                "name": "Iqbal Hussain",
+                "url": "https://openalex.org/A5101905438",
+                "orcid": "https://orcid.org/0000-0001-8621-6889"
+              },
+              {
+                "name": "Xiaolin Yu",
+                "url": "https://openalex.org/A5057226677",
+                "orcid": "https://orcid.org/0000-0003-3256-0638"
+              }
+            ],
+            "institutions": [
+              {
+                "name": "Ministry of Agriculture and Rural Affairs",
+                "url": "https://openalex.org/I4210151987",
+                "country": "CN"
+              },
+              {
+                "name": "Zhejiang University",
+                "url": "https://openalex.org/I76130692",
+                "country": "CN"
+              },
+              {
+                "name": "Sanya University",
+                "url": "https://openalex.org/I4210149102",
+                "country": "CN"
+              }
+            ],
+            "is_oa": true,
+            "oa_status": "gold",
+            "oa_url": "https://doi.org/10.3390/plants15152266",
+            "pdf_url": null,
+            "is_retracted": false
+          },
+          "metadata": {
+            "status": "matched",
+            "bibliography": {
+              "title": "Genome-Wide Identification of AP2/ERF Transcription Factors in Capsicum annuum and Preliminary Functional Analysis of CaBBM",
+              "doi": "10.3390/plants15152266",
+              "journal": "Plants",
+              "date": "2026-07-24",
+              "authors": [
+                {
+                  "family": "Zhao",
+                  "given": "Tong"
+                },
+                {
+                  "family": "Wu",
+                  "given": "Jiayao"
+                },
+                {
+                  "family": "Xian",
+                  "given": "Lijun"
+                },
+                {
+                  "family": "Xiong",
+                  "given": "Yanjie"
+                },
+                {
+                  "family": "Liu",
+                  "given": "Kaiwen"
+                },
+                {
+                  "family": "Li",
+                  "given": "Weiqiang"
+                },
+                {
+                  "family": "Hussain",
+                  "given": "Iqbal"
+                },
+                {
+                  "family": "Yu",
+                  "given": "Xiaolin"
+                }
+              ],
+              "type": "journal-article"
+            },
+            "differences": [],
+            "relations": [],
+            "updates": [],
+            "checked_at": "2026-09-11T05:53:13.450153+00:00",
+            "source_url": "https://api.crossref.org/works/10.3390%2Fplants15152266",
+            "update_check": "completed"
+          },
+          "issues": [
+            "2026-09-11"
+          ],
+          "related_papers": []
+        },
+        {
+          "title": "Engineering cold stress resilience in capsicum annuum through functional genomics and precision breeding.",
+          "date": "2026-09-10",
+          "journal": "Plant cell reports",
+          "kind": "期刊记录（审稿状态请核对原文）",
+          "url": "https://doi.org/10.1007/s00299-026-03965-9",
+          "priority": "全文精读",
+          "tags": [
+            "辣椒",
+            "果实成熟",
+            "多组学",
+            "表观调控"
+          ],
+          "heading": "辣椒冷胁迫耐受的多组学解析及精准育种策略",
+          "sections": [
+            {
+              "label": "真正的新发现",
+              "text": "综述整合了辣椒冷耐受的分子机制，涵盖信号感知、转录调控、代谢重编程和激素互作，指出了多基因性、基因功能冗余及低遗传多样性对传统育种的限制。引入Precision Breeding 2.0框架，通过多组学目标识别与精准基因组编辑结合，实现复杂调控网络的多基因工程改造。",
+              "kind": "reported"
+            },
+            {
+              "label": "机制或方法上的关键点",
+              "text": "利用多组学数据阐明DREB/CBF通路的调控网络，提出等位基因特异性编辑、新型负调控因子的靶向敲除，结合转录组、蛋白质组、代谢组、高通量表型组及快速育种策略，为辣椒快速培育耐寒优良品种提供系统方案。",
+              "kind": "reported"
+            },
+            {
+              "label": "与你的辣椒研究关系",
+              "text": "对辣椒22组织图谱中冷应答相关基因及表观调控状态提供全面解读，利于结合H3K27me3等组蛋白标记和DNA甲基化数据解析耐寒相关表型遗传基础。",
+              "kind": "application"
+            },
+            {
+              "label": "对22组织图谱的具体启示",
+              "text": "强调了整合多组学如RNA-seq、CUT&Tag和WGBS在挖掘关键调控因子中的应用，提醒关注冷应答组织中的转录因子结合和染色质状态动态变化。",
+              "kind": "application"
+            },
+            {
+              "label": "需要注意",
+              "text": "尽管提出策略前景广阔，但缺少具体转基因或基因编辑验证数据，部分耐寒机制的表观遗传调控需实验证实。",
+              "kind": "limitation"
+            },
+            {
+              "label": "建议优先看",
+              "text": "关注DREB/CBF通路调控网络、多因子编辑策略以及整合多组学数据的案例，有助于精准改善复杂性状。",
+              "kind": "reading"
+            }
+          ],
+          "classification": {
+            "species": [
+              "辣椒"
+            ],
+            "process": [
+              "胁迫响应"
+            ],
+            "regulation": [
+              "DNA甲基化",
+              "H3K27me3"
+            ],
+            "methods": [
+              "多组学"
+            ],
+            "evidence_type": [],
+            "article_type": [
+              "综述或实质分析"
+            ]
+          },
+          "translations": {
+            "en": {
+              "heading": "Multi-omics dissection of cold stress resilience in Capsicum annuum and precision breeding strategies",
+              "sections": [
+                {
+                  "label": "What is new",
+                  "text": "This review integrates molecular mechanisms of cold tolerance in pepper, including signal perception, transcriptional regulation, metabolic reprogramming, and hormone interactions. It highlights limitations of traditional breeding due to polygenicity, gene redundancy, and low genetic diversity. The Precision Breeding 2.0 framework combines multi-omics target identification with genome editing for multiplex engineering of complex regulatory networks."
+                },
+                {
+                  "label": "Mechanistic or methodological key point",
+                  "text": "Multi-omics data elucidate the DREB/CBF regulatory network. Allele-specific editing and targeted knockout of negative regulators are proposed, integrated with transcriptomics, proteomics, metabolomics, high-throughput phenomics, and speed breeding to accelerate cold-tolerant cultivar development."
+                },
+                {
+                  "label": "Relevance to pepper research",
+                  "text": "Provides comprehensive interpretation of cold-responsive genes and epigenetic states in the pepper 22-tissue atlas, facilitating the study of histone marks like H3K27me3 and DNA methylation underlying cold tolerance traits."
+                },
+                {
+                  "label": "Implications for the 22-tissue atlas",
+                  "text": "Emphasizes integration of RNA-seq, CUT&Tag, and WGBS to dissect key regulatory factors and chromatin dynamics in cold response tissues."
+                },
+                {
+                  "label": "Limitations",
+                  "text": "While promising strategies are outlined, there is a lack of direct genetic engineering or editing validation, and some epigenetic regulatory mechanisms require experimental confirmation."
+                },
+                {
+                  "label": "What to read first",
+                  "text": "Focus on DREB/CBF pathway regulation, multi-factor editing approaches, and case studies of multi-omics data integration for complex trait improvement."
+                }
+              ]
+            }
+          },
+          "journal_club": null,
+          "doi": "10.1007/s00299-026-03965-9",
+          "evidence": {
+            "source_type": "abstract",
+            "reading_depth": "仅摘要",
+            "verification": "待核验",
+            "classification_status": "由摘要自动归类，待核验",
+            "source_url": "https://doi.org/10.1007/s00299-026-03965-9",
+            "retrieved_at": "2026-09-11T05:52:49.056061+00:00",
+            "abstract": "Key messageThis review synthesizes the molecular mechanisms of cold tolerance in pepper, integrating multi-omics data,genome editing, and precision breeding strategies to accelerate the development of cold-resilient cultivars. Cold stress is a significant environmental factor that affects the growth, productivity, and fruit quality of Capsicum annuum by impairing membrane integrity photosynthesis and cellular redox homeostasis. Although pepper has several endogenous cold-responsive regulators such as CaNAC035 and CabHLH035, along with antioxidant defense systems, its cold tolerance remains limited due to low transcriptional activation of key regulators, functional redundancy among cold-responsive genes, and the polygenicity of cold tolerance. These complexities, combined with low genetic diversity and linkage drag, have hindered the improvement of cold-resistant cultivars through conventional breeding. This review brings together the recent progress in understanding the molecular mechanisms of cold stress perception, signal transduction, transcriptional regulation, metabolic reprogramming, and phytohormone interactions in pepper. Precision Breeding 2.0 is a new innovation that combines the integration of multi-omics-based target identification with next-generation genome-editing techniques, allowing precise and multiplex engineering of complex and interconnected regulatory networks instead of single genes. We cover new approaches such as engineering the DREB/CBF pathway, allele-specific editing and targeted disruption of negative regulators to enhance the pathway(s) involved in cold response. Moreover, we propose a roadmap for integration of transcriptomics, proteomics, metabolomics, high-throughput phenomics, and speed breeding to accelerate the identification, validation, and deployment of superior alleles to boost cold tolerance. This review provides a foundation for developing climate-resilient pepper cultivars by connecting functional genomics with precision genome engineering approaches to maintain productivity under variable environmental conditions.",
+            "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+          },
+          "id": "paper-d00312034f6d6e6d",
+          "entry_type": "weekly",
+          "revision": 1,
+          "openalex": {
+            "status": "not_found",
+            "last_attempt_at": "2026-09-11T05:52:49.649068+00:00"
+          },
+          "metadata": {
+            "status": "matched",
+            "bibliography": {
+              "title": "Engineering cold stress resilience in capsicum annuum through functional genomics and precision breeding",
+              "doi": "10.1007/s00299-026-03965-9",
+              "journal": "Plant Cell Reports",
+              "date": "2026-09-10",
+              "authors": [
+                {
+                  "family": "Ullah",
+                  "given": "Ikram"
+                },
+                {
+                  "family": "Ahmad",
+                  "given": "Naveed"
+                },
+                {
+                  "family": "Bhat",
+                  "given": "Aashaq Hussain"
+                },
+                {
+                  "family": "Hussain",
+                  "given": "Adil"
+                },
+                {
+                  "family": "Wei",
+                  "given": "Fan"
+                },
+                {
+                  "family": "Hongzhi",
+                  "given": "Wu"
+                }
+              ],
+              "type": "journal-article"
+            },
+            "differences": [],
+            "relations": [],
+            "updates": [],
+            "checked_at": "2026-09-11T05:53:13.821479+00:00",
+            "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-03965-9",
+            "update_check": "completed"
+          },
+          "issues": [
+            "2026-09-11"
+          ],
+          "related_papers": []
+        },
+        {
+          "title": "Phytomelatonin-mediated epigenetic and RNA regulatory networks in plant abiotic stress resilience.",
+          "date": "2026-08-25",
+          "journal": "Plant physiology and biochemistry : PPB",
+          "kind": "期刊记录（审稿状态请核对原文）",
+          "url": "https://doi.org/10.1016/j.plaphy.2026.111692",
+          "priority": "快速浏览",
+          "tags": [
+            "表观调控",
+            "方法研究",
+            "胁迫响应"
+          ],
+          "heading": "植物褪黑素介导的表观遗传及RNA调控网络在非生物胁迫中的作用",
+          "sections": [
+            {
+              "label": "真正的新发现",
+              "text": "综述强调了植物褪黑素在调节DNA甲基化、组蛋白修饰、非编码RNA网络及m6A RNA甲基化中的作用，提出其作为将短暂胁迫信号转化为持久转录能力的表观遗传和表观转录组触发因子的概念。",
+              "kind": "reported"
+            },
+            {
+              "label": "机制或方法上的关键点",
+              "text": "系统整合了褪黑素与氧化还原状态、激素互作、RNA稳态、染色质可及性及DNA修复之间的关系，并建议利用单细胞多组学、靶向表观基因组编辑和表观转录组分析等先进技术推动机制验证及作物育种应用。",
+              "kind": "reported"
+            },
+            {
+              "label": "与你的辣椒研究关系",
+              "text": "为解析辣椒及茄科植物面对环境胁迫时的表观遗传记忆与调控网络提供思路，特别是在WGBS、CUT&Tag和ATAC-seq等数据分析上的技术指导。",
+              "kind": "application"
+            },
+            {
+              "label": "对22组织图谱的具体启示",
+              "text": "提示在不同组织和胁迫条件下关注褪黑素相关调控元件及其对DNA甲基化和组蛋白修饰的影响，结合单细胞水平解析胁迫响应的细胞异质性。",
+              "kind": "application"
+            },
+            {
+              "label": "需要注意",
+              "text": "尽管提出了多层调控模型，但直接证据仍有限，特别是表观转录组层面的长期胁迫记忆及跨代效应仍需大量实验支持。",
+              "kind": "limitation"
+            },
+            {
+              "label": "建议优先看",
+              "text": "重点关注褪黑素介导的DNA甲基化调节、非编码RNA作用机制及与激素和红氧互作的表观遗传调控网络。",
+              "kind": "reading"
+            }
+          ],
+          "classification": {
+            "species": [
+              "其他植物"
+            ],
+            "process": [
+              "胁迫响应"
+            ],
+            "regulation": [
+              "DNA甲基化",
+              "组蛋白乙酰化",
+              "转录后调控"
+            ],
+            "methods": [],
+            "evidence_type": [],
+            "article_type": [
+              "综述或实质分析"
+            ]
+          },
+          "translations": {
+            "en": {
+              "heading": "Phytomelatonin-mediated epigenetic and RNA regulatory networks in plant abiotic stress resilience",
+              "sections": [
+                {
+                  "label": "What is new",
+                  "text": "The review highlights plant phytomelatonin’s roles in modulating DNA methylation, histone modifications, noncoding RNA networks, and m6A RNA methylation, proposing it as an epigenetic and epitranscriptomic trigger converting transient stress signals into durable transcriptional competence."
+                },
+                {
+                  "label": "Mechanistic or methodological key point",
+                  "text": "It integrates the links among phytomelatonin, redox status, hormonal crosstalk, RNA stability, chromatin accessibility, and DNA repair, and advocates advanced technologies like single-cell multi-omics, targeted epigenome editing, and epitranscriptomic profiling for mechanism validation and crop improvement."
+                },
+                {
+                  "label": "Relevance to pepper research",
+                  "text": "Provides conceptual and technical guidance on deciphering epigenetic memory and regulatory networks underlying environmental stress responses in pepper and Solanaceae, especially for analyzing WGBS, CUT&Tag, and ATAC-seq data."
+                },
+                {
+                  "label": "Implications for the 22-tissue atlas",
+                  "text": "Suggests focusing on phytomelatonin-related regulatory elements and their impact on DNA methylation and histone marks across tissues under stress, combining single-cell level heterogeneity analyses."
+                },
+                {
+                  "label": "Limitations",
+                  "text": "The proposed multi-layer regulation models lack extensive direct evidence, particularly for long-term stress memory and transgenerational effects at the epitranscriptomic level."
+                },
+                {
+                  "label": "What to read first",
+                  "text": "Focus on phytomelatonin-mediated DNA methylation modulation, noncoding RNA mechanisms, and epigenetic networks involving hormone and redox crosstalk."
+                }
+              ]
+            }
+          },
+          "journal_club": null,
+          "doi": "10.1016/j.plaphy.2026.111692",
+          "evidence": {
+            "source_type": "abstract",
+            "reading_depth": "仅摘要",
+            "verification": "待核验",
+            "classification_status": "由摘要自动归类，待核验",
+            "source_url": "https://doi.org/10.1016/j.plaphy.2026.111692",
+            "retrieved_at": "2026-09-11T05:52:49.056114+00:00",
+            "abstract": "Phytomelatonin has long been viewed as a pleiotropic stress signal that protects plants by scavenging reactive oxygen species (ROS), reinforcing antioxidant capacity, and coordinating hormonal responses. That view remains correct, but it is no longer sufficient. Recent work indicates that phytomelatonin also shapes the regulatory architecture that determines whether stress-responsive genes are accessible, whether transcripts are processed and translated efficiently, and whether stress-induced states can persist after the initial stimulus has disappeared. Here, we synthesize four emerging layers of phytomelatonin action: DNA methylation and histone modifications, noncoding RNA (ncRNA) networks, N6 methyladenosine (m6A) RNA methylation and stress memory with potential transgenerational effects. Rather than listing stress phenotypes, we emphasize regulatory logic. Phytomelatonin can buffer stress induced DNA methylation shifts, modulate histone acetylation and methylation marks, rewire microRNA (miRNA), long noncoding RNA (lncRNA) networks and counteract cadmium-induced m6A hypermethylation. Its involvement in circular RNA (circRNA) regulation remains a testable hypothesis. These layers are likely integrated through redox status, hormone crosstalk, RNA stability, chromatin accessibility and DNA repair. We propose that phytomelatonin functions as an epigenetic and epitranscriptomic trigger capable of converting transient stress perception into durable transcriptional competence. Finally, we outline how single-cell multi-omics, targeted epigenome editing, epitranscriptomic profiling and field-scale validation of priming strategies can transform this conceptual framework into testable mechanisms and crop-improvement strategies.",
+            "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+          },
+          "id": "paper-5160a1db5397390a",
+          "entry_type": "backfill",
+          "revision": 1,
+          "openalex": {
+            "status": "matched",
+            "match_method": "doi_title",
+            "checked_at": "2026-09-11T05:52:49.713797+00:00",
+            "source_updated_at": "2026-09-10T07:47:47.112893",
+            "id": "https://openalex.org/W7204174654",
+            "doi": "10.1016/j.plaphy.2026.111692",
+            "cited_by_count": 0,
+            "referenced_works_count": 102,
+            "counts_by_year": [],
+            "authors": [
+              {
+                "name": "Chenhui Li",
+                "url": "https://openalex.org/A5100649751",
+                "orcid": "https://orcid.org/0000-0003-3158-9869"
+              },
+              {
+                "name": "Wenfang Guo",
+                "url": "https://openalex.org/A5066658884",
+                "orcid": "https://orcid.org/0000-0002-6467-7665"
+              },
+              {
+                "name": "Xiaofeng Su",
+                "url": "https://openalex.org/A5148100163",
+                "orcid": null
+              },
+              {
+                "name": "Hongmei Cheng",
+                "url": "https://openalex.org/A5148056701",
+                "orcid": null
+              },
+              {
+                "name": "Peilin Wang",
+                "url": "https://openalex.org/A5086124225",
+                "orcid": "https://orcid.org/0000-0002-7782-867X"
+              },
+              {
+                "name": "Huiming Guo",
+                "url": "https://openalex.org/A5001453728",
+                "orcid": "https://orcid.org/0000-0001-8320-8250"
+              }
+            ],
+            "institutions": [
+              {
+                "name": "Agricultural Information Institute",
+                "url": "https://openalex.org/I4210093981",
+                "country": "CN"
+              },
+              {
+                "name": "Chinese Academy of Agricultural Sciences",
+                "url": "https://openalex.org/I4210138501",
+                "country": "CN"
+              },
+              {
+                "name": "Chinese Academy of Tropical Agricultural Sciences",
+                "url": "https://openalex.org/I107851509",
+                "country": "CN"
+              }
+            ],
+            "is_oa": true,
+            "oa_status": "hybrid",
+            "oa_url": "https://www.sciencedirect.com/science/article/pii/S0981942826006789/pdf",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0981942826006789/pdf",
+            "is_retracted": false
+          },
+          "metadata": {
+            "status": "matched",
+            "bibliography": {
+              "title": "Phytomelatonin-mediated epigenetic and RNA regulatory networks in plant abiotic stress resilience",
+              "doi": "10.1016/j.plaphy.2026.111692",
+              "journal": "Plant Physiology and Biochemistry",
+              "date": "2026-09",
+              "authors": [
+                {
+                  "family": "Li",
+                  "given": "Chenhui"
+                },
+                {
+                  "family": "Guo",
+                  "given": "Wenfang"
+                },
+                {
+                  "family": "Su",
+                  "given": "Xiaofeng"
+                },
+                {
+                  "family": "Cheng",
+                  "given": "Hongmei"
+                },
+                {
+                  "family": "Wang",
+                  "given": "Peilin"
+                },
+                {
+                  "family": "Guo",
+                  "given": "Huiming"
+                }
+              ],
+              "type": "journal-article"
+            },
+            "differences": [],
+            "relations": [],
+            "updates": [],
+            "checked_at": "2026-09-11T05:53:15.578124+00:00",
+            "source_url": "https://api.crossref.org/works/10.1016%2Fj.plaphy.2026.111692",
+            "update_check": "completed"
+          },
+          "issues": [
+            "2026-09-11"
+          ],
+          "related_papers": []
+        },
+        {
+          "title": "Evaluation of the Azotofertil Biostimulant as a Nitrogen-Based Fertilization Strategy for <i>Solanum lycopersicum</i> L. and <i>Capsicum annuum</i> L.",
+          "date": "2026-08-15",
+          "journal": "Plants (Basel, Switzerland)",
+          "kind": "期刊记录（审稿状态请核对原文）",
+          "url": "https://doi.org/10.3390/plants15162475",
+          "priority": "快速浏览",
+          "tags": [
+            "辣椒",
+            "营养生长",
+            "微生物",
+            "农业技术"
+          ],
+          "heading": "Azotofertil生物刺激剂促进辣椒和番茄氮素营养与光合作用潜力提升",
+          "sections": [
+            {
+              "label": "真正的新发现",
+              "text": "实地试验显示基于Azotobacter chroococcum和Azospirillum lipoferum的生物刺激剂Azotofertil能够显著提升辣椒和番茄植株中可培养Azotobacter spp.群落数量，以及光合色素和维生素C含量，对土壤pH和植株高度影响不显著。",
+              "kind": "reported"
+            },
+            {
+              "label": "机制或方法上的关键点",
+              "text": "通过随机区组设计田间实验进行三种施肥方案比较，评估微生物群落动态、生理指标及产量，利用方差分析及Duncan多重比较确定显著性。",
+              "kind": "reported"
+            },
+            {
+              "label": "与你的辣椒研究关系",
+              "text": "该研究强调微生物介导的氮素利用促进植物营养代谢的潜力，可结合辣椒22组织图谱生理表型数据，进一步挖掘微生物与宿主表观遗传和转录调控的关联。",
+              "kind": "application"
+            },
+            {
+              "label": "对22组织图谱的具体启示",
+              "text": "提醒关注氮素营养相关基因在根系及光合组织中的表达与表观调控状态，结合微生物群落对植物表型的影响加深功能注释。",
+              "kind": "application"
+            },
+            {
+              "label": "需要注意",
+              "text": "缺少直接分子机制解析，菌株与植物间的相互作用及其对表观遗传调控的具体影响未被深入探讨。",
+              "kind": "limitation"
+            },
+            {
+              "label": "建议优先看",
+              "text": "重点查看微生物促进氮素利用相关生理和分子指标，及其在辣椒营养生长和果实发育中的潜在作用。",
+              "kind": "reading"
+            }
+          ],
+          "classification": {
+            "species": [
+              "辣椒",
+              "番茄"
+            ],
+            "process": [
+              "营养生长"
+            ],
+            "regulation": [
+              "其他或未涉及"
+            ],
+            "methods": [],
+            "evidence_type": [
+              "组学关联"
+            ],
+            "article_type": [
+              "关联研究"
+            ]
+          },
+          "translations": {
+            "en": {
+              "heading": "Evaluation of the Azotofertil biostimulant as a nitrogen-based fertilization strategy for Solanum lycopersicum and Capsicum annuum",
+              "sections": [
+                {
+                  "label": "What is new",
+                  "text": "Field trials showed that the Azotofertil biostimulant based on Azotobacter chroococcum and Azospirillum lipoferum significantly enhanced cultivable Azotobacter spp. populations and increased photosynthetic pigment and vitamin C content in pepper and tomato plants, while soil pH and plant height were unaffected."
+                },
+                {
+                  "label": "Mechanistic or methodological key point",
+                  "text": "Randomized block design field experiments compared three fertilization treatments with physiological and microbiological assessments. ANOVA and Duncan multiple range tests were used for significance."
+                },
+                {
+                  "label": "Relevance to pepper research",
+                  "text": "Highlights the potential of microbe-mediated nitrogen use to promote plant nutritional metabolism, complementing gene expression and epigenetic data in the pepper 22-tissue atlas."
+                },
+                {
+                  "label": "Implications for the 22-tissue atlas",
+                  "text": "Suggests focusing on expression and epigenetic regulation of nitrogen metabolism-related genes in roots and photosynthetic tissues, linking microbial effects to plant phenotypes."
+                },
+                {
+                  "label": "Limitations",
+                  "text": "Lacks direct molecular mechanism elucidation and detailed exploration of microbial-plant epigenetic interaction."
+                },
+                {
+                  "label": "What to read first",
+                  "text": "Examine microbial enhancement of nitrogen utilization and its potential roles in pepper nutritional growth and fruit development."
+                }
+              ]
+            }
+          },
+          "journal_club": null,
+          "doi": "10.3390/plants15162475",
+          "evidence": {
+            "source_type": "abstract",
+            "reading_depth": "仅摘要",
+            "verification": "待核验",
+            "classification_status": "由摘要自动归类，待核验",
+            "source_url": "https://doi.org/10.3390/plants15162475",
+            "retrieved_at": "2026-09-11T05:52:49.056157+00:00",
+            "abstract": "The continuous growth of the global population and the need to ensure food security require the development of sustainable agricultural technologies capable of maintaining crop productivity while reducing environmental impact. Nitrogen-fixing bacteria belonging to the genera Azotobacter and Azospirillum have attracted increasing interest due to their ability to improve plant nutrition and stimulate physiological processes associated with growth and productivity. The aim of the present study was to evaluate the effect of the commercial biostimulant Azotofertil, based on Azotobacter chroococcum and Azospirillum lipoferum, on the agrophysiological response of tomato and pepper plants, in comparison with conventional nitrogen and phosphorus fertilization. A field experiment was conducted using a randomized block design with three fertilization treatments and three biological replicates for each crop species. Soil pH, cultivable Azotobacter spp. populations, plant height, photosynthetic pigment content, vitamin C content, and total yield were evaluated. Data were analyzed using one-way analysis of variance (ANOVA), followed by Duncan's multiple range test (p Azotobacter spp., photosynthetic pigment content, and vitamin C content, while no statistically significant differences were observed for soil pH or plant height. The most pronounced effect was observed for photosynthetic pigment content, which increased by 26% in tomato and by 21% in pepper compared to the control.",
+            "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+          },
+          "id": "paper-ded89fbe89e606b9",
+          "entry_type": "backfill",
+          "revision": 1,
+          "openalex": {
+            "status": "matched",
+            "match_method": "doi_title",
+            "checked_at": "2026-09-11T05:52:49.781544+00:00",
+            "source_updated_at": "2026-08-31T07:19:18.363097",
+            "id": "https://openalex.org/W7203636572",
+            "doi": "10.3390/plants15162475",
+            "cited_by_count": 0,
+            "referenced_works_count": 42,
+            "counts_by_year": [],
+            "authors": [
+              {
+                "name": "Alina Elena Marta",
+                "url": "https://openalex.org/A5070528685",
+                "orcid": "https://orcid.org/0000-0002-7764-5646"
+              },
+              {
+                "name": "Ștefănica Stoica",
+                "url": "https://openalex.org/A5147334571",
+                "orcid": null
+              },
+              {
+                "name": "Mihaela Covașă",
+                "url": "https://openalex.org/A5053586814",
+                "orcid": "https://orcid.org/0000-0001-5691-9153"
+              },
+              {
+                "name": "Carmenica Doina Jităreanu",
+                "url": "https://openalex.org/A5110957921",
+                "orcid": null
+              }
+            ],
+            "institutions": [
+              {
+                "name": "\"Ion Ionescu de la Brad\" Iasi University of Life Sciences",
+                "url": "https://openalex.org/I4210104996",
+                "country": "RO"
+              }
+            ],
+            "is_oa": true,
+            "oa_status": "gold",
+            "oa_url": "https://doi.org/10.3390/plants15162475",
+            "pdf_url": null,
+            "is_retracted": false
+          },
+          "metadata": {
+            "status": "matched",
+            "bibliography": {
+              "title": "Evaluation of the Azotofertil Biostimulant as a Nitrogen-Based Fertilization Strategy for Solanum lycopersicum L. and Capsicum annuum L.",
+              "doi": "10.3390/plants15162475",
+              "journal": "Plants",
+              "date": "2026-08-15",
+              "authors": [
+                {
+                  "family": "Marta",
+                  "given": "Alina Elena"
+                },
+                {
+                  "family": "Stoica",
+                  "given": "Ștefănica"
+                },
+                {
+                  "family": "Covașă",
+                  "given": "Mihaela"
+                },
+                {
+                  "family": "Jităreanu",
+                  "given": "Carmenica Doina"
+                }
+              ],
+              "type": "journal-article"
+            },
+            "differences": [],
+            "relations": [],
+            "updates": [],
+            "checked_at": "2026-09-11T05:53:16.201581+00:00",
+            "source_url": "https://api.crossref.org/works/10.3390%2Fplants15162475",
+            "update_check": "completed"
+          },
+          "issues": [
+            "2026-09-11"
+          ],
+          "related_papers": []
+        },
+        {
+          "title": "CPL1/FRY2 Regulates ABA Biosynthesis and Modulates SA/JA-Mediated Defence in Arabidopsis.",
+          "date": "2026-08-20",
+          "journal": "Plant, cell & environment",
+          "kind": "期刊记录（审稿状态请核对原文）",
+          "url": "https://doi.org/10.1111/pce.70807",
+          "priority": "背景参考",
+          "tags": [
+            "拟南芥",
+            "激素响应",
+            "表观调控",
+            "组蛋白修饰"
+          ],
+          "heading": "Arabidopsis中CPL1调控ABA生物合成及SA/JA免疫响应的表观遗传机制",
+          "sections": [
+            {
+              "label": "真正的新发现",
+              "text": "确定了RNA聚合酶II CTD磷酸酶CPL1作为多功能调控因子，通过表观遗传沉默ABA生物合成关键转录因子FUS3，限制NCED3表达，调节ABA积累，从而影响SA/JA通路介导的免疫反应及病原体抗性。",
+              "kind": "reported"
+            },
+            {
+              "label": "机制或方法上的关键点",
+              "text": "结合突变体表型、内源激素检测、串联染色质免疫沉淀对FUS3靶基因的组蛋白修饰状态分析，构建了CPL1调控FUS3基因抑制与ABA代谢/免疫交叉调控的机制模型。",
+              "kind": "reported"
+            },
+            {
+              "label": "与你的辣椒研究关系",
+              "text": "尽管为拟南芥研究，但其揭示的表观遗传调控激素互作机制为辣椒和茄科作物免疫应答相关表观调控提供范例，提示结合H3K9me2/3修饰动态进行防病性状研究。",
+              "kind": "application"
+            },
+            {
+              "label": "对22组织图谱的具体启示",
+              "text": "提示关注激素响应相关基因及调控因子在不同组织中的表观遗传状态，特别是组蛋白甲基化修饰在免疫响应中的调控作用。",
+              "kind": "application"
+            },
+            {
+              "label": "需要注意",
+              "text": "基于拟南芥的研究，辣椒及其他茄科是否具有保守机制尚未验证，需要后续功能验证。",
+              "kind": "limitation"
+            },
+            {
+              "label": "建议优先看",
+              "text": "重点分析CPL1-FUS3调控ABA代谢与SA/JA免疫交叉点的表观遗传修饰及其在胁迫响应中的调节网络。",
+              "kind": "reading"
+            }
+          ],
+          "classification": {
+            "species": [
+              "拟南芥"
+            ],
+            "process": [
+              "激素响应"
+            ],
+            "regulation": [
+              "组蛋白乙酰化",
+              "染色质可及性"
+            ],
+            "methods": [],
+            "evidence_type": [
+              "遗传验证",
+              "组学关联",
+              "直接结合或互作"
+            ],
+            "article_type": [
+              "机制研究"
+            ]
+          },
+          "translations": {
+            "en": {
+              "heading": "CPL1 regulates ABA biosynthesis and modulates SA/JA-mediated defence in Arabidopsis",
+              "sections": [
+                {
+                  "label": "What is new",
+                  "text": "Identifies CPL1 as a multifunctional regulator suppressing ABA biosynthesis through epigenetic silencing of the transcription factor FUS3, limiting NCED3 expression, thereby modulating ABA accumulation and SA/JA-mediated immunity and pathogen resistance."
+                },
+                {
+                  "label": "Mechanistic or methodological key point",
+                  "text": "Combines mutant phenotype analysis, hormone quantification, ChIP of histone marks at FUS3 locus to model CPL1’s regulation of FUS3 repression and ABA metabolism/immune crosstalk."
+                },
+                {
+                  "label": "Relevance to pepper research",
+                  "text": "Though in Arabidopsis, provides paradigms for epigenetic regulation of hormone crosstalk in immunity relevant for pepper and Solanaceae, suggesting study of H3K9me2/3 dynamics in disease resistance."
+                },
+                {
+                  "label": "Implications for the 22-tissue atlas",
+                  "text": "Suggests focusing on epigenetic status of hormone-responsive genes and regulators across tissues, especially histone methylation marks affecting immune response."
+                },
+                {
+                  "label": "Limitations",
+                  "text": "Derived from Arabidopsis; conservation of mechanism in pepper and other Solanaceae remains to be tested."
+                },
+                {
+                  "label": "What to read first",
+                  "text": "Focus on CPL1-FUS3 axis regulating ABA metabolism and epigenetic modulation of SA/JA immunity in stress response networks."
+                }
+              ]
+            }
+          },
+          "journal_club": null,
+          "doi": "10.1111/pce.70807",
+          "evidence": {
+            "source_type": "abstract",
+            "reading_depth": "仅摘要",
+            "verification": "待核验",
+            "classification_status": "由摘要自动归类，待核验",
+            "source_url": "https://doi.org/10.1111/pce.70807",
+            "retrieved_at": "2026-09-11T05:52:49.056198+00:00",
+            "abstract": "The RNA polymerase II C-terminal domain (CTD) phosphatase CPL1/FRY2 is a multifunctional regulator involved in diverse stress responses, yet its role in orchestrating hormone-mediated immunity remains poorly understood. Here, we demonstrate that CPL1 regulates ABA biosynthesis and modulates SA/JA-associated defence responses in Arabidopsis thaliana. Loss of CPL1 function compromises resistance to the hemibiotrophic bacterial pathogen Pseudomonas syringae pv. tomato DC3000 (Pst DC3000), coinciding with suppressed SA signalling and ectopic activation of JA-, ethylene-, and abscisic acid (ABA)-responsive genes. Hormone profiling revealed that upon Pst DC3000 infection, cpl1 mutants specifically accumulated ABA, but not SA, JA, or ethylene. Epistasis analyses showed that this ABA accumulation stems from the derepression of the seed-specific transcription factor FUSCA3 (FUS3) in vegetative tissues, which in turn drives expression of the ABA biosynthetic gene NCED3. Chromatin immunoprecipitation analyses further revealed that FUS3 silencing in wild-type plants is maintained by repressive epigenetic marks, including low histone acetylation and high H3K9me2/3 levels, modifications that are disrupted in cpl1 mutants. Consequently, CPL1 promotes resistance to biotrophic/hemibiotrophic pathogens by epigenetically silencing FUS3 to prevent pathogen-induced ABA biosynthesis, thereby modulating SA/JA-associated defence responses. Our findings position CPL1 as a key integrator of epigenetic regulation, hormone crosstalk, and pathogen-specific immune tuning.",
+            "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+          },
+          "id": "paper-e843643c092ab92e",
+          "entry_type": "backfill",
+          "revision": 1,
+          "openalex": {
+            "status": "matched",
+            "match_method": "doi_title",
+            "checked_at": "2026-09-11T05:52:49.853162+00:00",
+            "source_updated_at": "2026-08-21T09:56:20.448147",
+            "id": "https://openalex.org/W7203840859",
+            "doi": "10.1111/pce.70807",
+            "cited_by_count": 0,
+            "referenced_works_count": 67,
+            "counts_by_year": [],
+            "authors": [
+              {
+                "name": "Lei He",
+                "url": "https://openalex.org/A5046505357",
+                "orcid": "https://orcid.org/0000-0003-2106-740X"
+              },
+              {
+                "name": "Zhenjiang Wu",
+                "url": "https://openalex.org/A5075363539",
+                "orcid": "https://orcid.org/0000-0003-1055-0447"
+              },
+              {
+                "name": "Ye Jin",
+                "url": "https://openalex.org/A5147570693",
+                "orcid": null
+              },
+              {
+                "name": "Yizhong Wang",
+                "url": "https://openalex.org/A5147459538",
+                "orcid": null
+              },
+              {
+                "name": "Yingmin Cheng",
+                "url": "https://openalex.org/A5147603324",
+                "orcid": null
+              },
+              {
+                "name": "Huazhong Shi",
+                "url": "https://openalex.org/A5082591330",
+                "orcid": "https://orcid.org/0000-0003-3817-9774"
+              },
+              {
+                "name": "Wannian Yang",
+                "url": "https://openalex.org/A5056839008",
+                "orcid": "https://orcid.org/0000-0003-0056-7448"
+              }
+            ],
+            "institutions": [
+              {
+                "name": "Central China Normal University",
+                "url": "https://openalex.org/I40963666",
+                "country": "CN"
+              },
+              {
+                "name": "Henan University of Urban Construction",
+                "url": "https://openalex.org/I4210113703",
+                "country": "CN"
+              },
+              {
+                "name": "Texas Tech University",
+                "url": "https://openalex.org/I12315562",
+                "country": "US"
+              }
+            ],
+            "is_oa": false,
+            "oa_status": "closed",
+            "oa_url": null,
+            "pdf_url": null,
+            "is_retracted": false
+          },
+          "metadata": {
+            "status": "matched",
+            "bibliography": {
+              "title": "CPL1/FRY2 Regulates ABA Biosynthesis and Modulates SA/JA‐Mediated Defence in Arabidopsis",
+              "doi": "10.1111/pce.70807",
+              "journal": "Plant, Cell & Environment",
+              "date": "2026-08-20",
+              "authors": [
+                {
+                  "family": "He",
+                  "given": "Lei"
+                },
+                {
+                  "family": "Wu",
+                  "given": "Zhenjiang"
+                },
+                {
+                  "family": "Jin",
+                  "given": "Ye"
+                },
+                {
+                  "family": "Wang",
+                  "given": "Yizhong"
+                },
+                {
+                  "family": "Cheng",
+                  "given": "Yingmin"
+                },
+                {
+                  "family": "Shi",
+                  "given": "Huazhong"
+                },
+                {
+                  "family": "Yang",
+                  "given": "Wannian"
+                }
+              ],
+              "type": "journal-article"
+            },
+            "differences": [],
+            "relations": [],
+            "updates": [],
+            "checked_at": "2026-09-11T05:53:17.895905+00:00",
+            "source_url": "https://api.crossref.org/works/10.1111%2Fpce.70807",
+            "update_check": "completed"
+          },
+          "issues": [
+            "2026-09-11"
+          ],
+          "related_papers": []
+        }
+      ]
     }
   ]
 }

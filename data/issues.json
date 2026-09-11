@@ -95,5 +95,39 @@
       }
     ],
     "summary_en": "Five papers. Prioritize kiwifruit 3D multi-omics and the CrJAG mechanism; focus on motif grammar in PEAgent."
+  },
+  {
+    "date": "2026-09-11",
+    "entry_type": "weekly",
+    "summary": "本期聚焦辣椒及茄科作物在表观遗传调控、果实发育以及多组学分析方面的最新进展，涵盖DNA甲基化、组蛋白修饰、染色质可及性和转录因子网络。重点审视了辣椒AP2/ERF家族转录因子系统鉴定与生物学功能、辣椒抗寒机制的多组学解析及精准育种策略，以及果实专一启动子的调控特点和应用前景。此外，纳入了甘菊中ABA调控盐胁迫的表观遗传机制研究，为辣椒和茄科作物环境适应和抗逆提供启示。选文还包含了组学资源构建和表观调控综述，为辣椒22组织图谱及果实成熟转录调控网络研究提供参考。",
+    "summary_en": "This issue focuses on recent advances in epigenetic regulation, fruit development, and multi-omics in Capsicum and Solanaceae crops, covering DNA methylation, histone modifications, chromatin accessibility, and transcription factor networks. It highlights the genome-wide identification and functional analysis of the AP2/ERF transcription factor family in chili pepper, multi-omics dissection of cold tolerance and precision breeding strategies in pepper, and the regulatory features and applications of fruit-specific promoters. Studies on ABA-mediated epigenetic modulation of salt tolerance in chrysanthemum provide insights into environmental adaptation in Solanaceae. The selected papers also include resource generation and comprehensive reviews on epigenetic regulation, offering valuable references for the pepper 22-tissue atlas and fruit ripening transcriptional regulatory networks.",
+    "entries": [
+      {
+        "paper_id": "paper-0cae7891e6459970",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-d00312034f6d6e6d",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-5160a1db5397390a",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-ded89fbe89e606b9",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-e843643c092ab92e",
+        "revision": 1,
+        "priority": "背景参考"
+      }
+    ],
+    "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
   }
 ]
