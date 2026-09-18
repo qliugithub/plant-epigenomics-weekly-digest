@@ -3754,7 +3754,7 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-11T05:52:49.597994+00:00",
+        "checked_at": "2026-09-18T05:58:14.942064+00:00",
         "source_updated_at": "2026-08-21T09:56:20.448147",
         "id": "https://openalex.org/W7170598721",
         "doi": "10.3390/plants15152266",
@@ -3993,8 +3993,79 @@
       "entry_type": "weekly",
       "revision": 1,
       "openalex": {
-        "status": "not_found",
-        "last_attempt_at": "2026-09-11T05:52:49.649068+00:00"
+        "status": "matched",
+        "match_method": "doi_title",
+        "checked_at": "2026-09-18T05:58:15.175817+00:00",
+        "source_updated_at": "2026-09-12T09:15:50.089291",
+        "id": "https://openalex.org/W7212121768",
+        "doi": "10.1007/s00299-026-03965-9",
+        "cited_by_count": 0,
+        "referenced_works_count": 100,
+        "counts_by_year": [],
+        "authors": [
+          {
+            "name": "Ikram Ullah",
+            "url": "https://openalex.org/A5151190544",
+            "orcid": null
+          },
+          {
+            "name": "Naveed Ahmad",
+            "url": "https://openalex.org/A5151187967",
+            "orcid": null
+          },
+          {
+            "name": "Aashaq Hussain Bhat",
+            "url": "https://openalex.org/A5072726046",
+            "orcid": "https://orcid.org/0000-0002-3736-7610"
+          },
+          {
+            "name": "Adil Hussain",
+            "url": "https://openalex.org/A5151114035",
+            "orcid": null
+          },
+          {
+            "name": "Fan Wei",
+            "url": "https://openalex.org/A5151176844",
+            "orcid": null
+          },
+          {
+            "name": "Wu Hongzhi",
+            "url": "https://openalex.org/A5102792914",
+            "orcid": null
+          }
+        ],
+        "institutions": [
+          {
+            "name": "Yunnan Agricultural University",
+            "url": "https://openalex.org/I195019228",
+            "country": "CN"
+          },
+          {
+            "name": "Northwest A&F University",
+            "url": "https://openalex.org/I89652312",
+            "country": "CN"
+          },
+          {
+            "name": "Shihezi University",
+            "url": "https://openalex.org/I102208913",
+            "country": "CN"
+          },
+          {
+            "name": "Chandigarh University",
+            "url": "https://openalex.org/I101407740",
+            "country": "IN"
+          },
+          {
+            "name": "Abdul Wali Khan University Mardan",
+            "url": "https://openalex.org/I181063083",
+            "country": "PK"
+          }
+        ],
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "pdf_url": null,
+        "is_retracted": false
       },
       "metadata": {
         "status": "matched",
@@ -4155,8 +4226,8 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-11T05:52:49.713797+00:00",
-        "source_updated_at": "2026-09-10T07:47:47.112893",
+        "checked_at": "2026-09-18T05:58:15.416528+00:00",
+        "source_updated_at": "2026-09-11T09:22:31.653822",
         "id": "https://openalex.org/W7204174654",
         "doi": "10.1016/j.plaphy.2026.111692",
         "cited_by_count": 0,
@@ -4378,7 +4449,7 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-11T05:52:49.781544+00:00",
+        "checked_at": "2026-09-18T05:58:15.665960+00:00",
         "source_updated_at": "2026-08-31T07:19:18.363097",
         "id": "https://openalex.org/W7203636572",
         "doi": "10.3390/plants15162475",
@@ -4575,7 +4646,7 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-11T05:52:49.853162+00:00",
+        "checked_at": "2026-09-18T05:58:16.106916+00:00",
         "source_updated_at": "2026-08-21T09:56:20.448147",
         "id": "https://openalex.org/W7203840859",
         "doi": "10.1111/pce.70807",
