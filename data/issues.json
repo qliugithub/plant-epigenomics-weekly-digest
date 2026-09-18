@@ -129,5 +129,39 @@
       }
     ],
     "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
+  },
+  {
+    "date": "2026-09-18",
+    "entry_type": "weekly",
+    "summary": "本期摘要聚焦辣椒及茄科植物的基因组编辑、果实发育调控及多组学研究，涵盖最新CRISPR技术在茄科真菌抗性及品质提升中的应用，辣椒抗旱生理与转录组变化，以及涉及DNA甲基化和组蛋白修饰的新进展。挑选了最新且与辣椒22组织图谱构建和转录因子网络相关联的论文，强调基因编辑和表观遗传机制的结合，助力辣椒品种改良与品质提升。",
+    "summary_en": "This issue focuses on recent advances in genome editing, fruit development regulation, and multi-omics studies in pepper and Solanaceae species. It includes cutting-edge CRISPR technology applications for fungal resistance and quality improvements in Solanaceae, physiological and transcriptomic responses of chili under drought stress, and new findings on DNA methylation and histone modifications. Selected papers relate closely to the pepper 22-tissue atlas construction and fruit-ripening transcription factor networks, highlighting the integration of gene editing and epigenetic mechanisms to facilitate pepper breeding and quality enhancement.",
+    "entries": [
+      {
+        "paper_id": "paper-ebe059422ac2d43c",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-9097b623ce89fb5c",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-e5fc36e80bed10df",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-f72659bc46d5076e",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-1b4e29b6168b4e63",
+        "revision": 1,
+        "priority": "背景参考"
+      }
+    ],
+    "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
   }
 ]

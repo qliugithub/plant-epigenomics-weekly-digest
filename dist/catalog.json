@@ -169,7 +169,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:41:42.976065+00:00",
+        "checked_at": "2026-09-18T04:29:00.590320+00:00",
         "source_url": "https://api.crossref.org/works?query.title=iCUT%26Tag-based+pan-fruit+epigenomic+profiling+identifies+recurrent+H3K9+acetylation+enrichment+during+fleshy+fruit+ripening&rows=1",
         "update_check": "completed"
       },
@@ -258,8 +258,8 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-04T06:25:06.589416+00:00",
-        "source_updated_at": "2026-09-03T10:48:47.769340",
+        "checked_at": "2026-09-18T04:28:39.343632+00:00",
+        "source_updated_at": "2026-09-11T09:22:31.653822",
         "id": "https://openalex.org/W7204867699",
         "doi": "10.1016/j.xplc.2026.102078",
         "cited_by_count": 0,
@@ -437,7 +437,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:41:43.375183+00:00",
+        "checked_at": "2026-09-18T04:29:03.109813+00:00",
         "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.25.747117",
         "update_check": "completed"
       },
@@ -526,8 +526,8 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-04T06:25:06.763638+00:00",
-        "source_updated_at": "2026-09-02T07:38:04.252551",
+        "checked_at": "2026-09-18T04:28:39.408431+00:00",
+        "source_updated_at": "2026-09-04T10:56:28.161419",
         "id": "https://openalex.org/W7204246348",
         "doi": "10.64898/2026.08.25.747117",
         "cited_by_count": 0,
@@ -607,14 +607,19 @@
             "country": "US"
           },
           {
-            "name": "UCLA Health",
-            "url": "https://openalex.org/I2799798094",
-            "country": "US"
+            "name": "Chinese Academy of Sciences",
+            "url": "https://openalex.org/I19820366",
+            "country": "CN"
           },
           {
             "name": "Institute of Zoology",
-            "url": "https://openalex.org/I4210120615",
-            "country": "KZ"
+            "url": "https://openalex.org/I4210167311",
+            "country": "CN"
+          },
+          {
+            "name": "Howard Hughes Medical Institute",
+            "url": "https://openalex.org/I1344073410",
+            "country": "US"
           }
         ],
         "is_oa": true,
@@ -711,7 +716,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:41:44.649503+00:00",
+        "checked_at": "2026-09-18T04:29:04.354989+00:00",
         "source_url": "https://api.crossref.org/works/10.1093%2Fplcell%2Fkoag182",
         "update_check": "completed"
       },
@@ -800,7 +805,7 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-04T06:25:06.957543+00:00",
+        "checked_at": "2026-09-18T04:28:39.476365+00:00",
         "source_updated_at": "2026-08-21T09:56:20.448147",
         "id": "https://openalex.org/W7164754159",
         "doi": "10.1093/plcell/koag182",
@@ -947,7 +952,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:41:45.348701+00:00",
+        "checked_at": "2026-09-18T04:29:05.037797+00:00",
         "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.14.744917",
         "update_check": "completed"
       },
@@ -1036,7 +1041,7 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-04T06:25:07.166858+00:00",
+        "checked_at": "2026-09-18T04:28:39.530654+00:00",
         "source_updated_at": "2026-08-23T07:36:19.812096",
         "id": "https://openalex.org/W7203793204",
         "doi": "10.64898/2026.08.14.744917",
@@ -1171,7 +1176,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:41:46.887734+00:00",
+        "checked_at": "2026-09-18T04:29:07.295641+00:00",
         "source_url": "https://api.crossref.org/works/10.1038%2Fs41467-026-75947-0",
         "update_check": "completed"
       },
@@ -1260,8 +1265,8 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-04T06:25:07.424868+00:00",
-        "source_updated_at": "2026-09-03T10:48:47.769340",
+        "checked_at": "2026-09-18T04:28:39.618294+00:00",
+        "source_updated_at": "2026-09-15T07:32:03.291174",
         "id": "https://openalex.org/W7172383872",
         "doi": "10.1038/s41467-026-75947-0",
         "cited_by_count": 0,
@@ -1435,7 +1440,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:41:48.648998+00:00",
+        "checked_at": "2026-09-18T04:29:08.111515+00:00",
         "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.19.745791",
         "update_check": "completed"
       },
@@ -1524,7 +1529,7 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-04T06:25:07.595772+00:00",
+        "checked_at": "2026-09-18T04:28:39.694333+00:00",
         "source_updated_at": "2026-08-23T07:36:19.812096",
         "id": "https://openalex.org/W7203826908",
         "doi": "10.64898/2026.08.19.745791",
@@ -1712,7 +1717,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:41:50.628397+00:00",
+        "checked_at": "2026-09-18T04:29:09.371207+00:00",
         "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.12.744101",
         "update_check": "completed"
       },
@@ -1801,8 +1806,8 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-04T06:25:07.780517+00:00",
-        "source_updated_at": "2026-09-03T10:48:47.769340",
+        "checked_at": "2026-09-18T04:28:39.761409+00:00",
+        "source_updated_at": "2026-09-17T22:18:28.273824",
         "id": "https://openalex.org/W7202349180",
         "doi": "10.64898/2026.08.12.744101",
         "cited_by_count": 0,
@@ -1991,7 +1996,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:41:50.803268+00:00",
+        "checked_at": "2026-09-18T04:29:10.001169+00:00",
         "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.13.744595",
         "update_check": "completed"
       },
@@ -2080,7 +2085,7 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-04T06:25:07.969234+00:00",
+        "checked_at": "2026-09-18T04:28:39.822493+00:00",
         "source_updated_at": "2026-08-21T09:56:20.448147",
         "id": "https://openalex.org/W7202363539",
         "doi": "10.64898/2026.08.13.744595",
@@ -2223,7 +2228,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:41:51.669625+00:00",
+        "checked_at": "2026-09-18T04:29:11.905418+00:00",
         "source_url": "https://api.crossref.org/works/10.1093%2Fhr%2Fuhag076",
         "update_check": "completed",
         "history": [
@@ -2331,8 +2336,8 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-04T06:25:08.167576+00:00",
-        "source_updated_at": "2026-08-21T09:56:20.448147",
+        "checked_at": "2026-09-18T04:28:39.888761+00:00",
+        "source_updated_at": "2026-09-04T10:56:28.161419",
         "id": "https://openalex.org/W7133733891",
         "doi": "10.1093/hr/uhag076",
         "cited_by_count": 0,
@@ -2366,7 +2371,7 @@
           },
           {
             "name": "Minghui Wang",
-            "url": null,
+            "url": "https://openalex.org/A5149670301",
             "orcid": null
           },
           {
@@ -2537,7 +2542,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:41:52.394492+00:00",
+        "checked_at": "2026-09-18T04:29:14.179311+00:00",
         "source_url": "https://api.crossref.org/works/10.1038%2Fs41467-026-73180-3",
         "update_check": "completed",
         "history": [
@@ -2634,8 +2639,8 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-04T06:25:08.392507+00:00",
-        "source_updated_at": "2026-09-03T10:48:47.769340",
+        "checked_at": "2026-09-18T04:28:39.966661+00:00",
+        "source_updated_at": "2026-09-11T09:22:31.653822",
         "id": "https://openalex.org/W7164880810",
         "doi": "10.1038/s41467-026-73180-3",
         "cited_by_count": 0,
@@ -2927,7 +2932,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:41:53.167564+00:00",
+        "checked_at": "2026-09-18T04:29:14.672353+00:00",
         "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.22.740070",
         "update_check": "completed"
       },
@@ -3016,7 +3021,7 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-04T06:25:08.599626+00:00",
+        "checked_at": "2026-09-18T04:28:40.039160+00:00",
         "source_updated_at": "2026-08-21T09:56:20.448147",
         "id": "https://openalex.org/W7170093169",
         "doi": "10.64898/2026.07.22.740070",
@@ -3150,7 +3155,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:41:53.831889+00:00",
+        "checked_at": "2026-09-18T04:29:16.844522+00:00",
         "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.15.738754",
         "update_check": "completed"
       },
@@ -3239,7 +3244,7 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-04T06:25:08.783898+00:00",
+        "checked_at": "2026-09-18T04:28:40.124233+00:00",
         "source_updated_at": "2026-08-25T07:29:55.448023",
         "id": "https://openalex.org/W7169856371",
         "doi": "10.64898/2026.07.15.738754",
@@ -3390,7 +3395,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:41:54.090187+00:00",
+        "checked_at": "2026-09-18T04:29:17.435779+00:00",
         "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.09.737558",
         "update_check": "completed"
       },
@@ -3479,7 +3484,7 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-09-04T06:25:08.976672+00:00",
+        "checked_at": "2026-09-18T04:28:40.207987+00:00",
         "source_updated_at": "2026-08-25T07:29:55.448023",
         "id": "https://openalex.org/W7167934589",
         "doi": "10.64898/2026.07.09.737558",
@@ -3867,7 +3872,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:53:13.450153+00:00",
+        "checked_at": "2026-09-18T04:29:19.319417+00:00",
         "source_url": "https://api.crossref.org/works/10.3390%2Fplants15152266",
         "update_check": "completed"
       },
@@ -4029,7 +4034,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:53:13.821479+00:00",
+        "checked_at": "2026-09-18T04:29:20.434521+00:00",
         "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-03965-9",
         "update_check": "completed"
       },
@@ -4250,7 +4255,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:53:15.578124+00:00",
+        "checked_at": "2026-09-18T04:29:21.408541+00:00",
         "source_url": "https://api.crossref.org/works/10.1016%2Fj.plaphy.2026.111692",
         "update_check": "completed"
       },
@@ -4445,7 +4450,7 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:53:16.201581+00:00",
+        "checked_at": "2026-09-18T04:29:22.655676+00:00",
         "source_url": "https://api.crossref.org/works/10.3390%2Fplants15162475",
         "update_check": "completed"
       },
@@ -4679,12 +4684,1217 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-09-11T05:53:17.895905+00:00",
+        "checked_at": "2026-09-18T04:29:23.621249+00:00",
         "source_url": "https://api.crossref.org/works/10.1111%2Fpce.70807",
         "update_check": "completed"
       },
       "issues": [
         "2026-09-11"
+      ],
+      "related_papers": []
+    },
+    {
+      "title": "Grafting and biodynamic nanosilica-induced physiological and transcriptomic modulation of chilli (<i>Capsicum annuum</i> L.) under drought stress.",
+      "date": "2026-08-25",
+      "journal": "Frontiers in plant science",
+      "kind": "期刊记录（审稿状态请核对原文）",
+      "url": "https://doi.org/10.3389/fpls.2026.1916999",
+      "priority": "全文精读",
+      "tags": [
+        "solanaceae",
+        "胁迫响应",
+        "多组学"
+      ],
+      "heading": "辣椒抗旱性状的嫁接与生物动力纳米二氧化硅诱导生理及转录组调控",
+      "sections": [
+        {
+          "label": "真正的新发现",
+          "text": "本研究首次系统探讨嫁接与生物动力纳米二氧化硅（BNS）联用对辣椒抗旱生理与转录组水平的协同效果，发现该联合处理显著提高植株生长指标、光合效率和抗氧化酶活性，同时降低脂质过氧化，改善根系形态，最终提升果实产量近80%。",
+          "kind": "reported"
+        },
+        {
+          "label": "机制或方法上的关键点",
+          "text": "通过Illumina NovaSeq 6000全转录组测序，鉴定出1051个差异表达基因，富集于MAPK信号通路、ABA调控和苯丙烷代谢途径。蛋白互作网络分析揭示红氧平衡、激素信号及水分运输基因模块的协调调控。",
+          "kind": "reported"
+        },
+        {
+          "label": "与你的辣椒研究关系",
+          "text": "该研究为辣椒22组织图谱中的胁迫响应模块提供有力的候选基因和通路，结合转录组数据可进一步挖掘抗旱转录因子网络及表观遗传调控机制，对提升辣椒抗旱性能具有直接启示作用。",
+          "kind": "application"
+        },
+        {
+          "label": "对22组织图谱的具体启示",
+          "text": "提出了水分胁迫下ABA信号和MAPK途径对果实及根系组织调控的潜在作用，结合多组学可用于完善辣椒22组织中激素响应和信号传导的染色质可及性及转录调控模型。",
+          "kind": "application"
+        },
+        {
+          "label": "需要注意",
+          "text": "该研究未直接提供DNA甲基化或组蛋白修饰数据，故具体表观遗传机制需在未来联合CUT&Tag和WGBS技术中验证。纳米材料的安全性和长期影响亦需进一步评估。",
+          "kind": "limitation"
+        },
+        {
+          "label": "建议优先看",
+          "text": "重点关注抗旱相关MAPK、ABA信号通路及水运输基因的转录调控变化与候选转录因子，深入分析其在22组织图谱中的表达与染色质状态。",
+          "kind": "reading"
+        }
+      ],
+      "classification": {
+        "species": [
+          "辣椒"
+        ],
+        "process": [
+          "胁迫响应"
+        ],
+        "regulation": [
+          "其他或未涉及"
+        ],
+        "methods": [
+          "多组学"
+        ],
+        "evidence_type": [
+          "组学关联"
+        ],
+        "article_type": [
+          "机制研究"
+        ]
+      },
+      "translations": {
+        "en": {
+          "heading": "Grafting and biodynamic nanosilica-induced physiological and transcriptomic modulation of chilli (Capsicum annuum L.) under drought stress",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "This study first systematically investigates the synergistic effects of grafting combined with biodynamic nanosilica (BNS) on chili drought tolerance at physiological and transcriptomic levels, revealing significant improvements in growth parameters, photosynthetic efficiency, antioxidant enzyme activities, reduced lipid peroxidation, enhanced root morphology, and nearly 80% yield increase."
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "Using Illumina NovaSeq 6000 transcriptome sequencing, 1,051 differentially expressed genes were identified, enriched in MAPK signaling, ABA regulation, and phenylpropanoid biosynthesis pathways. Protein interaction network analysis revealed coordinated regulation modules involving redox homeostasis, hormonal signaling, and water transport."
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "The study provides strong candidate genes and pathways for drought response modules in the pepper 22-tissue atlas. Integration with transcriptomic data can further explore drought-related transcription factor networks and epigenetic regulation, directly benefiting pepper drought tolerance improvement."
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "It suggests potential roles of ABA signaling and MAPK pathways in regulating fruit and root tissues under water stress. Multi-omics data integration could refine regulatory models of hormone response and signal transduction involving chromatin accessibility and transcriptional control in pepper 22 tissues."
+            },
+            {
+              "label": "Limitations",
+              "text": "The study lacks direct DNA methylation or histone modification data; thus, epigenetic mechanisms require future validation using CUT&Tag and WGBS. The safety and long-term effects of nanosilica need further assessment."
+            },
+            {
+              "label": "What to read first",
+              "text": "Focus on transcriptional changes of MAPK, ABA signaling pathways, and water transport genes linked with candidate transcription factors, exploring their expression and chromatin states in the 22-tissue atlas."
+            }
+          ]
+        }
+      },
+      "journal_club": {
+        "traits": [
+          "stress",
+          "yield"
+        ],
+        "kind": "hypothesis",
+        "origin": "literature",
+        "conservation": "unverified",
+        "zh": {
+          "goal": "提升辣椒抗旱能力及产量",
+          "strategy_results": "辣椒通过嫁接和生物动力纳米二氧化硅处理，在显著提升抗旱生理指标与产量的同时，转录组显示ABA信号及MAPK通路调控。",
+          "pepper_basis": "基于辣椒自身研究，结合胁迫相关基因调控，推测该策略适用于辣椒抗旱改良。",
+          "engineering_outcome": "通过基因组编辑或分子育种优化ABA和MAPK通路关键基因，预测提高辣椒耐旱和产量。",
+          "tradeoffs_metrics": "潜在纳米材料安全风险和代谢调控平衡，产量及抗旱效率为主要评价指标。",
+          "next_step": "小规模验证ABA及MAPK调控元件的基因表达和表观遗传修饰关联。"
+        },
+        "en": {
+          "goal": "Enhance pepper drought tolerance and yield",
+          "strategy_results": "In chili pepper, grafting combined with biodynamic nanosilica treatment significantly improved drought physiological traits and yield, with transcriptomics showing regulation in ABA signaling and MAPK pathways.",
+          "pepper_basis": "Based on pepper-specific studies and stress-related gene regulation, this strategy is inferred to be suitable for drought tolerance improvement in pepper.",
+          "engineering_outcome": "Genomic editing or molecular breeding targeting key genes in ABA and MAPK pathways is predicted to enhance pepper drought resistance and yield.",
+          "tradeoffs_metrics": "Potential risks of nanosilica safety and metabolic regulation balance; yield and drought resistance efficiency as primary evaluation criteria.",
+          "next_step": "Small-scale validation of gene expression and epigenetic modification correlations in ABA and MAPK regulatory elements."
+        }
+      },
+      "doi": "10.3389/fpls.2026.1916999",
+      "evidence": {
+        "source_type": "abstract",
+        "reading_depth": "仅摘要",
+        "verification": "待核验",
+        "classification_status": "由摘要自动归类，待核验",
+        "source_url": "https://doi.org/10.3389/fpls.2026.1916999",
+        "retrieved_at": "2026-09-18T04:28:39.001803+00:00",
+        "abstract": "Chilli (Capsicum annuum L.) is an economically important vegetable crop cultivated worldwide. Increasing drought stress associated with climate change has severely reduced chilli productivity. Although grafting and silicon-based nanomaterials have each been investigated independently as drought mitigation strategies in Solanaceae crops, this study represents, to our knowledge, the first investigation of their combined physiological, yield, and genome-wide transcriptomic effects in chilli under experimentally validated drought stress. Biodynamic nanosilica (BNS) is an α-quartz nanoparticle preparation (20-200 nm) derived from the biodynamic agricultural preparation BD501 through a vortex-triturating process, and distinct from chemically synthesised nanosilica in preparation method and surface bioavailability, applied as a foliar spray at 50 mg L-1. Five treatments were established: well-watered (WW), drought (D), grafting + BNS + drought (G+B+D), grafting + drought (G+D), and BNS + drought (B+D), each with three independent biological replicates. Under moderate-to-severe drought conditions (DSI 62-64%; VWC ~12% v/v at 14 days), the combined G+B+D treatment significantly improved plant height (3.05-fold over D), leaf relative water content (83% vs 49% in D), net photosynthetic rate (2.0-fold over D), water-use efficiency (+40%), and antioxidant enzyme activities (SOD: 3.1-fold; CAT: 2.8-fold over D), while reducing lipid peroxidation by 76%. Root architecture was also substantially enhanced, with a 4.1-fold increase in root length and a 3.1-fold increase in root surface area relative to D. Fruit yield increased by 79% relative to drought-stressed non-grafted plants. Transcriptomic analysis using Illumina NovaSeq 6000 identified 1,051 DEGs (431 upregulated, 620 downregulated; FDR 2FC| > 1). Integrated transcriptomic-phenotypic concordance analysis revealed enrichment of MAPK signalling, ABA-mediated regulation (including ABA binding and (+)-ABA 8'-hydroxylase activity), and phenylpropanoid biosynthesis as the enriched pathways. Protein-protein interaction network analysis further revealed coordinated regulation of redox homeostasis, drought-responsive hormone signalling, and water transport gene modules in the combined treatment. These findings demonstrate that integrating grafting with biodynamic nanosilica is a promising strategy to enhance drought resilience and productivity in chilli, offering a sustainable approach for vegetable production under drought.",
+        "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+      },
+      "id": "paper-ebe059422ac2d43c",
+      "entry_type": "backfill",
+      "revision": 1,
+      "openalex": {
+        "status": "matched",
+        "match_method": "doi_title",
+        "checked_at": "2026-09-18T04:28:40.270637+00:00",
+        "source_updated_at": "2026-09-13T09:14:26.050021",
+        "id": "https://openalex.org/W7204155339",
+        "doi": "10.3389/fpls.2026.1916999",
+        "cited_by_count": 0,
+        "referenced_works_count": 73,
+        "counts_by_year": [],
+        "authors": [
+          {
+            "name": "N. Bharathy",
+            "url": "https://openalex.org/A5055214742",
+            "orcid": "https://orcid.org/0000-0002-0635-303X"
+          },
+          {
+            "name": "Theivasigamani Parthasarathi",
+            "url": "https://openalex.org/A5078006358",
+            "orcid": "https://orcid.org/0000-0003-4480-7845"
+          }
+        ],
+        "institutions": [
+          {
+            "name": "Vellore Institute of Technology University",
+            "url": "https://openalex.org/I876193797",
+            "country": "IN"
+          }
+        ],
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://doi.org/10.3389/fpls.2026.1916999",
+        "pdf_url": null,
+        "is_retracted": false
+      },
+      "metadata": {
+        "status": "matched",
+        "bibliography": {
+          "title": "Grafting and biodynamic nanosilica-induced physiological and transcriptomic modulation of chilli (Capsicum annuum L.) under drought stress",
+          "doi": "10.3389/fpls.2026.1916999",
+          "journal": "Frontiers in Plant Science",
+          "date": "2026-08-25",
+          "authors": [
+            {
+              "family": "Bharathy",
+              "given": "Nagarajan"
+            },
+            {
+              "family": "Parthasarathi",
+              "given": "Theivasigamani"
+            }
+          ],
+          "type": "journal-article"
+        },
+        "differences": [],
+        "relations": [],
+        "updates": [],
+        "checked_at": "2026-09-18T04:29:24.184650+00:00",
+        "source_url": "https://api.crossref.org/works/10.3389%2Ffpls.2026.1916999",
+        "update_check": "completed"
+      },
+      "issues": [
+        "2026-09-18"
+      ],
+      "related_papers": []
+    },
+    {
+      "title": "Genome Editing in Solanaceae: Harnessing CRISPR-Cas Technology for Precision Crop Improvement.",
+      "date": "2026-09-04",
+      "journal": "Plants (Basel, Switzerland)",
+      "kind": "期刊记录（审稿状态请核对原文）",
+      "url": "https://doi.org/10.3390/plants15172715",
+      "priority": "快速浏览",
+      "tags": [
+        "solanaceae",
+        "基因组编辑",
+        "果实品质"
+      ],
+      "heading": "CRISPR-Cas基因组编辑技术在茄科作物精准改良中的应用综述",
+      "sections": [
+        {
+          "label": "真正的新发现",
+          "text": "该综述总结了CRISPR/Cas系统在茄科作物如番茄、土豆、茄子和辣椒中的最新应用进展，特别在抗病、抗逆及果实品质调控基因的精准修饰方面取得突破。",
+          "kind": "reported"
+        },
+        {
+          "label": "机制或方法上的关键点",
+          "text": "介绍了碱基编辑、prime editing以及无转基因蛋白-核糖核酸递送等新兴技术，指出基因组编辑的扩展和精准度提升，为复杂多基因性状的精准改造提供可能。",
+          "kind": "reported"
+        },
+        {
+          "label": "与你的辣椒研究关系",
+          "text": "为辣椒功能基因验证和育种提供最新基因组编辑工具和策略，尤其适用于目标调控果实品质和抗性基因，有助于结合表观基因组数据实现精准改良。",
+          "kind": "application"
+        },
+        {
+          "label": "对22组织图谱的具体启示",
+          "text": "该综述启示将CRISPR基因编辑结合多组学信息，优先编辑经染色质可及性和活跃表观标记标注的果实成熟关键转录因子，以加速功能验证与改良。",
+          "kind": "application"
+        },
+        {
+          "label": "需要注意",
+          "text": "当前转化效率及同源重组水平仍是限制因素，且转基因法规和潜在脱靶效应需谨慎考虑。辣椒具体遗传背景对编辑效率的影响尚待系统评估。",
+          "kind": "limitation"
+        },
+        {
+          "label": "建议优先看",
+          "text": "关注新兴基因编辑方法（如prime editing）和转基因传递技术，以及与多组学数据整合的案例，提升辣椒编辑应用的效率和精准度。",
+          "kind": "reading"
+        }
+      ],
+      "classification": {
+        "species": [
+          "其他茄科"
+        ],
+        "process": [
+          "果实成熟",
+          "激素响应"
+        ],
+        "regulation": [
+          "其他或未涉及"
+        ],
+        "methods": [
+          "表观基因组编辑"
+        ],
+        "evidence_type": [
+          "资源整合"
+        ],
+        "article_type": [
+          "综述或实质分析"
+        ]
+      },
+      "translations": {
+        "en": {
+          "heading": "Genome Editing in Solanaceae: Harnessing CRISPR-Cas Technology for Precision Crop Improvement",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "This review summarizes recent advances of CRISPR/Cas applications in Solanaceae crops such as tomato, potato, eggplant, and pepper, highlighting breakthroughs in precise modifications of genes for disease resistance, stress tolerance, and fruit quality regulation."
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "It introduces emerging techniques like base editing, prime editing, and transgene-free RNP delivery, emphasizing expanded scope and precision in genome editing that enable modification of complex polygenic traits."
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "Provides the latest genome editing tools and strategies for functional gene validation and breeding in pepper, especially for targeted improvement of fruit quality and resistance genes, facilitating integration with epigenomic data."
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "The review suggests combining CRISPR editing with multi-omics to prioritize editing of fruit ripening key transcription factors marked by accessible chromatin and active epigenetic marks, accelerating functional validation and breeding."
+            },
+            {
+              "label": "Limitations",
+              "text": "Current constraints include transformation efficiency and homologous recombination levels; regulatory concerns and potential off-target effects require caution; pepper-specific genetic backgrounds affecting editing are still under evaluation."
+            },
+            {
+              "label": "What to read first",
+              "text": "Focus on emerging editing methods (e.g. prime editing), delivery technologies, and case studies integrating multi-omics data to enhance editing efficiency and precision in pepper."
+            }
+          ]
+        }
+      },
+      "journal_club": null,
+      "doi": "10.3390/plants15172715",
+      "evidence": {
+        "source_type": "abstract",
+        "reading_depth": "仅摘要",
+        "verification": "待核验",
+        "classification_status": "由摘要自动归类，待核验",
+        "source_url": "https://doi.org/10.3390/plants15172715",
+        "retrieved_at": "2026-09-18T04:28:39.001880+00:00",
+        "abstract": "Malnutrition and climate-induced stress remain major constraints to global food and nutritional security despite the yield gains of the Green Revolution. Solanaceae crops such as tomato, potato, brinjal, and pepper are key sources of vitamins, minerals, and bioactive compounds. Yet, their genetic improvement has been limited by narrow diversity and complex polygenic traits. The advent of CRISPR/Cas-mediated genome editing provides a transformative platform for precision crop improvement by enabling targeted modification of genes controlling stress tolerance, yield, and nutritional quality. In Solanaceae, CRISPR/Cas applications have successfully enhanced resistance against major pathogens (SlMlo1, SlPelo, SlDCL2), improved abiotic stress tolerance through editing of SlMAPK3, SlCBF1, and SlBZR1, and optimized fruit quality traits via modulation of Psy1, CrtR-b2, and fiAD2/3. Emerging innovations, such as base and prime editing, and RNP-mediated transgene-free delivery, are expanding the precision and scope of editing. However, challenges persist, including genotype-dependent transformation, low HDR efficiency, and incomplete understanding of off-target and epigenetic effects. Integrating CRISPR with omics-guided gene discovery, efficient transformation systems, and regulatory harmonization can accelerate the development of nutritionally enriched, stress-resilient, and sustainable Solanaceae varieties. This review synthesizes recent advances, identifies critical limitations, and outlines future opportunities for deploying CRISPR/Cas technology to achieve next-generation breeding and food system resilience.",
+        "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+      },
+      "id": "paper-9097b623ce89fb5c",
+      "entry_type": "backfill",
+      "revision": 1,
+      "openalex": {
+        "status": "matched",
+        "match_method": "doi_title",
+        "checked_at": "2026-09-18T04:28:40.333712+00:00",
+        "source_updated_at": "2026-09-16T18:09:00.828671",
+        "id": "https://openalex.org/W7208793033",
+        "doi": "10.3390/plants15172715",
+        "cited_by_count": 0,
+        "referenced_works_count": 216,
+        "counts_by_year": [],
+        "authors": [
+          {
+            "name": "Vandana Thakur",
+            "url": "https://openalex.org/A5128353878",
+            "orcid": null
+          },
+          {
+            "name": "Akshay Kumar Vats",
+            "url": "https://openalex.org/A5050518191",
+            "orcid": "https://orcid.org/0000-0003-0168-0776"
+          },
+          {
+            "name": "Rahul Kumar",
+            "url": "https://openalex.org/A5101577076",
+            "orcid": "https://orcid.org/0000-0002-2419-2428"
+          },
+          {
+            "name": "Anand Kumar",
+            "url": "https://openalex.org/A5149990482",
+            "orcid": null
+          },
+          {
+            "name": "S Vyas",
+            "url": "https://openalex.org/A5102988778",
+            "orcid": null
+          },
+          {
+            "name": "Snehel Chakravarty",
+            "url": "https://openalex.org/A5109457419",
+            "orcid": null
+          },
+          {
+            "name": "Kirti Bardhan",
+            "url": "https://openalex.org/A5024184953",
+            "orcid": "https://orcid.org/0000-0003-2765-4322"
+          },
+          {
+            "name": "M. Paul",
+            "url": "https://openalex.org/A5110211697",
+            "orcid": null
+          },
+          {
+            "name": "Ambika More",
+            "url": "https://openalex.org/A5150040232",
+            "orcid": null
+          },
+          {
+            "name": "Vishal Johar",
+            "url": "https://openalex.org/A5128338749",
+            "orcid": null
+          },
+          {
+            "name": "Vinod Kumar",
+            "url": "https://openalex.org/A5150027647",
+            "orcid": null
+          },
+          {
+            "name": "Nimmy M S",
+            "url": "https://openalex.org/A5150031880",
+            "orcid": "https://orcid.org/0000-0003-3436-4921"
+          },
+          {
+            "name": "R. Ravi Teja",
+            "url": "https://openalex.org/A5150010755",
+            "orcid": null
+          }
+        ],
+        "institutions": [
+          {
+            "name": "Lovely Professional University",
+            "url": "https://openalex.org/I110360157",
+            "country": "IN"
+          },
+          {
+            "name": "Bihar Agricultural University",
+            "url": "https://openalex.org/I2800696116",
+            "country": "IN"
+          },
+          {
+            "name": "DAV University",
+            "url": "https://openalex.org/I1341847395",
+            "country": "IN"
+          },
+          {
+            "name": "GLA University",
+            "url": "https://openalex.org/I82571370",
+            "country": "IN"
+          },
+          {
+            "name": "Sant Baba Bhag Singh University",
+            "url": "https://openalex.org/I4405259092",
+            "country": "IN"
+          },
+          {
+            "name": "Navsari Agricultural University",
+            "url": "https://openalex.org/I152185767",
+            "country": "IN"
+          },
+          {
+            "name": "Ramakrishna Mission Vidyamandira",
+            "url": "https://openalex.org/I2799306724",
+            "country": "IN"
+          },
+          {
+            "name": "Ramakrishna Mission Vivekananda Educational and Research Institute",
+            "url": "https://openalex.org/I34034455",
+            "country": "IN"
+          },
+          {
+            "name": "Marathwada Agricultural University",
+            "url": "https://openalex.org/I120386524",
+            "country": "IN"
+          },
+          {
+            "name": "National Research Centre on Plant Biotechnology",
+            "url": "https://openalex.org/I4210091233",
+            "country": "IN"
+          },
+          {
+            "name": "Indian Agricultural Research Institute",
+            "url": "https://openalex.org/I45509622",
+            "country": "IN"
+          },
+          {
+            "name": "National Academy of Agricultural Research Management",
+            "url": "https://openalex.org/I174979866",
+            "country": "IN"
+          }
+        ],
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://doi.org/10.3390/plants15172715",
+        "pdf_url": null,
+        "is_retracted": false
+      },
+      "metadata": {
+        "status": "matched",
+        "bibliography": {
+          "title": "Genome Editing in Solanaceae: Harnessing CRISPR-Cas Technology for Precision Crop Improvement",
+          "doi": "10.3390/plants15172715",
+          "journal": "Plants",
+          "date": "2026-09-04",
+          "authors": [
+            {
+              "family": "Thakur",
+              "given": "Vandana"
+            },
+            {
+              "family": "Vats",
+              "given": "Akshay Kumar"
+            },
+            {
+              "family": "Kumar",
+              "given": "Rahul"
+            },
+            {
+              "family": "Kumar",
+              "given": "Anand"
+            },
+            {
+              "family": "Vyas",
+              "given": "Shalu"
+            },
+            {
+              "family": "Chakravarty",
+              "given": "Snehel"
+            },
+            {
+              "family": "Bardhan",
+              "given": "Kirti"
+            },
+            {
+              "family": "Paul",
+              "given": "Mouli"
+            },
+            {
+              "family": "More",
+              "given": "Ambika"
+            },
+            {
+              "family": "Johar",
+              "given": "Vishal"
+            },
+            {
+              "family": "Kumar",
+              "given": "Vinod"
+            },
+            {
+              "family": "M S",
+              "given": "Nimmy"
+            },
+            {
+              "family": "Teja",
+              "given": "R. Ravi"
+            }
+          ],
+          "type": "journal-article"
+        },
+        "differences": [],
+        "relations": [],
+        "updates": [],
+        "checked_at": "2026-09-18T04:29:24.792225+00:00",
+        "source_url": "https://api.crossref.org/works/10.3390%2Fplants15172715",
+        "update_check": "completed"
+      },
+      "issues": [
+        "2026-09-18"
+      ],
+      "related_papers": []
+    },
+    {
+      "title": "Calcium Sources Mitigate Salt Stress and Improve the Physiological and Productive Performance of Bell Peppers.",
+      "date": "2026-08-27",
+      "journal": "Plants (Basel, Switzerland)",
+      "kind": "期刊记录（审稿状态请核对原文）",
+      "url": "https://doi.org/10.3390/plants15172620",
+      "priority": "快速浏览",
+      "tags": [
+        "solanaceae",
+        "胁迫响应",
+        "果实品质"
+      ],
+      "heading": "钙源对辣椒盐胁迫缓解及光合与产量性能提升的研究",
+      "sections": [
+        {
+          "label": "真正的新发现",
+          "text": "研究对比了底肥和叶面两种施钙方式，以及不同钙源（无钙、硝酸钙和氨基酸螯合钙）对应对辣椒盐胁迫的效果，发现氨基酸螯合钙显著提高光系统II效率、气孔导度和果实产量，并减轻顶端腐烂。",
+          "kind": "reported"
+        },
+        {
+          "label": "机制或方法上的关键点",
+          "text": "通过气体交换参数和叶绿素荧光指标评估光合功能，结合产量和品质分析，揭示钙源通过改善光合作用效率及稳定叶绿素指标来缓解盐胁迫。",
+          "kind": "reported"
+        },
+        {
+          "label": "与你的辣椒研究关系",
+          "text": "为辣椒盐胁迫生理和果实品质的多组学研究提供了实验证据和处理方案，搭配22组织中光合和氧化还原相关基因的表观遗传调控研究具有协同意义。",
+          "kind": "application"
+        },
+        {
+          "label": "对22组织图谱的具体启示",
+          "text": "提示钙营养形态与施用方式显著影响叶片光合组织的生理状态和基因表达，结合ATAC-seq及组蛋白修饰数据可深化对盐胁迫响应调控网络的理解。",
+          "kind": "application"
+        },
+        {
+          "label": "需要注意",
+          "text": "实验基于水培体系，需谨慎外推至土壤生产条件。盐胁迫水平和氨基酸螯合钙的长期安全性尚需验证。",
+          "kind": "limitation"
+        },
+        {
+          "label": "建议优先看",
+          "text": "重点关注光系统II效率、气孔导度等光合指标与盐胁迫相关基因的染色质可及性及组蛋白活性标记的对应关系。",
+          "kind": "reading"
+        }
+      ],
+      "classification": {
+        "species": [
+          "辣椒"
+        ],
+        "process": [
+          "胁迫响应",
+          "果实发育"
+        ],
+        "regulation": [
+          "其他或未涉及"
+        ],
+        "methods": [],
+        "evidence_type": [
+          "组学关联"
+        ],
+        "article_type": [
+          "关联研究"
+        ]
+      },
+      "translations": {
+        "en": {
+          "heading": "Calcium Sources Mitigate Salt Stress and Improve the Physiological and Productive Performance of Bell Peppers",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "This study compares substrate and foliar calcium application methods and different calcium sources (none, calcium nitrate, calcium complexed with amino acids) for alleviating salt stress in pepper, finding that amino acid-complexed calcium significantly enhances photosystem II efficiency, stomatal conductance, fruit yield, and reduces apical rot."
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "Assessment of gas exchange parameters and chlorophyll fluorescence elucidated the improvement of photosynthetic function and stability of chlorophyll indices by calcium sources, thereby mitigating salt stress effects."
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "Provides experimental evidence and treatment strategies relevant for pepper salt stress physiology and fruit quality studies, complementing multi-omics analysis of photosynthesis and redox-related gene epigenetic regulation in the 22-tissue atlas."
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Suggests calcium nutrition forms and application methods markedly affect physiological status and gene expression in leaf photosynthetic tissues, inviting integration with ATAC-seq and histone modification data for deeper understanding of salt stress regulatory networks."
+            },
+            {
+              "label": "Limitations",
+              "text": "Experiments were conducted in substrate hydroponic systems, so extension to soil-based production requires caution. Salt stress levels and long-term safety of amino acid-complexed calcium require further validation."
+            },
+            {
+              "label": "What to read first",
+              "text": "Focus on relationships between photosystem II efficiency, stomatal conductance, salt stress-related genes’ chromatin accessibility and histone activation marks."
+            }
+          ]
+        }
+      },
+      "journal_club": null,
+      "doi": "10.3390/plants15172620",
+      "evidence": {
+        "source_type": "abstract",
+        "reading_depth": "仅摘要",
+        "verification": "待核验",
+        "classification_status": "由摘要自动归类，待核验",
+        "source_url": "https://doi.org/10.3390/plants15172620",
+        "retrieved_at": "2026-09-18T04:28:39.001974+00:00",
+        "abstract": "Bell peppers (Capsicum annuum L.) are of great importance and have high productive potential in Brazil, especially in the Northeast region; however, their production is limited due to salinity problems in water and soil. The objective of this study was to evaluate sources and methods of calcium application for mitigating salt stress in bell pepper plants grown in a substrate-based hydroponic system. The experiment was conducted using a split-plot design in a 2 × 2 × 3 layout with four replicates, consisting of two application methods (substrate and spray), two ECiw levels (0.5 and 5.0 dS m-1), and three calcium sources (no calcium-NCa; calcium nitrate-Ca(NO3)2; calcium complexed with amino acids-Ca-AA). Forty-two days after transplanting, gas exchange analysis, chlorophyll a, b, and total chlorophyll indices, chlorophyll fluorescence, fruit number and weight, and yield per plant were measured. Ca-AA showed higher photosystem II efficiency when applied via the substrate and higher stomatal conductance (28.10%), resulted in higher fruit yield compared to the other treatments, and contributed to a reduction in apical rot. Meanwhile, the application of Ca(NO3)2 improved electron transport in photosystem II by 5.46%, gas exchange, and increased chlorophyll b and total chlorophyll indices by 29.62% and 10.93%, respectively. It is concluded that the application of Ca sources, especially Ca-AA, has the potential to mitigate the effects of salt stress on bell pepper plants in a substrate-based hydroponic system, improving their photosynthetic and productive performance.",
+        "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+      },
+      "id": "paper-e5fc36e80bed10df",
+      "entry_type": "backfill",
+      "revision": 1,
+      "openalex": {
+        "status": "matched",
+        "match_method": "doi_title",
+        "checked_at": "2026-09-18T04:28:40.438055+00:00",
+        "source_updated_at": "2026-09-16T18:09:00.828671",
+        "id": "https://openalex.org/W7204491876",
+        "doi": "10.3390/plants15172620",
+        "cited_by_count": 0,
+        "referenced_works_count": 89,
+        "counts_by_year": [],
+        "authors": [
+          {
+            "name": "Daise Feitoza da Rocha",
+            "url": "https://openalex.org/A5035273165",
+            "orcid": "https://orcid.org/0000-0001-9998-8191"
+          },
+          {
+            "name": "Enoch de Souza Ferreira",
+            "url": "https://openalex.org/A5045792479",
+            "orcid": "https://orcid.org/0000-0002-3175-154X"
+          },
+          {
+            "name": "Antonia Gilvanira da Silva",
+            "url": "https://openalex.org/A5137195506",
+            "orcid": null
+          },
+          {
+            "name": "Antonio G. R. Araújo",
+            "url": "https://openalex.org/A5102944982",
+            "orcid": "https://orcid.org/0009-0005-4947-3620"
+          },
+          {
+            "name": "Gthielly Maíra Fernandes",
+            "url": "https://openalex.org/A5102560755",
+            "orcid": null
+          },
+          {
+            "name": "Emanuel Araújo Alves",
+            "url": "https://openalex.org/A5133759177",
+            "orcid": null
+          },
+          {
+            "name": "Francisco Felipe Barroso Pinto",
+            "url": "https://openalex.org/A5011295896",
+            "orcid": "https://orcid.org/0000-0001-9113-2954"
+          },
+          {
+            "name": "Pedro Henrique de Araújo Gurgel",
+            "url": "https://openalex.org/A5116720958",
+            "orcid": null
+          },
+          {
+            "name": "Francimar Maik da Silva Morais",
+            "url": "https://openalex.org/A5122507479",
+            "orcid": null
+          },
+          {
+            "name": "Francisco de Assis de Oliveira",
+            "url": "https://openalex.org/A5148464404",
+            "orcid": null
+          },
+          {
+            "name": "Nildo da Silva Dias",
+            "url": "https://openalex.org/A5088131806",
+            "orcid": "https://orcid.org/0000-0002-1276-5444"
+          },
+          {
+            "name": "Miguel Ferreira Neto",
+            "url": "https://openalex.org/A5047264417",
+            "orcid": "https://orcid.org/0000-0002-5128-8230"
+          },
+          {
+            "name": "Rafael Oliveira Batista",
+            "url": "https://openalex.org/A5070868602",
+            "orcid": "https://orcid.org/0000-0002-3083-6808"
+          },
+          {
+            "name": "Hans Raj Gheyi",
+            "url": "https://openalex.org/A5015147870",
+            "orcid": "https://orcid.org/0000-0002-1066-0315"
+          },
+          {
+            "name": "Alberto Soares de Melo",
+            "url": "https://openalex.org/A5036504450",
+            "orcid": "https://orcid.org/0000-0002-4586-5388"
+          },
+          {
+            "name": "Antônio Gustavo de Luna Souto",
+            "url": "https://openalex.org/A5005995696",
+            "orcid": "https://orcid.org/0000-0003-2798-2174"
+          }
+        ],
+        "institutions": [
+          {
+            "name": "Universidade Federal Rural do Semi-Árido",
+            "url": "https://openalex.org/I84554738",
+            "country": "BR"
+          },
+          {
+            "name": "Universidade Federal de Campina Grande",
+            "url": "https://openalex.org/I41455075",
+            "country": "BR"
+          },
+          {
+            "name": "Universidade Estadual da Paraíba",
+            "url": "https://openalex.org/I136754270",
+            "country": "BR"
+          },
+          {
+            "name": "Universidade Federal da Paraíba",
+            "url": "https://openalex.org/I169045520",
+            "country": "BR"
+          }
+        ],
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://doi.org/10.3390/plants15172620",
+        "pdf_url": null,
+        "is_retracted": false
+      },
+      "metadata": {
+        "status": "matched",
+        "bibliography": {
+          "title": "Calcium Sources Mitigate Salt Stress and Improve the Physiological and Productive Performance of Bell Peppers",
+          "doi": "10.3390/plants15172620",
+          "journal": "Plants",
+          "date": "2026-08-27",
+          "authors": [
+            {
+              "family": "Rocha",
+              "given": "Daise Feitoza da"
+            },
+            {
+              "family": "Ferreira",
+              "given": "Enoch de Souza"
+            },
+            {
+              "family": "Silva",
+              "given": "Antonia Gilvanira da"
+            },
+            {
+              "family": "Araújo",
+              "given": "Antonio Genilson Rodrigues"
+            },
+            {
+              "family": "Fernandes",
+              "given": "Gthielly Maíra"
+            },
+            {
+              "family": "Alves",
+              "given": "Emanuel Araújo"
+            },
+            {
+              "family": "Pinto",
+              "given": "Francisco Felipe Barroso"
+            },
+            {
+              "family": "Gurgel",
+              "given": "Pedro Henrique de Araújo"
+            },
+            {
+              "family": "Morais",
+              "given": "Francimar Maik da Silva"
+            },
+            {
+              "family": "Oliveira",
+              "given": "Francisco de Assis de"
+            },
+            {
+              "family": "Dias",
+              "given": "Nildo da Silva"
+            },
+            {
+              "family": "Ferreira Neto",
+              "given": "Miguel"
+            },
+            {
+              "family": "Batista",
+              "given": "Rafael Oliveira"
+            },
+            {
+              "family": "Gheyi",
+              "given": "Hans Raj"
+            },
+            {
+              "family": "Melo",
+              "given": "Alberto Soares de"
+            },
+            {
+              "family": "Souto",
+              "given": "Antônio Gustavo de Luna"
+            }
+          ],
+          "type": "journal-article"
+        },
+        "differences": [],
+        "relations": [],
+        "updates": [],
+        "checked_at": "2026-09-18T04:29:25.558655+00:00",
+        "source_url": "https://api.crossref.org/works/10.3390%2Fplants15172620",
+        "update_check": "completed"
+      },
+      "issues": [
+        "2026-09-18"
+      ],
+      "related_papers": []
+    },
+    {
+      "title": "CgMYC2 directly activates jasmonate-induced naringin biosynthesis in Citrus grandis 'Tomentosa'.",
+      "date": "2026-09-02",
+      "journal": "Plant cell reports",
+      "kind": "期刊记录（审稿状态请核对原文）",
+      "url": "https://doi.org/10.1007/s00299-026-03960-0",
+      "priority": "快速浏览",
+      "tags": [
+        "solanaceae",
+        "激素响应",
+        "转录因子"
+      ],
+      "heading": "CgMYC2介导的茄属植物茉莉酸响应和黄酮类物质合成机制解析",
+      "sections": [
+        {
+          "label": "真正的新发现",
+          "text": "本研究首次鉴定了柑橘中茉莉酸响应转录因子CgMYC2的核心激活作用，直接结合并转录激活核苷类黄酮合成基因的启动子，显著提升苦味黄酮类成分含量。",
+          "kind": "reported"
+        },
+        {
+          "label": "机制或方法上的关键点",
+          "text": "采用了Pull-down、Co-IP、EMSA、双荧光素酶报告、VIGS，以及CUT&Tag定位技术，完善了MYC2与JAZ及下游靶基因的直接结合和调控调节网络。",
+          "kind": "reported"
+        },
+        {
+          "label": "与你的辣椒研究关系",
+          "text": "MYC2家族作为茉莉酸信号关键转录因子，在辣椒中同样广泛保守，其对果实质量和抗性相关次级代谢物调控提供重要参考价值。",
+          "kind": "application"
+        },
+        {
+          "label": "对22组织图谱的具体启示",
+          "text": "强调了茉莉酸调控网络中MYC2结合G-box序列的关键作用，可结合22组织图谱中的ATAC-seq和组蛋白修饰数据，解析其果实成熟期的转录控制机制。",
+          "kind": "application"
+        },
+        {
+          "label": "需要注意",
+          "text": "本文未提供辣椒中MYC2的功能验证，且柑橘与茄属的代谢区别要求结合保守性分析谨慎应用于辣椒。",
+          "kind": "limitation"
+        },
+        {
+          "label": "建议优先看",
+          "text": "建议重点阅读MYC2及其靶基因G-box依赖的启动子结合与转录激活机制，及其在果实成熟和激素调控中的网络定位。",
+          "kind": "reading"
+        }
+      ],
+      "classification": {
+        "species": [
+          "其他植物"
+        ],
+        "process": [
+          "激素响应",
+          "果实成熟"
+        ],
+        "regulation": [
+          "其他或未涉及"
+        ],
+        "methods": [
+          "CUT&Tag"
+        ],
+        "evidence_type": [
+          "直接结合或互作",
+          "遗传验证"
+        ],
+        "article_type": [
+          "机制研究"
+        ]
+      },
+      "translations": {
+        "en": {
+          "heading": "CgMYC2 directly activates jasmonate-induced naringin biosynthesis in Citrus grandis 'Tomentosa'",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "This study identified CgMYC2 as a core jasmonate-responsive transcription activator in citrus, directly binding and activating promoters of flavonoid biosynthetic genes, significantly increasing bitter flavonoid content."
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "Utilizing Pull-down, Co-IP, EMSA, dual-luciferase assays, VIGS, and CUT&Tag, the research established the direct binding of MYC2 to JAZ and downstream target genes, clarifying the regulatory cascade."
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "MYC2 family is conserved jasmonate pathway transcription factor broadly present in pepper; insights on regulation of fruit quality and secondary metabolites bear relevance."
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Highlights MYC2 binding to G-box motifs as key jasmonate regulatory mechanism, suggesting integration with ATAC-seq and histone mark data in the 22-tissue atlas to unravel fruit ripening transcriptional control."
+            },
+            {
+              "label": "Limitations",
+              "text": "No direct functional validation in pepper and metabolic differences between citrus and Solanaceae necessitate cautious extrapolation."
+            },
+            {
+              "label": "What to read first",
+              "text": "Focus on MYC2-mediated G-box dependent promoter binding and transcriptional activation mechanisms, and its regulatory network during fruit ripening and hormone signaling."
+            }
+          ]
+        }
+      },
+      "journal_club": null,
+      "doi": "10.1007/s00299-026-03960-0",
+      "evidence": {
+        "source_type": "abstract",
+        "reading_depth": "仅摘要",
+        "verification": "待核验",
+        "classification_status": "由摘要自动归类，待核验",
+        "source_url": "https://doi.org/10.1007/s00299-026-03960-0",
+        "retrieved_at": "2026-09-18T04:28:39.002017+00:00",
+        "abstract": "Key messageCgMYC2 links jasmonate signaling to naringin biosynthesis by binding G-box motifs and activating flavonoid-pathway promoters in Citrus grandis 'Tomentosa' Naringin, the predominant bitter-flavanone glycoside in Citrus grandis 'Tomentosa', has well-characterized biosynthetic enzymes, yet the transcriptional regulators coupling hormonal signals to pathway activation remain poorly understood. We demonstrate that CgMYC2, a jasmonate-responsive bHLH transcription factor, functions as a central activator of naringin biosynthesis. Exogenous methyl jasmonate (MeJA) treatment increased naringin content 3.45-fold in seedlings, coinciding with a rapid 6.6-fold induction of CgMYC2 that preceded the peak transcription of five core biosynthetic genes (CgPAL5, CgCHS, CgFNS, Cg7GlcT, and Cg1,2RhaT). Physical interaction between CgMYC2 and the JAZ protein CgJAZ3 was confirmed by pull-down and Co-IP assays, placing CgMYC2 within the canonical jasmonate signaling cascade. Y1H confirmed CgMYC2 binding to the Cg1,2RhaT promoter, EMSA demonstrated direct G-box-dependent binding to all five pathway promoters, and dual-luciferase assays showed transactivation of all five promoters, with the strongest activation for CgCHS. As complementary chromatin-level support, a single-sample CUT&Tag profile revealed G-box-enriched CgMYC2-associated chromatin regions across jasmonate-responsive and secondary-metabolic loci. Virus-induced gene silencing (VIGS) of CgMYC2 reduced naringin content by ~21% and suppressed biosynthetic gene expression, supporting its positive contribution. Furthermore, heterologous overexpression in tomato activated the flavonoid pathway and elevated 16 flavonoid compounds, consistent with evolutionary conservation of the MYC2-G-box regulatory logic. These findings establish CgMYC2 as a central, JA-responsive activator bridging jasmonate perception and naringin biosynthesis, providing a molecular framework for the targeted improvement of bitter-flavonoid traits in citrus.",
+        "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+      },
+      "id": "paper-f72659bc46d5076e",
+      "entry_type": "backfill",
+      "revision": 1,
+      "openalex": {
+        "status": "matched",
+        "match_method": "doi_title",
+        "checked_at": "2026-09-18T04:28:40.496209+00:00",
+        "source_updated_at": "2026-09-17T22:18:28.273824",
+        "id": "https://openalex.org/W7206191766",
+        "doi": "10.1007/s00299-026-03960-0",
+        "cited_by_count": 0,
+        "referenced_works_count": 34,
+        "counts_by_year": [],
+        "authors": [
+          {
+            "name": "Genlin Mao",
+            "url": "https://openalex.org/A5014320962",
+            "orcid": "https://orcid.org/0000-0002-2328-7118"
+          },
+          {
+            "name": "Diyang Qiu",
+            "url": "https://openalex.org/A5005399204",
+            "orcid": "https://orcid.org/0000-0002-9102-2963"
+          },
+          {
+            "name": "Ruiyi Fan",
+            "url": "https://openalex.org/A5062371454",
+            "orcid": "https://orcid.org/0000-0003-1616-0423"
+          }
+        ],
+        "institutions": [
+          {
+            "name": "Guangdong Academy of Agricultural Sciences",
+            "url": "https://openalex.org/I4210099004",
+            "country": "CN"
+          },
+          {
+            "name": "Ministry of Agriculture and Rural Affairs",
+            "url": "https://openalex.org/I4210151987",
+            "country": "CN"
+          },
+          {
+            "name": "Jingchu University of Technology",
+            "url": "https://openalex.org/I4210116247",
+            "country": "CN"
+          }
+        ],
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "pdf_url": null,
+        "is_retracted": false
+      },
+      "metadata": {
+        "status": "matched",
+        "bibliography": {
+          "title": "CgMYC2 directly activates jasmonate-induced naringin biosynthesis in Citrus grandis 'Tomentosa'",
+          "doi": "10.1007/s00299-026-03960-0",
+          "journal": "Plant Cell Reports",
+          "date": "2026-09-02",
+          "authors": [
+            {
+              "family": "Mao",
+              "given": "Genlin"
+            },
+            {
+              "family": "Qiu",
+              "given": "Diyang"
+            },
+            {
+              "family": "Fan",
+              "given": "Ruiyi"
+            }
+          ],
+          "type": "journal-article"
+        },
+        "differences": [],
+        "relations": [],
+        "updates": [],
+        "checked_at": "2026-09-18T04:29:26.396806+00:00",
+        "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-03960-0",
+        "update_check": "completed"
+      },
+      "issues": [
+        "2026-09-18"
+      ],
+      "related_papers": []
+    },
+    {
+      "title": "Epi-PoreC: a nanopore-based method for simultaneous profiling of chromatin conformation, DNA methylation, and chromatin accessibility",
+      "date": "2026-09-17",
+      "journal": "Europe PMC",
+      "kind": "预印本",
+      "url": "https://doi.org/10.64898/2026.09.15.751767",
+      "priority": "背景参考",
+      "tags": [
+        "拟南芥",
+        "三维基因组",
+        "DNA甲基化",
+        "染色质可及性",
+        "方法"
+      ],
+      "heading": "Epi-PoreC: 基于纳米孔测序的染色质构象、DNA甲基化及染色质可及性联合检测新方法",
+      "sections": [
+        {
+          "label": "真正的新发现",
+          "text": "开发了Epi-PoreC技术，同步利用纳米孔测序实现染色质构象捕获、外源甲基化标记的可及染色质检测及内源DNA甲基化检测，首次实现在单分子水平的三维基因组与表观遗传联合分析。",
+          "kind": "reported"
+        },
+        {
+          "label": "机制或方法上的关键点",
+          "text": "结合PoreC技术和Fiber-seq方法，通过检测DNA上的6-甲基腺嘌呤和5-甲基胞嘧啶，实现对染色质三维空间组织和表观修饰状态的高通量一致性评估。",
+          "kind": "reported"
+        },
+        {
+          "label": "与你的辣椒研究关系",
+          "text": "提供了未来在辣椒中结合三维基因组与甲基化、可及性进行联合多组学分析的技术方案，促进辣椒22组织图谱中染色质结构与功能的深度解析。",
+          "kind": "application"
+        },
+        {
+          "label": "对22组织图谱的具体启示",
+          "text": "可拓展辣椒多组学图谱，从单分子层面同时捕获染色质构象、DNA甲基化与开放性，辅助解析关键调控元件及远程增强子作用。",
+          "kind": "application"
+        },
+        {
+          "label": "需要注意",
+          "text": "目前仅在拟南芥推广验证，植物细胞壁和基因组大小差异对辣椒的适用性尚待评估和优化。",
+          "kind": "limitation"
+        },
+        {
+          "label": "建议优先看",
+          "text": "聚焦Epi-PoreC技术原理、数据分析流程及其与常规PoreC与Fiber-seq的对比优势，为未来辣椒多组学集成铺路。",
+          "kind": "reading"
+        }
+      ],
+      "classification": {
+        "species": [
+          "拟南芥"
+        ],
+        "process": [
+          "通用方法"
+        ],
+        "regulation": [
+          "DNA甲基化",
+          "染色质可及性",
+          "三维基因组"
+        ],
+        "methods": [
+          "Hi-C",
+          "WGBS",
+          "ATAC-seq",
+          "计算建模"
+        ],
+        "evidence_type": [
+          "方法评估"
+        ],
+        "article_type": [
+          "方法研究"
+        ]
+      },
+      "translations": {
+        "en": {
+          "heading": "Epi-PoreC: a nanopore-based method for simultaneous profiling of chromatin conformation, DNA methylation, and chromatin accessibility",
+          "sections": [
+            {
+              "label": "What is new",
+              "text": "Epi-PoreC technology enables simultaneous nanopore sequencing-based detection of chromatin conformation capture, exogenous adenine methylation marking of accessible chromatin, and endogenous cytosine methylation, providing single-molecule integrated analysis of 3D genome and epigenetics."
+            },
+            {
+              "label": "Mechanistic or methodological key point",
+              "text": "Combining PoreC and Fiber-seq methods, detecting 6-methyladenine and 5-methylcytosine on DNA molecules enables high-throughput consistent assessment of chromatin 3D spatial organization and epigenetic status."
+            },
+            {
+              "label": "Relevance to pepper research",
+              "text": "Offers a future technical solution for integrated 3D genome, methylation, and accessibility multi-omics in pepper, fostering deeper functional chromatin analysis for the 22-tissue atlas."
+            },
+            {
+              "label": "Implications for the 22-tissue atlas",
+              "text": "Can expand pepper multi-omics atlas by capturing chromatin structure, DNA methylation and openness at single-molecule resolution, aiding identification of regulatory elements and distal enhancer function."
+            },
+            {
+              "label": "Limitations",
+              "text": "Validated only in Arabidopsis; adaptation challenges remain due to plant cell wall complexity and genome size differences in pepper."
+            },
+            {
+              "label": "What to read first",
+              "text": "Focus on Epi-PoreC methodological principles, data analysis workflows and comparative advantages over standard PoreC and Fiber-seq, laying groundwork for integrative pepper multi-omics."
+            }
+          ]
+        }
+      },
+      "journal_club": null,
+      "doi": "10.64898/2026.09.15.751767",
+      "evidence": {
+        "source_type": "abstract",
+        "reading_depth": "仅摘要",
+        "verification": "待核验",
+        "classification_status": "由摘要自动归类，待核验",
+        "source_url": "https://doi.org/10.64898/2026.09.15.751767",
+        "retrieved_at": "2026-09-18T04:28:39.002054+00:00",
+        "abstract": "Understanding how the three-dimensional (3D) organization of the genome relates to chromatin and epigenetic landscapes requires methods capable of measuring chromosomal DNA interactions and chromatin modifications in an integrated manner. Current approaches typically use separate assays to assess chromatin conformation and epigenetic state, thus these features are not assessed on the same DNA molecules. Here, we describe Epi-PoreC, an Oxford Nanopore long-read sequencing-based method that combines the chromosome conformation capture method, PoreC with Fiber-seq, a method for detecting accessible chromatin regions based on their ability to be labeled using an exogenous adenosine methyltransferase. The positions of chromosome contacts, 6-methyladenosines, and endogenous 5-methylcytosines are then detected by nanopore sequencing, all on the same DNA molecules. Using Arabidopsis thaliana nuclei, we demonstrate that Epi-PoreC yields genome-wide chromatin contact maps comparable to those obtained by standard PoreC and DNA methylation and accessibility profiles comparable to standard Fiber-seq experiments. Epi-PoreC is thus an efficient means for conducting epigenetic and 3D genome profiling on individual DNA sequences in a single assay.",
+        "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+      },
+      "id": "paper-1b4e29b6168b4e63",
+      "entry_type": "weekly",
+      "revision": 1,
+      "openalex": {
+        "status": "not_found",
+        "last_attempt_at": "2026-09-18T04:28:40.542523+00:00"
+      },
+      "metadata": {
+        "status": "matched",
+        "bibliography": {
+          "title": "Epi-PoreC: a nanopore-based method for simultaneous profiling of chromatin conformation, DNA methylation, and chromatin accessibility",
+          "doi": "10.64898/2026.09.15.751767",
+          "journal": "",
+          "date": "2026-09-17",
+          "authors": [
+            {
+              "family": "McKinlay",
+              "given": "Anastasia"
+            },
+            {
+              "family": "Zong",
+              "given": "Wei"
+            },
+            {
+              "family": "Pikaard",
+              "given": "Craig"
+            }
+          ],
+          "type": "posted-content"
+        },
+        "differences": [],
+        "relations": [],
+        "updates": [],
+        "checked_at": "2026-09-18T04:29:26.802098+00:00",
+        "source_url": "https://api.crossref.org/works/10.64898%2F2026.09.15.751767",
+        "update_check": "completed"
+      },
+      "issues": [
+        "2026-09-18"
       ],
       "related_papers": []
     }
