@@ -2989,5 +2989,324 @@
         }
       }
     }
+  ],
+  "paper-037001198d22730a": [
+    {
+      "version": 1,
+      "at": "2026-10-02T10:25:06.144379+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "45f78ffc5477bdd3561eb2c256f6412917a3273769c4bae2c516755e6aa90ab0",
+      "content": {
+        "title": "Mapping of transcription factor footprints unveils a transcriptional repression mechanism of capsanthin biosynthesis in pepper (Capsicum annuum)",
+        "heading": "辣椒预印本提出DOF因子抑制GGPPS1与前体供应，限制果实辣椒红素积累",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "该预印本报告，辣椒果实颜色转变期间的染色质状态与可及性动态可用于绘制辣椒红素生物合成基因的上游TF足迹图谱；稳定过表达实验进一步提名两个DOF因子为辣椒红素积累的负调控因子。摘要还指出，这两个因子抑制GGPPS1表达并降低体内GGPP含量，提示限制类胡萝卜素前体供应可能是其作用环节。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "研究把果皮颜色转变阶段的染色质可及性信息与转录因子足迹结合，再以辣椒中的稳定过表达检验候选因子；摘要没有说明具体可及性测序平台或足迹算法，也没有给出足迹是否代表直接结合的独立验证细节。结果支持DOF过表达与GGPPS1表达、GGPP及辣椒红素变化相关，但具体分子机制仍应结合全文证据审慎判断。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "研究对象、组织与性状都直接对应辣椒果实成熟及色素积累，可为辣椒红素相关TF网络提供候选负调控节点。由于这是预印本，且摘要未给出候选因子的基因编号、品种背景和效应量，候选节点及调控方向仍需独立验证。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：在22组织RNA-seq中定位果实成熟阶段高表达的类胡萝卜素通路基因及DOF候选因子，再与ATAC-seq可及区、CUT&Tag的H3K4me1/H3K4me3/H3K27ac/H3K27me3及WGBS甲基化状态联合，筛选组织或成熟阶段特异的候选调控关系。可将其纳入果实成熟TF网络并优先检验GGPPS1邻近调控区；上述多组学对应关系尚未由该摘要证实，属于待验证分析。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "该记录是预印本，结论尚未经过期刊同行评审确认；足迹图谱和过表达表型也不能单独证明内源条件下的直接结合或完整因果链。摘要没有提供跨品种、田间稳定性、果实品质副作用或编辑可行性数据。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先核对颜色转变阶段染色质可及性与足迹的构建方法、两个DOF因子的过表达证据，以及GGPPS1表达、GGPP和辣椒红素之间的实验关联。再评估该研究对候选TF的直接结合证据和遗传背景信息；这里只依据摘要，未核查全文、图件或补充材料。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "Pepper preprint proposes that DOF factors suppress GGPPS1 and precursor supply, limiting fruit capsanthin accumulation",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "The preprint reports that dynamic chromatin states and accessibility during pepper fruit color transition were used to map upstream TF footprints of capsanthin-biosynthesis genes; stable overexpression experiments further nominated two DOF factors as negative regulators of capsanthin accumulation. The abstract also states that both factors repress GGPPS1 expression and lower in vivo GGPP content, suggesting that restriction of carotenoid precursor supply may be part of their action."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The study combines chromatin-accessibility information from pericarp during color transition with transcription-factor footprints, then tests candidate factors by stable overexpression in pepper; the abstract does not specify the accessibility-sequencing platform or footprint algorithm, nor does it provide details of independent validation that the footprints represent direct binding. The results support an association between DOF overexpression and changes in GGPPS1 expression, GGPP, and capsanthin, but the specific molecular mechanism should be judged cautiously in light of the full evidence."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "The study's crop, tissue, and trait directly match pepper fruit ripening and pigment accumulation, and it offers candidate negative regulators for a capsanthin-related TF network. Because this is a preprint and the abstract does not provide candidate gene identifiers, cultivar background, or effect sizes, the candidate nodes and regulatory directions still require independent validation."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: use RNA-seq across the 22 tissues to locate carotenoid-pathway genes and candidate DOF factors with high expression during fruit ripening, then integrate them with ATAC-seq accessible regions, CUT&Tag profiles for H3K4me1/H3K4me3/H3K27ac/H3K27me3, and WGBS methylation states to prioritize tissue- or ripening-stage-specific candidate relationships. The candidates could be incorporated into the fruit-ripening TF network, with regions near GGPPS1 prioritized for testing; these multi-omics correspondences are not established by the abstract and remain to be tested."
+              },
+              {
+                "label": "Limitations",
+                "text": "This is a preprint, so its conclusions have not yet been confirmed through journal peer review; neither a footprint map nor an overexpression phenotype alone proves direct binding under endogenous conditions or a complete causal chain. The abstract provides no data on performance across varieties, field stability, fruit-quality tradeoffs, or editing feasibility."
+              },
+              {
+                "label": "What to read first",
+                "text": "First examine how chromatin accessibility and footprints were constructed across color-transition stages, the evidence from overexpressing the two DOF factors, and the experimental relationships among GGPPS1 expression, GGPP, and capsanthin. Then assess direct-binding evidence and genetic-background information for the candidate TFs; this digest is based on the abstract and has not reviewed the full text, figures, or supplementary materials."
+              }
+            ]
+          }
+        },
+        "priority": "全文精读",
+        "date": "2026-09-25",
+        "journal": "Europe PMC",
+        "kind": "预印本",
+        "url": "https://doi.org/10.21203/rs.3.rs-10699801/v1",
+        "doi": "10.21203/rs.3.rs-10699801/v1",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "辣椒",
+          "果实成熟",
+          "色素代谢",
+          "转录因子足迹",
+          "预印本"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.21203/rs.3.rs-10699801/v1",
+          "retrieved_at": "2026-10-02T10:25:06.142419+00:00",
+          "abstract": "Abstract  Capsanthin is a rare, oxygenated carotenoid of high nutritional and industrial value, which rapidly accumulates as pepper fruit ripens, resulting in the transition of color from green to red. However, the regulatory mechanisms that control capsanthin biosynthesis at the transcriptional level remain incompletely resolved. Here we comprehensively surveyed the dynamic state and accessibility of chromatin in pepper pericarps across color transition and mapped the upstream transcription factor (TF) footprints of capsanthin biosynthetic pathway genes (CBGs). We thereby unveiled a trans-regulatory landscape for the complete set of CBGs. Stable overexpression of selected TFs in peppers nominated two DNA binding with one finger (DOF) TFs as previously unidentified negative regulators of capsanthin accumulation. Lines of evidence further demonstrated that both DOF TFs repressed expression of Geranylgeranyl Pyrophosphate (GGPP) synthase 1 (GGPPS1) gene and reduced GGPP contents in vivo. Overall, this study provides an extensive resource for understanding the genetic basis to modulate capsanthin biosynthesis at the transcriptional level and elucidates the first repressive mechanism that restrains capsanthin biosynthesis through limiting carotenoid precursor supply.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
+  ],
+  "paper-5b24ab48acc4a373": [
+    {
+      "version": 1,
+      "at": "2026-10-02T10:25:06.149587+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "61a8eb2e104c973c968b52f771d04977cc6a9ac0dfbf622de8f15b654a800933",
+      "content": {
+        "title": "Genome-Wide Identification of CRK Family Members in Solanaceae Crops and Functional Characterization of <i>CaCRK10</i> and <i>SmCRK6</i> in Salt Stress Response.",
+        "heading": "补录｜辣椒CaCRK10过表达与耐盐表型改善相关，涉及离子稳态和渗透调节",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "研究在辣椒、茄子和番茄中鉴定CRK家族成员，并报告辣椒CaCRK10在盐处理下强烈诱导；CaCRK10过表达辣椒的耐盐表型改善，伴随抗氧化活性较强、丙二醛积累较低、K+/Na+平衡与渗透调节改善。摘要还报告过表达植株中若干SOS和NHX相关基因转录水平上升，并称茄子SmCRK6过表达也与耐盐改善相关。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "摘要描述了家族鉴定、表达分析、亚细胞定位和过表达功能表征；CaCRK10主要定位于质膜。离子稳态及SOS/NHX相关表达变化为可能的生理关联提供线索，但摘要未证明这些下游变化是CaCRK10改善耐盐性的直接中介，也未提供具体实验平台细节。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "这是直接在辣椒中开展的盐胁迫遗传功能研究，可将CaCRK10作为辣椒胁迫响应候选基因，而非仅由异种同源推测得到的靶点。摘要未说明不同辣椒品种、田间盐胁迫表现或产量和果实品质代价，应用范围仍需验证。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：在22组织RNA-seq中检查CaCRK10及SOS/NHX相关基因的组织表达，并在盐处理条件下补充或对照相应的表达数据；若有胁迫样本，可将其与ATAC-seq、四类CUT&Tag标记及WGBS比较，寻找候选调控区和组织特异响应。当前摘要没有报告ATAC-seq、CUT&Tag或WGBS结果，因此这些整合属于待验证的后续设计。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "超表达实验支持该基因在所用实验条件下与耐盐改善相关，但不等于证明其在所有遗传背景下均有同样效果。摘要没有提供过表达材料的构建细节、效应大小、盐处理参数或生长和产量成本，且家族比较不能替代对辣椒不同材料的功能验证。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先查看CaCRK10过表达材料的耐盐表型评估、K+/Na+及抗氧化指标，以及SOS/NHX转录变化的实验依据；同时核实盐处理条件和对照设计。摘要未提供这些细节，本摘要未核查全文、图件或补充材料。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "Backfill | Pepper CaCRK10 overexpression is associated with improved salt-stress phenotypes, including ion homeostasis and osmotic adjustment",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "The study identified CRK-family members in pepper, eggplant, and tomato, and reports strong induction of pepper CaCRK10 under salt treatment; salt tolerance improved in CaCRK10-overexpressing pepper, accompanied by stronger antioxidant activity, lower malondialdehyde accumulation, and improved K+/Na+ balance and osmotic adjustment. The abstract also reports increased transcript levels of several SOS- and NHX-related genes in overexpressing plants, and states that SmCRK6 overexpression in eggplant was also associated with improved salt tolerance."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The abstract describes family identification, expression analysis, subcellular localization, and functional characterization by overexpression; CaCRK10 was mainly localized to the plasma membrane. Ion-homeostasis and SOS/NHX-related expression changes provide leads about possible physiological associations, but the abstract does not establish that these downstream changes directly mediate CaCRK10-associated salt tolerance or provide specific experimental-platform details."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "This is a salt-stress genetic-function study conducted directly in pepper, so CaCRK10 can be considered a pepper stress-response candidate rather than a target inferred only from a heterologous homolog. The abstract does not specify performance across pepper varieties, field salt-stress responses, or costs to yield and fruit quality, so the scope of application remains to be tested."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: examine CaCRK10 and SOS/NHX-related genes across the 22-tissue RNA-seq atlas and add or compare corresponding expression data under salt treatment; if stress samples are available, compare them with ATAC-seq, the four CUT&Tag marks, and WGBS to identify candidate regulatory regions and tissue-specific responses. The abstract does not report ATAC-seq, CUT&Tag, or WGBS results, so these integrations are proposed follow-up analyses that remain to be tested."
+              },
+              {
+                "label": "Limitations",
+                "text": "Overexpression supports an association between the gene and improved salt tolerance under the experimental conditions used, but does not prove the same effect in every genetic background. The abstract provides no details on how overexpression lines were generated, effect sizes, salt-treatment parameters, or growth and yield costs, and family comparisons do not replace functional testing in different pepper materials."
+              },
+              {
+                "label": "What to read first",
+                "text": "First examine the salt-tolerance phenotyping of CaCRK10-overexpressing material, K+/Na+ and antioxidant measurements, and the experimental basis for SOS/NHX transcript changes; also verify the salt-treatment conditions and control design. The abstract does not provide these details, and this digest has not reviewed the full text, figures, or supplementary materials."
+              }
+            ]
+          }
+        },
+        "priority": "快速浏览",
+        "date": "2026-09-21",
+        "journal": "Current issues in molecular biology",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.3390/cimb48090965",
+        "doi": "10.3390/cimb48090965",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "补录",
+          "辣椒",
+          "盐胁迫",
+          "CRK受体激酶",
+          "遗传改良"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.3390/cimb48090965",
+          "retrieved_at": "2026-10-02T10:25:06.142501+00:00",
+          "abstract": "Salt stress severely limits crop growth and productivity, particularly in horticultural crops. Cysteine-rich receptor-like kinases (CRKs) are important membrane-associated signaling proteins involved in plant environmental responses; however, their functions in salt stress adaptation in Solanaceae crops remain limited. In this study, a genome-wide identification and comparative analysis of the CRK gene family was performed in pepper (Capsicum annuum), eggplant (Solanum melongena), and tomato (Solanum lycopersicum). 37 CRK genes were identified in pepper. Comprehensive analyses, including phylogenetic relationships, conserved domain organization, motif composition, and evolutionary patterns, demonstrated that CRK proteins in Solanaceae share highly conserved structural characteristics, consisting of extracellular DUF26 domains, transmembrane regions, and intracellular serine/threonine kinase domains. Expression analysis revealed that multiple CRK genes responded to salt stress, among which CaCRK10 showed strong induction and was selected for functional characterization. Subcellular localization analysis indicated that CaCRK10 was mainly localized to the plasma membrane. Overexpression of CaCRK10 improved the salt tolerance of pepper plants, as indicated by stronger antioxidant activity and lower malondialdehyde accumulation under salt stress. The transgenic plants also showed a better balance between K+ and Na+, together with improved osmotic adjustment. In addition, CaCRK10 overexpression increased the transcript levels of several SOS- and NHX-related genes associated with ion homeostasis. A similar response was observed for the eggplant homolog SmCRK6, whose expression was strongly induced by salt treatment. Its overexpression also contributed to improved salt tolerance, which was associated with changes in antioxidant defense, ion homeostasis, and osmotic regulation. Together, these findings initially revealed that CRK members play conserved positive regulatory roles in salt stress adaptation in Solanaceae crops and provide potential genetic resources for molecular breeding of salt-tolerant varieties.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
+  ],
+  "paper-74490037655c586d": [
+    {
+      "version": 1,
+      "at": "2026-10-02T10:25:06.154579+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "5bbe817af713626dead33976b2e8682ff6a52b40b8bba4e761b7127447e6e8ad",
+      "content": {
+        "title": "Genome-wide analysis of the mango YUCCA family and overexpression of MiYUCCA10A/B confers early flowering and stress tolerance in transgenic Arabidopsis and tomato.",
+        "heading": "补录｜芒果MiYUCCA10A/B在番茄中过表达提高耐盐耐旱性，但伴随早花与果实变小",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "研究报告芒果MiYUCCA10A和MiYUCCA10B在转基因番茄中过表达后，植株较早开花且耐盐、耐旱性增强，并伴随IAA含量提高。摘要同时报告番茄果实尺寸显著降低；因此早花、胁迫表型与果实大小之间存在需要权衡的改良结果，而非单一的无代价增益。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "该研究先鉴定芒果YUCCA家族，再对MiYUCCA10A/B进行功能验证，并以酵母双杂交和BiFC报告其与多种MiSVP蛋白及MiFLC的互作。摘要提到转基因拟南芥和番茄表型及IAA变化，但未确立这些蛋白互作如何直接导致番茄的开花、耐逆或果实表型。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "在番茄中的异源过表达结果为茄科作物中调节生长素代谢与胁迫表型提供了可参考线索，但目标基因来自芒果，不能据此推断辣椒存在等效功能或相同代价。尤其果实变小提示将其直接用于辣椒改良可能损害果实商品性，需先验证同源关系与功能。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：可在22组织RNA-seq中检视辣椒YUCCA相关候选基因在花芽、幼果及胁迫相关组织的表达，再结合ATAC-seq、H3K4me1/H3K4me3/H3K27ac/H3K27me3 CUT&Tag与WGBS判断其调控背景。该论文摘要没有辣椒数据，也没有这些表观组学测量；将候选表达模式纳入果实成熟TF网络前，应先区分开花和果实发育阶段并独立验证。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "跨物种外源过表达不能证明辣椒内源同源基因具有相同作用；早花不等于开花整齐度或开花稳定性改善。番茄果实变小及拟南芥、番茄种子数下降是明确的潜在代价线索，摘要没有提供效应量、长期田间表现或适用剂量信息。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先核对番茄与拟南芥的开花、胁迫和果实表型，以及IAA变化与互作实验各自能支持的结论；尤其关注果实尺寸和种子数的代价。摘要未给出辣椒同源基因证据或辣椒实验，本摘要未核查全文、图件或补充材料。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "Backfill | Overexpression of mango MiYUCCA10A/B in tomato improves salt and drought tolerance but is accompanied by early flowering and smaller fruit",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "The study reports that overexpression of mango MiYUCCA10A and MiYUCCA10B in transgenic tomato plants led to earlier flowering and improved salt and drought tolerance, accompanied by increased IAA content. The abstract also reports markedly smaller tomato fruit; thus, early flowering, stress phenotypes, and fruit size represent outcomes that require tradeoffs rather than a single cost-free gain."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The study first identified the mango YUCCA family, then functionally tested MiYUCCA10A/B, and used yeast two-hybrid and BiFC to report interactions with several MiSVP proteins and MiFLC. The abstract mentions phenotypes and IAA changes in transgenic Arabidopsis and tomato, but does not establish how these protein interactions directly cause the tomato flowering, stress-tolerance, or fruit phenotypes."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "Heterologous overexpression results in tomato provide a reference for considering the regulation of auxin metabolism and stress phenotypes in a Solanaceae crop, but the target genes come from mango, so equivalent functions or costs in pepper cannot be inferred. In particular, smaller fruit cautions that direct use for pepper improvement could compromise marketability; homology and function should be tested first."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: examine expression of candidate pepper YUCCA-related genes in flower buds, young fruit, and stress-relevant tissues using the 22-tissue RNA-seq atlas, then combine this with ATAC-seq, CUT&Tag for H3K4me1/H3K4me3/H3K27ac/H3K27me3, and WGBS to assess their regulatory context. The paper's abstract contains no pepper data or these epigenomic measurements; before incorporating candidate expression patterns into the fruit-ripening TF network, distinguish flowering from fruit-development stages and validate independently."
+              },
+              {
+                "label": "Limitations",
+                "text": "Heterologous overexpression across species does not prove that endogenous pepper homologs have the same roles; earlier flowering does not mean improved flowering uniformity or stability. Smaller tomato fruit and reduced seed number in Arabidopsis and tomato are explicit potential costs, and the abstract provides no effect sizes, long-term field performance, or information on suitable dosage."
+              },
+              {
+                "label": "What to read first",
+                "text": "First check the flowering, stress, and fruit phenotypes in tomato and Arabidopsis, and what the IAA changes and interaction experiments each support; pay particular attention to fruit-size and seed-number costs. The abstract provides no evidence for pepper homologs or experiments in pepper, and this digest has not reviewed the full text, figures, or supplementary materials."
+              }
+            ]
+          }
+        },
+        "priority": "快速浏览",
+        "date": "2026-09-24",
+        "journal": "Plant cell reports",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1007/s00299-026-03981-9",
+        "doi": "10.1007/s00299-026-03981-9",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "补录",
+          "番茄",
+          "芒果YUCCA",
+          "胁迫响应",
+          "开花时间",
+          "果实性状"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1007/s00299-026-03981-9",
+          "retrieved_at": "2026-10-02T10:25:06.142547+00:00",
+          "abstract": "Auxin is a fundamental phytohormone that orchestrates developmental processes in plants. Flavin monooxygenase (YUCCA) serves as the rate-limiting enzyme in the indole-3-pyruvic acid pathway (IPA) pathway, and its main function is to convert IPA into IAA. In this study, 12 members of the MiYUCCA gene family were mined and identified from the genomic data of mango (Mangifera indica). Phylogenetic tree analysis classified mango YUCCA into five categories. Cis-elements analysis of the promoter indicated that the promoter region contained a large number of hormone response elements and abiotic elements. Expression analysis revealed that the majority of MiYUCCA gene family members displayed high expression abundance at the early developmental stages of fruits, and their expression decreased or even remained unexpressed with the fruit growth and development. MiYUCCA10A and MiYUCCA10B were selected for functional verification. Overexpression of MiYUCCA10A and MiYUCCA10B promoted the early flowering in transgenic Arabidopsis and tomato, enhanced the salt and drought resistance, and also increased the content of IAA in transgenic plants. In addition, MiYUCCA10A and MiYUCCA10B significantly reduced the seed number of transgenic Arabidopsis and tomato plants, exerted no effect on the pod length of Arabidopsis, but markedly decreased the fruit size of tomato. The interaction of MiYUCCA10A/B with the SHORT VEGETATIVE PHASE 1/2/3/4/5 (MiSVP1/2/3/4/5) and FLOWERING LOCUS C (MiFLC) was revealed using both yeast two-hybrid (Y2H) and bimolecular fluorescence complementation (BiFC) analyses. These results indicate that the MiYUCCA10A/B were not only involved in flowering, but also related to stress tolerance and fruit development.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
   ]
 }

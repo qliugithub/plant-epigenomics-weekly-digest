@@ -163,5 +163,29 @@
       }
     ],
     "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
+  },
+  {
+    "date": "2026-10-02",
+    "entry_type": "weekly",
+    "summary": "本期重点聚焦辣椒果实着色的转录调控与茄科作物的遗传改良：一项辣椒预印本提出DOF转录因子抑制辣椒红素积累的调控线索；补录研究报告辣椒CRK过表达与耐盐表型相关；另一项补录工作显示芒果YUCCA基因在番茄中过表达可提高耐盐、耐旱性，但伴随果实变小等代价。将这些研究用于辣椒22组织图谱时，应把组学关联、遗传干预结果和待验证的跨品种应用明确区分。",
+    "summary_en": "This issue focuses on transcriptional regulation of pepper fruit coloration and genetic improvement in Solanaceae crops. A pepper preprint proposes a regulatory lead in which DOF transcription factors repress capsanthin accumulation; a backfill study reports an association between pepper CRK overexpression and salt-tolerance phenotypes; and another backfill study finds that overexpressing mango YUCCA genes in tomato improves salt and drought tolerance, but comes with costs including smaller fruit. When applying these studies to the 22-tissue pepper atlas, distinguish omics associations, genetic-intervention results, and cross-variety applications that remain to be tested.",
+    "entries": [
+      {
+        "paper_id": "paper-037001198d22730a",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-5b24ab48acc4a373",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-74490037655c586d",
+        "revision": 1,
+        "priority": "快速浏览"
+      }
+    ],
+    "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
   }
 ]
