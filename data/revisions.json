@@ -3308,5 +3308,323 @@
         }
       }
     }
+  ],
+  "paper-2b5fad81ad6b0d89": [
+    {
+      "version": 1,
+      "at": "2026-10-09T07:28:56.496929+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "39b960e7d652014ff569939b836d51d9499ec635ebae01ed9c93dcba617f84f9",
+      "content": {
+        "title": "Analysis of the synergistic effect between CiFTIP1 and CiFT in flowering regulation of citrus.",
+        "heading": "补录｜柑橘CiFTIP1在番茄中过表达促进CiFT远距离运输并提前开花",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "在番茄中，过表达柑橘CiFTIP1与提早开花相关；CiFTIP1和CiFT双过表达材料比单基因过表达材料更早开花。嫁接结果还显示，双过表达材料作砧木时，其野生型接穗出现更强的促早花效应。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "研究把CiFTIP1与花成素CiFT的长距离运输联系起来，并报告接穗中CiFT荧光信号和蛋白丰度增加。摘要还报告开花相关基因SlLFY、SlAP1上调、SlTFL下调；但未说明运输过程的具体分子步骤或CiFTIP1与CiFT直接结合的证据。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "这是番茄中的遗传操作证据，可为辣椒开花时间调控提供候选思路，但不是辣椒中的验证。摘要没有提供辣椒FTIP同源基因、旁系同源关系或功能证据，转用前需独立确认。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：可在RNA-seq中检查辣椒候选FTIP、FT及开花相关基因在组织间的表达，并将表达模式与开花阶段关联；若材料和样品设计允许，可进一步关注源—汇组织。摘要没有涉及ATAC-seq、CUT&Tag或WGBS，不能据此推断染色质调控机制。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "研究对象是转基因番茄，基因来源为柑橘；摘要所述结果支持该系统中的促早花效应，不等于辣椒中的效应，也不能推出开花整齐度或稳定性提高。摘要没有报告辣椒材料、田间产量代价或多环境验证。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先查看摘要所述的CiFT/CiFTIP1单独与共表达比较、嫁接设计，以及接穗CiFT信号和蛋白丰度的测量主题；重点厘清开花时间表型与运输证据各自支持的结论。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "Backfill | Citrus CiFTIP1 overexpression in tomato promotes long-distance CiFT transport and earlier flowering",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "In tomato, overexpression of citrus CiFTIP1 was associated with earlier flowering; plants overexpressing both CiFTIP1 and CiFT flowered earlier than plants overexpressing either gene alone. Grafting also showed a stronger early-flowering effect in wild-type scions when double-overexpression plants were used as rootstocks."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The study links CiFTIP1 to long-distance transport of the florigen CiFT and reports increased CiFT fluorescence signal and protein abundance in scions. The abstract also reports upregulation of the flowering-related genes SlLFY and SlAP1 and downregulation of SlTFL; however, it does not describe the specific molecular steps of transport or evidence for direct binding between CiFTIP1 and CiFT."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "This is genetic-manipulation evidence in tomato and provides a candidate idea for regulating flowering time in pepper, but it is not a validation in pepper. The abstract provides no evidence for a pepper FTIP homolog, paralog relationships, or function, all of which need independent confirmation before transfer."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: RNA-seq could be used to examine expression of candidate pepper FTIP, FT, and flowering-related genes across tissues and relate the patterns to flowering stages; source–sink tissues could also be considered if the materials and sampling design permit. The abstract does not cover ATAC-seq, CUT&Tag, or WGBS, so it cannot support an inference about chromatin regulation."
+              },
+              {
+                "label": "Limitations",
+                "text": "The study used transgenic tomato and a gene from citrus; the reported results support an early-flowering effect in that system, not in pepper, and do not establish improved flowering uniformity or stability. The abstract does not report pepper material, field-yield costs, or multi-environment validation."
+              },
+              {
+                "label": "What to read first",
+                "text": "First inspect the abstract-described comparisons of CiFT/CiFTIP1 single and co-expression, the grafting design, and the topics of scion CiFT signal and protein-abundance measurements; distinguish what the flowering-time phenotype supports from what the transport evidence supports."
+              }
+            ]
+          }
+        },
+        "priority": "快速浏览",
+        "date": "2026-09-22",
+        "journal": "Planta",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1007/s00425-026-05169-7",
+        "doi": "10.1007/s00425-026-05169-7",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "补录",
+          "番茄",
+          "开花时间",
+          "FT运输",
+          "遗传操作"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1007/s00425-026-05169-7",
+          "retrieved_at": "2026-10-09T07:28:56.495171+00:00",
+          "abstract": "Main conclusionOverexpression of CiFTIP1 enhances the long-distance transport of the florigen protein CiFT, leading to early flowering in tomato, with a synergistic effect when co-expressed with CiFT, and provides a potential strategy for regulating flowering time in fruit trees. FTIP1 is a key regulator involved in the long-distance transport of the florigen protein FT. To investigate the role of citrus CiFTIP1 in regulating the transport of CiFT, transgenic tomato plants were employed as experimental materials in this study. Phenotypic analysis revealed that overexpression of CiFTIP1 promoted early flowering in tomato and upregulated the expression of key flowering genes SlLFY and SlAP1, and downregulated SlTFL. By crossing CiFT and CiFTIP1 overexpression lines, the double-overexpression hybrids exhibited a marked synergistic early-flowering effect, flowering earlier than single-overexpression plants. Grafting experiments further confirmed that double-overexpression plants used as rootstocks possessed a stronger capability to induce early flowering in wild-type scions. Notably, higher CiFT fluorescence signal and protein abundance were detected in wild-type scions grafted onto double-overexpression rootstocks, confirming that CiFTIP1 acts as a molecular chaperone to effectively enhance the transport efficiency of CiFT protein. This study clarified the molecular mechanism by which CiFTIP1 synergistically regulated flowering via enhancing the mobility of CiFT protein between rootstocks and scions. It also provided innovative strategies for flowering time regulation, hybrid breeding efficiency improvement, and production cycle management of fruit trees.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
+  ],
+  "paper-7cfbcd4f697ba5eb": [
+    {
+      "version": 1,
+      "at": "2026-10-09T07:28:56.500305+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "0100d636d773f0b4a14668dfde25b92cce7d8013202a11c94329af4479083a42",
+      "content": {
+        "title": "Epigenetic regulation of plant specialized metabolism: anthocyanin biosynthesis as a histone acetylation paradigm.",
+        "heading": "补录｜植物专一代谢综述提出组蛋白乙酰化是花青素转录的动态调节层",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "这篇综述将花青素生物合成作为机制较清楚的案例，强调组蛋白乙酰化与去乙酰化可能把环境和激素信号连接到代谢基因的转录响应。它综合讨论DNA甲基化、染色质重塑及组蛋白甲基化等其他表观层，但摘要没有报告新的辣椒实验或特定果实成熟机制。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "综述提出乙酰化具有快速可逆、依赖环境的调节特征，不应把它简化成普遍适用的转录开关。摘要未给出具体物种、位点、实验设计或可用于因果判断的单项数据，因此应把这一框架视作文献综合，而非新的功能验证。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "研究启示：可将辣椒果实色素相关基因的表达变化与H3K27ac等活性标记的变化并行考察，形成待验证的候选调控关系。该综述摘要没有证明任何辣椒位点的乙酰化变化会导致色素或成熟表型改变。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "可在22组织图谱中把RNA-seq与CUT&Tag的H3K27ac、H3K4me1和H3K4me3信号联合比较，并以ATAC-seq评估候选调控区开放程度、以WGBS记录DNA甲基化背景。针对成熟果实TF网络，这些数据可用于提出候选顺式调控关系，但需后续实验验证；摘要没有提供这套图谱设计或分析结果。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "这是覆盖植物专一代谢的综述，花青素是其主要机制案例；不能据此认定辣椒果实中的调控方向、组织特异性或乙酰化标记变化。摘要未给出证据质量分层及针对辣椒的验证信息。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "先读综述对乙酰化与去乙酰化如何响应环境和激素信号、并关联花青素基因转录的论述，再比较其与DNA甲基化、染色质重塑及组蛋白甲基化的不同调节原则。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "Backfill | A plant specialized-metabolism review presents histone acetylation as a dynamic regulatory layer for anthocyanin transcription",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "This review uses anthocyanin biosynthesis as a comparatively well-resolved mechanistic example and emphasizes that histone acetylation and deacetylation may connect environmental and hormonal signals to transcriptional responses of metabolic genes. It also discusses DNA methylation, chromatin remodeling, and histone methylation as other epigenetic layers, but the abstract reports no new pepper experiments or specific fruit-ripening mechanism."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The review proposes that acetylation is rapidly reversible and environmentally responsive, and should not be reduced to a universally applicable transcriptional switch. The abstract gives no specific species, loci, experimental design, or individual dataset suitable for causal assessment, so this framework should be treated as a synthesis of the literature rather than new functional validation."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "Research implication: changes in expression of pepper fruit-pigment genes could be examined alongside changes in active marks such as H3K27ac to develop regulatory relationships for testing. The review abstract does not show that acetylation changes at any pepper locus cause a pigment or ripening phenotype."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Across the 22-tissue atlas, RNA-seq could be compared jointly with CUT&Tag signals for H3K27ac, H3K4me1, and H3K4me3, while ATAC-seq assesses accessibility of candidate regulatory regions and WGBS records the DNA-methylation context. For fruit-ripening TF networks, these data could generate candidate cis-regulatory relationships for later testing; the abstract does not describe this atlas design or any such analysis."
+              },
+              {
+                "label": "Limitations",
+                "text": "This is a review of plant specialized metabolism, with anthocyanin as its main mechanistic example; it does not establish the regulatory direction, tissue specificity, or acetylation-mark changes in pepper fruit. The abstract provides no grading of evidence quality or pepper-specific validation."
+              },
+              {
+                "label": "What to read first",
+                "text": "First read the review's discussion of how acetylation and deacetylation respond to environmental and hormonal signals and relate to anthocyanin-gene transcription; then compare their regulatory principles with those of DNA methylation, chromatin remodeling, and histone methylation."
+              }
+            ]
+          }
+        },
+        "priority": "背景参考",
+        "date": "2026-09-23",
+        "journal": "Natural product reports",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1039/d6np00009f",
+        "doi": "10.1039/d6np00009f",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "补录",
+          "组蛋白乙酰化",
+          "花青素",
+          "专一代谢",
+          "综述"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1039/d6np00009f",
+          "retrieved_at": "2026-10-09T07:28:56.495225+00:00",
+          "abstract": "Covering: up to the end of 2025.Plant specialized metabolites shape plant color, aroma, and stress adaptation while providing high-value natural products. Although transcription factors have long been regarded as central regulators of specialized-metabolite biosynthesis, increasing evidence indicates that chromatin-associated epigenetic regulatory mechanisms provide additional layers of control over transcriptional responsiveness, chromatin accessibility, and metabolic output. Here, we briefly discuss how distinct epigenetic regulatory mechanisms, including DNA methylation, chromatin remodeling, histone methylation, and histone acetylation, contribute to plant specialized metabolism through different regulatory principles. Among these mechanisms, histone acetylation/deacetylation appears particularly important for rapidly reversible and environmentally responsive transcriptional regulation. Using anthocyanin biosynthesis as the most mechanistically resolved paradigm, we highlight how dynamic histone acetylation integrates environmental and phytohormonal cues with transcriptional networks to fine-tune metabolic gene expression. This framework provides new insights into chromatin-mediated metabolic regulation and offers opportunities for achieving precise, predictable, and durable metabolic engineering in plants.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
+  ],
+  "paper-06fbe5bdd88cb39c": [
+    {
+      "version": 1,
+      "at": "2026-10-09T07:28:56.503328+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "c4045541c4ec16c705baa588044b68972af526537b264594f8241b8b18d456f0",
+      "content": {
+        "title": "Single-cell epigenomics in plants.",
+        "heading": "补录｜植物单细胞表观组学综述梳理细胞类型染色质图谱与调控元件推断",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "这篇综述总结植物单细胞表观组学用于构建细胞类型特异性染色质可及性图谱、识别候选顺式调控元件及推断基因调控网络的进展。摘要将组蛋白修饰、DNA甲基化、三维基因组和空间表观组学描述为仍处于早期发展阶段，并未报告一项新的植物实验结果。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "核心价值在技术框架和分析工作流，而非提出新的生物学机制：单细胞层面的表观信息可帮助区分混合组织中不同细胞群的调控状态。摘要没有提供具体平台、样本量、性能指标或适用于辣椒的操作流程。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "研究启示：如果22组织的bulk数据提示组织内部存在明显细胞异质性，单细胞或单核数据可用于拆分候选细胞类型的可及性和调控元件信号。是否有必要采用该策略，以及辣椒果实组织的样本处理是否适用，摘要本身不能回答。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "建议先以RNA-seq、ATAC-seq、CUT&Tag（H3K4me1、H3K4me3、H3K27ac、H3K27me3）和WGBS构成bulk基线，再根据关键组织是否存在细胞混合或信号难解释的问题，考虑局部增加单细胞或单核测量。成熟果实TF网络可由表达与候选调控区联合提出，但综述摘要没有提供辣椒或果实成熟的具体网络。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "综述明确指出，植物单细胞组蛋白修饰、DNA甲基化、三维基因组及空间表观组学方法尚不成熟。单细胞分辨率本身不等于因果证据，也不能替代跨组织的可靠取样和验证；摘要未报告辣椒适用性评估。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先关注综述归纳的技术框架、生物信息分析流程、细胞类型特异性可及性图谱和顺式调控元件识别，以及其列出的方法成熟度与挑战；不要把摘要未给出的实验参数当作已推荐方案。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "Backfill | A plant single-cell epigenomics review outlines cell-type chromatin atlases and regulatory-element inference",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "This review summarizes progress in using plant single-cell epigenomics to build cell-type-specific chromatin-accessibility atlases, identify candidate cis-regulatory elements, and infer gene regulatory networks. The abstract describes histone modifications, DNA methylation, three-dimensional genome organization, and spatial epigenomics as areas still at an early stage, and does not report a new plant experimental result."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "Its main value is a technological framework and analytical workflow, rather than a new biological mechanism: epigenomic information at single-cell resolution can help distinguish regulatory states among cell populations in mixed tissues. The abstract provides no specific platform, sample size, performance metrics, or workflow applicable to pepper."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "Research implication: if bulk data from the 22 tissues indicate substantial within-tissue cellular heterogeneity, single-cell or single-nucleus data could help resolve accessibility and regulatory-element signals in candidate cell types. The abstract itself cannot determine whether this strategy is necessary or whether sample processing would suit pepper fruit tissues."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "A useful sequence would be to establish a bulk baseline with RNA-seq, ATAC-seq, CUT&Tag (H3K4me1, H3K4me3, H3K27ac, and H3K27me3), and WGBS, then consider adding single-cell or single-nucleus measurements in selected tissues if cellular mixing or difficult-to-interpret signals are a problem. Expression and candidate regulatory regions could jointly generate hypotheses for fruit-ripening TF networks, but the review abstract provides no specific pepper or fruit-ripening network."
+              },
+              {
+                "label": "Limitations",
+                "text": "The review explicitly notes that plant methods for single-cell histone modifications, DNA methylation, three-dimensional genome organization, and spatial epigenomics remain immature. Single-cell resolution alone is not causal evidence and cannot replace reliable cross-tissue sampling and validation; the abstract reports no assessment of suitability for pepper."
+              },
+              {
+                "label": "What to read first",
+                "text": "Focus first on the review's account of technological frameworks, bioinformatic workflows, cell-type-specific accessibility atlases, and cis-regulatory-element identification, together with its assessment of method maturity and challenges; do not treat experimental parameters absent from the abstract as recommended protocols."
+              }
+            ]
+          }
+        },
+        "priority": "快速浏览",
+        "date": "2026-09-23",
+        "journal": "The Plant cell",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1093/plcell/koag298",
+        "doi": "10.1093/plcell/koag298",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "补录",
+          "单细胞表观组学",
+          "染色质可及性",
+          "顺式调控元件",
+          "方法综述"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1093/plcell/koag298",
+          "retrieved_at": "2026-10-09T07:28:56.495245+00:00",
+          "abstract": "Single-cell technologies enable epigenomics characterization at single-cell resolution, offering novel insights into gene expression regulation and a wide range of biological processes, including cell fate determination, developmental differentiation, and environmental adaptation. In recent years, plant single-cell epigenomics has witnessed rapid progress, empowering the construction of cell type-specific chromatin accessibility atlases, the identification of candidate cis-regulatory elements (CREs), the inference of gene regulatory networks, and the elucidation of regulatory mechanisms underlying plant development, stress responses, species evolution, and complex agronomic traits. Nevertheless, single-cell methodologies for profiling histone modifications, DNA methylation, three-dimensional genome organization, and spatial epigenomic states in plants are still in their infancy. In this review, we systematically elaborate the technological framework, bioinformatic workflows, key research advances, and existing challenges in the field of plant single-cell epigenomics, and highlight future perspectives for its in-depth development.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
   ]
 }

@@ -187,5 +187,29 @@
       }
     ],
     "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
+  },
+  {
+    "date": "2026-10-09",
+    "entry_type": "weekly",
+    "summary": "本期收录3篇仍在28天检索窗口内、但早于最近7天的补录文献：两篇植物单细胞表观组学与组蛋白乙酰化综述，分别可为22组织图谱的细胞类型分辨率规划及果实代谢调控假设提供方法和概念参考；另有一项柑橘CiFTIP1在番茄中过表达的开花研究，提供了可评估但尚未验证于辣椒的开花时间调控思路。摘要未提供辣椒中的同源基因、旁系同源关系或功能证据；图谱应用均属研究启示。",
+    "summary_en": "This issue includes three backfill papers within the 28-day retrieval window but older than the past seven days: reviews of plant single-cell epigenomics and histone acetylation, offering methodological and conceptual reference points for cell-type resolution in the 22-tissue atlas and hypotheses about fruit-metabolism regulation; and a study of citrus CiFTIP1 overexpression in tomato, offering a flowering-time strategy to assess but not yet validated in pepper. The abstracts provide no evidence for pepper orthology, paralogy, or function; proposed atlas applications are research implications.",
+    "entries": [
+      {
+        "paper_id": "paper-2b5fad81ad6b0d89",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-7cfbcd4f697ba5eb",
+        "revision": 1,
+        "priority": "背景参考"
+      },
+      {
+        "paper_id": "paper-06fbe5bdd88cb39c",
+        "revision": 1,
+        "priority": "快速浏览"
+      }
+    ],
+    "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
   }
 ]
