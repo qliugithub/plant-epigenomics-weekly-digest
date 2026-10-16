@@ -211,5 +211,34 @@
       }
     ],
     "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
+  },
+  {
+    "date": "2026-10-16",
+    "entry_type": "weekly",
+    "summary": "本期精选4项与茄科果实性状和辣椒研究可迁移思路相关的工作，涵盖番茄果实硬度、桃果皮绿化、番茄UV-B响应及梨果香气调控。均为补录：所给记录日期早于本期最近7天；其中较早发表的研究依据记录中的近期收录信息纳入。摘要未报告辣椒验证，也没有研究直接采用辣椒22组织图谱所列的RNA-seq、ATAC-seq、CUT&Tag或WGBS组合；图谱应用均属待验证的研究启示。",
+    "summary_en": "This issue selects four studies relevant to Solanaceae fruit traits and transferable ideas for pepper research, covering tomato fruit firmness, peach fruit greening, tomato UV-B responses, and pear fruit aroma regulation. All are backfill items: the dates supplied in the records precede the most recent seven days; older-published studies are included based on their recent indexing in the records. None reports validation in pepper, and none directly uses the combined RNA-seq, ATAC-seq, CUT&Tag, or WGBS design of the pepper 22-tissue atlas. Atlas applications are proposed research implications that remain to be tested.",
+    "entries": [
+      {
+        "paper_id": "paper-64e8fee89e9cbf6c",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-853292e974e05331",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-c64464eb5a4a9fc7",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-9b8abdbfb6f392e3",
+        "revision": 1,
+        "priority": "快速浏览"
+      }
+    ],
+    "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
   }
 ]
