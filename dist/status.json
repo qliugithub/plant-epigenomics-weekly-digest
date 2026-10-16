@@ -1,13 +1,21 @@
 {
-  "snapshot_at": "2026-10-16T05:56:55.264842+00:00",
+  "snapshot_at": "2026-10-16T07:19:05.519230+00:00",
   "runs": {
     "weekly": [
       {
-        "id": 38858175831,
+        "id": 38866309938,
         "status": "in_progress",
         "conclusion": null,
+        "created_at": "2026-10-16T07:17:48Z",
+        "updated_at": "2026-10-16T07:17:52Z",
+        "html_url": "https://github.com/qliugithub/plant-epigenomics-weekly-digest/actions/runs/38866309938"
+      },
+      {
+        "id": 38858175831,
+        "status": "completed",
+        "conclusion": "success",
         "created_at": "2026-10-16T05:53:44Z",
-        "updated_at": "2026-10-16T05:53:47Z",
+        "updated_at": "2026-10-16T05:57:19Z",
         "html_url": "https://github.com/qliugithub/plant-epigenomics-weekly-digest/actions/runs/38858175831"
       },
       {
@@ -73,14 +81,6 @@
         "created_at": "2026-10-02T07:02:06Z",
         "updated_at": "2026-10-02T07:06:19Z",
         "html_url": "https://github.com/qliugithub/plant-epigenomics-weekly-digest/actions/runs/36976462487"
-      },
-      {
-        "id": 36115448631,
-        "status": "completed",
-        "conclusion": "failure",
-        "created_at": "2026-09-25T08:54:14Z",
-        "updated_at": "2026-09-25T09:02:56Z",
-        "html_url": "https://github.com/qliugithub/plant-epigenomics-weekly-digest/actions/runs/36115448631"
       }
     ],
     "publish": [
@@ -167,13 +167,8 @@
     ]
   },
   "last_attempt": {
-    "at": "2026-10-16T05:55:51.371153+00:00",
-    "outcome": "generated",
-    "retrieved": 1268,
-    "candidates": 704,
-    "analyzed": 19,
-    "recommended": 4,
-    "partial": true
+    "at": "2026-10-16T07:18:33.670437+00:00",
+    "outcome": "existing_issue_skipped"
   },
   "last_search": {
     "at": "2026-10-16T05:55:51.371153+00:00",
