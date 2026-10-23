@@ -240,5 +240,39 @@
       }
     ],
     "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
+  },
+  {
+    "date": "2026-10-23",
+    "entry_type": "weekly",
+    "summary": "本期优先关注可转化为辣椒果实品质与成熟改良的番茄遗传研究，并补录果实大小、成熟调控及茶树H3K4me3研究。对辣椒22组织图谱，重点是把RNA-seq、ATAC-seq、H3K4me1/H3K4me3/H3K27ac/H3K27me3 CUT&Tag与WGBS按组织和发育阶段整合；以下图谱建议均属研究启示，不能视为原研究已完成的实验。标注“补录”的论文超过近7天偏好窗口，但仍在检索回溯范围内。",
+    "summary_en": "This issue prioritizes tomato genetic studies with potential relevance to pepper fruit quality and ripening, alongside backfill on fruit size, ripening regulation, and tea H3K4me3. For the 22-tissue pepper atlas, the main opportunity is to integrate RNA-seq, ATAC-seq, CUT&Tag for H3K4me1/H3K4me3/H3K27ac/H3K27me3, and WGBS across tissues and developmental stages; the atlas suggestions below are research implications, not experiments reported by the papers. Papers marked “Backfill” fall outside the preferred last-seven-day window but remain within the retrieval lookback.",
+    "entries": [
+      {
+        "paper_id": "paper-27b5a70be1703237",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-8fed0fa4b29bc951",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-484fb830e69d860d",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-8a4e20787a475a71",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-4bd55fcdbe91963c",
+        "revision": 1,
+        "priority": "快速浏览"
+      }
+    ],
+    "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
   }
 ]

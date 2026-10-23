@@ -4050,5 +4050,534 @@
         }
       }
     }
+  ],
+  "paper-27b5a70be1703237": [
+    {
+      "version": 1,
+      "at": "2026-10-23T06:08:42.417655+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "4b0ceb889af19ea34639e4d22738ede6ae1ed7b35d20d9ab8a0dfbbb370273bc",
+      "content": {
+        "title": "Histone H3K4 Methylation Mediates Exogenous Arginine Suppression of Cold-Induced Damage in Tea Plant.",
+        "heading": "茶树CsSDG36–H3K4me3–CsKCS3模块连接精氨酸处理、蜡质积累与耐寒",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "摘要报告，外施精氨酸与茶树角质层增厚、超长链脂肪酸和烷烃积累及冷害缓解相关；CsKCS3被鉴定为蜡质生物合成相关调控因子。研究提出CsSDG36介导的H3K4me3增加与CsKCS3表达上升相联系。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "作者结合转录组共表达分析、茶树VIGS及拟南芥异源过表达支持CsKCS3功能，并报告CsSDG36编码H3K4甲基转移酶、可增加CsKCS3启动子和外显子区域的H3K4me3富集。摘要未说明CUT&Tag或其他染色质检测的具体实验流程，不能据此认定其采用了图谱拟用的某种技术。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "这是非茄科植物的耐寒与组蛋白修饰研究，可为辣椒低温胁迫下“染色质标记—蜡质相关表达—表型”关联提供候选框架。Cs基因在辣椒中的同源关系、功能保守性及精氨酸处理效果均未由摘要证明，属于待验证问题。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：在辣椒叶、花及果实等组织比较冷胁迫前后RNA-seq与H3K4me3 CUT&Tag，并以ATAC-seq、H3K4me1/H3K27ac/H3K27me3 CUT&Tag和WGBS补充启动子及候选调控区状态。若果实成熟网络纳入蜡质或胁迫响应TF，应先检验其在相关组织中的表达和染色质共变；该研究本身未涉及辣椒或22组织图谱。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "H3K4me3、基因表达与处理响应的关系不等同于证明该标记单独造成耐寒表型；摘要也没有给出辣椒中的验证、田间表现或处理代价。将茶树结果迁移到辣椒属于研究启示，需独立验证物种差异与组织特异性。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "先看精氨酸处理与CsSDG36/CsKCS3的功能证据、H3K4me3在CsKCS3区域的富集及VIGS结果；再核对摘要未详述的染色质检测与冷害表型评估方法。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "The tea CsSDG36–H3K4me3–CsKCS3 module links arginine treatment, wax accumulation, and cold tolerance",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "The abstract reports that exogenous arginine is associated with a thicker cuticle, accumulation of very-long-chain fatty acids and alkanes, and alleviation of cold injury in tea. CsKCS3 was identified as a regulator associated with wax biosynthesis. The study proposes that increased H3K4me3 mediated by CsSDG36 is associated with increased CsKCS3 expression."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The authors use transcriptome co-expression analysis, VIGS in tea, and heterologous overexpression in Arabidopsis to support a function for CsKCS3, and report that CsSDG36 encodes an H3K4 methyltransferase that increases H3K4me3 enrichment in the CsKCS3 promoter and exon regions. The abstract does not specify the exact experimental workflow for CUT&Tag or other chromatin assays, so it does not establish that a particular method planned for the atlas was used."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "This study of cold stress and histone modification in a non-Solanaceae plant offers a candidate framework for examining associations among chromatin marks, wax-related expression, and phenotype under low-temperature stress in pepper. The abstract does not establish the homologous relationships or functional conservation of the Cs genes in pepper, or whether arginine treatment has the same effect there; these remain to be tested."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: compare RNA-seq and H3K4me3 CUT&Tag before and after cold stress in pepper tissues such as leaves, flowers, and fruits, and complement these with ATAC-seq, CUT&Tag for H3K4me1/H3K27ac/H3K27me3, and WGBS to characterize promoters and candidate regulatory regions. If wax or stress-response TFs are included in the fruit-ripening network, first test their expression and chromatin covariation in relevant tissues; this study itself did not examine pepper or a 22-tissue atlas."
+              },
+              {
+                "label": "Limitations",
+                "text": "The relationships among H3K4me3, gene expression, and treatment response do not establish that this mark alone causes cold tolerance; the abstract also provides no validation in pepper, field performance, or treatment costs. Transferring the tea results to pepper is a research implication and requires independent testing of species differences and tissue specificity."
+              },
+              {
+                "label": "What to read first",
+                "text": "First inspect the functional evidence for arginine treatment and CsSDG36/CsKCS3, H3K4me3 enrichment at the CsKCS3 region, and the VIGS results; then check the chromatin-assay and cold-injury evaluation methods, which are not detailed in the abstract."
+              }
+            ]
+          }
+        },
+        "priority": "快速浏览",
+        "date": "2026-10-20",
+        "journal": "Plant, cell & environment",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1111/pce.70978",
+        "doi": "10.1111/pce.70978",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "茶树",
+          "H3K4me3",
+          "耐寒",
+          "蜡质",
+          "表观调控"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1111/pce.70978",
+          "retrieved_at": "2026-10-23T06:08:42.415296+00:00",
+          "abstract": "Cold stress severely restricts the geographical distribution and productivity of Camellia sinensis (tea plant). Although the plant cuticle wax serves as a critical barrier in resisting both biotic and abiotic stresses, its epigenetic regulation during cold stress remains poorly understood. Here, we show that exogenous arginine alleviates cold-induced damage by increasing cuticle thickness, and enhancing the accumulation of very-long-chain fatty acids and alkanes. Transcriptome-based weighted gene co-expression network analysis identified CsKCS3 as a key regulator of wax biosynthesis. Virus-induced gene silencing in tea plants and heterologous overexpression in Arabidopsis thaliana demonstrated that CsKCS3 positively regulates fatty acid biosynthesis and contributes to cold tolerance. Furthermore, the trimethylation of histone H3 at Lysine 4 (H3K4me3) is increased during arginine-induced processes and enhances the expression of the CsSDG36 and CsKCS3. Further, we identified that CsSDG36 encodes an H3K4 methyltransferase. Arginine treatment mitigated cold damage in CsSDG36-silenced tea plants, which was associated with recovery of CsKCS3 expression. Mechanistically, CsSDG36 enhanced H3K4me3 enrichment at the promoter and exon regions of CsKCS3, thereby activating CsKCS3 transcription. These findings reveal a CsSDG36-H3K4me3-CsKCS3 regulatory module through which arginine promotes cuticular wax accumulation and cold tolerance in tea plants. These findings uncover a novel epigenetic circuitry in which exogenous arginine regulates chromatin remodeling to structurally fortify the epidermal lipid barrier, offering a vital conceptual framework for breeding climate-resilient perennial crops.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
+  ],
+  "paper-8fed0fa4b29bc951": [
+    {
+      "version": 1,
+      "at": "2026-10-23T06:08:42.423379+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "b757a43ddb2e59bc2bee52800d9a88fc2f8a94364bc8255605d45d591505c10e",
+      "content": {
+        "title": "Reactivation of a loss-of-function SlGLK2 allele by frame-restoring genome editing in tomato.",
+        "heading": "[补录]番茄SlGLK2移码修复恢复果实质体发育并提高可溶性固形物与生育酚",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "补录：研究在番茄SlGLK2失功能背景中利用LbCas12a引入额外突变，以13 bp缺失恢复阅读框；编辑株系果实叶绿素积累和质体发育增强，成熟果实总可溶性固形物与生育酚含量上升。结果展示了修复驯化过程中丢失基因功能的编辑策略，而非单纯敲除基因。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "作者结合生化、转录组和转录活性分析支持SlGLK2功能恢复，并报告果实特别是果实茎端的叶绿素及质体发育变化。摘要未提供编辑效率、不同遗传背景的比较或多季环境稳定性信息。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "这项番茄研究与辣椒果实营养品质和果实发育直接相关，且其编辑逻辑是恢复已受损的等位基因功能。辣椒是否存在相同或功能对应的GLK失功能变异、其对营养品质的作用及是否存在旁系同源基因补偿，摘要均未说明。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：在辣椒22组织RNA-seq中追踪GLK类候选基因在果实发育阶段及果实不同区域的表达，再结合ATAC-seq、四种CUT&Tag标记和WGBS寻找与表达相关的顺式调控状态。果实成熟TF网络可检验候选GLK与质体、色素及营养代谢基因是否共表达，但原研究未提供辣椒图谱或这些表观组数据。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "番茄编辑结果不能直接视为辣椒中可复现的效果；摘要也没有证明可溶性固形物和生育酚增加在不同栽培背景中均稳定，或报告完整产量与风味权衡。分类中的位点编辑指研究实际编辑SlGLK2，不代表进行了表观基因组编辑。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先检查13 bp缺失如何恢复阅读框、果实茎端与其他部位的表型差异，以及生化、转录组和转录活性证据是否相互支持。再关注摘要未详述的编辑株系背景与品质评价条件。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "[Backfill] Frame restoration of tomato SlGLK2 restores fruit plastid development and increases soluble solids and tocopherol",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "Backfill: In a tomato SlGLK2 loss-of-function background, the study used LbCas12a to introduce an additional mutation that restored the reading frame through a 13-bp deletion; the edited line showed increased fruit chlorophyll accumulation and plastid development, as well as higher total soluble solids and tocopherol in ripe fruit. The results demonstrate an editing strategy to restore gene function lost during domestication, rather than simply knocking out a gene."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The authors use biochemical, transcriptomic, and transcriptional-activity analyses to support restoration of SlGLK2 function, and report changes in fruit chlorophyll and plastid development, particularly at the stem end of the fruit. The abstract does not provide editing efficiency, comparisons across genetic backgrounds, or information on stability across seasons and environments."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "This tomato study is directly relevant to pepper fruit nutritional quality and development, and its editing logic is to restore a damaged allele's function. The abstract does not establish whether pepper has the same or a functionally corresponding GLK loss-of-function variant, what its effect on nutritional quality would be, or whether paralogous genes might compensate."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: track candidate GLK-family expression across fruit developmental stages and fruit regions in the 22-tissue pepper RNA-seq atlas, then use ATAC-seq, the four CUT&Tag marks, and WGBS to identify cis-regulatory states associated with expression. The fruit-ripening TF network could test whether candidate GLKs are co-expressed with plastid, pigment, and nutritional-metabolism genes, but the original study did not provide a pepper atlas or these epigenomic data."
+              },
+              {
+                "label": "Limitations",
+                "text": "The tomato editing result cannot be assumed to reproduce directly in pepper; the abstract also does not establish that increases in soluble solids and tocopherol are stable across cultivation backgrounds, or report full yield and flavor tradeoffs. The classification's “locus editing” refers to the actual editing of SlGLK2, not epigenome editing."
+              },
+              {
+                "label": "What to read first",
+                "text": "First inspect how the 13-bp deletion restores the reading frame, phenotype differences between the fruit stem end and other regions, and whether the biochemical, transcriptomic, and transcriptional-activity evidence supports the same conclusion. Then check the editing-line background and quality-assessment conditions, which are not detailed in the abstract."
+              }
+            ]
+          }
+        },
+        "priority": "全文精读",
+        "date": "2026-10-15",
+        "journal": "Plant cell reports",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1007/s00299-026-04024-z",
+        "doi": "10.1007/s00299-026-04024-z",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "番茄",
+          "基因编辑",
+          "果实品质",
+          "营养",
+          "质体发育"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1007/s00299-026-04024-z",
+          "retrieved_at": "2026-10-23T06:08:42.415368+00:00",
+          "abstract": "Key messageRestoration of the crop improvement-related loss-of-function gene, Solanum lycopersicum GOLDEN2-LIKE, through an additional mutation by a conventional genome editing technique. Plant domestication and crop improvement processes have inadvertently led to the loss of gene functions that contribute to crop quality. In widely cultivated tomato (Solanum lycopersicum) varieties, the uniform ripening (u) mutation, a loss-of-function allele of the Solanum lycopersicum Golden2-like 2 (SlGLK2), has been selected to improve fruit appearance. However, this selection is associated with reduced fruit nutritional quality, lowering the levels of sugars and tocopherols due to impaired plastid development. In this study, the function of SlGLK2 was restored by introducing an additional mutation using the temperature-tolerant Lachnospiraceae bacterium ND 2006 Cas12a (LbCas12a) genome editing system. A 13-bp deletion in the linker region of SlGLK2 protein in the CR-Slglk2-4 line restored the reading frame and led to enhanced chlorophyll accumulation and plastid development, particularly in the stem end region of the fruit. The edited line also showed increased total soluble solids and tocopherol content in ripe fruit. Biochemical, transcriptomic, and transcriptional activity analyses confirmed the functional restoration of SlGLK2 in the CR-Slglk2-4 line. This study not only provides a useful Micro-Tom line for investigating plastid biogenesis in tomato fruit but also demonstrates the potential of genome editing to restore the latent functions of pseudogenized genes in modern crops, offering a new approach for recovering traits lost during plant domestication or crop improvement.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
+  ],
+  "paper-484fb830e69d860d": [
+    {
+      "version": 1,
+      "at": "2026-10-23T06:08:42.428689+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "eb5fe63b88f3b4817bad2e606f297e1241e03e9fa4823228e62cac2333b3ea79",
+      "content": {
+        "title": "Moderate Water Deficit Improves Tomato Fruit Nutritional Quality Through SlNAP2-Mediated Transcriptional Activation of Lycopene and Ascorbic Acid Biosynthesis Genes.",
+        "heading": "[补录]中度水分亏缺通过SlNAP2转录网络提高番茄果实营养品质",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "补录：番茄中度水分亏缺与多种类胡萝卜素、可溶性固形物、可溶性蛋白和抗坏血酸增加相关，作者报告其试验条件下产量无显著下降。SlNAP2敲除降低果实营养品质，过表达在中度水分亏缺下提高品质，支持其参与该处理下的品质响应。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "研究报告SlNAP2直接结合并激活番茄番茄红素合成基因SlPSY2、SlPDS、SlZDS及抗坏血酸合成基因SlGMP、SlGGP的启动子；水分亏缺增强了这一转录激活。摘要还称这五个下游基因的功能分析支持其介导SlNAP2相关代谢物积累。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "番茄与辣椒均为茄科果实作物，该研究提供了可供辣椒检验的“水分条件—TF—代谢基因—营养性状”框架。摘要没有提供辣椒中SlNAP2对应基因的同源、旁系同源、结合或遗传功能证据，也不能据此断言辣椒在相同水分处理下会有相同产量与品质反应。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：在辣椒22组织RNA-seq中关注NAP类TF及类胡萝卜素、抗坏血酸通路基因的组织与果实阶段表达；将候选TF与ATAC-seq和四种CUT&Tag标记整合以筛选可能的活性启动子，并用WGBS评估相关区域甲基化。若要构建成熟TF网络，应把水分处理作为独立条件，检验网络边是否随处理变化，而非把共表达当作直接结合证据。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "摘要中的“产量无显著下降”仅限于其试验条件；没有据此证明其他水分强度、遗传背景或田间环境中无产量代价。转录因子直接结合的证据来自番茄，向辣椒迁移仍须验证，且本研究并未测量染色质可及性或组蛋白标记。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先看水分处理与品质测定条件、SlNAP2敲除和过表达的结果，以及SlNAP2对五个启动子的结合和激活证据。再核对下游基因功能分析如何支持类胡萝卜素和抗坏血酸变化。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "[Backfill] Moderate water deficit improves tomato fruit nutritional quality through the SlNAP2 transcriptional network",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "Backfill: In tomato, moderate water deficit was associated with increases in several carotenoids, soluble solids, soluble protein, and ascorbic acid; the authors report no significant yield reduction under their experimental conditions. SlNAP2 knockout reduced fruit nutritional quality, whereas overexpression improved quality under moderate water deficit, supporting its involvement in the quality response to this treatment."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The study reports that SlNAP2 directly binds and activates the promoters of the tomato lycopene-biosynthesis genes SlPSY2, SlPDS, and SlZDS, and the ascorbic-acid-biosynthesis genes SlGMP and SlGGP; water deficit enhanced this transcriptional activation. The abstract also states that functional analyses of these five downstream genes support their mediation of SlNAP2-associated metabolite accumulation."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "Tomato and pepper are both Solanaceae fruit crops, and this study provides a framework for testing in pepper: “water status–TF–metabolic genes–nutritional traits.” The abstract provides no evidence for orthology, paralogy, binding, or genetic function of the corresponding pepper gene, and does not establish that pepper would show the same yield and quality responses under the same water treatment."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: track NAP-family TFs and carotenoid- and ascorbic-acid-pathway genes across tissues and fruit stages in the 22-tissue pepper RNA-seq atlas; integrate candidate TFs with ATAC-seq and the four CUT&Tag marks to prioritize potentially active promoters, and use WGBS to assess methylation in relevant regions. To build a ripening TF network, treat water status as a separate condition and test whether network edges vary with treatment rather than treating co-expression as evidence of direct binding."
+              },
+              {
+                "label": "Limitations",
+                "text": "The abstract's report of “no significant yield reduction” applies only to its experimental conditions; it does not establish the absence of yield costs at other water-deficit levels, in other genetic backgrounds, or in field environments. Evidence for direct TF binding comes from tomato and still requires validation before transfer to pepper; this study did not measure chromatin accessibility or histone marks."
+              },
+              {
+                "label": "What to read first",
+                "text": "First inspect the water-treatment and quality-assessment conditions, results from SlNAP2 knockout and overexpression, and evidence for SlNAP2 binding to and activating the five promoters. Then check how downstream-gene functional analyses support the carotenoid and ascorbic-acid changes."
+              }
+            ]
+          }
+        },
+        "priority": "全文精读",
+        "date": "2026-10-14",
+        "journal": "Plant, cell & environment",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1111/pce.70979",
+        "doi": "10.1111/pce.70979",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "番茄",
+          "果实品质",
+          "营养",
+          "水分胁迫",
+          "TF网络"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1111/pce.70979",
+          "retrieved_at": "2026-10-23T06:08:42.415399+00:00",
+          "abstract": "Moderate water deficit is an effective strategy to improve fruit nutritional quality, yet the underlying molecular mechanism remains largely elusive, limiting its application in high-quality crop cultivation. Here, we report that moderate water deficit simultaneously elevates the contents of α-carotene, β-carotene, lutein, lycopene, soluble solids, soluble protein, and ascorbic acid in tomato (Solanum lycopersicum L.) fruits, with no significant reduction in fruit yield under our experimental conditions. Through transcriptome analysis and RT-qPCR, we identified SlNAP2 as a central transcription factor regulating this process. Moderate water deficit upregulates SlNAP2 expression. Knockout of SlNAP2 significantly reduces fruit nutritional quality, whereas its overexpression enhances it under moderate water deficit. Importantly, moderate water deficit promotes the improvement of tomato fruit nutritional quality in a SlNAP2-dependent manner. We further demonstrate that SlNAP2 directly binds to and activates the promoters of key lycopene biosynthesis genes (SlPSY2, SlPDS, SlZDS) and ascorbic acid biosynthesis genes (SlGMP, SlGGP), and that moderate water deficit enhances this transcriptional activation. Functional analyses further support the role of these five genes as downstream effectors that mediate SlNAP2-dependent lycopene and ascorbic acid accumulation. Collectively, our findings reveal that moderate water deficit enhances tomato fruit nutritional quality by boosting SlNAP2-mediated transcriptional activation of lycopene and ascorbate biosynthesis, establishing SlNAP2 as a central regulator linking water deficit to fruit quality and providing mechanistic insights into stress-promoted metabolite accumulation.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
+  ],
+  "paper-8a4e20787a475a71": [
+    {
+      "version": 1,
+      "at": "2026-10-23T06:08:42.434215+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "36868b81e50d8bd997721a87e953f8c4f373a0171a812eb796e7383a3cf33d67",
+      "content": {
+        "title": "The cation/H+ exchanger ChCAX3 fine-tunes fruit ripening by modulating cytosolic Ca2+ homeostasis in Cerasus humilis.",
+        "heading": "[补录]ChCAX3异源过表达延缓番茄着色和软化，提示果实成熟调节潜力",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "补录：摘要报告，Cerasus humilis液泡阳离子/H+交换器ChCAX3在番茄中过表达后，果实钙含量提高、着色延迟、软化减少，成熟期约延长14天。酵母互补和拟南芥实验支持其钙转运活性，但果实成熟表型的跨物种试验证据来自番茄过表达。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "研究提出ChCAX3介导液泡钙隔离，可能改变胞质Ca2+稳态，并伴随乙烯合成和细胞壁降解相关基因表达变化；摘要将其描述为可能调节ChCBL10–ChCIPK3模块。该机制包含推测性环节，摘要没有给出辣椒或番茄中的直接染色质调控证据。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "番茄中的异源过表达结果使该研究对辣椒成熟期、果实硬度和采后品质具有可检验的参考价值。Cerasus humilis候选基因在辣椒中的同源关系、功能保守性，以及调节钙分配对辣椒果实的具体影响均未确立。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：在辣椒22组织RNA-seq中按果实成熟阶段比较CAX类候选基因、乙烯合成和细胞壁降解基因表达，并把果实样本与花、叶等组织区分。ATAC-seq、四种CUT&Tag标记和WGBS可用于检验成熟TF网络候选调控区是否随阶段改变；原研究未做这些表观组检测，不能预设其为成熟差异的原因。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "摘要称约14天成熟期延长，但未给出辣椒结果、跨品种稳定性或采后贮藏条件，不能直接据此估计商业货架期收益。钙稳态到乙烯和细胞壁变化的若干连接被表述为可能机制，不应写成已完全证实的因果链。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "先看番茄过表达的着色、硬度、钙含量和成熟期结果，再看酵母互补及拟南芥钙转运验证。阅读时区分摘要明确报告的实验观察与对Ca2+信号模块的机制推测。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "[Backfill] Heterologous overexpression of ChCAX3 delays tomato coloration and softening, suggesting potential for fruit-ripening regulation",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "Backfill: The abstract reports that overexpression of the Cerasus humilis vacuolar cation/H+ exchanger ChCAX3 in tomato increased fruit calcium content, delayed coloration, reduced softening, and extended the ripening period by approximately 14 days. Yeast complementation and Arabidopsis assays support its calcium-transport activity, while the cross-species test of fruit-ripening phenotypes was conducted by overexpression in tomato."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The study proposes that ChCAX3-mediated vacuolar calcium sequestration may alter cytosolic Ca2+ homeostasis and is accompanied by changes in the expression of genes related to ethylene biosynthesis and cell-wall degradation; the abstract describes a possible effect on the ChCBL10–ChCIPK3 module. Some links in this mechanism remain proposed, and the abstract provides no direct chromatin-regulation evidence in pepper or tomato."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "The heterologous overexpression result in tomato makes this study a testable reference for pepper ripening, fruit firmness, and postharvest quality. Orthology of the Cerasus humilis candidate in pepper, functional conservation, and the specific effects of changing calcium allocation in pepper fruit have not been established."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: compare CAX-family candidates with ethylene-biosynthesis and cell-wall-degradation gene expression across pepper fruit-ripening stages in the 22-tissue RNA-seq atlas, while distinguishing fruit samples from flowers, leaves, and other tissues. ATAC-seq, the four CUT&Tag marks, and WGBS could test whether candidate regulatory regions in the ripening TF network change across stages; the original study did not perform these epigenomic assays, so they should not be presumed to cause ripening differences."
+              },
+              {
+                "label": "Limitations",
+                "text": "The abstract reports an approximately 14-day extension of the ripening period but gives no pepper results, stability across varieties, or postharvest storage conditions, so commercial shelf-life gains cannot be estimated directly. Several links from calcium homeostasis to ethylene and cell-wall changes are described as possible mechanisms and should not be presented as a fully established causal chain."
+              },
+              {
+                "label": "What to read first",
+                "text": "First inspect the tomato overexpression results for coloration, firmness, calcium content, and ripening period, followed by the yeast complementation and Arabidopsis calcium-transport validation. Keep the reported experimental observations distinct from the proposed mechanism involving the Ca2+ signaling module."
+              }
+            ]
+          }
+        },
+        "priority": "快速浏览",
+        "date": "2026-10-13",
+        "journal": "Journal of experimental botany",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1093/jxb/erag512",
+        "doi": "10.1093/jxb/erag512",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "果实成熟",
+          "采后品质",
+          "钙稳态",
+          "跨物种验证"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1093/jxb/erag512",
+          "retrieved_at": "2026-10-23T06:08:42.415424+00:00",
+          "abstract": "Cerasus humilis is a calcium-rich fruit crop with high nutritional value, but its synchronized ripening causes concentrated harvest and short shelf life. In this study, ChCAX3, a vacuolar cation/H+ exchanger, was identified as a key regulator of fruit ripening. ChCAX3 showed high expression in fruit and stem tissues and was upregulated by CaCl2 and ethephon treatments. however, repressed during fruit ripening by ChMYB16. Yeast complementation and Arabidopsis thaliana assays validated its Ca2+ transport activity. Overexpression of ChCAX3 in tomato increased fruit Ca2+ content, delayed coloration, reduced softening, and extended the ripening period by approximately 14 days. ChCAX3-mediated vacuolar Ca2+ sequestration may maintain low cytosolic Ca2+ levels, thereby potentially attenuate the expression and activity of a presumptive Ca2+ sensor ChCBL10 and its interacting kinase ChCIPK3 at the vacuolar membrane. This attenuation of the ChCBL10-ChCIPK3 module was accompanied by reduced expression of ethylene biosynthesis genes (ChACS1, ChACO1) and cell wall degradation-related genes (ChPG1, ChPG2), which may collectively delay the ethylene burst and preserving fruit firmness. Conversely, repression of ChCAX3 by ChMYB16 during late ripening may elevate cytosolic Ca2+, potentially activate the ChCBL10-ChCIPK3 signaling cascade, and accelerated senescence. Overall, these findings demonstrated that ChCAX3 positively regulates Ca2+ accumulation and delays fruit ripening via Ca2+ signaling-mediated modulation of ethylene pathways, providing new insights into Ca2+-hormone crosstalk in fruit physiology and identifying a potential target for extending shelf life and enhancing nutritional quality.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
+  ],
+  "paper-4bd55fcdbe91963c": [
+    {
+      "version": 1,
+      "at": "2026-10-23T06:08:42.439917+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "9847c081a92862326fe32771fe79155197a999f6d41506a2b915fd514b42b214",
+      "content": {
+        "title": "An Intronic Structural Variant in GhEBS1 Drives Cotton Fruit Size Divergence by Modulating Chromatin Accessibility and Gene Expression.",
+        "heading": "[补录]GhEBS1结构变异关联棉铃增大，并在番茄异源表达中促进果实膨大",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "补录：研究通过图位克隆鉴定棉花GhEBS1为棉铃大小正调控因子，并报告启动子近端内含子区845 bp结构变异与局部染色质可及性、组蛋白修饰和表达差异相关。摘要还报告GhEBS1在棉花、番茄及拟南芥中的过表达或异源表达促进相应果实/器官增大；育种评估中的优良等位基因与棉铃、种子大小及铃重增加相关。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "摘要描述GhEBS1与GhPPD1/2及GhKIX8/9互作，并关联到细胞增殖相关下游基因和细胞数变化；结构变异相关修饰包括H3K27、H3K9甲基化水平及乙酰化。具体染色质实验方法和辣椒中的对应调控关系未由摘要交代，不能把该关联写成已在辣椒验证的机制。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "番茄异源表达结果使其成为果实大小研究的茄科参照，但核心遗传发现和育种验证来自棉花。辣椒中是否有功能对应的EBS1、PPD或KIX成员，等位变异能否影响果实大小及是否伴随品质或产量代价，都仍待验证。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：在22组织RNA-seq中定位果实膨大阶段表达的候选细胞增殖TF网络，再用ATAC-seq与H3K4me1/H3K4me3/H3K27ac/H3K27me3 CUT&Tag及WGBS比较候选调控区域状态。结构变异可作为解释局部可及性和表达差异的遗传变量纳入分析；该论文摘要没有提供辣椒数据，也未说明可直接复用的具体染色质测序流程。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "棉花中结构变异与局部染色质、表达及大小性状的关系，加上番茄异源表达结果，不能证明同一基因网络在辣椒中保守或产生相同效应。摘要未提供果实大小效应的辣椒证据；对辣椒的基因编辑或改良建议均为待验证的外推。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先看845 bp变异与GhEBS1表达、染色质特征及棉铃表型之间的证据，以及番茄异源表达和GhEBS1蛋白互作结果。再核对摘要未说明的染色质检测方法及优良等位基因评估背景。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "[Backfill] A GhEBS1 structural variant is associated with larger cotton bolls and promotes fruit enlargement in heterologous tomato expression",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "Backfill: Map-based cloning identified cotton GhEBS1 as a positive regulator of boll size, and the abstract reports that an 845-bp structural variant in a promoter-proximal intron is associated with differences in local chromatin accessibility, histone modifications, and expression. The abstract also reports that overexpression or heterologous expression of GhEBS1 in cotton, tomato, and Arabidopsis promoted enlargement of the corresponding fruits or organs; breeding evaluations associated the elite allele with increased boll size, seed size, and boll weight."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The abstract describes interactions of GhEBS1 with GhPPD1/2 and GhKIX8/9, and an association with downstream cell-proliferation-related genes and changes in cell number; the structural-variant-associated modifications include H3K27 and H3K9 methylation levels and acetylation. The specific chromatin-assay methods and corresponding regulatory relationships in pepper are not provided in the abstract, so this association cannot be described as a mechanism validated in pepper."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "The heterologous expression result in tomato makes this a Solanaceae reference for fruit-size research, but the core genetic discovery and breeding evaluation are from cotton. Whether pepper has functionally corresponding EBS1, PPD, or KIX members, whether allelic variation affects fruit size, and whether there are quality or yield costs remain to be tested."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: use RNA-seq across the 22 tissues to identify candidate cell-proliferation TF networks expressed during fruit expansion, then compare candidate regulatory-region states using ATAC-seq, CUT&Tag for H3K4me1/H3K4me3/H3K27ac/H3K27me3, and WGBS. Structural variants could be included as genetic variables when interpreting local accessibility and expression differences; the paper's abstract provides no pepper data and does not specify a directly reusable chromatin-sequencing workflow."
+              },
+              {
+                "label": "Limitations",
+                "text": "The association among a structural variant, local chromatin, expression, and size traits in cotton, together with heterologous expression in tomato, does not demonstrate that the same gene network is conserved or has the same effect in pepper. The abstract provides no fruit-size evidence in pepper; any pepper editing or improvement proposal is an extrapolation that remains to be tested."
+              },
+              {
+                "label": "What to read first",
+                "text": "First inspect the evidence linking the 845-bp variant to GhEBS1 expression, chromatin features, and cotton-boll phenotype, along with the tomato heterologous-expression and GhEBS1 protein-interaction results. Then check the chromatin-assay methods and the background used to evaluate the elite allele, which are not specified in the abstract."
+              }
+            ]
+          }
+        },
+        "priority": "快速浏览",
+        "date": "2026-10-07",
+        "journal": "Plant biotechnology journal",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1111/pbi.70761",
+        "doi": "10.1111/pbi.70761",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "棉花",
+          "果实大小",
+          "染色质可及性",
+          "结构变异",
+          "茄科参考"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1111/pbi.70761",
+          "retrieved_at": "2026-10-23T06:08:42.415446+00:00",
+          "abstract": "Fruit size is not only a crucial fitness trait in plant evolution but also an important agronomic target in crop domestication and improvement, yet its regulatory mechanisms remain poorly characterized. Here, we identified an F-box E3 ubiquitin ligase gene, GhEBS1 (ENLARGED BOLL SIZE 1), as a positive regulator of cotton boll size via map-based cloning. An 845-bp structural variant in the promoter-proximal intronic region of GhEBS1 alters local chromatin accessibility and histone modifications, specifically H3K27 and H3K9 methylation levels and acetylation, thereby modulating GhEBS1 expression and driving boll size divergence. Overexpression or heterologous expression of GhEBS1 in cotton (capsule), tomato (berry) and Arabidopsis (silique) promoted fruit enlargement, indicating its functional conservation. Further analysis showed that GhEBS1 interacts with GhPPD1/2 and GhKIX8/9 to modulate downstream cell proliferation-related genes to control cell number and boll size. Breeding evaluations confirm that the elite GhEBS1L allele significantly increases boll size, seed size and boll weight. Haplotype analysis reveals that GhEBS1L originated from Gossypium hirsutum race latifolium and underwent artificial selection during cotton domestication. Our findings provide new insights into the regulation of plant fruit size and present a valuable genetic locus for crop yield improvement.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
   ]
 }
