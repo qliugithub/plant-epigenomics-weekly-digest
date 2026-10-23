@@ -6922,8 +6922,8 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-10-16T08:17:20.876112+00:00",
-      "source_updated_at": "2026-10-14T16:39:01.820549",
+      "checked_at": "2026-10-23T08:39:10.508659+00:00",
+      "source_updated_at": "2026-10-22T18:32:59.640997",
       "id": "https://openalex.org/W7214038376",
       "doi": "10.1007/s00425-026-05169-7",
       "cited_by_count": 0,
@@ -7131,8 +7131,8 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-10-16T08:17:20.976714+00:00",
-      "source_updated_at": "2026-10-13T10:08:12.033832",
+      "checked_at": "2026-10-23T08:39:10.710225+00:00",
+      "source_updated_at": "2026-10-22T09:42:04.148104",
       "id": "https://openalex.org/W7167547493",
       "doi": "10.1039/d6np00009f",
       "cited_by_count": 1,
@@ -7157,7 +7157,7 @@
         {
           "name": "J Y Huang",
           "url": "https://openalex.org/A5104103511",
-          "orcid": "https://orcid.org/0000-0002-6371-4532"
+          "orcid": "https://orcid.org/0000-0002-1497-2906"
         },
         {
           "name": "Xiang Gao",
@@ -7373,7 +7373,7 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-10-16T08:17:21.056352+00:00",
+      "checked_at": "2026-10-23T08:39:10.950718+00:00",
       "source_updated_at": "2026-09-25T08:18:29.962427",
       "id": "https://openalex.org/W7214073317",
       "doi": "10.1093/plcell/koag298",
