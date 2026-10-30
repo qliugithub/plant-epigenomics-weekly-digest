@@ -5878,10 +5878,9 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-30T07:16:06.780918+00:00",
+            "checked_at": "2026-10-30T08:47:01.926521+00:00",
             "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-03960-0",
-            "update_check": "unavailable",
-            "update_error": "HTTPError 429"
+            "update_check": "completed"
           },
           "issues": [
             "2026-09-18"
@@ -7141,8 +7140,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T08:39:10.508659+00:00",
-            "source_updated_at": "2026-10-22T18:32:59.640997",
+            "checked_at": "2026-10-30T08:45:45.572636+00:00",
+            "source_updated_at": "2026-10-27T15:51:10.671819",
             "id": "https://openalex.org/W7214038376",
             "doi": "10.1007/s00425-026-05169-7",
             "cited_by_count": 0,
@@ -7160,29 +7159,19 @@
                 "orcid": null
               },
               {
-                "name": "Jian Zhang",
-                "url": "https://openalex.org/A5007750024",
-                "orcid": "https://orcid.org/0000-0003-1507-4718"
-              },
-              {
                 "name": "Zhuang-Zhuang Li",
-                "url": "https://openalex.org/A5153593235",
+                "url": "https://openalex.org/A5159633158",
                 "orcid": null
               },
               {
                 "name": "Peng Wang",
-                "url": "https://openalex.org/A5126030595",
-                "orcid": "https://orcid.org/0000-0003-4857-1198"
-              },
-              {
-                "name": "J. B. Zhang",
-                "url": "https://openalex.org/A5038288606",
+                "url": "https://openalex.org/A5159583280",
                 "orcid": null
               },
               {
-                "name": "J. B. Zhang",
-                "url": "https://openalex.org/A5038288606",
-                "orcid": null
+                "name": "Jin‐Zhi Zhang",
+                "url": "https://openalex.org/A5024830878",
+                "orcid": "https://orcid.org/0000-0002-3820-889X"
               }
             ],
             "institutions": [
@@ -7350,8 +7339,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T08:39:10.710225+00:00",
-            "source_updated_at": "2026-10-22T09:42:04.148104",
+            "checked_at": "2026-10-30T08:45:45.762235+00:00",
+            "source_updated_at": "2026-10-27T15:51:10.671819",
             "id": "https://openalex.org/W7167547493",
             "doi": "10.1039/d6np00009f",
             "cited_by_count": 1,
@@ -7592,7 +7581,7 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T08:39:10.950718+00:00",
+            "checked_at": "2026-10-30T08:45:45.961544+00:00",
             "source_updated_at": "2026-09-25T08:18:29.962427",
             "id": "https://openalex.org/W7214073317",
             "doi": "10.1093/plcell/koag298",
@@ -8504,10 +8493,9 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-30T07:16:15.046477+00:00",
+            "checked_at": "2026-10-30T08:47:03.546225+00:00",
             "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-04002-5",
-            "update_check": "unavailable",
-            "update_error": "HTTPError 429"
+            "update_check": "completed"
           },
           "issues": [
             "2026-10-16"
