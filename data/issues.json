@@ -274,5 +274,29 @@
       }
     ],
     "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
+  },
+  {
+    "date": "2026-10-30",
+    "entry_type": "weekly",
+    "summary": "本期精选3篇辣椒/番茄相关研究：辣椒CaSNF1–CaHD-ZIP冷胁迫调控、枸杞bHLH因子在番茄中的类胡萝卜素改良，以及番茄RIN–SlJMJ6与H3K27me3协同调控成熟代谢。重点关注成熟转录因子如何关联染色质状态，并将研究启示转化为22组织RNA-seq、ATAC-seq、CUT&Tag与WGBS的联合分析；文中涉及的跨物种应用均为待验证推断。",
+    "summary_en": "This issue selects three pepper- and tomato-related studies: the CaSNF1–CaHD-ZIP cold-stress module in pepper, carotenoid improvement in tomato using a goji bHLH factor, and RIN–SlJMJ6 cooperation with H3K27me3 during tomato ripening. The focus is on how ripening transcription factors relate to chromatin states and how these findings may inform joint analyses of RNA-seq, ATAC-seq, CUT&Tag, and WGBS across a 22-tissue atlas. Cross-species applications discussed here remain hypotheses to be tested.",
+    "entries": [
+      {
+        "paper_id": "paper-fb9f046e14ac1d8d",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-c1cffdf2c6a18922",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-a580b52e0f449c46",
+        "revision": 1,
+        "priority": "全文精读"
+      }
+    ],
+    "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
   }
 ]

@@ -4579,5 +4579,321 @@
         }
       }
     }
+  ],
+  "paper-fb9f046e14ac1d8d": [
+    {
+      "version": 1,
+      "at": "2026-10-30T07:14:52.645477+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "61e471f40791c9cd4b6838d98a880e77cd755b67505dfb8ef210594dc6e59ea5",
+      "content": {
+        "title": "CaSNF1 interacts with and phosphorylates CaHD-ZIP to enhance cold tolerance in pepper.",
+        "heading": "辣椒CaSNF1与CaHD-ZIP互作并磷酸化，支持冷耐受调控模块",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "研究将辣椒CaSNF1鉴定为CaHD-ZIP的互作激酶，并报告CaSNF1可在体外直接磷酸化CaHD-ZIP。VIGS、辣椒瞬时过表达及拟南芥稳定过表达结果支持CaSNF1正向关联冷耐受；摘要未证明该磷酸化事件本身是耐冷表型的必要原因。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "互作由酵母双杂交、荧光素酶互补成像和BiFC支持，BiFC信号主要位于细胞核；体外磷酸化实验提供生化支持。沉默CaSNF1伴随氧化损伤增加、抗氧化酶活性降低及相关基因表达受抑，过表达则出现相反方向的响应。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "这是辣椒自身的冷胁迫候选调控模块，可为辣椒组织或处理条件下的表达、蛋白互作及胁迫响应研究提供依据。摘要没有提供成熟果实或果实成熟转录因子网络证据，因此不宜直接把该模块并入成熟调控模型。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：可在22组织RNA-seq中查看CaSNF1、CaHD-ZIP及抗氧化/冷响应基因的组织表达，并将其与ATAC-seq和CUT&Tag信号交叉定位，检验相关基因附近的可及性及H3K4me1、H3K4me3、H3K27ac、H3K27me3状态。WGBS可用于描述候选区域甲基化背景；这些图谱关联不能单独证明蛋白互作、磷酸化或因果调控。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "摘要未给出各实验的具体材料、处理细节、效应量或不同辣椒品种间的结果，也未报告CaSNF1介导磷酸化位点的验证。拟南芥过表达结果不能替代辣椒品种与田间条件下的耐冷评价。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先核对摘要所述互作验证、体外磷酸化与辣椒VIGS/瞬时过表达之间的证据链，尤其是这些实验是否直接检验CaHD-ZIP依赖性。再关注冷处理下氧化损伤、抗氧化酶活性和冷响应基因表达的测量与比较。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "CaSNF1 interacts with and phosphorylates CaHD-ZIP, supporting a cold-tolerance regulatory module in pepper",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "The study identifies pepper CaSNF1 as an interacting kinase of CaHD-ZIP and reports that CaSNF1 directly phosphorylates CaHD-ZIP in vitro. VIGS, transient overexpression in pepper, and stable overexpression in Arabidopsis support a positive association between CaSNF1 and cold tolerance; the abstract does not establish that this phosphorylation event itself is necessary for the cold-tolerance phenotype."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The interaction is supported by yeast two-hybrid, luciferase complementation imaging, and BiFC, with BiFC signal mainly in the nucleus; an in vitro phosphorylation assay provides biochemical support. CaSNF1 silencing was accompanied by increased oxidative damage, reduced antioxidant enzyme activity, and suppressed expression of related genes, whereas overexpression produced responses in the opposite direction."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "This is a candidate cold-stress regulatory module studied in pepper itself and can inform expression, protein-interaction, and stress-response studies across pepper tissues or treatment conditions. The abstract provides no evidence about mature fruit or fruit-ripening transcription-factor networks, so the module should not be incorporated directly into a ripening-regulation model."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: examine CaSNF1, CaHD-ZIP, and antioxidant/cold-response gene expression in the 22-tissue RNA-seq data, then cross-reference them with ATAC-seq and CUT&Tag signals to assess accessibility and H3K4me1, H3K4me3, H3K27ac, and H3K27me3 states near relevant genes. WGBS could describe methylation backgrounds at candidate regions; these atlas associations cannot by themselves prove protein interaction, phosphorylation, or causal regulation."
+              },
+              {
+                "label": "Limitations",
+                "text": "The abstract does not provide the specific materials, treatment details, effect sizes, or results across pepper varieties for each experiment, and it does not report validation of the CaSNF1-mediated phosphorylation site. Overexpression results in Arabidopsis cannot replace evaluation of cold tolerance across pepper varieties and field conditions."
+              },
+              {
+                "label": "What to read first",
+                "text": "First check the evidence chain linking the reported interaction assays, in vitro phosphorylation, and pepper VIGS/transient overexpression, especially whether those experiments directly test CaHD-ZIP dependence. Then examine the measurements and comparisons of oxidative damage, antioxidant enzyme activity, and cold-response gene expression under cold treatment."
+              }
+            ]
+          }
+        },
+        "priority": "快速浏览",
+        "date": "2026-10-23",
+        "journal": "TAG. Theoretical and applied genetics. Theoretische und angewandte Genetik",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1007/s00122-026-05413-4",
+        "doi": "10.1007/s00122-026-05413-4",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "辣椒",
+          "冷胁迫",
+          "蛋白互作",
+          "磷酸化"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1007/s00122-026-05413-4",
+          "retrieved_at": "2026-10-30T07:14:52.642677+00:00",
+          "abstract": "Cold stress severely restricts pepper (Capsicum annuum L.) growth and productivity by disrupting cellular homeostasis and inducing oxidative damage. Although HD-ZIP transcription factors play important roles in plant abiotic stress responses, the molecular mechanisms regulating their function during cold stress remain largely unknown. Here, we characterized the pepper HD-ZIP transcription factor CaHD-ZIP and demonstrated that it is a nuclear-localized, cold-responsive protein that positively contributes to cold stress tolerance. To further investigate the regulatory mechanism underlying CaHD-ZIP function, a yeast two-hybrid (Y2H) screen identified the sucrose non-fermenting 1-related protein kinase CaSNF1 as a previously unrecognized interacting partner of CaHD-ZIP. Their interaction was confirmed by yeast two-hybrid, luciferase complementation imaging, and bimolecular fluorescence complementation assays, with BiFC indicating that the interaction occurs predominantly in the nucleus. In vitro phosphorylation analysis further demonstrated that CaSNF1 directly phosphorylates CaHD-ZIP, providing biochemical evidence for a functional regulatory relationship between these proteins. Complementary loss- and gain-of-function analyses, including virus-induced gene silencing and transient overexpression in pepper together with stable overexpression in Arabidopsis, demonstrated that CaSNF1 positively regulates cold tolerance. Silencing of CaSNF1 increased oxidative damage, impaired antioxidant enzyme activities, and suppressed the expression of antioxidant and cold-responsive genes, whereas overexpression produced the opposite effects and significantly enhanced cold tolerance. Together, these findings identify CaSNF1 as a CaHD-ZIP-interacting kinase and reveal a potential CaSNF1-CaHD-ZIP regulatory module involved in pepper cold stress adaptation. This study advances our understanding of the molecular mechanisms underlying pepper cold tolerance and provides potential genetic targets for improving cold resilience in pepper and other Solanaceae crops.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
+  ],
+  "paper-c1cffdf2c6a18922": [
+    {
+      "version": 1,
+      "at": "2026-10-30T07:14:52.653084+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "6c3e9d07e39f4f43ffd484bcced9e89cdb0328298859af87a8b7d9d31f74a9b7",
+      "content": {
+        "title": "Heterologous expression of LbbHLH36 from Lycium barbarum enhances carotenoid accumulation in tomato fruits via synergistic activation of biosynthesis and suppression of degradation.",
+        "heading": "枸杞LbbHLH36异源表达提高番茄果实类胡萝卜素，兼顾合成与降解环节",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "在番茄Micro Tom中异源过表达枸杞LbbHLH36，与成熟果实总类胡萝卜素、番茄红素和β-胡萝卜素增加相关。摘要报告早期类胡萝卜素合成基因表达及PSY、PDS酶活性升高，同时CCD4活性受到抑制。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "研究结合转基因表达、qRT-PCR、酶活测定和代谢物分析，提出合成增强与降解减弱共同改变类胡萝卜素积累。摘要没有报告LbbHLH36对相关启动子的直接结合证据，因此不能据此认定其直接结合并调控这些靶基因。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "该结果提供了茄科果实营养品质改良的候选思路，但试验对象是番茄，转入基因来自枸杞；辣椒中的同源关系、表达模式和功能均未由摘要验证。对辣椒成熟TF网络而言，可将“合成—降解两端共同影响色素积累”作为待验证假设，而非已知辣椒机制。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：在22组织RNA-seq中对照候选色素合成、降解基因的组织与成熟阶段表达，并与ATAC-seq及CUT&Tag中的H3K4me1、H3K4me3、H3K27ac和H3K27me3信号联合筛查潜在调控区域；WGBS可补充其甲基化背景。可将这些信号与果实成熟TF网络和代谢表型提出的候选关系进行优先级排序，但图谱共变不等于直接调控。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "研究使用番茄Micro Tom异源过表达，摘要未给出不同遗传背景、田间表现或果实其他品质与产量的评估。高温、低温、干旱和盐胁迫下的表达诱导提示可能存在胁迫与代谢交叉，但摘要没有证明这些胁迫条件下果实色素改良的效果。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先检查转基因番茄中LbbHLH36表达、关键合成基因转录、PSY/PDS与CCD4活性以及果实色素测定之间是否一致。随后关注胁迫诱导实验所测组织和条件，避免将表达响应直接解释为胁迫耐性或果实品质收益。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "Heterologous expression of goji LbbHLH36 increases carotenoids in tomato fruit, involving both biosynthesis and degradation",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "Heterologous overexpression of goji LbbHLH36 in tomato Micro Tom was associated with increased total carotenoids, lycopene, and β-carotene in mature fruit. The abstract reports increased expression of early carotenoid biosynthesis genes and increased PSY and PDS enzyme activities, alongside suppressed CCD4 activity."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The study combines transgene expression, qRT-PCR, enzyme assays, and metabolite analysis, and proposes that enhanced biosynthesis and reduced degradation jointly alter carotenoid accumulation. The abstract does not report evidence of direct binding by LbbHLH36 to the relevant promoters, so it does not establish that the factor directly binds and regulates these target genes."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "The result offers a candidate approach to improving fruit nutritional quality in a Solanaceae crop, but the test organism was tomato and the introduced gene came from goji. Homology, expression patterns, and function in pepper are not validated in the abstract. For pepper ripening TF networks, the idea that both biosynthesis and degradation affect pigment accumulation can be treated as a hypothesis to test, not an established pepper mechanism."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: compare tissue and ripening-stage expression of candidate pigment biosynthesis and degradation genes in the 22-tissue RNA-seq data, and jointly screen for candidate regulatory regions using ATAC-seq and CUT&Tag signals for H3K4me1, H3K4me3, H3K27ac, and H3K27me3; WGBS could add methylation context. These signals can help prioritize candidate relationships with fruit-ripening TF networks and metabolite phenotypes, but co-variation in an atlas is not equivalent to direct regulation."
+              },
+              {
+                "label": "Limitations",
+                "text": "The study used heterologous overexpression in tomato Micro Tom, and the abstract does not report evaluation across genetic backgrounds, field performance, or other fruit-quality and yield traits. Expression induction under heat, cold, drought, and salt suggests possible stress–metabolism crosstalk, but the abstract does not demonstrate fruit-pigment improvement under those stress conditions."
+              },
+              {
+                "label": "What to read first",
+                "text": "First check whether LbbHLH36 expression, transcription of key biosynthesis genes, PSY/PDS and CCD4 activities, and fruit pigment measurements agree in the transgenic tomatoes. Then examine the tissues and conditions used in the stress-induction experiments, avoiding interpreting expression responses alone as evidence of stress tolerance or fruit-quality benefit."
+              }
+            ]
+          }
+        },
+        "priority": "快速浏览",
+        "date": "2026-10-24",
+        "journal": "Plant science : an international journal of experimental plant biology",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1016/j.plantsci.2026.113544",
+        "doi": "10.1016/j.plantsci.2026.113544",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "番茄",
+          "类胡萝卜素",
+          "果实品质",
+          "异源表达"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1016/j.plantsci.2026.113544",
+          "retrieved_at": "2026-10-30T07:14:52.642759+00:00",
+          "abstract": "Carotenoids are critical determinants of nutritional quality in tomato (Solanum lycopersicum) fruits, and their biosynthesis is tightly regulated by the bHLH transcription factor family. In this study, we investigated the heterologous regulatory function of LbbHLH36, a gene isolated from Lycium barbarum L., in carotenoid accumulation and its responsiveness to abiotic stresses in tomato. The LbbHLH36 coding sequence was cloned into the pNULPGE700 vector and introduced into the model tomato cultivar 'Micro Tom' via Agrobacterium-mediated leaf disc transformation. Quantitative real-time PCR revealed that LbbHLH36 transcript levels peaked in mature fruits of transgenic lines and were associated with significant upregulation of key early biosynthetic genes, including SlPSY1, SlPSY2, SlPDS, and SlZDS. Enzymatic assays further demonstrated increased activities of the rate-limiting enzymes phytoene synthase (PSY) and phytoene desaturase (PDS), alongside a marked suppression of carotenoid cleavage dioxygenase 4 (CCD4) activity in transgenic plants. Metabolomic analyses confirmed that overexpression of LbbHLH36 substantially elevated total carotenoid, lycopene, and β-carotene contents in tomato fruits. Furthermore, LbbHLH36 expression was strongly induced by high temperature, low temperature, drought, and salt stress, suggesting its potential involvement in crosstalk between stress responses and primary metabolism. Collectively, our findings reveal that LbbHLH36 acts as a positive regulator of carotenoid accumulation in tomato through a dual mechanism that concurrently regulate biosynthetic flux and attenuates catabolic degradation, highlighting its value as a candidate gene for nutritional quality improvement in Lycium barbarum, tomato, and other Solanaceous crops.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
+  ],
+  "paper-a580b52e0f449c46": [
+    {
+      "version": 1,
+      "at": "2026-10-30T07:14:52.660362+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "152f9c99f7919758885bf15554a263f118877fac362c9f023a080730af8a4035",
+      "content": {
+        "title": "A RIN-SlJMJ6 transcriptional-epigenetic module activates carotenoid biosynthesis through H3K27me3 demethylation in tomato.",
+        "heading": "番茄RIN促进SlJMJ6定位并协同降低靶位点H3K27me3，激活成熟期类胡萝卜素基因",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "研究提出番茄成熟转录因子RIN与H3K27me3去甲基化酶SlJMJ6协同促进类胡萝卜素积累，并激活PSY1、DXS1和ZISO等基因。SlJMJ6与RIN共同占据多种成熟相关基因区域，其结合与靶位点H3K27me3降低相关；rin突变体中代表性位点的SlJMJ6占据减少。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "摘要将RIN的转录调控与SlJMJ6的染色质调控联系起来：SlJMJ6偏好富含CArG基序的启动子区域，且RIN有助于SlJMJ6在染色质上的定位。任一因子缺失均伴随靶位点H3K27me3增加及成熟相关基因表达降低；摘要未说明所用染色质检测平台，不能据此指定CUT&Tag等具体技术。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "该研究直接连接果实成熟TF网络、染色质修饰与色素代谢，可为辣椒成熟期候选TF—染色质调控关系提供优先级线索。辣椒中的RIN相关因子、SlJMJ6功能对应关系及其在色素基因上的靶向性都仍需验证，不能将番茄机制直接视为辣椒机制。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：在22组织RNA-seq中寻找成熟相关TF与色素合成基因的共表达模式，并结合ATAC-seq和CUT&Tag检查候选启动子可及性及H3K4me1、H3K4me3、H3K27ac、H3K27me3分布；WGBS可补充DNA甲基化背景。重点可放在果实发育至成熟的阶段比较和TF网络候选排序；若图谱并非时间序列，其组织差异不能替代成熟过程的动态证据。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "摘要报告了遗传与组学分析以及RIN对SlJMJ6占据的影响，但未提供具体技术平台、靶位点清单或各实验细节。SlJMJ6占据与H3K27me3变化及转录响应的联系支持该调控模型，但摘要本身不足以判定所有靶基因上的直接分子因果链，也未说明相关改造对番茄其他农艺性状的影响。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先核对SlJMJ6与RIN共同占据、CArG基序富集和rin突变体中SlJMJ6占据下降的证据，以及H3K27me3变化与靶基因转录之间的对应关系。再比较SlJMJ6或RIN缺失对类胡萝卜素表型及成熟相关基因的影响，确认遗传扰动、染色质状态和代谢输出之间的证据是否一致。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "Tomato RIN promotes SlJMJ6 occupancy and cooperatively reduces H3K27me3 at targets, activating ripening-stage carotenoid genes",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "The study proposes that the tomato ripening TF RIN cooperates with the H3K27me3 demethylase SlJMJ6 to promote carotenoid accumulation and activate genes including PSY1, DXS1, and ZISO. SlJMJ6 and RIN co-occupy multiple ripening-associated gene regions, and their association is linked to reduced H3K27me3 at target loci; SlJMJ6 occupancy at representative loci is reduced in the rin mutant."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The abstract links RIN-mediated transcriptional regulation with SlJMJ6-mediated chromatin regulation: SlJMJ6 preferentially associates with promoter regions enriched in CArG motifs, and RIN facilitates SlJMJ6 chromatin occupancy. Loss of either factor is accompanied by increased H3K27me3 at target loci and reduced expression of ripening-related genes; the abstract does not specify the chromatin assay platform, so a particular technique such as CUT&Tag cannot be assigned."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "This study directly connects a fruit-ripening TF network, chromatin modification, and pigment metabolism, offering leads for prioritizing candidate TF–chromatin relationships during pepper ripening. The corresponding RIN-related factors, SlJMJ6 function, and targeting of pigment genes in pepper all remain to be validated; the tomato mechanism should not be treated as an established pepper mechanism."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: identify co-expression patterns between ripening-related TFs and pigment biosynthesis genes in the 22-tissue RNA-seq data, then combine them with ATAC-seq and CUT&Tag to examine candidate promoter accessibility and H3K4me1, H3K4me3, H3K27ac, and H3K27me3 distributions; WGBS could add DNA methylation context. Prioritize comparisons across fruit development and ripening stages and candidate ranking in TF networks; if the atlas is not a time series, tissue differences cannot substitute for dynamic evidence during ripening."
+              },
+              {
+                "label": "Limitations",
+                "text": "The abstract reports genetic and omics analyses and an effect of RIN on SlJMJ6 occupancy, but does not provide the specific assay platforms, a target-locus list, or experimental details. The links among SlJMJ6 occupancy, H3K27me3 changes, and transcriptional responses support the regulatory model, but the abstract alone does not establish a direct molecular causal chain for every target gene, nor does it describe effects of the relevant modifications on other tomato agronomic traits."
+              },
+              {
+                "label": "What to read first",
+                "text": "First check the evidence for SlJMJ6/RIN co-occupancy, CArG motif enrichment, and reduced SlJMJ6 occupancy in the rin mutant, as well as the correspondence between H3K27me3 changes and target-gene transcription. Then compare the effects of SlJMJ6 or RIN loss on carotenoid phenotypes and ripening-related genes to assess whether the genetic perturbation, chromatin state, and metabolic output evidence is consistent."
+              }
+            ]
+          }
+        },
+        "priority": "全文精读",
+        "date": "2026-10-28",
+        "journal": "The New phytologist",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1111/nph.71672",
+        "doi": "10.1111/nph.71672",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "番茄",
+          "果实成熟",
+          "H3K27me3",
+          "RIN",
+          "类胡萝卜素"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1111/nph.71672",
+          "retrieved_at": "2026-10-30T07:14:52.642812+00:00",
+          "abstract": "Fruit ripening involves extensive transcriptional and epigenetic reprogramming, yet how chromatin modifiers are targeted to specific genomic loci in coordination with transcription factors remains unclear. Here, we show that the histone H3K27me3 demethylase SlJMJ6 physically and functionally associates with the master ripening regulator RIPENING INHIBITOR (RIN) to regulate carotenoid biosynthesis in tomato (Solanum lycopersicum) fruit. Genetic and transcriptional analyses demonstrated that SlJMJ6 and RIN cooperatively promote carotenoid accumulation and activate key biosynthetic genes, including PSY1, DXS1 and ZISO. Genome-wide analyses revealed that SlJMJ6 preferentially binds promoter regions enriched in CArG motifs and extensively co-occupies ripening-associated genes with RIN. Epigenomic analyses showed that SlJMJ6 association correlates with reduced H3K27me3 enrichment at co-targeted loci, whereas loss of either SlJMJ6 or RIN increases H3K27me3 enrichment and reduces expression of ripening-related genes. Furthermore, SlJMJ6 occupancy at representative target loci is markedly reduced in the rin mutant, indicating that RIN facilitates SlJMJ6 chromatin association. Together, our findings reveal a cooperative RIN-SlJMJ6 regulatory module linking RIN-dependent transcriptional regulation with locus-specific H3K27me3 dynamics, providing a mechanistic framework for chromatin-mediated activation of metabolic genes during fruit ripening.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
   ]
 }

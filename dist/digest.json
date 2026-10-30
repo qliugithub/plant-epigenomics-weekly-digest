@@ -107,7 +107,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:22.964354+00:00",
+            "checked_at": "2026-10-30T07:15:49.577876+00:00",
             "source_url": "https://api.crossref.org/works?query.title=iCUT%26Tag-based+pan-fruit+epigenomic+profiling+identifies+recurrent+H3K9+acetylation+enrichment+during+fleshy+fruit+ripening&rows=1",
             "update_check": "completed"
           },
@@ -196,7 +196,7 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:43.299706+00:00",
+            "checked_at": "2026-10-30T07:14:53.007157+00:00",
             "source_updated_at": "2026-10-03T13:16:28.481748",
             "id": "https://openalex.org/W7204867699",
             "doi": "10.1016/j.xplc.2026.102078",
@@ -370,7 +370,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:23.411873+00:00",
+            "checked_at": "2026-10-30T07:15:49.901820+00:00",
             "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.25.747117",
             "update_check": "completed"
           },
@@ -459,8 +459,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:43.559218+00:00",
-            "source_updated_at": "2026-09-27T08:07:27.782135",
+            "checked_at": "2026-10-30T07:14:53.092718+00:00",
+            "source_updated_at": "2026-10-28T10:33:24.094632",
             "id": "https://openalex.org/W7204246348",
             "doi": "10.64898/2026.08.25.747117",
             "cited_by_count": 1,
@@ -494,7 +494,7 @@
               },
               {
                 "name": "Erika Li",
-                "url": null,
+                "url": "https://openalex.org/A5060922279",
                 "orcid": null
               },
               {
@@ -557,7 +557,7 @@
               {
                 "name": "State Key Laboratory of Integrated Management of Pest Insects and Rodents",
                 "url": "https://openalex.org/I4391768252",
-                "country": null
+                "country": "CN"
               },
               {
                 "name": "Howard Hughes Medical Institute",
@@ -674,7 +674,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:24.258095+00:00",
+            "checked_at": "2026-10-30T07:15:50.082863+00:00",
             "source_url": "https://api.crossref.org/works/10.1093%2Fplcell%2Fkoag182",
             "update_check": "completed"
           },
@@ -763,8 +763,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:43.918085+00:00",
-            "source_updated_at": "2026-09-29T14:09:16.559479",
+            "checked_at": "2026-10-30T07:14:53.176328+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7164754159",
             "doi": "10.1093/plcell/koag182",
             "cited_by_count": 0,
@@ -945,7 +945,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:25.918158+00:00",
+            "checked_at": "2026-10-30T07:15:50.525864+00:00",
             "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.14.744917",
             "update_check": "completed"
           },
@@ -1034,8 +1034,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:44.097205+00:00",
-            "source_updated_at": "2026-08-23T07:36:19.812096",
+            "checked_at": "2026-10-30T07:14:53.247270+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7203793204",
             "doi": "10.64898/2026.08.14.744917",
             "cited_by_count": 0,
@@ -1072,8 +1072,8 @@
             ],
             "is_oa": true,
             "oa_status": "green",
-            "oa_url": "https://doi.org/10.64898/2026.08.14.744917",
-            "pdf_url": null,
+            "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/19/2026.08.14.744917.full.pdf",
+            "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/19/2026.08.14.744917.full.pdf",
             "is_retracted": false
           }
         },
@@ -1169,7 +1169,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:26.472279+00:00",
+            "checked_at": "2026-10-30T07:15:51.968176+00:00",
             "source_url": "https://api.crossref.org/works/10.1038%2Fs41467-026-75947-0",
             "update_check": "completed"
           },
@@ -1258,8 +1258,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:44.267171+00:00",
-            "source_updated_at": "2026-09-24T07:57:37.273135",
+            "checked_at": "2026-10-30T07:14:53.327592+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7172383872",
             "doi": "10.1038/s41467-026-75947-0",
             "cited_by_count": 0,
@@ -1331,8 +1331,8 @@
             ],
             "is_oa": true,
             "oa_status": "gold",
-            "oa_url": "https://doi.org/10.1038/s41467-026-75947-0",
-            "pdf_url": null,
+            "oa_url": "https://www.nature.com/articles/s41467-026-75947-0.pdf",
+            "pdf_url": "https://www.nature.com/articles/s41467-026-75947-0.pdf",
             "is_retracted": false
           }
         },
@@ -1433,7 +1433,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:29.562901+00:00",
+            "checked_at": "2026-10-30T07:15:52.616811+00:00",
             "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.19.745791",
             "update_check": "completed"
           },
@@ -1522,8 +1522,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:44.464377+00:00",
-            "source_updated_at": "2026-10-13T10:08:12.033832",
+            "checked_at": "2026-10-30T07:14:53.406382+00:00",
+            "source_updated_at": "2026-10-28T10:33:24.094632",
             "id": "https://openalex.org/W7203826908",
             "doi": "10.64898/2026.08.19.745791",
             "cited_by_count": 0,
@@ -1561,8 +1561,8 @@
                 "orcid": "https://orcid.org/0000-0002-8541-0337"
               },
               {
-                "name": "Masato Homma",
-                "url": null,
+                "name": "Masato HOMMA",
+                "url": "https://openalex.org/A5139697372",
                 "orcid": null
               },
               {
@@ -1705,7 +1705,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:30.969228+00:00",
+            "checked_at": "2026-10-30T07:15:53.156761+00:00",
             "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.12.744101",
             "update_check": "completed"
           },
@@ -1794,8 +1794,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:44.680809+00:00",
-            "source_updated_at": "2026-10-22T18:32:59.640997",
+            "checked_at": "2026-10-30T07:14:53.500716+00:00",
+            "source_updated_at": "2026-10-28T10:33:24.094632",
             "id": "https://openalex.org/W7202349180",
             "doi": "10.64898/2026.08.12.744101",
             "cited_by_count": 0,
@@ -1828,14 +1828,9 @@
                 "orcid": null
               },
               {
-                "name": "Yudong Jia",
-                "url": "https://openalex.org/A5100523820",
-                "orcid": null
-              },
-              {
-                "name": "Li Wang",
-                "url": "https://openalex.org/A5100335904",
-                "orcid": "https://orcid.org/0000-0001-9639-1058"
+                "name": "Dawei Li",
+                "url": "https://openalex.org/A5100324974",
+                "orcid": "https://orcid.org/0000-0003-4163-8257"
               },
               {
                 "name": "Li Wang",
@@ -1859,8 +1854,8 @@
               },
               {
                 "name": "Sanwen Huang",
-                "url": "https://openalex.org/A5036428702",
-                "orcid": "https://orcid.org/0000-0002-8547-5309"
+                "url": "https://openalex.org/A5143811090",
+                "orcid": null
               },
               {
                 "name": "Yujuan Zhu",
@@ -1868,14 +1863,9 @@
                 "orcid": "https://orcid.org/0000-0002-5164-8785"
               },
               {
-                "name": "Yuxin Jia",
-                "url": "https://openalex.org/A5027215950",
-                "orcid": "https://orcid.org/0000-0001-8808-2466"
-              },
-              {
-                "name": "Yuxin Jia",
-                "url": "https://openalex.org/A5027215950",
-                "orcid": "https://orcid.org/0000-0001-8808-2466"
+                "name": "Yinglan Jia",
+                "url": "https://openalex.org/A5050695764",
+                "orcid": "https://orcid.org/0000-0002-2276-9078"
               }
             ],
             "institutions": [
@@ -1984,7 +1974,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:32.743114+00:00",
+            "checked_at": "2026-10-30T07:15:54.538633+00:00",
             "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.13.744595",
             "update_check": "completed"
           },
@@ -2073,8 +2063,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:44.850798+00:00",
-            "source_updated_at": "2026-10-01T08:54:57.152042",
+            "checked_at": "2026-10-30T07:14:53.573089+00:00",
+            "source_updated_at": "2026-10-28T10:33:24.094632",
             "id": "https://openalex.org/W7202363539",
             "doi": "10.64898/2026.08.13.744595",
             "cited_by_count": 0,
@@ -2251,7 +2241,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:33.294564+00:00",
+            "checked_at": "2026-10-30T07:15:54.964154+00:00",
             "source_url": "https://api.crossref.org/works/10.1093%2Fhr%2Fuhag076",
             "update_check": "completed",
             "history": [
@@ -2359,8 +2349,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:45.082189+00:00",
-            "source_updated_at": "2026-09-26T08:19:03.415552",
+            "checked_at": "2026-10-30T07:14:53.665578+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7133733891",
             "doi": "10.1093/hr/uhag076",
             "cited_by_count": 0,
@@ -2422,7 +2412,7 @@
               {
                 "name": "State Key Laboratory of Rice Biology",
                 "url": "https://openalex.org/I4391767812",
-                "country": null
+                "country": "CN"
               },
               {
                 "name": "Zhejiang University",
@@ -2565,7 +2555,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:34.938850+00:00",
+            "checked_at": "2026-10-30T07:15:55.483753+00:00",
             "source_url": "https://api.crossref.org/works/10.1038%2Fs41467-026-73180-3",
             "update_check": "completed",
             "history": [
@@ -2662,8 +2652,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:45.374645+00:00",
-            "source_updated_at": "2026-10-21T09:56:26.102985",
+            "checked_at": "2026-10-30T07:14:53.767050+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7164880810",
             "doi": "10.1038/s41467-026-73180-3",
             "cited_by_count": 0,
@@ -2775,12 +2765,12 @@
               {
                 "name": "State Key Laboratory of Systematic and Evolutionary Botany",
                 "url": "https://openalex.org/I4391767923",
-                "country": null
+                "country": "CN"
               },
               {
                 "name": "China National Botanical Garden",
                 "url": "https://openalex.org/I4403928345",
-                "country": null
+                "country": "CN"
               },
               {
                 "name": "University of Chinese Academy of Sciences",
@@ -2950,7 +2940,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:35.424793+00:00",
+            "checked_at": "2026-10-30T07:15:55.936730+00:00",
             "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.22.740070",
             "update_check": "completed"
           },
@@ -3039,8 +3029,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:45.602446+00:00",
-            "source_updated_at": "2026-10-01T08:54:57.152042",
+            "checked_at": "2026-10-30T07:14:53.868386+00:00",
+            "source_updated_at": "2026-10-28T10:33:24.094632",
             "id": "https://openalex.org/W7170093169",
             "doi": "10.64898/2026.07.22.740070",
             "cited_by_count": 1,
@@ -3178,7 +3168,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:35.933992+00:00",
+            "checked_at": "2026-10-30T07:15:56.417525+00:00",
             "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.15.738754",
             "update_check": "completed"
           },
@@ -3267,8 +3257,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:45.826544+00:00",
-            "source_updated_at": "2026-10-06T10:28:23.643775",
+            "checked_at": "2026-10-30T07:14:53.953965+00:00",
+            "source_updated_at": "2026-10-28T10:33:24.094632",
             "id": "https://openalex.org/W7169856371",
             "doi": "10.64898/2026.07.15.738754",
             "cited_by_count": 0,
@@ -3418,7 +3408,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:36.412468+00:00",
+            "checked_at": "2026-10-30T07:15:57.880162+00:00",
             "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.09.737558",
             "update_check": "completed"
           },
@@ -3507,8 +3497,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:46.068558+00:00",
-            "source_updated_at": "2026-10-02T10:15:12.560889",
+            "checked_at": "2026-10-30T07:14:54.034491+00:00",
+            "source_updated_at": "2026-10-28T10:33:24.094632",
             "id": "https://openalex.org/W7167934589",
             "doi": "10.64898/2026.07.09.737558",
             "cited_by_count": 0,
@@ -3532,7 +3522,7 @@
               },
               {
                 "name": "Fan Lin",
-                "url": null,
+                "url": "https://openalex.org/A5071441776",
                 "orcid": "https://orcid.org/0000-0003-3742-5291"
               },
               {
@@ -3813,8 +3803,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:46.238741+00:00",
-            "source_updated_at": "2026-10-21T09:56:26.102985",
+            "checked_at": "2026-10-30T07:14:54.124384+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7170598721",
             "doi": "10.3390/plants15152266",
             "cited_by_count": 0,
@@ -3926,7 +3916,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:36.875613+00:00",
+            "checked_at": "2026-10-30T07:15:58.182650+00:00",
             "source_url": "https://api.crossref.org/works/10.3390%2Fplants15152266",
             "update_check": "completed"
           },
@@ -4049,8 +4039,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:46.488117+00:00",
-            "source_updated_at": "2026-10-13T10:08:12.033832",
+            "checked_at": "2026-10-30T07:14:54.204881+00:00",
+            "source_updated_at": "2026-10-27T15:51:10.671819",
             "id": "https://openalex.org/W7212121768",
             "doi": "10.1007/s00299-026-03965-9",
             "cited_by_count": 0,
@@ -4159,7 +4149,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:37.424880+00:00",
+            "checked_at": "2026-10-30T07:15:59.762685+00:00",
             "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-03965-9",
             "update_check": "completed"
           },
@@ -4280,8 +4270,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:46.720643+00:00",
-            "source_updated_at": "2026-10-01T08:54:57.152042",
+            "checked_at": "2026-10-30T07:14:54.284892+00:00",
+            "source_updated_at": "2026-10-27T15:51:10.671819",
             "id": "https://openalex.org/W7204174654",
             "doi": "10.1016/j.plaphy.2026.111692",
             "cited_by_count": 0,
@@ -4380,7 +4370,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:39.123452+00:00",
+            "checked_at": "2026-10-30T07:16:00.092368+00:00",
             "source_url": "https://api.crossref.org/works/10.1016%2Fj.plaphy.2026.111692",
             "update_check": "completed"
           },
@@ -4503,8 +4493,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:46.967925+00:00",
-            "source_updated_at": "2026-09-21T07:43:02.447757",
+            "checked_at": "2026-10-30T07:14:54.354783+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7203636572",
             "doi": "10.3390/plants15162475",
             "cited_by_count": 0,
@@ -4575,7 +4565,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:39.634472+00:00",
+            "checked_at": "2026-10-30T07:16:00.497201+00:00",
             "source_url": "https://api.crossref.org/works/10.3390%2Fplants15162475",
             "update_check": "completed"
           },
@@ -4700,7 +4690,7 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:47.212922+00:00",
+            "checked_at": "2026-10-30T07:14:54.429534+00:00",
             "source_updated_at": "2026-09-26T08:19:03.415552",
             "id": "https://openalex.org/W7203840859",
             "doi": "10.1111/pce.70807",
@@ -4809,7 +4799,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:41.530308+00:00",
+            "checked_at": "2026-10-30T07:16:03.023188+00:00",
             "source_url": "https://api.crossref.org/works/10.1111%2Fpce.70807",
             "update_check": "completed"
           },
@@ -4992,8 +4982,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:47.507171+00:00",
-            "source_updated_at": "2026-09-13T09:14:26.050021",
+            "checked_at": "2026-10-30T07:14:54.497630+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7204155339",
             "doi": "10.3389/fpls.2026.1916999",
             "cited_by_count": 0,
@@ -5046,7 +5036,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:42.153870+00:00",
+            "checked_at": "2026-10-30T07:16:03.909094+00:00",
             "source_url": "https://api.crossref.org/works/10.3389%2Ffpls.2026.1916999",
             "update_check": "completed"
           },
@@ -5170,8 +5160,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:47.705920+00:00",
-            "source_updated_at": "2026-10-13T10:08:12.033832",
+            "checked_at": "2026-10-30T07:14:54.593296+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7208793033",
             "doi": "10.3390/plants15172715",
             "cited_by_count": 0,
@@ -5215,7 +5205,7 @@
               },
               {
                 "name": "Mouli Paul",
-                "url": null,
+                "url": "https://openalex.org/A5113271996",
                 "orcid": null
               },
               {
@@ -5373,7 +5363,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:43.703513+00:00",
+            "checked_at": "2026-10-30T07:16:05.677982+00:00",
             "source_url": "https://api.crossref.org/works/10.3390%2Fplants15172715",
             "update_check": "completed"
           },
@@ -5495,8 +5485,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:47.888104+00:00",
-            "source_updated_at": "2026-10-13T10:08:12.033832",
+            "checked_at": "2026-10-30T07:14:54.667976+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7204491876",
             "doi": "10.3390/plants15172620",
             "cited_by_count": 0,
@@ -5690,7 +5680,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:44.563169+00:00",
+            "checked_at": "2026-10-30T07:16:06.423957+00:00",
             "source_url": "https://api.crossref.org/works/10.3390%2Fplants15172620",
             "update_check": "completed"
           },
@@ -5815,8 +5805,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:48.419440+00:00",
-            "source_updated_at": "2026-10-22T09:42:04.148104",
+            "checked_at": "2026-10-30T07:14:54.734924+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7206191766",
             "doi": "10.1007/s00299-026-03960-0",
             "cited_by_count": 0,
@@ -5888,9 +5878,10 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:46.144665+00:00",
+            "checked_at": "2026-10-30T07:16:06.780918+00:00",
             "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-03960-0",
-            "update_check": "completed"
+            "update_check": "unavailable",
+            "update_error": "HTTPError 429"
           },
           "issues": [
             "2026-09-18"
@@ -6018,8 +6009,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:48.849135+00:00",
-            "source_updated_at": "2026-09-25T08:18:29.962427",
+            "checked_at": "2026-10-30T07:14:54.807784+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7213498349",
             "doi": "10.64898/2026.09.15.751767",
             "cited_by_count": 0,
@@ -6061,8 +6052,8 @@
             ],
             "is_oa": true,
             "oa_status": "green",
-            "oa_url": "https://doi.org/10.64898/2026.09.15.751767",
-            "pdf_url": null,
+            "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/17/2026.09.15.751767.full.pdf",
+            "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/17/2026.09.15.751767.full.pdf",
             "is_retracted": false
           },
           "metadata": {
@@ -6091,7 +6082,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:46.551073+00:00",
+            "checked_at": "2026-10-30T07:16:07.912320+00:00",
             "source_url": "https://api.crossref.org/works/10.64898%2F2026.09.15.751767",
             "update_check": "completed",
             "history": [
@@ -6280,8 +6271,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:49.023957+00:00",
-            "source_updated_at": "2026-10-16T09:59:22.235173",
+            "checked_at": "2026-10-30T07:14:54.875624+00:00",
+            "source_updated_at": "2026-10-28T10:33:24.094632",
             "id": "https://openalex.org/W7214329449",
             "doi": "10.21203/rs.3.rs-10699801/v1",
             "cited_by_count": 0,
@@ -6461,7 +6452,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:48.199943+00:00",
+            "checked_at": "2026-10-30T07:16:09.098186+00:00",
             "source_url": "https://api.crossref.org/works/10.21203%2Frs.3.rs-10699801%2Fv1",
             "update_check": "completed"
           },
@@ -6597,8 +6588,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:49.345097+00:00",
-            "source_updated_at": "2026-09-29T14:09:16.559479",
+            "checked_at": "2026-10-30T07:14:54.943871+00:00",
+            "source_updated_at": "2026-10-28T10:33:24.094632",
             "id": "https://openalex.org/W7214014298",
             "doi": "10.3390/cimb48090965",
             "cited_by_count": 0,
@@ -6724,7 +6715,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:48.720193+00:00",
+            "checked_at": "2026-10-30T07:16:10.774200+00:00",
             "source_url": "https://api.crossref.org/works/10.3390%2Fcimb48090965",
             "update_check": "completed"
           },
@@ -6861,7 +6852,7 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:49.590126+00:00",
+            "checked_at": "2026-10-30T07:14:55.019853+00:00",
             "source_updated_at": "2026-10-14T16:39:01.820549",
             "id": "https://openalex.org/W7214210840",
             "doi": "10.1007/s00299-026-03981-9",
@@ -6988,7 +6979,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:49.253886+00:00",
+            "checked_at": "2026-10-30T07:16:11.486319+00:00",
             "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-03981-9",
             "update_check": "completed"
           },
@@ -7246,7 +7237,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:49.741716+00:00",
+            "checked_at": "2026-10-30T07:16:12.139048+00:00",
             "source_url": "https://api.crossref.org/works/10.1007%2Fs00425-026-05169-7",
             "update_check": "completed"
           },
@@ -7488,7 +7479,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:50.353756+00:00",
+            "checked_at": "2026-10-30T07:16:12.574840+00:00",
             "source_url": "https://api.crossref.org/works/10.1039%2Fd6np00009f",
             "update_check": "completed"
           },
@@ -7678,7 +7669,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:51.969349+00:00",
+            "checked_at": "2026-10-30T07:16:13.742547+00:00",
             "source_url": "https://api.crossref.org/works/10.1093%2Fplcell%2Fkoag298",
             "update_check": "completed"
           },
@@ -7845,8 +7836,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:49.829768+00:00",
-            "source_updated_at": "2026-09-27T08:07:27.782135",
+            "checked_at": "2026-10-30T07:14:55.117703+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7160068250",
             "doi": "10.1093/hr/uhag181",
             "cited_by_count": 0,
@@ -7910,7 +7901,7 @@
               },
               {
                 "name": "Yanna Shi",
-                "url": null,
+                "url": "https://openalex.org/A5007129451",
                 "orcid": "https://orcid.org/0000-0001-8963-8569"
               },
               {
@@ -8018,7 +8009,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:52.689706+00:00",
+            "checked_at": "2026-10-30T07:16:13.826209+00:00",
             "source_url": "https://api.crossref.org/works/10.1093%2Fhr%2Fuhag181",
             "update_check": "completed"
           },
@@ -8154,8 +8145,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:50.016016+00:00",
-            "source_updated_at": "2026-10-22T09:42:04.148104",
+            "checked_at": "2026-10-30T07:14:55.206710+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7213536178",
             "doi": "10.1111/tpj.71129",
             "cited_by_count": 0,
@@ -8267,7 +8258,7 @@
             ],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:53.145743+00:00",
+            "checked_at": "2026-10-30T07:16:14.900096+00:00",
             "source_url": "https://api.crossref.org/works/10.1111%2Ftpj.71129",
             "update_check": "completed"
           },
@@ -8403,7 +8394,7 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:50.274963+00:00",
+            "checked_at": "2026-10-30T07:14:55.283051+00:00",
             "source_updated_at": "2026-10-13T10:08:12.033832",
             "id": "https://openalex.org/W7218709698",
             "doi": "10.1007/s00299-026-04002-5",
@@ -8513,9 +8504,10 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:54.089929+00:00",
+            "checked_at": "2026-10-30T07:16:15.046477+00:00",
             "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-04002-5",
-            "update_check": "completed"
+            "update_check": "unavailable",
+            "update_error": "HTTPError 429"
           },
           "issues": [
             "2026-10-16"
@@ -8649,7 +8641,7 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:50.496073+00:00",
+            "checked_at": "2026-10-30T07:14:55.363094+00:00",
             "source_updated_at": "2026-10-11T09:32:39.932853",
             "id": "https://openalex.org/W7214434271",
             "doi": "10.1016/j.plantsci.2026.113473",
@@ -8780,7 +8772,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:54.583808+00:00",
+            "checked_at": "2026-10-30T07:16:16.243108+00:00",
             "source_url": "https://api.crossref.org/works/10.1016%2Fj.plantsci.2026.113473",
             "update_check": "completed"
           },
@@ -8952,8 +8944,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:50.930325+00:00",
-            "source_updated_at": "2026-10-22T18:32:59.640997",
+            "checked_at": "2026-10-30T07:14:55.439473+00:00",
+            "source_updated_at": "2026-10-24T09:50:30.924529",
             "id": "https://openalex.org/W7223101067",
             "doi": "10.1111/pce.70978",
             "cited_by_count": 0,
@@ -9065,7 +9057,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:56.244715+00:00",
+            "checked_at": "2026-10-30T07:16:16.540403+00:00",
             "source_url": "https://api.crossref.org/works/10.1111%2Fpce.70978",
             "update_check": "completed"
           },
@@ -9201,8 +9193,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:51.198210+00:00",
-            "source_updated_at": "2026-10-20T09:52:01.089006",
+            "checked_at": "2026-10-30T07:14:55.507727+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7144122856",
             "doi": "10.1007/s00299-026-04024-z",
             "cited_by_count": 0,
@@ -9253,9 +9245,15 @@
               "type": "journal-article"
             },
             "differences": [],
-            "relations": [],
+            "relations": [
+              {
+                "type": "has-preprint",
+                "id": "10.21203/rs.3.rs-8821050/v1",
+                "url": "https://doi.org/10.21203/rs.3.rs-8821050/v1"
+              }
+            ],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:56.664179+00:00",
+            "checked_at": "2026-10-30T07:16:18.050785+00:00",
             "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-04024-z",
             "update_check": "completed"
           },
@@ -9391,7 +9389,7 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:51.426738+00:00",
+            "checked_at": "2026-10-30T07:14:55.577653+00:00",
             "source_updated_at": "2026-10-16T09:59:22.235173",
             "id": "https://openalex.org/W7221824106",
             "doi": "10.1111/pce.70979",
@@ -9463,7 +9461,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:58.374006+00:00",
+            "checked_at": "2026-10-30T07:16:18.550140+00:00",
             "source_url": "https://api.crossref.org/works/10.1111%2Fpce.70979",
             "update_check": "completed"
           },
@@ -9598,7 +9596,7 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:51.651637+00:00",
+            "checked_at": "2026-10-30T07:14:55.678719+00:00",
             "source_updated_at": "2026-10-16T09:59:22.235173",
             "id": "https://openalex.org/W7221616358",
             "doi": "10.1093/jxb/erag512",
@@ -9706,7 +9704,7 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:58.834079+00:00",
+            "checked_at": "2026-10-30T07:16:18.998704+00:00",
             "source_url": "https://api.crossref.org/works/10.1093%2Fjxb%2Ferag512",
             "update_check": "completed"
           },
@@ -9842,8 +9840,8 @@
           "openalex": {
             "status": "matched",
             "match_method": "doi_title",
-            "checked_at": "2026-10-23T06:08:51.876990+00:00",
-            "source_updated_at": "2026-10-14T16:39:01.820549",
+            "checked_at": "2026-10-30T07:14:55.771850+00:00",
+            "source_updated_at": "2026-10-29T09:56:32.521200",
             "id": "https://openalex.org/W7221028613",
             "doi": "10.1111/pbi.70761",
             "cited_by_count": 0,
@@ -9892,7 +9890,7 @@
               },
               {
                 "name": "Mengchen Zhu",
-                "url": null,
+                "url": "https://openalex.org/A5159843040",
                 "orcid": null
               },
               {
@@ -9953,9 +9951,9 @@
             ],
             "institutions": [
               {
-                "name": "Ministry of Agriculture",
-                "url": "https://openalex.org/I4210131562",
-                "country": "CA"
+                "name": "Shandong Academy of Agricultural Sciences",
+                "url": "https://openalex.org/I4210106325",
+                "country": "CN"
               },
               {
                 "name": "Shandong Normal University",
@@ -9963,8 +9961,8 @@
                 "country": "CN"
               },
               {
-                "name": "Cotton Research Institute",
-                "url": "https://openalex.org/I4210106793",
+                "name": "Chinese Academy of Agricultural Sciences",
+                "url": "https://openalex.org/I4210138501",
                 "country": "CN"
               },
               {
@@ -10073,12 +10071,712 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-10-23T06:09:59.273040+00:00",
+            "checked_at": "2026-10-30T07:16:20.446059+00:00",
             "source_url": "https://api.crossref.org/works/10.1111%2Fpbi.70761",
             "update_check": "completed"
           },
           "issues": [
             "2026-10-23"
+          ],
+          "related_papers": []
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "entry_type": "weekly",
+      "summary": "本期精选3篇辣椒/番茄相关研究：辣椒CaSNF1–CaHD-ZIP冷胁迫调控、枸杞bHLH因子在番茄中的类胡萝卜素改良，以及番茄RIN–SlJMJ6与H3K27me3协同调控成熟代谢。重点关注成熟转录因子如何关联染色质状态，并将研究启示转化为22组织RNA-seq、ATAC-seq、CUT&Tag与WGBS的联合分析；文中涉及的跨物种应用均为待验证推断。",
+      "summary_en": "This issue selects three pepper- and tomato-related studies: the CaSNF1–CaHD-ZIP cold-stress module in pepper, carotenoid improvement in tomato using a goji bHLH factor, and RIN–SlJMJ6 cooperation with H3K27me3 during tomato ripening. The focus is on how ripening transcription factors relate to chromatin states and how these findings may inform joint analyses of RNA-seq, ATAC-seq, CUT&Tag, and WGBS across a 22-tissue atlas. Cross-species applications discussed here remain hypotheses to be tested.",
+      "entries": [
+        {
+          "paper_id": "paper-fb9f046e14ac1d8d",
+          "revision": 1,
+          "priority": "快速浏览"
+        },
+        {
+          "paper_id": "paper-c1cffdf2c6a18922",
+          "revision": 1,
+          "priority": "快速浏览"
+        },
+        {
+          "paper_id": "paper-a580b52e0f449c46",
+          "revision": 1,
+          "priority": "全文精读"
+        }
+      ],
+      "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified.",
+      "papers": [
+        {
+          "title": "CaSNF1 interacts with and phosphorylates CaHD-ZIP to enhance cold tolerance in pepper.",
+          "date": "2026-10-23",
+          "journal": "TAG. Theoretical and applied genetics. Theoretische und angewandte Genetik",
+          "kind": "期刊记录（审稿状态请核对原文）",
+          "url": "https://doi.org/10.1007/s00122-026-05413-4",
+          "priority": "快速浏览",
+          "tags": [
+            "辣椒",
+            "冷胁迫",
+            "蛋白互作",
+            "磷酸化"
+          ],
+          "heading": "辣椒CaSNF1与CaHD-ZIP互作并磷酸化，支持冷耐受调控模块",
+          "sections": [
+            {
+              "label": "真正的新发现",
+              "text": "研究将辣椒CaSNF1鉴定为CaHD-ZIP的互作激酶，并报告CaSNF1可在体外直接磷酸化CaHD-ZIP。VIGS、辣椒瞬时过表达及拟南芥稳定过表达结果支持CaSNF1正向关联冷耐受；摘要未证明该磷酸化事件本身是耐冷表型的必要原因。",
+              "kind": "reported"
+            },
+            {
+              "label": "机制或方法上的关键点",
+              "text": "互作由酵母双杂交、荧光素酶互补成像和BiFC支持，BiFC信号主要位于细胞核；体外磷酸化实验提供生化支持。沉默CaSNF1伴随氧化损伤增加、抗氧化酶活性降低及相关基因表达受抑，过表达则出现相反方向的响应。",
+              "kind": "reported"
+            },
+            {
+              "label": "与你的辣椒研究关系",
+              "text": "这是辣椒自身的冷胁迫候选调控模块，可为辣椒组织或处理条件下的表达、蛋白互作及胁迫响应研究提供依据。摘要没有提供成熟果实或果实成熟转录因子网络证据，因此不宜直接把该模块并入成熟调控模型。",
+              "kind": "application"
+            },
+            {
+              "label": "对22组织图谱的具体启示",
+              "text": "研究启示：可在22组织RNA-seq中查看CaSNF1、CaHD-ZIP及抗氧化/冷响应基因的组织表达，并将其与ATAC-seq和CUT&Tag信号交叉定位，检验相关基因附近的可及性及H3K4me1、H3K4me3、H3K27ac、H3K27me3状态。WGBS可用于描述候选区域甲基化背景；这些图谱关联不能单独证明蛋白互作、磷酸化或因果调控。",
+              "kind": "application"
+            },
+            {
+              "label": "需要注意",
+              "text": "摘要未给出各实验的具体材料、处理细节、效应量或不同辣椒品种间的结果，也未报告CaSNF1介导磷酸化位点的验证。拟南芥过表达结果不能替代辣椒品种与田间条件下的耐冷评价。",
+              "kind": "limitation"
+            },
+            {
+              "label": "建议优先看",
+              "text": "优先核对摘要所述互作验证、体外磷酸化与辣椒VIGS/瞬时过表达之间的证据链，尤其是这些实验是否直接检验CaHD-ZIP依赖性。再关注冷处理下氧化损伤、抗氧化酶活性和冷响应基因表达的测量与比较。",
+              "kind": "reading"
+            }
+          ],
+          "classification": {
+            "species": [],
+            "process": [],
+            "regulation": [],
+            "methods": [],
+            "evidence_type": [],
+            "article_type": []
+          },
+          "translations": {
+            "en": {
+              "heading": "CaSNF1 interacts with and phosphorylates CaHD-ZIP, supporting a cold-tolerance regulatory module in pepper",
+              "sections": [
+                {
+                  "label": "What is new",
+                  "text": "The study identifies pepper CaSNF1 as an interacting kinase of CaHD-ZIP and reports that CaSNF1 directly phosphorylates CaHD-ZIP in vitro. VIGS, transient overexpression in pepper, and stable overexpression in Arabidopsis support a positive association between CaSNF1 and cold tolerance; the abstract does not establish that this phosphorylation event itself is necessary for the cold-tolerance phenotype."
+                },
+                {
+                  "label": "Mechanistic or methodological key point",
+                  "text": "The interaction is supported by yeast two-hybrid, luciferase complementation imaging, and BiFC, with BiFC signal mainly in the nucleus; an in vitro phosphorylation assay provides biochemical support. CaSNF1 silencing was accompanied by increased oxidative damage, reduced antioxidant enzyme activity, and suppressed expression of related genes, whereas overexpression produced responses in the opposite direction."
+                },
+                {
+                  "label": "Relevance to pepper research",
+                  "text": "This is a candidate cold-stress regulatory module studied in pepper itself and can inform expression, protein-interaction, and stress-response studies across pepper tissues or treatment conditions. The abstract provides no evidence about mature fruit or fruit-ripening transcription-factor networks, so the module should not be incorporated directly into a ripening-regulation model."
+                },
+                {
+                  "label": "Implications for the 22-tissue atlas",
+                  "text": "Research implication: examine CaSNF1, CaHD-ZIP, and antioxidant/cold-response gene expression in the 22-tissue RNA-seq data, then cross-reference them with ATAC-seq and CUT&Tag signals to assess accessibility and H3K4me1, H3K4me3, H3K27ac, and H3K27me3 states near relevant genes. WGBS could describe methylation backgrounds at candidate regions; these atlas associations cannot by themselves prove protein interaction, phosphorylation, or causal regulation."
+                },
+                {
+                  "label": "Limitations",
+                  "text": "The abstract does not provide the specific materials, treatment details, effect sizes, or results across pepper varieties for each experiment, and it does not report validation of the CaSNF1-mediated phosphorylation site. Overexpression results in Arabidopsis cannot replace evaluation of cold tolerance across pepper varieties and field conditions."
+                },
+                {
+                  "label": "What to read first",
+                  "text": "First check the evidence chain linking the reported interaction assays, in vitro phosphorylation, and pepper VIGS/transient overexpression, especially whether those experiments directly test CaHD-ZIP dependence. Then examine the measurements and comparisons of oxidative damage, antioxidant enzyme activity, and cold-response gene expression under cold treatment."
+                }
+              ]
+            }
+          },
+          "journal_club": {
+            "traits": [
+              "stress"
+            ],
+            "kind": "transfer",
+            "origin": "literature",
+            "conservation": "unverified",
+            "zh": {
+              "goal": "提高辣椒低温胁迫下的耐受能力，同时评估植株生长与产量表现。",
+              "strategy_results": "原研究在辣椒中以VIGS沉默和瞬时过表达CaSNF1，并在拟南芥中稳定过表达；摘要报告CaSNF1正向调节耐冷响应，沉默伴随氧化损伤增加和抗氧化能力下降。",
+              "pepper_basis": "CaSNF1及其与CaHD-ZIP的互作研究直接来自辣椒，具备物种内的初步依据；但摘要未报告不同辣椒种质中的等位变异、稳定遗传材料或田间验证。",
+              "engineering_outcome": "可研究利用稳定遗传或表达调控增强辣椒CaSNF1活性，预测有助于提高低温耐受；这种改良结果尚未由摘要所述的稳定辣椒材料或田间试验验证。",
+              "tradeoffs_metrics": "可能的代价包括常温生长、发育或产量变化，以及广泛胁迫响应造成的资源分配影响；应测定冷害、存活与恢复、生物量、开花结果和产量，并在常温对照下比较。",
+              "next_step": "先在不同辣椒材料中确认CaSNF1表达、冷处理响应及CaHD-ZIP相关性，并以小规模稳定遗传材料测试耐冷表型和常温生长代价。"
+            },
+            "en": {
+              "goal": "Improve pepper tolerance to low-temperature stress while assessing plant growth and yield.",
+              "strategy_results": "The source study used VIGS silencing and transient overexpression of CaSNF1 in pepper, and stable overexpression in Arabidopsis. The abstract reports that CaSNF1 positively regulates cold responses; silencing was accompanied by greater oxidative damage and reduced antioxidant capacity.",
+              "pepper_basis": "CaSNF1 and its interaction with CaHD-ZIP were studied directly in pepper, providing initial within-species support. However, the abstract does not report allelic variation across pepper germplasm, stable inherited pepper lines, or field validation.",
+              "engineering_outcome": "Stable genetic modification or expression control to enhance pepper CaSNF1 activity could be investigated, with a predicted improvement in low-temperature tolerance. This outcome has not been validated in stable pepper material or field trials described in the abstract.",
+              "tradeoffs_metrics": "Potential costs include changes to growth, development, or yield under normal temperatures, and resource-allocation effects from broad stress responses. Measure cold injury, survival and recovery, biomass, flowering and fruit set, and yield, with normal-temperature controls.",
+              "next_step": "First confirm CaSNF1 expression, cold-treatment responses, and association with CaHD-ZIP across pepper materials, then test cold phenotypes and normal-temperature growth costs in small-scale stable genetic material."
+            }
+          },
+          "doi": "10.1007/s00122-026-05413-4",
+          "evidence": {
+            "source_type": "abstract",
+            "reading_depth": "仅摘要",
+            "verification": "待核验",
+            "classification_status": "由摘要自动归类，待核验",
+            "source_url": "https://doi.org/10.1007/s00122-026-05413-4",
+            "retrieved_at": "2026-10-30T07:14:52.642677+00:00",
+            "abstract": "Cold stress severely restricts pepper (Capsicum annuum L.) growth and productivity by disrupting cellular homeostasis and inducing oxidative damage. Although HD-ZIP transcription factors play important roles in plant abiotic stress responses, the molecular mechanisms regulating their function during cold stress remain largely unknown. Here, we characterized the pepper HD-ZIP transcription factor CaHD-ZIP and demonstrated that it is a nuclear-localized, cold-responsive protein that positively contributes to cold stress tolerance. To further investigate the regulatory mechanism underlying CaHD-ZIP function, a yeast two-hybrid (Y2H) screen identified the sucrose non-fermenting 1-related protein kinase CaSNF1 as a previously unrecognized interacting partner of CaHD-ZIP. Their interaction was confirmed by yeast two-hybrid, luciferase complementation imaging, and bimolecular fluorescence complementation assays, with BiFC indicating that the interaction occurs predominantly in the nucleus. In vitro phosphorylation analysis further demonstrated that CaSNF1 directly phosphorylates CaHD-ZIP, providing biochemical evidence for a functional regulatory relationship between these proteins. Complementary loss- and gain-of-function analyses, including virus-induced gene silencing and transient overexpression in pepper together with stable overexpression in Arabidopsis, demonstrated that CaSNF1 positively regulates cold tolerance. Silencing of CaSNF1 increased oxidative damage, impaired antioxidant enzyme activities, and suppressed the expression of antioxidant and cold-responsive genes, whereas overexpression produced the opposite effects and significantly enhanced cold tolerance. Together, these findings identify CaSNF1 as a CaHD-ZIP-interacting kinase and reveal a potential CaSNF1-CaHD-ZIP regulatory module involved in pepper cold stress adaptation. This study advances our understanding of the molecular mechanisms underlying pepper cold tolerance and provides potential genetic targets for improving cold resilience in pepper and other Solanaceae crops.",
+            "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+          },
+          "id": "paper-fb9f046e14ac1d8d",
+          "entry_type": "weekly",
+          "revision": 1,
+          "openalex": {
+            "status": "matched",
+            "match_method": "doi_title",
+            "checked_at": "2026-10-30T07:14:55.855198+00:00",
+            "source_updated_at": "2026-10-28T10:33:24.094632",
+            "id": "https://openalex.org/W7223372600",
+            "doi": "10.1007/s00122-026-05413-4",
+            "cited_by_count": 0,
+            "referenced_works_count": 72,
+            "counts_by_year": [],
+            "authors": [
+              {
+                "name": "Ikram Ullah",
+                "url": "https://openalex.org/A5080546364",
+                "orcid": "https://orcid.org/0000-0003-3645-1519"
+              },
+              {
+                "name": "Yingping Pei",
+                "url": "https://openalex.org/A5016209031",
+                "orcid": null
+              },
+              {
+                "name": "Menghan Wang",
+                "url": "https://openalex.org/A5135683331",
+                "orcid": null
+              },
+              {
+                "name": "Altaf Hussain",
+                "url": "https://openalex.org/A5159352923",
+                "orcid": null
+              },
+              {
+                "name": "Jiangbai Guo",
+                "url": "https://openalex.org/A5159329757",
+                "orcid": null
+              },
+              {
+                "name": "Huafeng Zhang",
+                "url": "https://openalex.org/A5153341887",
+                "orcid": null
+              },
+              {
+                "name": "Rugang Chen",
+                "url": "https://openalex.org/A5063779851",
+                "orcid": "https://orcid.org/0000-0003-0593-506X"
+              }
+            ],
+            "institutions": [
+              {
+                "name": "Northwest A&F University",
+                "url": "https://openalex.org/I89652312",
+                "country": "CN"
+              }
+            ],
+            "is_oa": false,
+            "oa_status": "closed",
+            "oa_url": null,
+            "pdf_url": null,
+            "is_retracted": false
+          },
+          "metadata": {
+            "status": "matched",
+            "bibliography": {
+              "title": "CaSNF1 interacts with and phosphorylates CaHD-ZIP to enhance cold tolerance in pepper",
+              "doi": "10.1007/s00122-026-05413-4",
+              "journal": "Theoretical and Applied Genetics",
+              "date": "2026-10-23",
+              "authors": [
+                {
+                  "family": "Ullah",
+                  "given": "Ikram"
+                },
+                {
+                  "family": "Pei",
+                  "given": "Yingping"
+                },
+                {
+                  "family": "Wang",
+                  "given": "Menghan"
+                },
+                {
+                  "family": "Hussain",
+                  "given": "Altaf"
+                },
+                {
+                  "family": "Guo",
+                  "given": "Jiangbai"
+                },
+                {
+                  "family": "Zhang",
+                  "given": "Huafeng"
+                },
+                {
+                  "family": "Chen",
+                  "given": "Rugang"
+                }
+              ],
+              "type": "journal-article"
+            },
+            "differences": [],
+            "relations": [],
+            "updates": [],
+            "checked_at": "2026-10-30T07:16:21.089833+00:00",
+            "source_url": "https://api.crossref.org/works/10.1007%2Fs00122-026-05413-4",
+            "update_check": "completed"
+          },
+          "issues": [
+            "2026-10-30"
+          ],
+          "related_papers": []
+        },
+        {
+          "title": "Heterologous expression of LbbHLH36 from Lycium barbarum enhances carotenoid accumulation in tomato fruits via synergistic activation of biosynthesis and suppression of degradation.",
+          "date": "2026-10-24",
+          "journal": "Plant science : an international journal of experimental plant biology",
+          "kind": "期刊记录（审稿状态请核对原文）",
+          "url": "https://doi.org/10.1016/j.plantsci.2026.113544",
+          "priority": "快速浏览",
+          "tags": [
+            "番茄",
+            "类胡萝卜素",
+            "果实品质",
+            "异源表达"
+          ],
+          "heading": "枸杞LbbHLH36异源表达提高番茄果实类胡萝卜素，兼顾合成与降解环节",
+          "sections": [
+            {
+              "label": "真正的新发现",
+              "text": "在番茄Micro Tom中异源过表达枸杞LbbHLH36，与成熟果实总类胡萝卜素、番茄红素和β-胡萝卜素增加相关。摘要报告早期类胡萝卜素合成基因表达及PSY、PDS酶活性升高，同时CCD4活性受到抑制。",
+              "kind": "reported"
+            },
+            {
+              "label": "机制或方法上的关键点",
+              "text": "研究结合转基因表达、qRT-PCR、酶活测定和代谢物分析，提出合成增强与降解减弱共同改变类胡萝卜素积累。摘要没有报告LbbHLH36对相关启动子的直接结合证据，因此不能据此认定其直接结合并调控这些靶基因。",
+              "kind": "reported"
+            },
+            {
+              "label": "与你的辣椒研究关系",
+              "text": "该结果提供了茄科果实营养品质改良的候选思路，但试验对象是番茄，转入基因来自枸杞；辣椒中的同源关系、表达模式和功能均未由摘要验证。对辣椒成熟TF网络而言，可将“合成—降解两端共同影响色素积累”作为待验证假设，而非已知辣椒机制。",
+              "kind": "application"
+            },
+            {
+              "label": "对22组织图谱的具体启示",
+              "text": "研究启示：在22组织RNA-seq中对照候选色素合成、降解基因的组织与成熟阶段表达，并与ATAC-seq及CUT&Tag中的H3K4me1、H3K4me3、H3K27ac和H3K27me3信号联合筛查潜在调控区域；WGBS可补充其甲基化背景。可将这些信号与果实成熟TF网络和代谢表型提出的候选关系进行优先级排序，但图谱共变不等于直接调控。",
+              "kind": "application"
+            },
+            {
+              "label": "需要注意",
+              "text": "研究使用番茄Micro Tom异源过表达，摘要未给出不同遗传背景、田间表现或果实其他品质与产量的评估。高温、低温、干旱和盐胁迫下的表达诱导提示可能存在胁迫与代谢交叉，但摘要没有证明这些胁迫条件下果实色素改良的效果。",
+              "kind": "limitation"
+            },
+            {
+              "label": "建议优先看",
+              "text": "优先检查转基因番茄中LbbHLH36表达、关键合成基因转录、PSY/PDS与CCD4活性以及果实色素测定之间是否一致。随后关注胁迫诱导实验所测组织和条件，避免将表达响应直接解释为胁迫耐性或果实品质收益。",
+              "kind": "reading"
+            }
+          ],
+          "classification": {
+            "species": [],
+            "process": [],
+            "regulation": [],
+            "methods": [],
+            "evidence_type": [],
+            "article_type": []
+          },
+          "translations": {
+            "en": {
+              "heading": "Heterologous expression of goji LbbHLH36 increases carotenoids in tomato fruit, involving both biosynthesis and degradation",
+              "sections": [
+                {
+                  "label": "What is new",
+                  "text": "Heterologous overexpression of goji LbbHLH36 in tomato Micro Tom was associated with increased total carotenoids, lycopene, and β-carotene in mature fruit. The abstract reports increased expression of early carotenoid biosynthesis genes and increased PSY and PDS enzyme activities, alongside suppressed CCD4 activity."
+                },
+                {
+                  "label": "Mechanistic or methodological key point",
+                  "text": "The study combines transgene expression, qRT-PCR, enzyme assays, and metabolite analysis, and proposes that enhanced biosynthesis and reduced degradation jointly alter carotenoid accumulation. The abstract does not report evidence of direct binding by LbbHLH36 to the relevant promoters, so it does not establish that the factor directly binds and regulates these target genes."
+                },
+                {
+                  "label": "Relevance to pepper research",
+                  "text": "The result offers a candidate approach to improving fruit nutritional quality in a Solanaceae crop, but the test organism was tomato and the introduced gene came from goji. Homology, expression patterns, and function in pepper are not validated in the abstract. For pepper ripening TF networks, the idea that both biosynthesis and degradation affect pigment accumulation can be treated as a hypothesis to test, not an established pepper mechanism."
+                },
+                {
+                  "label": "Implications for the 22-tissue atlas",
+                  "text": "Research implication: compare tissue and ripening-stage expression of candidate pigment biosynthesis and degradation genes in the 22-tissue RNA-seq data, and jointly screen for candidate regulatory regions using ATAC-seq and CUT&Tag signals for H3K4me1, H3K4me3, H3K27ac, and H3K27me3; WGBS could add methylation context. These signals can help prioritize candidate relationships with fruit-ripening TF networks and metabolite phenotypes, but co-variation in an atlas is not equivalent to direct regulation."
+                },
+                {
+                  "label": "Limitations",
+                  "text": "The study used heterologous overexpression in tomato Micro Tom, and the abstract does not report evaluation across genetic backgrounds, field performance, or other fruit-quality and yield traits. Expression induction under heat, cold, drought, and salt suggests possible stress–metabolism crosstalk, but the abstract does not demonstrate fruit-pigment improvement under those stress conditions."
+                },
+                {
+                  "label": "What to read first",
+                  "text": "First check whether LbbHLH36 expression, transcription of key biosynthesis genes, PSY/PDS and CCD4 activities, and fruit pigment measurements agree in the transgenic tomatoes. Then examine the tissues and conditions used in the stress-induction experiments, avoiding interpreting expression responses alone as evidence of stress tolerance or fruit-quality benefit."
+                }
+              ]
+            }
+          },
+          "journal_club": {
+            "traits": [
+              "nutrition",
+              "fruit_quality"
+            ],
+            "kind": "transfer",
+            "origin": "literature",
+            "conservation": "unverified",
+            "zh": {
+              "goal": "提高辣椒果实类胡萝卜素含量，改善营养与果实品质。",
+              "strategy_results": "原研究将枸杞LbbHLH36异源过表达于番茄Micro Tom；摘要报告果实总类胡萝卜素、番茄红素和β-胡萝卜素增加，并伴随合成相关指标增强及CCD4活性降低。",
+              "pepper_basis": "番茄与辣椒同属茄科，且研究涉及果实色素代谢，提供有限的跨作物研究依据；但摘要没有验证辣椒同源基因、旁系同源关系、表达模式或功能保守性。",
+              "engineering_outcome": "可在辣椒中测试表达LbbHLH36或经验证的辣椒候选同源基因，预测可能提高果实类胡萝卜素；该策略在辣椒中尚未测试，且不能预设效应大小。",
+              "tradeoffs_metrics": "可能影响果实成熟、其他色素组成、风味、植株胁迫响应或产量；应同时测定多种类胡萝卜素、成熟进程、风味指标、植株生长和商品产量。",
+              "next_step": "先确认辣椒中候选同源基因的序列关系及果实成熟期表达，再以小规模表达试验检测色素组成和成熟/生长代价。"
+            },
+            "en": {
+              "goal": "Increase carotenoid content in pepper fruit to improve nutritional value and fruit quality.",
+              "strategy_results": "The source study heterologously overexpressed goji LbbHLH36 in tomato Micro Tom. The abstract reports increases in total fruit carotenoids, lycopene, and β-carotene, accompanied by enhanced biosynthesis-related measures and reduced CCD4 activity.",
+              "pepper_basis": "Tomato and pepper are both in the Solanaceae, and the study concerns fruit pigment metabolism, providing a limited basis for cross-crop investigation. However, the abstract does not validate pepper homologs, paralog relationships, expression patterns, or functional conservation.",
+              "engineering_outcome": "Expression of LbbHLH36 or a validated pepper candidate homolog could be tested in pepper, with a predicted potential to increase fruit carotenoids. This strategy has not been tested in pepper, and no effect size can be assumed.",
+              "tradeoffs_metrics": "Potential effects include changes in fruit ripening, other pigment composition, flavor, plant stress responses, or yield. Measure multiple carotenoids, ripening progression, flavor traits, plant growth, and marketable yield.",
+              "next_step": "First establish the sequence relationships and fruit-ripening expression of candidate pepper homologs, then use a small-scale expression test to measure pigment composition and ripening/growth costs."
+            }
+          },
+          "doi": "10.1016/j.plantsci.2026.113544",
+          "evidence": {
+            "source_type": "abstract",
+            "reading_depth": "仅摘要",
+            "verification": "待核验",
+            "classification_status": "由摘要自动归类，待核验",
+            "source_url": "https://doi.org/10.1016/j.plantsci.2026.113544",
+            "retrieved_at": "2026-10-30T07:14:52.642759+00:00",
+            "abstract": "Carotenoids are critical determinants of nutritional quality in tomato (Solanum lycopersicum) fruits, and their biosynthesis is tightly regulated by the bHLH transcription factor family. In this study, we investigated the heterologous regulatory function of LbbHLH36, a gene isolated from Lycium barbarum L., in carotenoid accumulation and its responsiveness to abiotic stresses in tomato. The LbbHLH36 coding sequence was cloned into the pNULPGE700 vector and introduced into the model tomato cultivar 'Micro Tom' via Agrobacterium-mediated leaf disc transformation. Quantitative real-time PCR revealed that LbbHLH36 transcript levels peaked in mature fruits of transgenic lines and were associated with significant upregulation of key early biosynthetic genes, including SlPSY1, SlPSY2, SlPDS, and SlZDS. Enzymatic assays further demonstrated increased activities of the rate-limiting enzymes phytoene synthase (PSY) and phytoene desaturase (PDS), alongside a marked suppression of carotenoid cleavage dioxygenase 4 (CCD4) activity in transgenic plants. Metabolomic analyses confirmed that overexpression of LbbHLH36 substantially elevated total carotenoid, lycopene, and β-carotene contents in tomato fruits. Furthermore, LbbHLH36 expression was strongly induced by high temperature, low temperature, drought, and salt stress, suggesting its potential involvement in crosstalk between stress responses and primary metabolism. Collectively, our findings reveal that LbbHLH36 acts as a positive regulator of carotenoid accumulation in tomato through a dual mechanism that concurrently regulate biosynthetic flux and attenuates catabolic degradation, highlighting its value as a candidate gene for nutritional quality improvement in Lycium barbarum, tomato, and other Solanaceous crops.",
+            "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+          },
+          "id": "paper-c1cffdf2c6a18922",
+          "entry_type": "weekly",
+          "revision": 1,
+          "openalex": {
+            "status": "matched",
+            "match_method": "doi_title",
+            "checked_at": "2026-10-30T07:14:55.924463+00:00",
+            "source_updated_at": "2026-10-28T10:33:24.094632",
+            "id": "https://openalex.org/W7223443370",
+            "doi": "10.1016/j.plantsci.2026.113544",
+            "cited_by_count": 0,
+            "referenced_works_count": 41,
+            "counts_by_year": [],
+            "authors": [
+              {
+                "name": "Shuo Liu",
+                "url": "https://openalex.org/A5100435094",
+                "orcid": "https://orcid.org/0009-0000-6931-1673"
+              },
+              {
+                "name": "Ping She",
+                "url": "https://openalex.org/A5159399256",
+                "orcid": null
+              },
+              {
+                "name": "Shi Hu",
+                "url": "https://openalex.org/A5149719263",
+                "orcid": null
+              },
+              {
+                "name": "Sijun Yue",
+                "url": "https://openalex.org/A5003783995",
+                "orcid": null
+              },
+              {
+                "name": "Jianhua Zhao",
+                "url": "https://openalex.org/A5159382772",
+                "orcid": null
+              },
+              {
+                "name": "Yuan Liu",
+                "url": "https://openalex.org/A5159397958",
+                "orcid": null
+              },
+              {
+                "name": "Rui Zheng",
+                "url": "https://openalex.org/A5101780583",
+                "orcid": "https://orcid.org/0000-0003-3801-6238"
+              }
+            ],
+            "institutions": [
+              {
+                "name": "Ningxia University",
+                "url": "https://openalex.org/I21642278",
+                "country": "CN"
+              },
+              {
+                "name": "North Minzu University",
+                "url": "https://openalex.org/I3019309368",
+                "country": "CN"
+              }
+            ],
+            "is_oa": false,
+            "oa_status": "closed",
+            "oa_url": null,
+            "pdf_url": null,
+            "is_retracted": false
+          },
+          "metadata": {
+            "status": "matched",
+            "bibliography": {
+              "title": "Heterologous expression of LbbHLH36 from Lycium barbarum enhances carotenoid accumulation in tomato fruits via synergistic activation of biosynthesis and suppression of degradation",
+              "doi": "10.1016/j.plantsci.2026.113544",
+              "journal": "Plant Science",
+              "date": "2027-01",
+              "authors": [
+                {
+                  "family": "Liu",
+                  "given": "Shuo"
+                },
+                {
+                  "family": "She",
+                  "given": "Ping"
+                },
+                {
+                  "family": "Hu",
+                  "given": "Shi"
+                },
+                {
+                  "family": "Yue",
+                  "given": "Sijun"
+                },
+                {
+                  "family": "Zhao",
+                  "given": "Jianhua"
+                },
+                {
+                  "family": "Liu",
+                  "given": "Yuan"
+                },
+                {
+                  "family": "Zheng",
+                  "given": "Rui"
+                }
+              ],
+              "type": "journal-article"
+            },
+            "differences": [],
+            "relations": [],
+            "updates": [],
+            "checked_at": "2026-10-30T07:16:21.540034+00:00",
+            "source_url": "https://api.crossref.org/works/10.1016%2Fj.plantsci.2026.113544",
+            "update_check": "completed"
+          },
+          "issues": [
+            "2026-10-30"
+          ],
+          "related_papers": []
+        },
+        {
+          "title": "A RIN-SlJMJ6 transcriptional-epigenetic module activates carotenoid biosynthesis through H3K27me3 demethylation in tomato.",
+          "date": "2026-10-28",
+          "journal": "The New phytologist",
+          "kind": "期刊记录（审稿状态请核对原文）",
+          "url": "https://doi.org/10.1111/nph.71672",
+          "priority": "全文精读",
+          "tags": [
+            "番茄",
+            "果实成熟",
+            "H3K27me3",
+            "RIN",
+            "类胡萝卜素"
+          ],
+          "heading": "番茄RIN促进SlJMJ6定位并协同降低靶位点H3K27me3，激活成熟期类胡萝卜素基因",
+          "sections": [
+            {
+              "label": "真正的新发现",
+              "text": "研究提出番茄成熟转录因子RIN与H3K27me3去甲基化酶SlJMJ6协同促进类胡萝卜素积累，并激活PSY1、DXS1和ZISO等基因。SlJMJ6与RIN共同占据多种成熟相关基因区域，其结合与靶位点H3K27me3降低相关；rin突变体中代表性位点的SlJMJ6占据减少。",
+              "kind": "reported"
+            },
+            {
+              "label": "机制或方法上的关键点",
+              "text": "摘要将RIN的转录调控与SlJMJ6的染色质调控联系起来：SlJMJ6偏好富含CArG基序的启动子区域，且RIN有助于SlJMJ6在染色质上的定位。任一因子缺失均伴随靶位点H3K27me3增加及成熟相关基因表达降低；摘要未说明所用染色质检测平台，不能据此指定CUT&Tag等具体技术。",
+              "kind": "reported"
+            },
+            {
+              "label": "与你的辣椒研究关系",
+              "text": "该研究直接连接果实成熟TF网络、染色质修饰与色素代谢，可为辣椒成熟期候选TF—染色质调控关系提供优先级线索。辣椒中的RIN相关因子、SlJMJ6功能对应关系及其在色素基因上的靶向性都仍需验证，不能将番茄机制直接视为辣椒机制。",
+              "kind": "application"
+            },
+            {
+              "label": "对22组织图谱的具体启示",
+              "text": "研究启示：在22组织RNA-seq中寻找成熟相关TF与色素合成基因的共表达模式，并结合ATAC-seq和CUT&Tag检查候选启动子可及性及H3K4me1、H3K4me3、H3K27ac、H3K27me3分布；WGBS可补充DNA甲基化背景。重点可放在果实发育至成熟的阶段比较和TF网络候选排序；若图谱并非时间序列，其组织差异不能替代成熟过程的动态证据。",
+              "kind": "application"
+            },
+            {
+              "label": "需要注意",
+              "text": "摘要报告了遗传与组学分析以及RIN对SlJMJ6占据的影响，但未提供具体技术平台、靶位点清单或各实验细节。SlJMJ6占据与H3K27me3变化及转录响应的联系支持该调控模型，但摘要本身不足以判定所有靶基因上的直接分子因果链，也未说明相关改造对番茄其他农艺性状的影响。",
+              "kind": "limitation"
+            },
+            {
+              "label": "建议优先看",
+              "text": "优先核对SlJMJ6与RIN共同占据、CArG基序富集和rin突变体中SlJMJ6占据下降的证据，以及H3K27me3变化与靶基因转录之间的对应关系。再比较SlJMJ6或RIN缺失对类胡萝卜素表型及成熟相关基因的影响，确认遗传扰动、染色质状态和代谢输出之间的证据是否一致。",
+              "kind": "reading"
+            }
+          ],
+          "classification": {
+            "species": [],
+            "process": [],
+            "regulation": [],
+            "methods": [],
+            "evidence_type": [],
+            "article_type": []
+          },
+          "translations": {
+            "en": {
+              "heading": "Tomato RIN promotes SlJMJ6 occupancy and cooperatively reduces H3K27me3 at targets, activating ripening-stage carotenoid genes",
+              "sections": [
+                {
+                  "label": "What is new",
+                  "text": "The study proposes that the tomato ripening TF RIN cooperates with the H3K27me3 demethylase SlJMJ6 to promote carotenoid accumulation and activate genes including PSY1, DXS1, and ZISO. SlJMJ6 and RIN co-occupy multiple ripening-associated gene regions, and their association is linked to reduced H3K27me3 at target loci; SlJMJ6 occupancy at representative loci is reduced in the rin mutant."
+                },
+                {
+                  "label": "Mechanistic or methodological key point",
+                  "text": "The abstract links RIN-mediated transcriptional regulation with SlJMJ6-mediated chromatin regulation: SlJMJ6 preferentially associates with promoter regions enriched in CArG motifs, and RIN facilitates SlJMJ6 chromatin occupancy. Loss of either factor is accompanied by increased H3K27me3 at target loci and reduced expression of ripening-related genes; the abstract does not specify the chromatin assay platform, so a particular technique such as CUT&Tag cannot be assigned."
+                },
+                {
+                  "label": "Relevance to pepper research",
+                  "text": "This study directly connects a fruit-ripening TF network, chromatin modification, and pigment metabolism, offering leads for prioritizing candidate TF–chromatin relationships during pepper ripening. The corresponding RIN-related factors, SlJMJ6 function, and targeting of pigment genes in pepper all remain to be validated; the tomato mechanism should not be treated as an established pepper mechanism."
+                },
+                {
+                  "label": "Implications for the 22-tissue atlas",
+                  "text": "Research implication: identify co-expression patterns between ripening-related TFs and pigment biosynthesis genes in the 22-tissue RNA-seq data, then combine them with ATAC-seq and CUT&Tag to examine candidate promoter accessibility and H3K4me1, H3K4me3, H3K27ac, and H3K27me3 distributions; WGBS could add DNA methylation context. Prioritize comparisons across fruit development and ripening stages and candidate ranking in TF networks; if the atlas is not a time series, tissue differences cannot substitute for dynamic evidence during ripening."
+                },
+                {
+                  "label": "Limitations",
+                  "text": "The abstract reports genetic and omics analyses and an effect of RIN on SlJMJ6 occupancy, but does not provide the specific assay platforms, a target-locus list, or experimental details. The links among SlJMJ6 occupancy, H3K27me3 changes, and transcriptional responses support the regulatory model, but the abstract alone does not establish a direct molecular causal chain for every target gene, nor does it describe effects of the relevant modifications on other tomato agronomic traits."
+                },
+                {
+                  "label": "What to read first",
+                  "text": "First check the evidence for SlJMJ6/RIN co-occupancy, CArG motif enrichment, and reduced SlJMJ6 occupancy in the rin mutant, as well as the correspondence between H3K27me3 changes and target-gene transcription. Then compare the effects of SlJMJ6 or RIN loss on carotenoid phenotypes and ripening-related genes to assess whether the genetic perturbation, chromatin state, and metabolic output evidence is consistent."
+                }
+              ]
+            }
+          },
+          "journal_club": {
+            "traits": [
+              "nutrition",
+              "fruit_quality"
+            ],
+            "kind": "hypothesis",
+            "origin": "literature",
+            "conservation": "unverified",
+            "zh": {
+              "goal": "提高辣椒成熟果实的类胡萝卜素积累，改善营养与果实品质。",
+              "strategy_results": "原研究在番茄中报告RIN与SlJMJ6协同促进类胡萝卜素积累并激活PSY1、DXS1、ZISO等基因；两者缺失伴随靶位点H3K27me3升高和相关基因表达降低。",
+              "pepper_basis": "番茄与辣椒同属茄科，且研究连接成熟TF、H3K27me3和果实色素代谢；但摘要未验证辣椒中的直系同源关系、旁系同源功能或目标位点调控保守性。",
+              "engineering_outcome": "可探索在辣椒成熟果实中增强经验证的候选因子功能，或针对候选色素基因调控区进行定点表观调控，预测有望提升类胡萝卜素；该策略尚未在辣椒测试，具体改造方式和结果均待验证。",
+              "tradeoffs_metrics": "可能改变成熟时间、成熟同步性、其他色素和风味，或影响植株生长与产量；应同时测定类胡萝卜素谱、成熟进程、商品性、植株生长及产量。",
+              "next_step": "先确认辣椒成熟期候选TF/去甲基化酶的同源关系与表达，并检验其与候选启动子占据、H3K27me3状态及色素基因表达的对应关系。"
+            },
+            "en": {
+              "goal": "Increase carotenoid accumulation in ripening pepper fruit to improve nutritional value and fruit quality.",
+              "strategy_results": "In tomato, the source study reports that RIN and SlJMJ6 cooperate to promote carotenoid accumulation and activate genes including PSY1, DXS1, and ZISO. Loss of either factor was accompanied by increased H3K27me3 at target loci and reduced expression of related genes.",
+              "pepper_basis": "Tomato and pepper are both in the Solanaceae, and the study links a ripening TF, H3K27me3, and fruit pigment metabolism. However, the abstract does not validate orthology, paralog function, or conservation of target-locus regulation in pepper.",
+              "engineering_outcome": "One could explore enhancing the function of validated candidate factors in ripening pepper fruit, or targeted epigenetic regulation of candidate pigment-gene regulatory regions, with a predicted potential to increase carotenoids. This strategy has not been tested in pepper, and both the specific modification and its outcome remain to be validated.",
+              "tradeoffs_metrics": "Possible effects include changes in ripening time, ripening synchrony, other pigments and flavor, or plant growth and yield. Measure carotenoid profiles, ripening progression, marketability, plant growth, and yield.",
+              "next_step": "First establish the homology and expression of candidate pepper ripening TFs/demethylases, and test their correspondence with candidate promoter occupancy, H3K27me3 state, and pigment-gene expression."
+            }
+          },
+          "doi": "10.1111/nph.71672",
+          "evidence": {
+            "source_type": "abstract",
+            "reading_depth": "仅摘要",
+            "verification": "待核验",
+            "classification_status": "由摘要自动归类，待核验",
+            "source_url": "https://doi.org/10.1111/nph.71672",
+            "retrieved_at": "2026-10-30T07:14:52.642812+00:00",
+            "abstract": "Fruit ripening involves extensive transcriptional and epigenetic reprogramming, yet how chromatin modifiers are targeted to specific genomic loci in coordination with transcription factors remains unclear. Here, we show that the histone H3K27me3 demethylase SlJMJ6 physically and functionally associates with the master ripening regulator RIPENING INHIBITOR (RIN) to regulate carotenoid biosynthesis in tomato (Solanum lycopersicum) fruit. Genetic and transcriptional analyses demonstrated that SlJMJ6 and RIN cooperatively promote carotenoid accumulation and activate key biosynthetic genes, including PSY1, DXS1 and ZISO. Genome-wide analyses revealed that SlJMJ6 preferentially binds promoter regions enriched in CArG motifs and extensively co-occupies ripening-associated genes with RIN. Epigenomic analyses showed that SlJMJ6 association correlates with reduced H3K27me3 enrichment at co-targeted loci, whereas loss of either SlJMJ6 or RIN increases H3K27me3 enrichment and reduces expression of ripening-related genes. Furthermore, SlJMJ6 occupancy at representative target loci is markedly reduced in the rin mutant, indicating that RIN facilitates SlJMJ6 chromatin association. Together, our findings reveal a cooperative RIN-SlJMJ6 regulatory module linking RIN-dependent transcriptional regulation with locus-specific H3K27me3 dynamics, providing a mechanistic framework for chromatin-mediated activation of metabolic genes during fruit ripening.",
+            "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+          },
+          "id": "paper-a580b52e0f449c46",
+          "entry_type": "weekly",
+          "revision": 1,
+          "openalex": {
+            "status": "not_found",
+            "last_attempt_at": "2026-10-30T07:14:55.988197+00:00"
+          },
+          "metadata": {
+            "status": "matched",
+            "bibliography": {
+              "title": "A\n                    RIN\n                    ‐\n                    SlJMJ6\n                    transcriptional–epigenetic module activates carotenoid biosynthesis through\n                    H3K27me3\n                    demethylation in tomato",
+              "doi": "10.1111/nph.71672",
+              "journal": "New Phytologist",
+              "date": "2026-10-28",
+              "authors": [
+                {
+                  "family": "Li",
+                  "given": "Zhiwei"
+                },
+                {
+                  "family": "Zhou",
+                  "given": "Yijie"
+                },
+                {
+                  "family": "Wang",
+                  "given": "Yahan"
+                },
+                {
+                  "family": "Liang",
+                  "given": "Hanzhi"
+                },
+                {
+                  "family": "Peng",
+                  "given": "Jiechun"
+                },
+                {
+                  "family": "Yang",
+                  "given": "Hui"
+                },
+                {
+                  "family": "Zeng",
+                  "given": "Jing"
+                },
+                {
+                  "family": "Xiao",
+                  "given": "Lu"
+                },
+                {
+                  "family": "Jiang",
+                  "given": "Guoxiang"
+                },
+                {
+                  "family": "Wu",
+                  "given": "Keqiang"
+                },
+                {
+                  "family": "Jiang",
+                  "given": "Yueming"
+                },
+                {
+                  "family": "Duan",
+                  "given": "Xuewu"
+                }
+              ],
+              "type": "journal-article"
+            },
+            "differences": [],
+            "relations": [],
+            "updates": [],
+            "checked_at": "2026-10-30T07:16:21.854194+00:00",
+            "source_url": "https://api.crossref.org/works/10.1111%2Fnph.71672",
+            "update_check": "completed"
+          },
+          "issues": [
+            "2026-10-30"
           ],
           "related_papers": []
         }
