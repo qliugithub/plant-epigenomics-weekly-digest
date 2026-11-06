@@ -3166,10 +3166,9 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-11-06T08:01:10.208236+00:00",
+        "checked_at": "2026-11-06T09:30:18.759710+00:00",
         "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.15.738754",
-        "update_check": "unavailable",
-        "update_error": "HTTPError 429"
+        "update_check": "completed"
       },
       "novelty": "在 droplet-based scATAC-seq 前增加原位逆转录，从同一细胞核联合获取 RNA 与 ATAC。",
       "priority": "快速浏览",
@@ -7015,8 +7014,8 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-10-30T08:45:45.572636+00:00",
-        "source_updated_at": "2026-10-27T15:51:10.671819",
+        "checked_at": "2026-11-06T09:29:51.648613+00:00",
+        "source_updated_at": "2026-10-31T12:09:11.096373",
         "id": "https://openalex.org/W7214038376",
         "doi": "10.1007/s00425-026-05169-7",
         "cited_by_count": 0,
@@ -7214,7 +7213,7 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-10-30T08:45:45.762235+00:00",
+        "checked_at": "2026-11-06T09:29:51.755048+00:00",
         "source_updated_at": "2026-10-27T15:51:10.671819",
         "id": "https://openalex.org/W7167547493",
         "doi": "10.1039/d6np00009f",
@@ -7456,12 +7455,12 @@
       "openalex": {
         "status": "matched",
         "match_method": "doi_title",
-        "checked_at": "2026-10-30T08:45:45.961544+00:00",
-        "source_updated_at": "2026-09-25T08:18:29.962427",
+        "checked_at": "2026-11-06T09:29:51.852613+00:00",
+        "source_updated_at": "2026-11-01T11:40:01.658920",
         "id": "https://openalex.org/W7214073317",
         "doi": "10.1093/plcell/koag298",
         "cited_by_count": 0,
-        "referenced_works_count": 0,
+        "referenced_works_count": 130,
         "counts_by_year": [],
         "authors": [
           {
@@ -10997,10 +10996,9 @@
         "differences": [],
         "relations": [],
         "updates": [],
-        "checked_at": "2026-11-06T08:01:38.814529+00:00",
+        "checked_at": "2026-11-06T09:30:19.752990+00:00",
         "source_url": "https://api.crossref.org/works/10.1002%2Fadvs.78518",
-        "update_check": "unavailable",
-        "update_error": "HTTPError 429"
+        "update_check": "completed"
       },
       "issues": [
         "2026-11-06"
