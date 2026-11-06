@@ -4895,5 +4895,323 @@
         }
       }
     }
+  ],
+  "paper-5d509b030220fbca": [
+    {
+      "version": 1,
+      "at": "2026-11-06T07:59:30.034737+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "92f52bd4690b9601e2c3ec4b9847ee330293112d6134bfe59f94a64ffbbddc49",
+      "content": {
+        "title": "3'-UTR Hypermethylation and ABA Signaling Coordinate Transcriptional Activation of SWEET14 for High Sugar Accumulation in Citrus.",
+        "heading": "柑橘CliSWEET14的3′UTR高甲基化与ABA通路共同关联高糖积累",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "摘要报告，甜柠檬与低糖的Eureka柠檬相比，CliSWEET14的3′UTR一个26 bp区域甲基化更高；两者的3′UTR均与各自启动子形成染色质环。作者提出，甜柠檬中该区域甲基化可能削弱ClibHLH105对CACGAT位点的结合及其对CliSWEET14的抑制，同时ABA—CliABF3—CliNAC56通路增强，整体上与更高的CliSWEET14表达和蔗糖积累相联系。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "摘要将顺式调控区域的甲基化、染色质环中的转录因子结合，以及ABA响应级联放在同一调控模型中；并报告ClibHLH105结合未甲基化CACGAT序列、CliNAC56受CliABF3激活。摘要没有说明甲基化测定、染色质环检测及各功能实验的具体技术或逐项实验设计，因此不宜据此推断其位点编辑或遗传验证细节。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "研究启示：可在辣椒果实成熟TF网络中同时追踪糖转运相关基因、ABA响应因子及其候选顺式元件，并检查启动子与3′UTR附近甲基化是否与表达及糖含量共同变化。柑橘中的基因、结合位点及调控关系不能直接外推至辣椒；摘要没有提供辣椒直系同源、旁系同源或功能证据。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：在22组织RNA-seq、WGBS、ATAC-seq及H3K4me1/H3K4me3/H3K27ac/H3K27me3 CUT&Tag中，优先按果实组织和成熟阶段联合检视糖转运基因的表达、启动子/基因体/3′UTR甲基化、可及性和组蛋白状态；ABA相关因子可作为网络连接候选。该摘要只报告柑橘结果，未提供辣椒图谱或四种组蛋白标记的对应数据；染色质环也不能仅凭这些图谱测定确认。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "这是甜柠檬与Eureka柠檬之间的比较，品种背景差异可能与观察到的甲基化、ABA水平及糖含量共同变化；摘要所述机制不等于已经证明单独改变甲基化即可提高糖含量。摘要没有提供辣椒证据，也没有说明成熟阶段、组织取样和各实验的具体细节。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先核对摘要中3′UTR甲基化差异与CACGAT位点结合、染色质环及CliSWEET14表达之间的证据链；再检查ABA—CliABF3—CliNAC56级联与蔗糖积累的支持证据，以及作者如何区分相关性与功能作用。摘要未列出图号，建议按这些主题阅读原文，不据此假定已检查全文、图表或补充材料。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "In citrus, CliSWEET14 3′-UTR hypermethylation and the ABA pathway are associated with high sugar accumulation",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "The abstract reports higher methylation in a 26-bp region of the CliSWEET14 3′ UTR in sweet lemon than in low-sugar Eureka lemon; the 3′ UTRs of both genes also form chromatin loops with their respective promoters. The authors propose that methylation of this region in sweet lemon may weaken ClibHLH105 binding to the CACGAT site and its repression of CliSWEET14, while the ABA–CliABF3–CliNAC56 pathway is more strongly activated; together, these features are associated with higher CliSWEET14 expression and sucrose accumulation."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The abstract places methylation of a cis-regulatory region, transcription-factor binding within a chromatin loop, and an ABA-response cascade in one regulatory model; it also reports that ClibHLH105 binds the unmethylated CACGAT sequence and that CliNAC56 is activated by CliABF3. The abstract does not specify the exact technologies or experimental designs for methylation measurement, chromatin-loop detection, or each functional test, so details of site editing or genetic validation should not be inferred."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "Research implication: in the pepper fruit-ripening TF network, track sugar-transporter-related genes, ABA-response factors, and their candidate cis-elements together, and test whether methylation near promoters and 3′ UTRs covaries with expression and sugar content. The genes, binding site, and regulatory relationships in citrus cannot be directly transferred to pepper; the abstract provides no evidence for pepper orthology, paralogy, or function."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: across the 22-tissue RNA-seq, WGBS, ATAC-seq, and CUT&Tag datasets for H3K4me1/H3K4me3/H3K27ac/H3K27me3, jointly examine sugar-transporter gene expression, promoter/gene-body/3′-UTR methylation, accessibility, and histone states by fruit tissue and ripening stage; ABA-related factors could be candidate network connectors. The abstract reports citrus results only, not corresponding pepper atlas data or data for the four histone marks; chromatin loops also cannot be confirmed from these atlas assays alone."
+              },
+              {
+                "label": "Limitations",
+                "text": "This is a comparison between sweet lemon and Eureka lemon, so differences in cultivar background may covary with the observed methylation, ABA level, and sugar content; the described mechanism does not establish that changing methylation alone would increase sugar content. The abstract provides no pepper evidence and does not specify ripening stage, tissue sampling, or the details of each experiment."
+              },
+              {
+                "label": "What to read first",
+                "text": "First check the evidence chain linking the 3′-UTR methylation difference to CACGAT-site binding, the chromatin loop, and CliSWEET14 expression; then examine the support for the ABA–CliABF3–CliNAC56 cascade and sucrose accumulation, and how the authors distinguish association from functional effects. The abstract gives no figure numbers; read the paper by these topics, without assuming that the full text, figures, or supplementary materials have been reviewed."
+              }
+            ]
+          }
+        },
+        "priority": "全文精读",
+        "date": "2026-10-31",
+        "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1002/advs.78518",
+        "doi": "10.1002/advs.78518",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "柑橘",
+          "DNA甲基化",
+          "ABA",
+          "糖积累",
+          "果实品质"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1002/advs.78518",
+          "retrieved_at": "2026-11-06T07:59:30.031849+00:00",
+          "abstract": "Sugar accumulation is pivotal for fruit quality, yet the molecular regulation of this process remains elusive. By comparing transcriptomes of sweet lemon (Citrus limon, SL, high sugar level) and Eureka (EL, trace amount of sugar), we identified the sucrose transporter CliSWEET14 as a key driver of sugar accumulation. Methylome atlas showed that the 26-bp sequence within 3'-untranslated region (UTR) of CliSWEET14-SL was substantially hypermethylated relative to CliSWEET14-EL. Notably, the 3'-UTRs of both genes formed chromatin loops with their native promoters. ClibHLH105 bound to unmethylated CACGAT sequence in the loop and repressed CliSWEET14-EL. In contrast, hypermethylation of the CACGAT motif disrupted ClibHLH105 interaction and repression on CliSWEET14-SL. Additionally, CliSWEET14-SL was positively regulated by CliNAC56, which was further activated by CliABF3. Both CliNAC56 and CliABF3 regulated sucrose accumulation in a CliSWEET14-dependent manner. Moreover, the regulatory cascade CliABF3-CliNAC56-CliSWEET14 in SL was activated by ABA (abscisic acid) to a greater degree due to higher ABA level. Taken together, 3'-UTR hypermethylation-mediated relief of transcriptional repression and stronger activation by ABA signaling robustly boost CliSWEET14 expression and sucrose accumulation. These findings substantially advance our understanding of sugar accumulation in fruit and provide novel epigenetic and transcriptional targets for improving fruit quality in citrus and beyond.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
+  ],
+  "paper-88555edbdf152d93": [
+    {
+      "version": 1,
+      "at": "2026-11-06T07:59:30.042587+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "ea14e62ea1d4a3e1e502a124682db7a5590bb38d857d3a0ba82ec8283faf84c1",
+      "content": {
+        "title": "Natural Variation in CYCLIC NUCLEOTIDE-GATED ION CHANNEL 16 Controls Fruit Weight in Tomato.",
+        "heading": "番茄CNGC16自然启动子变异关联果重，并经钙信号影响果实细胞分裂",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "番茄群体GWAS发现CNGC16启动子自然变异与果重及基因表达差异相关；大果单倍型在驯化过程中受到选择，并可能与地方适应有关。功能实验支持CNGC16促进果实细胞分裂、维持胞质Ca²⁺稳态，并报告其与CaM6在钙信号调控中具有物理和遗传互作。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "研究将群体关联、表达差异和功能实验串联起来，提出CNGC16—CaM6钙信号影响果实细胞分裂与果重。摘要没有说明启动子变异的具体位点、功能实验的完整设计或互作检测方法，因此不能据此断言某种特定编辑策略已在番茄中验证。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "研究启示：辣椒果实大小和产量性状可将离子通道/钙信号候选因子纳入候选网络，并与果实发育阶段表达和组织特异性结合分析。番茄结果并不能证明辣椒存在功能等同的基因或效应；摘要没有提供辣椒同源关系、遗传背景或功能验证。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：在辣椒22组织RNA-seq中检查果实发育期候选钙通道及钙调蛋白的表达，并用ATAC-seq和CUT&Tag比较其启动子附近调控状态；WGBS可作为检查启动子甲基化的补充，但番茄摘要没有提出该位点受表观遗传调控。成熟TF网络可将钙信号因子作为待检验的连接节点，而非已确立的成熟调控因子。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "这是番茄的自然变异及功能研究，不是辣椒研究，也不是表观组学研究。摘要称大果单倍型可能有地方适应作用，但没有证明其环境适应机制；果重增加也不必然等于商品产量或品质同步改善。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "先看CNGC16启动子变异与表达、果重关联如何由功能实验支持，再核对细胞分裂、胞质钙稳态及与CaM6互作的证据。摘要未给出具体实验方法和图号，建议按这些问题阅读原文，不据此假定已检查全文、图表或补充材料。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "Natural promoter variation in tomato CNGC16 is associated with fruit weight and affects fruit-cell division through calcium signaling",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "A GWAS in tomato accessions found that natural promoter variation in CNGC16 is associated with fruit weight and gene-expression differences; the large-fruit haplotype was favored during domestication and may be related to local adaptation. Functional assays support a role for CNGC16 in promoting fruit-cell division and maintaining cytosolic Ca²⁺ homeostasis, and report physical and genetic interactions with CaM6 in calcium-signaling regulation."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The study links population association and expression differences with functional assays to propose that CNGC16–CaM6 calcium signaling affects fruit-cell division and fruit weight. The abstract does not specify the precise promoter variant, the full design of the functional assays, or the interaction-detection methods, so it does not establish that a particular editing strategy has been validated in tomato."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "Research implication: candidate ion-channel/calcium-signaling factors could be included in analyses of pepper fruit size and yield traits, together with expression and tissue specificity across fruit-development stages. The tomato results do not establish that pepper has a functionally equivalent gene or effect; the abstract provides no evidence for pepper homology, genetic background, or functional validation."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: in the 22-tissue pepper RNA-seq data, examine expression of candidate calcium channels and calmodulins during fruit development, and compare regulatory states near their promoters using ATAC-seq and CUT&Tag; WGBS could supplement this by checking promoter methylation, although the tomato abstract does not propose epigenetic regulation of this locus. Calcium-signaling factors could be treated as candidate connectors in the ripening TF network to test, not as established ripening regulators."
+              },
+              {
+                "label": "Limitations",
+                "text": "This is a natural-variation and functional study in tomato, not a pepper or epigenomics study. The abstract says that the large-fruit haplotype may have a role in local adaptation but does not establish the mechanism of adaptation; increased fruit weight also does not necessarily mean improved marketable yield or quality."
+              },
+              {
+                "label": "What to read first",
+                "text": "First examine how functional assays support the association between CNGC16 promoter variation, expression, and fruit weight; then check the evidence for cell division, cytosolic calcium homeostasis, and interaction with CaM6. The abstract gives neither detailed experimental methods nor figure numbers; read the paper around these questions, without assuming that the full text, figures, or supplementary materials have been reviewed."
+              }
+            ]
+          }
+        },
+        "priority": "快速浏览",
+        "date": "2026-10-28",
+        "journal": "Plant biotechnology journal",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1111/pbi.70782",
+        "doi": "10.1111/pbi.70782",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "番茄",
+          "果重",
+          "钙信号",
+          "自然变异",
+          "育种"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1111/pbi.70782",
+          "retrieved_at": "2026-11-06T07:59:30.031926+00:00",
+          "abstract": "Fruit weight is a crucial agronomic trait influencing yield and quality in tomato domestication. Although numerous quantitative trait loci (QTLs) controlling fruit weight have been reported, the underlying molecular mechanisms remain largely unresolved. Here, we identify natural variation in the promoter region of CYCLIC NUCLEOTIDE-GATED ION CHANNEL 16 (CNGC16) associated with both fruit weight and gene expression differences via genome-wide association study (GWAS) in tomato accessions. Geographical and subpopulation analyses reveal that the large-fruit CNGC16 haplotype was selectively favoured during domestication and may contribute to local environmental adaptation. Functional assays demonstrate that CNGC16 regulates fruit weight by promoting cell division and maintaining cytosolic Ca2+ homeostasis in fruit cells. Mechanistically, CNGC16 physically and genetically interacts with calmodulin 6 (CaM6) to mediate calcium signalling that controls fruit size. These findings uncover a novel calcium-dependent pathway regulating tomato fruit weight and propose CNGC16 and CaM6 as promising molecular targets for crop improvement.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
+  ],
+  "paper-7b2c9d59ca9a5923": [
+    {
+      "version": 1,
+      "at": "2026-11-06T07:59:30.050092+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "4c79a495b37c3004c94fc7a55dcb9c40da62a9f82b17113cba984c84d4560c42",
+      "content": {
+        "title": "Multi-Layered Regulation of Anthocyanin Biosynthesis: Emerging Mechanisms and Implications for Nutritional and Stress-Resilient Crops.",
+        "heading": "花青素综述提出从MYB-bHLH-WD40扩展到染色质、激素与环境信号的多层调控框架",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "这篇综述将花青素调控概括为多层架构：在经典MYB-bHLH-WD40转录调控之外，还讨论染色质动态、DNA甲基化、组蛋白修饰、非编码RNA、蛋白修饰、营养信号、激素与环境胁迫。摘要强调花青素积累与植物颜色、营养价值和生态功能相关，但未报告新的单一基因或实验发现。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "核心价值是把转录因子复合体、染色质状态、细胞内运输及外界信号纳入同一概念框架，而非提出一个经摘要证实的统一机制。摘要没有给出具体物种、实验数据集、证据分级或可复现的分析方法，不能据此判断各调控层的证据强弱。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "研究启示：可把辣椒果实着色和营养品质候选网络由结构基因扩展至MYB-bHLH-WD40因子、候选染色质状态、激素和胁迫信号的联合分析。摘要未提供辣椒特定基因、等位变异或工程干预证据，因而不能直接据此指定辣椒编辑靶点。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：结合22组织RNA-seq和成熟阶段信息，筛选色素代谢基因及其候选TF；再以ATAC-seq、WGBS和H3K4me1/H3K4me3/H3K27ac/H3K27me3 CUT&Tag检验候选调控区的表达关联、可及性、甲基化和组蛋白状态。摘要不提供这些组学数据，也没有说明特定标记与花青素基因之间的已验证联系；成熟TF网络中的关系应作为待检验假设。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "摘要是概括性综述信息，未说明纳入证据的范围、物种覆盖、方法或具体案例，因此不能将其中列举的层次视为在辣椒或所有植物中均已确证。关于营养改善和胁迫韧性的表述属于应用前景，不等同于已实现的育种结果。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先检查综述如何界定MYB-bHLH-WD40复合体与染色质、激素及环境信号之间的证据关系，并留意其对DNA甲基化和不同组蛋白修饰的具体案例及物种背景。摘要未列出图号或案例细节，建议按这些主题阅读原文，不据此假定已检查全文、图表或补充材料。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "An anthocyanin review expands the MYB-bHLH-WD40 framework to multilayer regulation by chromatin, hormones, and environmental signals",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "This review summarizes anthocyanin regulation as a multilayer architecture: beyond classical MYB-bHLH-WD40 transcriptional regulation, it discusses chromatin dynamics, DNA methylation, histone modifications, non-coding RNAs, protein modifications, nutrient signaling, hormones, and environmental stress. The abstract emphasizes associations of anthocyanin accumulation with plant color, nutritional value, and ecological functions, but reports no new single-gene or experimental finding."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "Its main value is to bring transcription-factor complexes, chromatin state, intracellular transport, and external signals into one conceptual framework, rather than to establish a unified mechanism supported by the abstract. The abstract provides no specific species, experimental datasets, evidence grading, or reproducible analytical methods, so the strength of evidence for each regulatory layer cannot be assessed from it."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "Research implication: analyses of pepper fruit color and nutritional-quality candidate networks could extend from structural genes to joint analysis of MYB-bHLH-WD40 factors, candidate chromatin states, hormones, and stress signals. The abstract provides no pepper-specific genes, allelic variants, or engineering evidence, and therefore cannot directly specify pepper editing targets."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: combine 22-tissue RNA-seq and ripening-stage information to identify pigment-metabolism genes and candidate TFs; then use ATAC-seq, WGBS, and CUT&Tag for H3K4me1/H3K4me3/H3K27ac/H3K27me3 to test expression associations, accessibility, methylation, and histone states at candidate regulatory regions. The abstract provides none of these omics data and does not establish links between specific marks and anthocyanin genes; relationships in the ripening TF network should be treated as hypotheses to test."
+              },
+              {
+                "label": "Limitations",
+                "text": "The abstract provides broad review-level information but does not specify the scope of included evidence, species coverage, methods, or concrete examples, so the listed regulatory layers cannot be treated as established in pepper or in all plants. Statements about nutritional improvement and stress resilience describe prospects, not achieved breeding outcomes."
+              },
+              {
+                "label": "What to read first",
+                "text": "First examine how the review characterizes the evidence linking the MYB-bHLH-WD40 complex with chromatin, hormonal, and environmental signals, and note its specific examples and species contexts for DNA methylation and different histone modifications. The abstract gives no figure numbers or case details; read the paper around these topics, without assuming that the full text, figures, or supplementary materials have been reviewed."
+              }
+            ]
+          }
+        },
+        "priority": "背景参考",
+        "date": "2026-10-30",
+        "journal": "Plant communications",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1016/j.xplc.2026.102165",
+        "doi": "10.1016/j.xplc.2026.102165",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "花青素",
+          "色素代谢",
+          "DNA甲基化",
+          "组蛋白修饰",
+          "营养品质"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1016/j.xplc.2026.102165",
+          "retrieved_at": "2026-11-06T07:59:30.031964+00:00",
+          "abstract": "Anthocyanins are pivotal pigments in plants, imparting vivid coloration and providing substantial nutritional and ecological benefits. While classical reviews have largely focused on biosynthetic enzymes, emerging evidence highlights a multi-layered regulatory architecture that integrates transcriptional control, chromatin state, intracellular transport, hormonal signalling, and environmental cues. In this review, we integrate current knowledge of the MYB-bHLH-WD40 regulatory complex together with emerging mechanisms involving chromatin dynamics, DNA methylation, histone modifications, non-coding RNAs, protein modifications, nutrient signalling, and stress-responsive pathways that collectively fine-tune anthocyanin accumulation. Emphasizing future prospects, we propose anthocyanin-rich plants as strategic targets for enhancing nutritional quality, expanding market value, and improving stress resilience. By synthesizing current breakthroughs and future directions, this review elucidates a comprehensive and forward-looking framework that extends beyond conventional anthocyanin research, aiming to inspire innovative approaches in crop improvement and functional food development.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
   ]
 }

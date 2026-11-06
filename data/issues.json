@@ -298,5 +298,29 @@
       }
     ],
     "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
+  },
+  {
+    "date": "2026-11-06",
+    "entry_type": "weekly",
+    "summary": "本期精选三篇与果实表型及表观调控相关的研究：柑橘研究将3′UTR甲基化、ABA信号与糖积累联系起来；番茄研究解析CNGC16与果重的关系，提供可供辣椒育种假设参考的性状线索；花青素综述则概括了转录、染色质和环境信号的多层调控。摘要未给出辣椒22组织图谱或辣椒成熟TF网络的直接数据，相关内容仅作为待验证的设计启示。",
+    "summary_en": "This issue selects three studies relevant to fruit traits and epigenetic regulation. A citrus study links 3′-UTR methylation and ABA signaling to sugar accumulation; a tomato study examines CNGC16 and fruit weight, offering a trait lead for hypotheses in pepper breeding; and an anthocyanin review summarizes multilayer regulation by transcription, chromatin, and environmental signals. The abstracts provide no direct data from a 22-tissue pepper atlas or a pepper ripening TF network; related suggestions are therefore research implications that remain to be tested.",
+    "entries": [
+      {
+        "paper_id": "paper-5d509b030220fbca",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-88555edbdf152d93",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-7b2c9d59ca9a5923",
+        "revision": 1,
+        "priority": "背景参考"
+      }
+    ],
+    "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
   }
 ]
