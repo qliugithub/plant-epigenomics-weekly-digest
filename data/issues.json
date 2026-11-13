@@ -322,5 +322,39 @@
       }
     ],
     "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
+  },
+  {
+    "date": "2026-11-13",
+    "entry_type": "weekly",
+    "summary": "本期重点推荐辣椒果实成熟的直接表观调控证据：CaDML2与启动子去甲基化、成熟转录及类胡萝卜素合成相关，并有沉默和异源互补结果。另补录辣椒产量GWAS及番茄温度—品质研究，供性状定位和环境设计参考；两篇表观调控综述可用于规划辣椒22组织图谱的整合分析。综述和关联结果不应被误读为已在辣椒验证的育种方案。",
+    "summary_en": "This issue highlights direct evidence on epigenetic regulation of pepper fruit ripening: CaDML2 is associated with promoter demethylation, ripening transcription, and carotenoid synthesis, with silencing and heterologous complementation results. Backfill items on a pepper yield GWAS and tomato temperature–quality responses may inform trait mapping and environmental study design; two reviews provide context for integrating the pepper 22-tissue atlas. Review proposals and association results should not be mistaken for breeding strategies already validated in pepper.",
+    "entries": [
+      {
+        "paper_id": "paper-c902c6b04839a2a8",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-bc632ce3df6c6453",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-755c1a4a201ff48a",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-ed3b7cca6db96373",
+        "revision": 1,
+        "priority": "快速浏览"
+      },
+      {
+        "paper_id": "paper-322da85cd6244e6e",
+        "revision": 1,
+        "priority": "背景参考"
+      }
+    ],
+    "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
   }
 ]
