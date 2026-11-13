@@ -1,5 +1,6 @@
 name: Weekly literature digest
 
+# Manual refresh trigger: 2026-11-13
 on:
   # Off-hour scheduling reduces GitHub's top-of-hour queue delays.
   schedule:
@@ -115,7 +116,6 @@ jobs:
             git pull --rebase origin main
             git push
           fi
-
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
