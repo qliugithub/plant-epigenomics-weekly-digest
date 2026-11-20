@@ -3955,10 +3955,9 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-11-20T08:47:05.965597+00:00",
+            "checked_at": "2026-11-20T10:23:17.490717+00:00",
             "source_url": "https://api.crossref.org/works/10.3390%2Fplants15152266",
-            "update_check": "unavailable",
-            "update_error": "HTTPError 429"
+            "update_check": "completed"
           },
           "issues": [
             "2026-09-11"
@@ -4189,10 +4188,9 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-11-20T08:47:07.122542+00:00",
+            "checked_at": "2026-11-20T10:23:18.118864+00:00",
             "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-03965-9",
-            "update_check": "unavailable",
-            "update_error": "HTTPError 429"
+            "update_check": "completed"
           },
           "issues": [
             "2026-09-11"
@@ -7267,10 +7265,9 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-11-20T08:47:17.699101+00:00",
+            "checked_at": "2026-11-20T10:23:18.668664+00:00",
             "source_url": "https://api.crossref.org/works/10.1007%2Fs00425-026-05169-7",
-            "update_check": "unavailable",
-            "update_error": "HTTPError 429"
+            "update_check": "completed"
           },
           "issues": [
             "2026-10-09"
@@ -9734,10 +9731,9 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-11-20T08:47:23.644763+00:00",
+            "checked_at": "2026-11-20T10:23:20.376113+00:00",
             "source_url": "https://api.crossref.org/works/10.1093%2Fjxb%2Ferag512",
-            "update_check": "unavailable",
-            "update_error": "HTTPError 429",
+            "update_check": "completed",
             "history": [
               {
                 "at": "2026-10-30T07:16:18.998704+00:00",
@@ -11828,10 +11824,9 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-11-20T08:47:29.307576+00:00",
+            "checked_at": "2026-11-20T10:23:20.805732+00:00",
             "source_url": "https://api.crossref.org/works/10.1016%2Fj.xplc.2026.102165",
-            "update_check": "unavailable",
-            "update_error": "HTTPError 429"
+            "update_check": "completed"
           },
           "issues": [
             "2026-11-06"
@@ -12148,10 +12143,9 @@
             "differences": [],
             "relations": [],
             "updates": [],
-            "checked_at": "2026-11-20T08:47:30.358411+00:00",
+            "checked_at": "2026-11-20T10:23:21.258714+00:00",
             "source_url": "https://api.crossref.org/works/10.1111%2Fpce.71044",
-            "update_check": "unavailable",
-            "update_error": "HTTPError 429"
+            "update_check": "completed"
           },
           "issues": [
             "2026-11-13"
