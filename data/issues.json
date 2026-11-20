@@ -356,5 +356,29 @@
       }
     ],
     "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
+  },
+  {
+    "date": "2026-11-20",
+    "entry_type": "weekly",
+    "summary": "本期选出3篇：近期番茄SlHDA6研究直接关联组蛋白去乙酰化、果实成熟与货架期；另有两篇补录，分别提供黑树莓成熟期甲基化—转录关联，以及番茄SlSTP9影响花药发育和坐果的遗传证据。对辣椒22组织图谱的建议均为研究启示；摘要未提供的位点机制、辣椒同源关系和跨物种效应不作推断。",
+    "summary_en": "This issue selects three papers: a recent tomato study links SlHDA6, histone deacetylation, fruit ripening, and shelf life; two backfills provide, respectively, methylation–transcription associations during black raspberry ripening and genetic evidence that tomato SlSTP9 affects anther development and fruit set. Suggestions for the pepper 22-tissue atlas are research implications only; locus-level mechanisms, pepper orthology, and cross-species effects not established in the abstracts are not inferred.",
+    "entries": [
+      {
+        "paper_id": "paper-6c41c34f6cc83150",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-de3ec553ad0ca688",
+        "revision": 1,
+        "priority": "全文精读"
+      },
+      {
+        "paper_id": "paper-00786766c47619cf",
+        "revision": 1,
+        "priority": "快速浏览"
+      }
+    ],
+    "provenance": "Europe PMC; abstract-based commentary; 28-day publication/indexing lookback; full text unverified."
   }
 ]

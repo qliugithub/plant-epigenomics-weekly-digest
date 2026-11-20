@@ -88,7 +88,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:35:49.971917+00:00",
+      "checked_at": "2026-11-20T08:46:56.126663+00:00",
       "source_url": "https://api.crossref.org/works?query.title=iCUT%26Tag-based+pan-fruit+epigenomic+profiling+identifies+recurrent+H3K9+acetylation+enrichment+during+fleshy+fruit+ripening&rows=1",
       "update_check": "completed"
     },
@@ -177,12 +177,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:30.472069+00:00",
-      "source_updated_at": "2026-11-04T10:54:05.112534",
+      "checked_at": "2026-11-20T08:42:34.072640+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7204867699",
       "doi": "10.1016/j.xplc.2026.102078",
       "cited_by_count": 1,
-      "referenced_works_count": 67,
+      "referenced_works_count": 71,
       "counts_by_year": [
         {
           "year": 2026,
@@ -356,7 +356,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:35:50.786399+00:00",
+      "checked_at": "2026-11-20T08:46:56.389730+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.25.747117",
       "update_check": "completed"
     },
@@ -445,12 +445,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:30.537328+00:00",
-      "source_updated_at": "2026-10-28T10:33:24.094632",
+      "checked_at": "2026-11-20T08:42:34.133767+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7204246348",
       "doi": "10.64898/2026.08.25.747117",
       "cited_by_count": 1,
-      "referenced_works_count": 0,
+      "referenced_works_count": 30,
       "counts_by_year": [
         {
           "year": 2026,
@@ -645,7 +645,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:35:51.607446+00:00",
+      "checked_at": "2026-11-20T08:46:56.551643+00:00",
       "source_url": "https://api.crossref.org/works/10.1093%2Fplcell%2Fkoag182",
       "update_check": "completed"
     },
@@ -734,16 +734,20 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:30.626740+00:00",
-      "source_updated_at": "2026-11-04T10:54:05.112534",
+      "checked_at": "2026-11-20T08:42:34.226447+00:00",
+      "source_updated_at": "2026-11-18T13:11:19.462570",
       "id": "https://openalex.org/W7164754159",
       "doi": "10.1093/plcell/koag182",
-      "cited_by_count": 6,
-      "referenced_works_count": 79,
+      "cited_by_count": 8,
+      "referenced_works_count": 86,
       "counts_by_year": [
         {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
           "year": 2025,
-          "cited_by_count": 2
+          "cited_by_count": 3
         },
         {
           "year": 2024,
@@ -890,7 +894,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:35:53.789972+00:00",
+      "checked_at": "2026-11-20T08:46:57.726897+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.14.744917",
       "update_check": "completed"
     },
@@ -1020,7 +1024,7 @@
       "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/19/2026.08.14.744917.full.pdf",
       "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/08/19/2026.08.14.744917.full.pdf",
       "is_retracted": false,
-      "last_attempt_at": "2026-11-06T07:59:30.694363+00:00",
+      "last_attempt_at": "2026-11-20T08:42:34.286262+00:00",
       "last_error": "conflict"
     }
   },
@@ -1116,7 +1120,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:35:54.925809+00:00",
+      "checked_at": "2026-11-20T08:46:58.985726+00:00",
       "source_url": "https://api.crossref.org/works/10.1038%2Fs41467-026-75947-0",
       "update_check": "completed"
     },
@@ -1205,16 +1209,16 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:30.764151+00:00",
-      "source_updated_at": "2026-11-04T10:54:05.112534",
+      "checked_at": "2026-11-20T08:42:34.343105+00:00",
+      "source_updated_at": "2026-11-18T13:11:19.462570",
       "id": "https://openalex.org/W7172383872",
       "doi": "10.1038/s41467-026-75947-0",
-      "cited_by_count": 1,
-      "referenced_works_count": 96,
+      "cited_by_count": 3,
+      "referenced_works_count": 98,
       "counts_by_year": [
         {
           "year": 2026,
-          "cited_by_count": 1
+          "cited_by_count": 3
         }
       ],
       "authors": [
@@ -1385,7 +1389,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:35:56.000499+00:00",
+      "checked_at": "2026-11-20T08:47:00.157556+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.19.745791",
       "update_check": "completed"
     },
@@ -1474,13 +1478,18 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:30.820133+00:00",
-      "source_updated_at": "2026-10-28T10:33:24.094632",
+      "checked_at": "2026-11-20T08:42:34.403888+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7203826908",
       "doi": "10.64898/2026.08.19.745791",
-      "cited_by_count": 0,
-      "referenced_works_count": 0,
-      "counts_by_year": [],
+      "cited_by_count": 1,
+      "referenced_works_count": 74,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        }
+      ],
       "authors": [
         {
           "name": "Davar Abedini",
@@ -1657,7 +1666,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:35:56.807759+00:00",
+      "checked_at": "2026-11-20T08:47:01.481761+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.12.744101",
       "update_check": "completed"
     },
@@ -1746,12 +1755,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:30.886376+00:00",
-      "source_updated_at": "2026-11-04T10:54:05.112534",
+      "checked_at": "2026-11-20T08:42:34.466577+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7202349180",
       "doi": "10.64898/2026.08.12.744101",
       "cited_by_count": 0,
-      "referenced_works_count": 47,
+      "referenced_works_count": 52,
       "counts_by_year": [],
       "authors": [
         {
@@ -1926,7 +1935,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:35:58.725862+00:00",
+      "checked_at": "2026-11-20T08:47:01.791833+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.08.13.744595",
       "update_check": "completed"
     },
@@ -2015,12 +2024,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:30.946841+00:00",
-      "source_updated_at": "2026-10-28T10:33:24.094632",
+      "checked_at": "2026-11-20T08:42:34.552855+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7202363539",
       "doi": "10.64898/2026.08.13.744595",
       "cited_by_count": 0,
-      "referenced_works_count": 0,
+      "referenced_works_count": 65,
       "counts_by_year": [],
       "authors": [
         {
@@ -2158,7 +2167,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:35:59.337846+00:00",
+      "checked_at": "2026-11-20T08:47:03.237450+00:00",
       "source_url": "https://api.crossref.org/works/10.1093%2Fhr%2Fuhag076",
       "update_check": "completed",
       "history": [
@@ -2266,12 +2275,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:31.007811+00:00",
-      "source_updated_at": "2026-10-29T09:56:32.521200",
+      "checked_at": "2026-11-20T08:42:34.656095+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7133733891",
       "doi": "10.1093/hr/uhag076",
       "cited_by_count": 0,
-      "referenced_works_count": 70,
+      "referenced_works_count": 72,
       "counts_by_year": [],
       "authors": [
         {
@@ -2312,7 +2321,7 @@
         {
           "name": "Xiaolong Li",
           "url": "https://openalex.org/A5100371535",
-          "orcid": "https://orcid.org/0000-0001-7493-2650"
+          "orcid": "https://orcid.org/0009-0009-6586-9077"
         },
         {
           "name": "Xuepeng Sun",
@@ -2472,7 +2481,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:35:59.884091+00:00",
+      "checked_at": "2026-11-20T08:47:03.401489+00:00",
       "source_url": "https://api.crossref.org/works/10.1038%2Fs41467-026-73180-3",
       "update_check": "completed",
       "history": [
@@ -2569,13 +2578,22 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:31.088075+00:00",
-      "source_updated_at": "2026-11-04T10:54:05.112534",
+      "checked_at": "2026-11-20T08:42:34.750051+00:00",
+      "source_updated_at": "2026-11-19T14:11:59.513116",
       "id": "https://openalex.org/W7164880810",
       "doi": "10.1038/s41467-026-73180-3",
-      "cited_by_count": 0,
-      "referenced_works_count": 45,
-      "counts_by_year": [],
+      "cited_by_count": 2,
+      "referenced_works_count": 55,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        }
+      ],
       "authors": [
         {
           "name": "Tian‐Feng Lü",
@@ -2857,7 +2875,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:00.474918+00:00",
+      "checked_at": "2026-11-20T08:47:04.626353+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.22.740070",
       "update_check": "completed"
     },
@@ -2946,8 +2964,8 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:31.147753+00:00",
-      "source_updated_at": "2026-11-04T10:54:05.112534",
+      "checked_at": "2026-11-20T08:42:34.802672+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7170093169",
       "doi": "10.64898/2026.07.22.740070",
       "cited_by_count": 1,
@@ -3012,9 +3030,9 @@
           "country": "US"
         }
       ],
-      "is_oa": false,
-      "oa_status": "closed",
-      "oa_url": null,
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://doi.org/10.64898/2026.07.22.740070",
       "pdf_url": null,
       "is_retracted": false
     }
@@ -3085,7 +3103,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:02.274423+00:00",
+      "checked_at": "2026-11-20T08:47:04.702202+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.15.738754",
       "update_check": "completed"
     },
@@ -3174,12 +3192,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:31.206887+00:00",
-      "source_updated_at": "2026-11-04T10:54:05.112534",
+      "checked_at": "2026-11-20T08:42:34.873741+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7169856371",
       "doi": "10.64898/2026.07.15.738754",
       "cited_by_count": 0,
-      "referenced_works_count": 37,
+      "referenced_works_count": 39,
       "counts_by_year": [],
       "authors": [
         {
@@ -3325,7 +3343,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:03.450171+00:00",
+      "checked_at": "2026-11-20T08:47:05.864398+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.07.09.737558",
       "update_check": "completed"
     },
@@ -3414,12 +3432,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:31.277089+00:00",
-      "source_updated_at": "2026-11-04T10:54:05.112534",
+      "checked_at": "2026-11-20T08:42:34.947948+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7167934589",
       "doi": "10.64898/2026.07.09.737558",
       "cited_by_count": 0,
-      "referenced_works_count": 1,
+      "referenced_works_count": 86,
       "counts_by_year": [],
       "authors": [
         {
@@ -3684,12 +3702,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:31.364166+00:00",
-      "source_updated_at": "2026-11-05T12:25:35.769452",
+      "checked_at": "2026-11-20T08:42:35.020828+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7170598721",
       "doi": "10.3390/plants15152266",
       "cited_by_count": 0,
-      "referenced_works_count": 60,
+      "referenced_works_count": 61,
       "counts_by_year": [],
       "authors": [
         {
@@ -3797,9 +3815,10 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:04.457635+00:00",
+      "checked_at": "2026-11-20T08:47:05.965597+00:00",
       "source_url": "https://api.crossref.org/works/10.3390%2Fplants15152266",
-      "update_check": "completed"
+      "update_check": "unavailable",
+      "update_error": "HTTPError 429"
     },
     "issues": [
       "2026-09-11"
@@ -3920,12 +3939,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:31.426812+00:00",
-      "source_updated_at": "2026-10-31T12:09:11.096373",
+      "checked_at": "2026-11-20T08:42:35.080507+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7212121768",
       "doi": "10.1007/s00299-026-03965-9",
       "cited_by_count": 0,
-      "referenced_works_count": 122,
+      "referenced_works_count": 127,
       "counts_by_year": [],
       "authors": [
         {
@@ -4030,9 +4049,10 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:05.308659+00:00",
+      "checked_at": "2026-11-20T08:47:07.122542+00:00",
       "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-03965-9",
-      "update_check": "completed"
+      "update_check": "unavailable",
+      "update_error": "HTTPError 429"
     },
     "issues": [
       "2026-09-11"
@@ -4151,12 +4171,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:31.510524+00:00",
-      "source_updated_at": "2026-10-27T15:51:10.671819",
+      "checked_at": "2026-11-20T08:42:35.156054+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7204174654",
       "doi": "10.1016/j.plaphy.2026.111692",
       "cited_by_count": 0,
-      "referenced_works_count": 102,
+      "referenced_works_count": 112,
       "counts_by_year": [],
       "authors": [
         {
@@ -4251,7 +4271,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:05.901189+00:00",
+      "checked_at": "2026-11-20T08:47:08.278851+00:00",
       "source_url": "https://api.crossref.org/works/10.1016%2Fj.plaphy.2026.111692",
       "update_check": "completed"
     },
@@ -4374,12 +4394,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:31.574578+00:00",
-      "source_updated_at": "2026-11-04T10:54:05.112534",
+      "checked_at": "2026-11-20T08:42:35.234378+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7203636572",
       "doi": "10.3390/plants15162475",
       "cited_by_count": 0,
-      "referenced_works_count": 42,
+      "referenced_works_count": 45,
       "counts_by_year": [],
       "authors": [
         {
@@ -4446,7 +4466,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:08.872356+00:00",
+      "checked_at": "2026-11-20T08:47:09.539091+00:00",
       "source_url": "https://api.crossref.org/works/10.3390%2Fplants15162475",
       "update_check": "completed"
     },
@@ -4571,12 +4591,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:31.637059+00:00",
-      "source_updated_at": "2026-11-04T10:54:05.112534",
+      "checked_at": "2026-11-20T08:42:35.301865+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7203840859",
       "doi": "10.1111/pce.70807",
       "cited_by_count": 0,
-      "referenced_works_count": 67,
+      "referenced_works_count": 71,
       "counts_by_year": [],
       "authors": [
         {
@@ -4680,7 +4700,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:09.807653+00:00",
+      "checked_at": "2026-11-20T08:47:09.623295+00:00",
       "source_url": "https://api.crossref.org/works/10.1111%2Fpce.70807",
       "update_check": "completed"
     },
@@ -4827,12 +4847,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:31.709391+00:00",
-      "source_updated_at": "2026-10-29T09:56:32.521200",
+      "checked_at": "2026-11-20T08:42:35.362742+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7204155339",
       "doi": "10.3389/fpls.2026.1916999",
       "cited_by_count": 0,
-      "referenced_works_count": 73,
+      "referenced_works_count": 78,
       "counts_by_year": [],
       "authors": [
         {
@@ -4855,8 +4875,8 @@
       ],
       "is_oa": true,
       "oa_status": "gold",
-      "oa_url": "https://doi.org/10.3389/fpls.2026.1916999",
-      "pdf_url": null,
+      "oa_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1916999/pdf",
+      "pdf_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1916999/pdf",
       "is_retracted": false
     },
     "metadata": {
@@ -4881,7 +4901,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:11.905608+00:00",
+      "checked_at": "2026-11-20T08:47:11.358818+00:00",
       "source_url": "https://api.crossref.org/works/10.3389%2Ffpls.2026.1916999",
       "update_check": "completed"
     },
@@ -5005,12 +5025,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:31.788772+00:00",
-      "source_updated_at": "2026-11-04T10:54:05.112534",
+      "checked_at": "2026-11-20T08:42:35.446251+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7208793033",
       "doi": "10.3390/plants15172715",
       "cited_by_count": 0,
-      "referenced_works_count": 216,
+      "referenced_works_count": 225,
       "counts_by_year": [],
       "authors": [
         {
@@ -5208,7 +5228,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:13.150368+00:00",
+      "checked_at": "2026-11-20T08:47:11.571680+00:00",
       "source_url": "https://api.crossref.org/works/10.3390%2Fplants15172715",
       "update_check": "completed"
     },
@@ -5330,12 +5350,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:31.854148+00:00",
-      "source_updated_at": "2026-10-29T09:56:32.521200",
+      "checked_at": "2026-11-20T08:42:35.506353+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7204491876",
       "doi": "10.3390/plants15172620",
       "cited_by_count": 0,
-      "referenced_works_count": 89,
+      "referenced_works_count": 94,
       "counts_by_year": [],
       "authors": [
         {
@@ -5525,7 +5545,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:14.423348+00:00",
+      "checked_at": "2026-11-20T08:47:12.767810+00:00",
       "source_url": "https://api.crossref.org/works/10.3390%2Fplants15172620",
       "update_check": "completed"
     },
@@ -5650,7 +5670,7 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:31.927764+00:00",
+      "checked_at": "2026-11-20T08:42:35.588563+00:00",
       "source_updated_at": "2026-10-31T12:09:11.096373",
       "id": "https://openalex.org/W7206191766",
       "doi": "10.1007/s00299-026-03960-0",
@@ -5723,7 +5743,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:15.242178+00:00",
+      "checked_at": "2026-11-20T08:47:12.882639+00:00",
       "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-03960-0",
       "update_check": "completed"
     },
@@ -5853,8 +5873,8 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:31.987059+00:00",
-      "source_updated_at": "2026-10-29T09:56:32.521200",
+      "checked_at": "2026-11-20T08:42:35.665290+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7213498349",
       "doi": "10.64898/2026.09.15.751767",
       "cited_by_count": 0,
@@ -5926,7 +5946,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:16.123072+00:00",
+      "checked_at": "2026-11-20T08:47:14.067555+00:00",
       "source_url": "https://api.crossref.org/works/10.64898%2F2026.09.15.751767",
       "update_check": "completed",
       "history": [
@@ -6089,12 +6109,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:32.073729+00:00",
-      "source_updated_at": "2026-10-31T12:09:11.096373",
+      "checked_at": "2026-11-20T08:42:35.736926+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7214329449",
       "doi": "10.21203/rs.3.rs-10699801/v1",
       "cited_by_count": 0,
-      "referenced_works_count": 0,
+      "referenced_works_count": 23,
       "counts_by_year": [],
       "authors": [
         {
@@ -6270,7 +6290,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:16.800082+00:00",
+      "checked_at": "2026-11-20T08:47:15.235242+00:00",
       "source_url": "https://api.crossref.org/works/10.21203%2Frs.3.rs-10699801%2Fv1",
       "update_check": "completed"
     },
@@ -6406,12 +6426,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:32.135868+00:00",
-      "source_updated_at": "2026-10-28T10:33:24.094632",
+      "checked_at": "2026-11-20T08:42:35.798079+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7214014298",
       "doi": "10.3390/cimb48090965",
       "cited_by_count": 0,
-      "referenced_works_count": 45,
+      "referenced_works_count": 48,
       "counts_by_year": [],
       "authors": [
         {
@@ -6533,7 +6553,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:19.238061+00:00",
+      "checked_at": "2026-11-20T08:47:16.355366+00:00",
       "source_url": "https://api.crossref.org/works/10.3390%2Fcimb48090965",
       "update_check": "completed"
     },
@@ -6670,7 +6690,7 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:32.208966+00:00",
+      "checked_at": "2026-11-20T08:42:35.859290+00:00",
       "source_updated_at": "2026-11-04T10:54:05.112534",
       "id": "https://openalex.org/W7214210840",
       "doi": "10.1007/s00299-026-03981-9",
@@ -6797,7 +6817,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:20.095644+00:00",
+      "checked_at": "2026-11-20T08:47:17.597689+00:00",
       "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-03981-9",
       "update_check": "completed"
     },
@@ -6933,8 +6953,8 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T09:29:51.648613+00:00",
-      "source_updated_at": "2026-10-31T12:09:11.096373",
+      "checked_at": "2026-11-20T08:42:35.919769+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7214038376",
       "doi": "10.1007/s00425-026-05169-7",
       "cited_by_count": 0,
@@ -7019,9 +7039,10 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:22.403221+00:00",
+      "checked_at": "2026-11-20T08:47:17.699101+00:00",
       "source_url": "https://api.crossref.org/works/10.1007%2Fs00425-026-05169-7",
-      "update_check": "completed"
+      "update_check": "unavailable",
+      "update_error": "HTTPError 429"
     },
     "issues": [
       "2026-10-09"
@@ -7132,12 +7153,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T09:29:51.755048+00:00",
-      "source_updated_at": "2026-10-27T15:51:10.671819",
+      "checked_at": "2026-11-20T08:42:35.991508+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7167547493",
       "doi": "10.1039/d6np00009f",
       "cited_by_count": 1,
-      "referenced_works_count": 44,
+      "referenced_works_count": 49,
       "counts_by_year": [
         {
           "year": 2026,
@@ -7261,7 +7282,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:23.559145+00:00",
+      "checked_at": "2026-11-20T08:47:18.823142+00:00",
       "source_url": "https://api.crossref.org/works/10.1039%2Fd6np00009f",
       "update_check": "completed"
     },
@@ -7374,8 +7395,8 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T09:29:51.852613+00:00",
-      "source_updated_at": "2026-11-01T11:40:01.658920",
+      "checked_at": "2026-11-20T08:42:36.065627+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7214073317",
       "doi": "10.1093/plcell/koag298",
       "cited_by_count": 0,
@@ -7451,7 +7472,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:25.542465+00:00",
+      "checked_at": "2026-11-20T08:47:18.969833+00:00",
       "source_url": "https://api.crossref.org/works/10.1093%2Fplcell%2Fkoag298",
       "update_check": "completed"
     },
@@ -7587,12 +7608,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:32.279677+00:00",
-      "source_updated_at": "2026-10-29T09:56:32.521200",
+      "checked_at": "2026-11-20T08:42:36.140534+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7160068250",
       "doi": "10.1093/hr/uhag181",
       "cited_by_count": 0,
-      "referenced_works_count": 71,
+      "referenced_works_count": 74,
       "counts_by_year": [],
       "authors": [
         {
@@ -7603,7 +7624,7 @@
         {
           "name": "Kangchi Zhang",
           "url": "https://openalex.org/A5029092469",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0008-7169-1407"
         },
         {
           "name": "Shouzheng Lv",
@@ -7760,7 +7781,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:26.245037+00:00",
+      "checked_at": "2026-11-20T08:47:20.054466+00:00",
       "source_url": "https://api.crossref.org/works/10.1093%2Fhr%2Fuhag181",
       "update_check": "completed"
     },
@@ -7896,12 +7917,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:32.343944+00:00",
-      "source_updated_at": "2026-11-05T12:25:35.769452",
+      "checked_at": "2026-11-20T08:42:36.281522+00:00",
+      "source_updated_at": "2026-11-10T11:39:43.021295",
       "id": "https://openalex.org/W7213536178",
       "doi": "10.1111/tpj.71129",
       "cited_by_count": 0,
-      "referenced_works_count": 39,
+      "referenced_works_count": 49,
       "counts_by_year": [],
       "authors": [
         {
@@ -8009,7 +8030,7 @@
       ],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:27.055742+00:00",
+      "checked_at": "2026-11-20T08:47:20.126903+00:00",
       "source_url": "https://api.crossref.org/works/10.1111%2Ftpj.71129",
       "update_check": "completed"
     },
@@ -8145,12 +8166,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:32.413337+00:00",
-      "source_updated_at": "2026-10-31T12:09:11.096373",
+      "checked_at": "2026-11-20T08:42:36.340223+00:00",
+      "source_updated_at": "2026-11-12T12:28:57.059296",
       "id": "https://openalex.org/W7218709698",
       "doi": "10.1007/s00299-026-04002-5",
       "cited_by_count": 0,
-      "referenced_works_count": 41,
+      "referenced_works_count": 42,
       "counts_by_year": [],
       "authors": [
         {
@@ -8255,7 +8276,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:27.897400+00:00",
+      "checked_at": "2026-11-20T08:47:21.223165+00:00",
       "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-04002-5",
       "update_check": "completed"
     },
@@ -8391,12 +8412,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:32.495930+00:00",
-      "source_updated_at": "2026-10-11T09:32:39.932853",
+      "checked_at": "2026-11-20T08:42:36.405391+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7214434271",
       "doi": "10.1016/j.plantsci.2026.113473",
       "cited_by_count": 0,
-      "referenced_works_count": 45,
+      "referenced_works_count": 46,
       "counts_by_year": [],
       "authors": [
         {
@@ -8522,7 +8543,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:28.728765+00:00",
+      "checked_at": "2026-11-20T08:47:21.297352+00:00",
       "source_url": "https://api.crossref.org/works/10.1016%2Fj.plantsci.2026.113473",
       "update_check": "completed"
     },
@@ -8658,8 +8679,8 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:32.559883+00:00",
-      "source_updated_at": "2026-10-24T09:50:30.924529",
+      "checked_at": "2026-11-20T08:42:36.497264+00:00",
+      "source_updated_at": "2026-11-19T14:11:59.513116",
       "id": "https://openalex.org/W7223101067",
       "doi": "10.1111/pce.70978",
       "cited_by_count": 0,
@@ -8702,9 +8723,9 @@
           "orcid": "https://orcid.org/0000-0001-7690-5170"
         },
         {
-          "name": "Yaohua Cheng",
-          "url": "https://openalex.org/A5017638735",
-          "orcid": "https://orcid.org/0000-0003-4446-1776"
+          "name": "Yeyun Li",
+          "url": "https://openalex.org/A5017728594",
+          "orcid": "https://orcid.org/0000-0003-4802-3837"
         }
       ],
       "institutions": [
@@ -8771,7 +8792,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:29.872983+00:00",
+      "checked_at": "2026-11-20T08:47:22.396850+00:00",
       "source_url": "https://api.crossref.org/works/10.1111%2Fpce.70978",
       "update_check": "completed"
     },
@@ -8907,12 +8928,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:33.675844+00:00",
-      "source_updated_at": "2026-11-04T10:54:05.112534",
+      "checked_at": "2026-11-20T08:42:36.556264+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7144122856",
       "doi": "10.1007/s00299-026-04024-z",
       "cited_by_count": 0,
-      "referenced_works_count": 74,
+      "referenced_works_count": 75,
       "counts_by_year": [],
       "authors": [
         {
@@ -8967,7 +8988,7 @@
         }
       ],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:30.674599+00:00",
+      "checked_at": "2026-11-20T08:47:22.491599+00:00",
       "source_url": "https://api.crossref.org/works/10.1007%2Fs00299-026-04024-z",
       "update_check": "completed"
     },
@@ -9103,12 +9124,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:33.749273+00:00",
-      "source_updated_at": "2026-10-16T09:59:22.235173",
+      "checked_at": "2026-11-20T08:42:37.645014+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7221824106",
       "doi": "10.1111/pce.70979",
       "cited_by_count": 0,
-      "referenced_works_count": 62,
+      "referenced_works_count": 64,
       "counts_by_year": [],
       "authors": [
         {
@@ -9175,7 +9196,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:31.807765+00:00",
+      "checked_at": "2026-11-20T08:47:23.587601+00:00",
       "source_url": "https://api.crossref.org/works/10.1111%2Fpce.70979",
       "update_check": "completed"
     },
@@ -9310,8 +9331,8 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:33.820502+00:00",
-      "source_updated_at": "2026-11-05T12:25:35.769452",
+      "checked_at": "2026-11-20T08:42:37.709512+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7221616358",
       "doi": "10.1093/jxb/erag512",
       "cited_by_count": 0,
@@ -9418,9 +9439,10 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:32.825448+00:00",
+      "checked_at": "2026-11-20T08:47:23.644763+00:00",
       "source_url": "https://api.crossref.org/works/10.1093%2Fjxb%2Ferag512",
-      "update_check": "completed",
+      "update_check": "unavailable",
+      "update_error": "HTTPError 429",
       "history": [
         {
           "at": "2026-10-30T07:16:18.998704+00:00",
@@ -9601,12 +9623,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:33.885655+00:00",
-      "source_updated_at": "2026-11-04T10:54:05.112534",
+      "checked_at": "2026-11-20T08:42:37.770713+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7221028613",
       "doi": "10.1111/pbi.70761",
       "cited_by_count": 0,
-      "referenced_works_count": 73,
+      "referenced_works_count": 74,
       "counts_by_year": [],
       "authors": [
         {
@@ -9717,13 +9739,13 @@
           "country": "CN"
         },
         {
-          "name": "Shandong Normal University",
-          "url": "https://openalex.org/I28006308",
+          "name": "Chinese Academy of Agricultural Sciences",
+          "url": "https://openalex.org/I4210138501",
           "country": "CN"
         },
         {
-          "name": "Chinese Academy of Agricultural Sciences",
-          "url": "https://openalex.org/I4210138501",
+          "name": "Shandong Normal University",
+          "url": "https://openalex.org/I28006308",
           "country": "CN"
         },
         {
@@ -9832,7 +9854,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:33.890643+00:00",
+      "checked_at": "2026-11-20T08:47:24.698877+00:00",
       "source_url": "https://api.crossref.org/works/10.1111%2Fpbi.70761",
       "update_check": "completed"
     },
@@ -9967,12 +9989,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:33.963687+00:00",
-      "source_updated_at": "2026-10-31T12:09:11.096373",
+      "checked_at": "2026-11-20T08:42:37.838550+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7223372600",
       "doi": "10.1007/s00122-026-05413-4",
       "cited_by_count": 0,
-      "referenced_works_count": 72,
+      "referenced_works_count": 76,
       "counts_by_year": [],
       "authors": [
         {
@@ -10066,7 +10088,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:34.780840+00:00",
+      "checked_at": "2026-11-20T08:47:25.773414+00:00",
       "source_url": "https://api.crossref.org/works/10.1007%2Fs00122-026-05413-4",
       "update_check": "completed"
     },
@@ -10202,12 +10224,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:34.050822+00:00",
-      "source_updated_at": "2026-10-28T10:33:24.094632",
+      "checked_at": "2026-11-20T08:42:37.916913+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7223443370",
       "doi": "10.1016/j.plantsci.2026.113544",
       "cited_by_count": 0,
-      "referenced_works_count": 41,
+      "referenced_works_count": 45,
       "counts_by_year": [],
       "authors": [
         {
@@ -10228,7 +10250,7 @@
         {
           "name": "Sijun Yue",
           "url": "https://openalex.org/A5003783995",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0006-3639-9502"
         },
         {
           "name": "Jianhua Zhao",
@@ -10306,7 +10328,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:36.970753+00:00",
+      "checked_at": "2026-11-20T08:47:26.888641+00:00",
       "source_url": "https://api.crossref.org/works/10.1016%2Fj.plantsci.2026.113544",
       "update_check": "completed"
     },
@@ -10443,12 +10465,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:34.138896+00:00",
-      "source_updated_at": "2026-11-05T12:25:35.769452",
+      "checked_at": "2026-11-20T08:42:37.992256+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7224251713",
       "doi": "10.1111/nph.71672",
       "cited_by_count": 0,
-      "referenced_works_count": 53,
+      "referenced_works_count": 54,
       "counts_by_year": [],
       "authors": [
         {
@@ -10607,7 +10629,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:38.260870+00:00",
+      "checked_at": "2026-11-20T08:47:26.954896+00:00",
       "source_url": "https://api.crossref.org/works/10.1111%2Fnph.71672",
       "update_check": "completed"
     },
@@ -10743,12 +10765,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:34.215943+00:00",
-      "source_updated_at": "2026-11-05T12:25:35.769452",
+      "checked_at": "2026-11-20T08:42:38.068171+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7225040716",
       "doi": "10.1002/advs.78518",
       "cited_by_count": 0,
-      "referenced_works_count": 77,
+      "referenced_works_count": 78,
       "counts_by_year": [],
       "authors": [
         {
@@ -10841,8 +10863,8 @@
       ],
       "is_oa": true,
       "oa_status": "gold",
-      "oa_url": "https://doi.org/10.1002/advs.78518",
-      "pdf_url": null,
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.78518",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.78518",
       "is_retracted": false
     },
     "metadata": {
@@ -10915,7 +10937,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:39.336027+00:00",
+      "checked_at": "2026-11-20T08:47:27.032266+00:00",
       "source_url": "https://api.crossref.org/works/10.1002%2Fadvs.78518",
       "update_check": "completed"
     },
@@ -11051,12 +11073,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:34.279702+00:00",
-      "source_updated_at": "2026-11-04T10:54:05.112534",
+      "checked_at": "2026-11-20T08:42:38.128237+00:00",
+      "source_updated_at": "2026-11-14T11:04:58.165337",
       "id": "https://openalex.org/W7224134878",
       "doi": "10.1111/pbi.70782",
       "cited_by_count": 0,
-      "referenced_works_count": 57,
+      "referenced_works_count": 58,
       "counts_by_year": [],
       "authors": [
         {
@@ -11164,7 +11186,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:39.940457+00:00",
+      "checked_at": "2026-11-20T08:47:28.100438+00:00",
       "source_url": "https://api.crossref.org/works/10.1111%2Fpbi.70782",
       "update_check": "completed"
     },
@@ -11277,8 +11299,8 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-06T07:59:34.344155+00:00",
-      "source_updated_at": "2026-11-02T09:45:03.842371",
+      "checked_at": "2026-11-20T08:42:38.205669+00:00",
+      "source_updated_at": "2026-11-14T11:04:58.165337",
       "id": "https://openalex.org/W7224757714",
       "doi": "10.1016/j.xplc.2026.102165",
       "cited_by_count": 0,
@@ -11459,9 +11481,10 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:41.958736+00:00",
+      "checked_at": "2026-11-20T08:47:29.307576+00:00",
       "source_url": "https://api.crossref.org/works/10.1016%2Fj.xplc.2026.102165",
-      "update_check": "completed"
+      "update_check": "unavailable",
+      "update_error": "HTTPError 429"
     },
     "issues": [
       "2026-11-06"
@@ -11596,8 +11619,8 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-13T06:35:11.526592+00:00",
-      "source_updated_at": "2026-11-12T12:28:57.059296",
+      "checked_at": "2026-11-20T08:42:38.271627+00:00",
+      "source_updated_at": "2026-11-14T11:04:58.165337",
       "id": "https://openalex.org/W7225702329",
       "doi": "10.1111/pce.71044",
       "cited_by_count": 0,
@@ -11742,9 +11765,10 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:42.548785+00:00",
+      "checked_at": "2026-11-20T08:47:30.358411+00:00",
       "source_url": "https://api.crossref.org/works/10.1111%2Fpce.71044",
-      "update_check": "completed"
+      "update_check": "unavailable",
+      "update_error": "HTTPError 429"
     },
     "issues": [
       "2026-11-13"
@@ -11855,8 +11879,8 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-13T06:35:11.695574+00:00",
-      "source_updated_at": "2026-11-09T13:22:03.289127",
+      "checked_at": "2026-11-20T08:42:38.336545+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7223180826",
       "doi": "10.3389/fpls.2026.1926954",
       "cited_by_count": 0,
@@ -11996,7 +12020,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:44.532266+00:00",
+      "checked_at": "2026-11-20T08:47:31.411753+00:00",
       "source_url": "https://api.crossref.org/works/10.3389%2Ffpls.2026.1926954",
       "update_check": "completed"
     },
@@ -12109,12 +12133,12 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-13T06:35:11.877628+00:00",
-      "source_updated_at": "2026-11-10T11:39:43.021295",
+      "checked_at": "2026-11-20T08:42:38.453139+00:00",
+      "source_updated_at": "2026-11-16T12:05:36.265796",
       "id": "https://openalex.org/W7222933457",
       "doi": "10.1016/j.plaphy.2026.111851",
       "cited_by_count": 0,
-      "referenced_works_count": 76,
+      "referenced_works_count": 88,
       "counts_by_year": [],
       "authors": [
         {
@@ -12263,7 +12287,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:45.435353+00:00",
+      "checked_at": "2026-11-20T08:47:31.633602+00:00",
       "source_url": "https://api.crossref.org/works/10.1016%2Fj.plaphy.2026.111851",
       "update_check": "completed"
     },
@@ -12376,8 +12400,8 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-13T06:35:12.102090+00:00",
-      "source_updated_at": "2026-11-09T13:22:03.289127",
+      "checked_at": "2026-11-20T08:42:38.541983+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7223153727",
       "doi": "10.3389/fgeed.2026.1927877",
       "cited_by_count": 0,
@@ -12415,7 +12439,7 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:47.719236+00:00",
+      "checked_at": "2026-11-20T08:47:32.722206+00:00",
       "source_url": "https://api.crossref.org/works/10.3389%2Ffgeed.2026.1927877",
       "update_check": "completed"
     },
@@ -12528,8 +12552,8 @@
     "openalex": {
       "status": "matched",
       "match_method": "doi_title",
-      "checked_at": "2026-11-13T06:35:12.332110+00:00",
-      "source_updated_at": "2026-11-12T12:28:57.059296",
+      "checked_at": "2026-11-20T08:42:38.601714+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
       "id": "https://openalex.org/W7223016123",
       "doi": "10.3389/fpls.2026.1945830",
       "cited_by_count": 0,
@@ -12623,12 +12647,785 @@
       "differences": [],
       "relations": [],
       "updates": [],
-      "checked_at": "2026-11-13T06:36:48.703414+00:00",
+      "checked_at": "2026-11-20T08:47:33.859959+00:00",
       "source_url": "https://api.crossref.org/works/10.3389%2Ffpls.2026.1945830",
       "update_check": "completed"
     },
     "issues": [
       "2026-11-13"
+    ],
+    "related_papers": []
+  },
+  {
+    "title": "Histone deacetylase SlHDA6 influences fruit ripening and shelf life in tomato (Solanum lycopersicum).",
+    "date": "2026-11-16",
+    "journal": "Plant physiology and biochemistry : PPB",
+    "kind": "期刊记录（审稿状态请核对原文）",
+    "url": "https://doi.org/10.1016/j.plaphy.2026.111974",
+    "priority": "全文精读",
+    "tags": [
+      "番茄",
+      "果实成熟",
+      "组蛋白乙酰化",
+      "类胡萝卜素",
+      "采后"
+    ],
+    "heading": "番茄SlHDA6敲除伴随类胡萝卜素增加、成熟加速与货架期缩短",
+    "sections": [
+      {
+        "label": "真正的新发现",
+        "text": "摘要报告，敲除番茄SlHDA6后，PSY1表达上调而LCY-B、LCY-E和CYC-B表达下调，类胡萝卜素积累增加；乙烯合成及多种成熟相关基因表达上调，并伴随乙烯增加、成熟加快和温室储藏条件下货架期缩短。总组蛋白H4乙酰化升高与这些表型同时出现。",
+        "kind": "reported"
+      },
+      {
+        "label": "机制或方法上的关键点",
+        "text": "研究通过SlHDA6敲除考察其功能，结果支持SlHDA6对成熟进程具有负向调节作用，但摘要未证明它直接调控相关基因启动子。H4总乙酰化升高是整体层面的观察，不能等同于特定位点的组蛋白标记或直接的染色质机制。",
+        "kind": "reported"
+      },
+      {
+        "label": "与你的辣椒研究关系",
+        "text": "番茄成熟与类胡萝卜素、乙烯和成熟转录网络的联系，可为辣椒果实成熟及色素性状研究提供茄科参照。SlHDA6在辣椒中的同源关系、功能保守性及其对辣椒果实的效应均未由该摘要建立，属于待验证问题。",
+        "kind": "application"
+      },
+      {
+        "label": "对22组织图谱的具体启示",
+        "text": "研究启示：在辣椒图谱中为果实成熟阶段设置清晰的发育分期，并联合RNA-seq、ATAC-seq、WGBS与H3K4me1、H3K4me3、H3K27ac和H3K27me3 CUT&Tag，检验成熟网络与染色质状态是否协同变化。H3K27ac等既定标记不能替代摘要所述的总H4乙酰化测量；若要比较该现象，需另行设计相应检测，且关联变化不能单独证明因果。",
+        "kind": "application"
+      },
+      {
+        "label": "需要注意",
+        "text": "摘要称成熟相关表达变化与乙烯增加和成熟加速相关，不能据此认定SlHDA6对每个下游基因均有直接作用；作者也明确指出启动子层面的直接调控尚待确定。货架期结果是在温室储藏条件下报告，摘要未给出可用于跨品种或跨环境外推的细节。",
+        "kind": "limitation"
+      },
+      {
+        "label": "建议优先看",
+        "text": "优先核对摘要涉及的SlHDA6敲除表型、类胡萝卜素相关基因与成熟基因表达、乙烯和货架期观察之间的对应关系。进一步关注作者如何区分总H4乙酰化变化与具体位点调控，以及直接启动子作用尚缺少哪些证据。",
+        "kind": "reading"
+      }
+    ],
+    "classification": {
+      "species": [],
+      "process": [],
+      "regulation": [],
+      "methods": [],
+      "evidence_type": [],
+      "article_type": []
+    },
+    "translations": {
+      "en": {
+        "heading": "Tomato SlHDA6 knockout is accompanied by increased carotenoids, accelerated ripening, and a shorter shelf life",
+        "sections": [
+          {
+            "label": "What is new",
+            "text": "The abstract reports that knockout of tomato SlHDA6 upregulated PSY1 while downregulating LCY-B, LCY-E, and CYC-B, and increased carotenoid accumulation; expression of ethylene-biosynthesis and several ripening-associated genes also increased, accompanied by higher ethylene, faster ripening, and a shorter shelf life under greenhouse storage conditions. Increased total histone H4 acetylation was observed alongside these phenotypes."
+          },
+          {
+            "label": "Mechanistic or methodological key point",
+            "text": "The study examined SlHDA6 function through knockout, and the results support a negative regulatory role for SlHDA6 in the ripening process, but the abstract does not show that it directly regulates the promoters of the genes concerned. Increased total H4 acetylation is a global-level observation and is not equivalent to a specific histone mark at a particular locus or a direct chromatin mechanism."
+          },
+          {
+            "label": "Relevance to pepper research",
+            "text": "The links in tomato between ripening, carotenoids, ethylene, and ripening transcriptional networks provide a Solanaceae reference for research on pepper fruit ripening and pigmentation traits. The abstract does not establish SlHDA6 orthology in pepper, conservation of its function, or its effects on pepper fruit; these remain to be tested."
+          },
+          {
+            "label": "Implications for the 22-tissue atlas",
+            "text": "Research implication: define clear developmental stages for pepper fruit in the atlas and combine RNA-seq, ATAC-seq, WGBS, and CUT&Tag for H3K4me1, H3K4me3, H3K27ac, and H3K27me3 to test whether ripening networks and chromatin states change together. The planned marks such as H3K27ac cannot substitute for the total H4 acetylation measurement reported in the abstract; assessing that observation would require a separately designed assay, and correlated changes alone would not prove causality."
+          },
+          {
+            "label": "Limitations",
+            "text": "The abstract describes ripening-associated expression changes as correlated with increased ethylene and accelerated ripening; this does not establish that SlHDA6 directly acts on every downstream gene. The authors also state that direct promoter-level regulation remains to be determined. The shelf-life result was reported under greenhouse storage conditions, and the abstract does not provide details that would support extrapolation across cultivars or environments."
+          },
+          {
+            "label": "What to read first",
+            "text": "First examine how the SlHDA6 knockout phenotype, expression of carotenoid-related and ripening-associated genes, ethylene, and shelf-life observations correspond to one another in the abstract. Then focus on how the study distinguishes a change in total H4 acetylation from locus-specific regulation, and what evidence for direct promoter action is still missing."
+          }
+        ]
+      }
+    },
+    "journal_club": {
+      "traits": [
+        "nutrition",
+        "fruit_quality"
+      ],
+      "kind": "transfer",
+      "origin": "literature",
+      "conservation": "unverified",
+      "zh": {
+        "goal": "评估提高番茄果实类胡萝卜素能否转化为辣椒的营养或果实品质改良，同时明确成熟加快和货架期缩短的代价。",
+        "strategy_results": "原物种为番茄；摘要报告敲除SlHDA6后类胡萝卜素积累增加、成熟加速且货架期缩短，并观察到总H4乙酰化升高。该干预在番茄中有报告，不代表已在辣椒验证。",
+        "pepper_basis": "番茄与辣椒同属茄科，果实色素和成熟性状可作为比较研究方向；摘要没有提供辣椒同源基因、旁系同源关系或辣椒功能证据，保守性未验证。",
+        "engineering_outcome": "可把辣椒候选同源基因的定向抑制作为待验证假设，预测可能改变类胡萝卜素积累及成熟进程；辣椒中的改造和预期结果均未测试。",
+        "tradeoffs_metrics": "潜在代价是成熟过快、货架期缩短，且色素变化未必等同于营养收益。应测量类胡萝卜素组成与含量、成熟时间、乙烯、采后硬度和可售期，并评估多环境稳定性。",
+        "next_step": "先确认辣椒候选基因与番茄SlHDA6的同源和旁系同源关系，并在辣椒果实分期样本中检测表达及相关染色质标记；再决定是否进行小规模功能扰动。"
+      },
+      "en": {
+        "goal": "Assess whether increasing carotenoids in tomato fruit can inform nutritional or fruit-quality improvement in pepper, while explicitly accounting for faster ripening and shorter shelf life.",
+        "strategy_results": "The source species is tomato. The abstract reports that SlHDA6 knockout increased carotenoid accumulation and accelerated ripening while shortening shelf life, alongside increased total H4 acetylation. This intervention was reported in tomato, not validated in pepper.",
+        "pepper_basis": "Tomato and pepper are both Solanaceae, making fruit pigmentation and ripening relevant comparative research directions. The abstract provides no evidence on pepper orthology, paralogy, or pepper gene function, so conservation is unverified.",
+        "engineering_outcome": "Targeted suppression of a candidate pepper homolog could be treated as a hypothesis to test, with possible changes in carotenoid accumulation and ripening predicted; neither the modification nor the predicted outcome has been tested in pepper.",
+        "tradeoffs_metrics": "Potential costs include faster ripening and a shorter shelf life, and a pigment change may not necessarily yield a nutritional benefit. Measure carotenoid composition and content, time to ripening, ethylene, postharvest firmness, and marketable storage duration, and assess stability across environments.",
+        "next_step": "First establish the orthology and paralogy relationships of candidate pepper genes to tomato SlHDA6, and assay their expression and relevant chromatin marks in staged pepper fruit; then decide whether to proceed to a small-scale functional perturbation."
+      }
+    },
+    "doi": "10.1016/j.plaphy.2026.111974",
+    "evidence": {
+      "source_type": "abstract",
+      "reading_depth": "仅摘要",
+      "verification": "待核验",
+      "classification_status": "由摘要自动归类，待核验",
+      "source_url": "https://doi.org/10.1016/j.plaphy.2026.111974",
+      "retrieved_at": "2026-11-20T08:42:33.614457+00:00",
+      "abstract": "Fruit development and ripening is a complex biological process regulated by plant hormones, transcription factors, and epigenetic modifications. Histone deacetylation represents a key epigenetic mechanism, yet its role in fruit ripening remains poorly understood. In this study, we constructed a knockout vector targeting SlHDA6 and successfully transformed it into wild-type tomato to investigate its function. Knockout of SlHDA6 upregulated PSY1 expression, downregulated LCY-B, LCY-E, and CYC-B transcription, and increased carotenoid accumulation. Moreover, the expression of ethylene biosynthetic genes (ACS2, ACS4, ACO1, ACO3) and ripening-associated genes (RIN, E4, E8, PG, Pti4, LOXB) were significantly upregulated, correlating with increased ethylene production, accelerated ripening, and shortened shelf life under greenhouse storage conditions. Additionally, elevated total histone H4 acetylation was observed, supporting a link between epigenetic regulation and fruit ripening. Collectively, these results indicate that SlHDA6 acts as an inhibitor of ethylene biosynthesis and influences carotenoid accumulation during tomato fruit ripening, and that it functions as a negative regulator of fruit ripening. These effects were accompanied by elevated global H4 acetylation, suggesting that histone deacetylation may contribute to the epigenetic regulation of ripening-associated gene expression. However, direct promoter-level regulation by SlHDA6 remains to be determined. Our findings provide new insights into the epigenetic regulatory network underlying tomato fruit ripening, highlighting the crucial role of histone deacetylation in controlling ripening-associated gene expression. Our work expands the current understanding of HDAC functions in fleshy fruit species and may offer potential targets for improving fruit quality and postharvest shelf life through epigenetic manipulation.",
+      "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+    },
+    "id": "paper-6c41c34f6cc83150",
+    "entry_type": "weekly",
+    "revision": 1,
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-11-20T08:42:38.682081+00:00",
+      "source_updated_at": "2026-11-19T14:11:59.513116",
+      "id": "https://openalex.org/W7234570746",
+      "doi": "10.1016/j.plaphy.2026.111974",
+      "cited_by_count": 0,
+      "referenced_works_count": 52,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "Guo Jun-e",
+          "url": "https://openalex.org/A5056180775",
+          "orcid": null
+        },
+        {
+          "name": "Fen Guo",
+          "url": "https://openalex.org/A5123381191",
+          "orcid": null
+        }
+      ],
+      "institutions": [
+        {
+          "name": "Southwest University",
+          "url": "https://openalex.org/I142108993",
+          "country": "CN"
+        }
+      ],
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.plaphy.2026.111974",
+      "pdf_url": null,
+      "is_retracted": false
+    },
+    "metadata": {
+      "status": "matched",
+      "bibliography": {
+        "title": "Histone deacetylase SlHDA6 influences fruit ripening and shelf life in tomato (Solanum lycopersicum)",
+        "doi": "10.1016/j.plaphy.2026.111974",
+        "journal": "Plant Physiology and Biochemistry",
+        "date": "2026-12",
+        "authors": [
+          {
+            "family": "Guo",
+            "given": "Jun-E"
+          },
+          {
+            "family": "Guo",
+            "given": "Fen"
+          }
+        ],
+        "type": "journal-article"
+      },
+      "differences": [],
+      "relations": [],
+      "updates": [],
+      "checked_at": "2026-11-20T08:47:33.955197+00:00",
+      "source_url": "https://api.crossref.org/works/10.1016%2Fj.plaphy.2026.111974",
+      "update_check": "completed"
+    },
+    "issues": [
+      "2026-11-20"
+    ],
+    "related_papers": []
+  },
+  {
+    "title": "Multi-omics analyses reveal dynamic interactions between DNA methylation and transcriptional regulation during black raspberry ripening.",
+    "date": "2026-11-12",
+    "journal": "Communications biology",
+    "kind": "期刊记录（审稿状态请核对原文）",
+    "url": "https://doi.org/10.1038/s42003-026-11289-3",
+    "priority": "全文精读",
+    "tags": [
+      "黑树莓",
+      "果实成熟",
+      "DNA甲基化",
+      "多组学",
+      "补录"
+    ],
+    "heading": "黑树莓成熟期出现启动子低甲基化与转座子富集区CHH甲基化增加（补录）",
+    "sections": [
+      {
+        "label": "真正的新发现",
+        "text": "该发育序列研究整合黑树莓果实转录组、甲基组和代谢组，报告成熟过程中启动子区域在各类胞嘧啶背景下甲基化逐步下降，而转座子富集区的CHG和CHH甲基化增加。作者还发现花青素积累与相关生物合成和调控基因表达呈协同变化。",
+        "kind": "reported"
+      },
+      {
+        "label": "机制或方法上的关键点",
+        "text": "摘要提出启动子低甲基化和CHH甲基化增加与成熟期转录变化相联系，并指出具有激活潜力的甲基化结合转录因子可能参与CHH甲基化相关的转录激活。摘要也报告异染色质非CG甲基化升高与组蛋白变体转录增加同时出现；这些是多组学关联或可能解释，不能据此认定直接因果。",
+        "kind": "reported"
+      },
+      {
+        "label": "与你的辣椒研究关系",
+        "text": "黑树莓提供了果实成熟中不同基因组区域、不同甲基化背景可能呈相反动态的参照，提示辣椒成熟网络分析不宜只用全局甲基化水平概括。其物种、果实类型及色素背景与辣椒不同，摘要没有证明这些模式在茄科或辣椒中保守。",
+        "kind": "application"
+      },
+      {
+        "label": "对22组织图谱的具体启示",
+        "text": "补录研究启示：在辣椒22组织图谱中，将果实成熟阶段的WGBS按启动子、基因体和转座子富集区分层，并与RNA-seq及ATAC-seq整合，区分CG、CHG和CHH变化与表达、可及性的对应关系。可进一步将H3K4me1、H3K4me3、H3K27ac和H3K27me3 CUT&Tag信号纳入果实成熟TF网络，但黑树莓摘要没有测量这些标记，也没有证明甲基化变化导致表达变化。",
+        "kind": "application"
+      },
+      {
+        "label": "需要注意",
+        "text": "这是一项黑树莓的发育序列多组学关联研究；摘要没有报告位点编辑、遗传扰动或直接结合验证。摘要中的甲基化结合转录因子作用以可能性表述，异染色质与组蛋白变体的关系也不能从共变推断为因果。",
+        "kind": "limitation"
+      },
+      {
+        "label": "建议优先看",
+        "text": "优先关注不同胞嘧啶背景和基因组区段的甲基化动态、它们与成熟期转录变化的对应方式，以及花青素相关基因表达与代谢积累的整合分析。再核对作者对相关性、可能机制和直接证据的区分；摘要未提供可据以指认具体图表的依据。",
+        "kind": "reading"
+      }
+    ],
+    "classification": {
+      "species": [],
+      "process": [],
+      "regulation": [],
+      "methods": [],
+      "evidence_type": [],
+      "article_type": []
+    },
+    "translations": {
+      "en": {
+        "heading": "Promoter hypomethylation and increased CHH methylation in transposon-rich regions during black raspberry ripening (Backfill)",
+        "sections": [
+          {
+            "label": "What is new",
+            "text": "This developmental-series study integrated black raspberry fruit transcriptomics, methylomics, and metabolomics, and reports progressively decreasing methylation in promoter regions across cytosine contexts during ripening, while CHG and CHH methylation increased in transposon-rich regions. The authors also found coordinated changes between anthocyanin accumulation and expression of related biosynthetic and regulatory genes."
+          },
+          {
+            "label": "Mechanistic or methodological key point",
+            "text": "The abstract links promoter hypomethylation and increased CHH methylation with transcriptional changes during ripening, and notes that methylation-binding transcription factors with activation potential may participate in CHH-methylation-associated transcriptional activation. It also reports that increased non-CG methylation in heterochromatin coincided with increased transcription of histone variants; these are multi-omics associations or possible explanations and do not establish direct causality."
+          },
+          {
+            "label": "Relevance to pepper research",
+            "text": "Black raspberry provides a reference in which methylation dynamics may differ across genomic regions and cytosine contexts during fruit ripening, suggesting that analyses of pepper ripening networks should not be summarized by global methylation levels alone. Its species, fruit type, and pigment context differ from pepper, and the abstract does not establish that these patterns are conserved in Solanaceae or pepper."
+          },
+          {
+            "label": "Implications for the 22-tissue atlas",
+            "text": "Backfill research implication: in the pepper 22-tissue atlas, stratify WGBS data from fruit-ripening stages by promoters, gene bodies, and transposon-rich regions, and integrate them with RNA-seq and ATAC-seq to distinguish how CG, CHG, and CHH changes correspond to expression and accessibility. CUT&Tag signals for H3K4me1, H3K4me3, H3K27ac, and H3K27me3 could also be incorporated into fruit-ripening TF networks, but the black raspberry abstract did not measure these marks or show that methylation changes cause expression changes."
+          },
+          {
+            "label": "Limitations",
+            "text": "This is a developmental-series multi-omics association study in black raspberry; the abstract reports no locus editing, genetic perturbation, or direct-binding validation. The proposed role of methylation-binding transcription factors is expressed as a possibility, and the relationship between heterochromatin and histone variants cannot be inferred as causal from covariation."
+          },
+          {
+            "label": "What to read first",
+            "text": "First focus on methylation dynamics across cytosine contexts and genomic regions, how they correspond to transcriptional changes during ripening, and the integrated analysis of anthocyanin-related gene expression and metabolite accumulation. Then check how the authors distinguish association, possible mechanisms, and direct evidence; the abstract does not provide a basis for identifying specific figures."
+          }
+        ]
+      }
+    },
+    "journal_club": null,
+    "doi": "10.1038/s42003-026-11289-3",
+    "evidence": {
+      "source_type": "abstract",
+      "reading_depth": "仅摘要",
+      "verification": "待核验",
+      "classification_status": "由摘要自动归类，待核验",
+      "source_url": "https://doi.org/10.1038/s42003-026-11289-3",
+      "retrieved_at": "2026-11-20T08:42:33.614528+00:00",
+      "abstract": "Fruit ripening is a complex developmental process involving coordinated changes in gene expression, metabolism, and epigenetic regulation. How DNA methylation dynamics influence gene transcription and metabolite accumulation during black raspberry (Rubus occidentalis) fruit ripening remains poorly understood. Here, we performed developmental-series transcriptome, methylome, and metabolome analysis; the results from this analysis reveal extensive epigenetic reprogramming during black raspberry fruit ripening. Fruit tissues exhibit globally higher DNA methylation than leaves, particularly in CHG and CHH contexts. Local methylation in all cytosine contexts progressively decreases in promoter regions during ripening, whereas CHG and CHH methylation increase in transposon-rich regions. Two primary methylation transitions-promoter hypomethylation and CHH hypermethylation-govern transcriptional shifts in genes involved in ripening processes. Methyl-binding transcription factors with activation potential likely promote CHH hypermethylation-linked transcriptional activation. Multi-omics integration reveals that coordinated anthocyanin accumulation parallels expression of biosynthetic and regulatory genes within coherent networks. Elevated non-CG methylation in heterochromatin coincides with increased transcription of histone variants mediating chromatin compaction, suggesting chromatin remodelers fine-tune accessibility for methyltransferases. Our study highlights both genome-wide and locus-specific epigenetic reprogramming and demonstrates a coordinated interplay between DNA methylation and transcriptional regulation during black raspberry fruit ripening.",
+      "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+    },
+    "id": "paper-de3ec553ad0ca688",
+    "entry_type": "backfill",
+    "revision": 1,
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-11-20T08:42:38.768877+00:00",
+      "source_updated_at": "2026-11-18T13:11:19.462570",
+      "id": "https://openalex.org/W4416589464",
+      "doi": "10.1038/s42003-026-11289-3",
+      "cited_by_count": 0,
+      "referenced_works_count": 88,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "Wei-hsun Hsieh",
+          "url": "https://openalex.org/A5022633126",
+          "orcid": "https://orcid.org/0000-0001-8925-6800"
+        },
+        {
+          "name": "Yu‐Hung Hung",
+          "url": "https://openalex.org/A5018497790",
+          "orcid": "https://orcid.org/0000-0002-6334-6848"
+        },
+        {
+          "name": "Jianhui Zhang",
+          "url": "https://openalex.org/A5100778364",
+          "orcid": "https://orcid.org/0009-0005-0102-1051"
+        },
+        {
+          "name": "Qirui Cui",
+          "url": "https://openalex.org/A5161738002",
+          "orcid": null
+        },
+        {
+          "name": "Hongtai Chen",
+          "url": "https://openalex.org/A5063020994",
+          "orcid": "https://orcid.org/0000-0002-3291-120X"
+        },
+        {
+          "name": "Li Lin",
+          "url": "https://openalex.org/A5108140389",
+          "orcid": "https://orcid.org/0009-0005-6010-4586"
+        },
+        {
+          "name": "Meng-Hsun He",
+          "url": "https://openalex.org/A5007767672",
+          "orcid": "https://orcid.org/0000-0001-8026-1400"
+        },
+        {
+          "name": "Yen-Ching Wang",
+          "url": "https://openalex.org/A5015660220",
+          "orcid": "https://orcid.org/0009-0000-4371-6795"
+        },
+        {
+          "name": "Yu-Yu Ho",
+          "url": "https://openalex.org/A5007165323",
+          "orcid": "https://orcid.org/0009-0000-3526-4565"
+        },
+        {
+          "name": "James Ballington",
+          "url": "https://openalex.org/A5161670469",
+          "orcid": null
+        },
+        {
+          "name": "Gina E. Fernandez",
+          "url": "https://openalex.org/A5075402295",
+          "orcid": "https://orcid.org/0000-0002-9295-2687"
+        },
+        {
+          "name": "Penelope Perkins-Veazie",
+          "url": "https://openalex.org/A5161513567",
+          "orcid": null
+        },
+        {
+          "name": "Xu Li",
+          "url": "https://openalex.org/A5100342451",
+          "orcid": "https://orcid.org/0000-0002-4640-2529"
+        },
+        {
+          "name": "Xu Li",
+          "url": "https://openalex.org/A5100342439",
+          "orcid": "https://orcid.org/0000-0002-1006-3027"
+        },
+        {
+          "name": "Tzung‐Fu Hsieh",
+          "url": "https://openalex.org/A5063006064",
+          "orcid": "https://orcid.org/0000-0001-7584-3721"
+        },
+        {
+          "name": "Jer-Young Lin",
+          "url": "https://openalex.org/A5035860899",
+          "orcid": "https://orcid.org/0000-0003-3762-5445"
+        }
+      ],
+      "institutions": [
+        {
+          "name": "Agricultural Biotechnology Research Center, Academia Sinica",
+          "url": "https://openalex.org/I4210146572",
+          "country": "TW"
+        },
+        {
+          "name": "Academia Sinica",
+          "url": "https://openalex.org/I84653119",
+          "country": "TW"
+        },
+        {
+          "name": "North Carolina State University",
+          "url": "https://openalex.org/I137902535",
+          "country": "US"
+        },
+        {
+          "name": "University of California, Riverside",
+          "url": "https://openalex.org/I103635307",
+          "country": "US"
+        },
+        {
+          "name": "Institute for Integrative Genome Biology",
+          "url": "https://openalex.org/I4405278674",
+          "country": "US"
+        },
+        {
+          "name": "National Chung Hsing University",
+          "url": "https://openalex.org/I162838928",
+          "country": "TW"
+        },
+        {
+          "name": "National Cheng Kung University",
+          "url": "https://openalex.org/I91807558",
+          "country": "TW"
+        }
+      ],
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s42003-026-11289-3.pdf",
+      "pdf_url": "https://www.nature.com/articles/s42003-026-11289-3.pdf",
+      "is_retracted": false
+    },
+    "metadata": {
+      "status": "matched",
+      "bibliography": {
+        "title": "Multi-omics analyses reveal dynamic interactions between DNA methylation and transcriptional regulation during black raspberry ripening",
+        "doi": "10.1038/s42003-026-11289-3",
+        "journal": "Communications Biology",
+        "date": "2026-11-12",
+        "authors": [
+          {
+            "family": "Hsieh",
+            "given": "Wei-Hsun"
+          },
+          {
+            "family": "Hung",
+            "given": "Yu-Hung"
+          },
+          {
+            "family": "Zhang",
+            "given": "Jian-Hui"
+          },
+          {
+            "family": "Cui",
+            "given": "Qirui"
+          },
+          {
+            "family": "Chen",
+            "given": "Han-Yi"
+          },
+          {
+            "family": "Lin",
+            "given": "Liang-Peng"
+          },
+          {
+            "family": "He",
+            "given": "Meng-Hsun"
+          },
+          {
+            "family": "Wang",
+            "given": "Yen-Ching"
+          },
+          {
+            "family": "Ho",
+            "given": "Yu-Yu"
+          },
+          {
+            "family": "Ballington",
+            "given": "James"
+          },
+          {
+            "family": "Fernandez",
+            "given": "Gina"
+          },
+          {
+            "family": "Perkins-Veazie",
+            "given": "Penelope"
+          },
+          {
+            "family": "H. Le",
+            "given": "Brandon"
+          },
+          {
+            "family": "Li",
+            "given": "Xu"
+          },
+          {
+            "family": "Hsieh",
+            "given": "Tzung-Fu"
+          },
+          {
+            "family": "Lin",
+            "given": "Jer-Young"
+          }
+        ],
+        "type": "journal-article"
+      },
+      "differences": [],
+      "relations": [],
+      "updates": [],
+      "checked_at": "2026-11-20T08:47:35.047945+00:00",
+      "source_url": "https://api.crossref.org/works/10.1038%2Fs42003-026-11289-3",
+      "update_check": "completed"
+    },
+    "issues": [
+      "2026-11-20"
+    ],
+    "related_papers": []
+  },
+  {
+    "title": "An Anther-Specific Sugar Transporter SlSTP9 Is Modulated by SlDof12 to Regulate Anther Elongation and Reproductive Success in Tomato.",
+    "date": "2026-11-05",
+    "journal": "Plant physiology",
+    "kind": "期刊记录（审稿状态请核对原文）",
+    "url": "https://doi.org/10.1093/plphys/kiag823",
+    "priority": "快速浏览",
+    "tags": [
+      "番茄",
+      "糖运输",
+      "花药发育",
+      "坐果",
+      "基因编辑",
+      "补录"
+    ],
+    "heading": "番茄SlDof12–SlSTP9调控花药伸长并影响坐果（补录）",
+    "sections": [
+      {
+        "label": "真正的新发现",
+        "text": "研究报告，花药特异的质膜糖转运蛋白SlSTP9参与花药内壁和中层细胞扩张；敲除后花药变短、提前开裂并出现柱头外露和授粉失败，而SlSTP9过表达提高坐果。摘要还指出SlDof12过表达可重现部分花部缺陷，并将其描述为SlSTP9表达的直接抑制因子。",
+        "kind": "reported"
+      },
+      {
+        "label": "机制或方法上的关键点",
+        "text": "遗传与功能分析将SlSTP9的糖转运功能、半乳糖积累、苯丙烷代谢增强和内壁细胞提前木质化联系起来；研究报告SlSTP9对果糖和半乳糖具有较高亲和力。CRISPR/Cas9、酵母功能互补、微尺度热泳及转录组和代谢分析被用于研究，但摘要没有给出SlDof12直接结合DNA的具体实验细节。",
+        "kind": "reported"
+      },
+      {
+        "label": "与你的辣椒研究关系",
+        "text": "该研究提示授粉器官性状和糖运输可能与坐果相连，可作为辣椒坐果和产量性状的候选研究方向，而非辣椒中的已证实机制。摘要未提供辣椒SlSTP9或SlDof12对应基因的同源、旁系同源及功能证据。",
+        "kind": "application"
+      },
+      {
+        "label": "对22组织图谱的具体启示",
+        "text": "补录研究启示：辣椒22组织图谱若包含花药和其他花部组织，可将RNA-seq与ATAC-seq、WGBS及四类CUT&Tag标记联合分析，筛选组织特异的糖运输基因和可能的上游TF，并与果实坐果阶段表达联系起来。该番茄研究未报告DNA甲基化或组蛋白标记数据，因此图谱中的表观信号只能作为待验证的候选调控层。",
+        "kind": "application"
+      },
+      {
+        "label": "需要注意",
+        "text": "研究对象是番茄，且SlSTP9敲除造成的授粉缺陷与过表达提高坐果方向相反，说明调控剂量和花部发育背景需谨慎评估。摘要没有证明辣椒中同源基因的功能或过表达效果，也未说明坐果增加是否带来最终产量提升。",
+        "kind": "limitation"
+      },
+      {
+        "label": "建议优先看",
+        "text": "优先看SlSTP9敲除、过表达及SlDof12过表达所支持的花药结构和坐果表型，再看糖转运、半乳糖积累、木质化与转录代谢变化之间的证据链。对于辣椒应用，应先核实候选基因关系及花药表达，而不是直接照搬番茄改造方案。",
+        "kind": "reading"
+      }
+    ],
+    "classification": {
+      "species": [],
+      "process": [],
+      "regulation": [],
+      "methods": [],
+      "evidence_type": [],
+      "article_type": []
+    },
+    "translations": {
+      "en": {
+        "heading": "The tomato SlDof12–SlSTP9 module regulates anther elongation and affects fruit set (Backfill)",
+        "sections": [
+          {
+            "label": "What is new",
+            "text": "The study reports that the anther-specific plasma-membrane sugar transporter SlSTP9 contributes to expansion of anther endothecium and middle-layer cells; knockout shortened anthers and caused premature dehiscence, stigma exsertion, and pollination failure, whereas SlSTP9 overexpression increased fruit set. The abstract also states that SlDof12 overexpression recapitulated some floral defects and describes SlDof12 as a direct repressor of SlSTP9 expression."
+          },
+          {
+            "label": "Mechanistic or methodological key point",
+            "text": "Genetic and functional analyses link SlSTP9 sugar transport with galactose accumulation, enhanced phenylpropanoid metabolism, and premature lignification of endothecium cells; the study reports that SlSTP9 has high affinity for fructose and galactose. CRISPR/Cas9, yeast functional complementation, microscale thermophoresis, and transcriptomic and metabolic analyses were used, but the abstract does not provide the specific experimental details for direct DNA binding by SlDof12."
+          },
+          {
+            "label": "Relevance to pepper research",
+            "text": "The study suggests that pollination-organ traits and sugar transport may be connected to fruit set, providing a candidate research direction for pepper fruit set and yield traits rather than an established mechanism in pepper. The abstract provides no evidence on orthology, paralogy, or function of corresponding pepper genes for SlSTP9 or SlDof12."
+          },
+          {
+            "label": "Implications for the 22-tissue atlas",
+            "text": "Backfill research implication: if the pepper 22-tissue atlas includes anthers and other floral tissues, RNA-seq could be combined with ATAC-seq, WGBS, and the four CUT&Tag marks to identify tissue-specific sugar-transport genes and possible upstream TFs, and relate them to expression during fruit set. The tomato study did not report DNA methylation or histone-mark data, so epigenomic signals in the atlas would be candidate regulatory layers to test."
+          },
+          {
+            "label": "Limitations",
+            "text": "The study is in tomato, and the pollination defects caused by SlSTP9 knockout contrast with the increased fruit set under overexpression, making dosage and floral developmental context important to assess. The abstract does not establish the function or overexpression effect of an orthologous gene in pepper, nor whether increased fruit set leads to higher final yield."
+          },
+          {
+            "label": "What to read first",
+            "text": "First examine the anther-structure and fruit-set phenotypes supported by SlSTP9 knockout, overexpression, and SlDof12 overexpression, then the evidence connecting sugar transport, galactose accumulation, lignification, and transcriptomic and metabolic changes. For pepper applications, first verify candidate gene relationships and anther expression rather than directly copying the tomato engineering strategy."
+          }
+        ]
+      }
+    },
+    "journal_club": {
+      "traits": [
+        "yield"
+      ],
+      "kind": "transfer",
+      "origin": "literature",
+      "conservation": "unverified",
+      "zh": {
+        "goal": "探索改善辣椒坐果并最终提升产量的可能性，同时避免花药发育和授粉受损。",
+        "strategy_results": "原物种为番茄；摘要报告SlSTP9过表达提高坐果，敲除则导致花药缩短、提前开裂和授粉失败，SlDof12过表达重现部分花部缺陷。干预证据来自番茄，不是辣椒。",
+        "pepper_basis": "番茄和辣椒都属于茄科，坐果和花药发育是有价值的比较性状；但摘要没有提供辣椒同源或旁系同源、表达位置或功能验证，保守性未验证。",
+        "engineering_outcome": "可将调节辣椒候选SlSTP9对应基因作为待验证转移策略，预测适度提高其表达可能改善坐果；辣椒中的改造效果尚未测试，且不能据番茄结果保证最终产量增加。",
+        "tradeoffs_metrics": "表达过低与授粉失败相关，过表达的最佳剂量及可能的糖代谢、花部发育代价未知。测量花药长度与开裂时间、柱头位置、花粉与授粉表现、坐果率、果实数及最终产量。",
+        "next_step": "先在辣椒花药和花部组织中确认候选基因的同源关系、表达位置及自然表达变化，再决定是否开展可控表达扰动和坐果评估。"
+      },
+      "en": {
+        "goal": "Explore the possibility of improving pepper fruit set and, ultimately, yield while avoiding damage to anther development and pollination.",
+        "strategy_results": "The source species is tomato. The abstract reports that SlSTP9 overexpression increased fruit set, whereas knockout caused shortened anthers, premature dehiscence, and pollination failure; SlDof12 overexpression recapitulated some floral defects. The intervention evidence is from tomato, not pepper.",
+        "pepper_basis": "Tomato and pepper are both Solanaceae, and fruit set and anther development are valuable comparative traits; however, the abstract provides no evidence on pepper orthology or paralogy, expression location, or functional validation, so conservation is unverified.",
+        "engineering_outcome": "Regulating a candidate pepper counterpart of SlSTP9 could be treated as a transfer strategy to test, with moderate expression increase predicted to possibly improve fruit set; the modification has not been tested in pepper, and the tomato result does not guarantee increased final yield.",
+        "tradeoffs_metrics": "Low expression was associated with pollination failure, while the optimal overexpression level and possible sugar-metabolism or floral-development costs are unknown. Measure anther length and dehiscence timing, stigma position, pollen and pollination performance, fruit-set rate, fruit number, and final yield.",
+        "next_step": "First establish the candidate gene's orthology and expression location in pepper anthers and floral tissues, and characterize its natural expression changes; then decide whether to conduct controlled expression perturbation and fruit-set assessment."
+      }
+    },
+    "doi": "10.1093/plphys/kiag823",
+    "evidence": {
+      "source_type": "abstract",
+      "reading_depth": "仅摘要",
+      "verification": "待核验",
+      "classification_status": "由摘要自动归类，待核验",
+      "source_url": "https://doi.org/10.1093/plphys/kiag823",
+      "retrieved_at": "2026-11-20T08:42:33.614571+00:00",
+      "abstract": "Successful pollination in crops relies on the intricate coordination between the anther and the style. However, the role of sugar transporters in modulating floral architecture and influencing pollination success remains poorly understood. This study investigates the function and transcriptional regulation of the tomato sugar transporter, SlSTP9, using a combination of CRISPR/Cas9-mediated gene editing, yeast functional complementation, microscale thermophoresis, transcriptomic, and metabolic profiling. We identify SlSTP9 as an anther endothecium/middle-layer-specific sugar transporter localized to the plasma membrane. Loss of SlSTP9 function results in impaired endothecium and middle-layer cell expansion, leading to shortened anthers, premature dehiscence, stigma exsertion, and ultimately pollination failure. In contrast, overexpression of SlSTP9 enhances fruit set. Functional assays show that SlSTP9 exhibits high affinity for fructose and galactose, and its loss in the slstp9 mutant leads to excessive accumulation of galactose, activation of phenylpropanoid metabolism, and premature lignification of endothecium cells. Furthermore, we demonstrate that the Dof-family transcription factor SlDof12, which is also localized in the anther endothecium and middle layer, directly represses SlSTP9 expression. Overexpression of SlDof12 recapitulates the floral defects observed in the slstp9 mutant. These findings reveal a regulatory module involving SlDof12 and SlSTP9 that controls anther elongation by preventing premature lignification, highlighting a novel role for sugar transporters in shaping floral architecture and modulating reproductive success.",
+      "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+    },
+    "id": "paper-00786766c47619cf",
+    "entry_type": "backfill",
+    "revision": 1,
+    "openalex": {
+      "status": "matched",
+      "match_method": "doi_title",
+      "checked_at": "2026-11-20T08:42:38.835457+00:00",
+      "source_updated_at": "2026-11-17T12:49:18.490984",
+      "id": "https://openalex.org/W7225328522",
+      "doi": "10.1093/plphys/kiag823",
+      "cited_by_count": 0,
+      "referenced_works_count": 0,
+      "counts_by_year": [],
+      "authors": [
+        {
+          "name": "Xingyi Wang",
+          "url": "https://openalex.org/A5151632708",
+          "orcid": "https://orcid.org/0009-0009-7357-0753"
+        },
+        {
+          "name": "Shihui Li",
+          "url": "https://openalex.org/A5159979386",
+          "orcid": null
+        },
+        {
+          "name": "Zijian Liu",
+          "url": "https://openalex.org/A5048328726",
+          "orcid": "https://orcid.org/0000-0001-9197-473X"
+        },
+        {
+          "name": "Meiting Liang",
+          "url": "https://openalex.org/A5039867175",
+          "orcid": null
+        },
+        {
+          "name": "Yuxi Tang",
+          "url": "https://openalex.org/A5101178597",
+          "orcid": "https://orcid.org/0009-0007-9369-9373"
+        },
+        {
+          "name": "Xin Li",
+          "url": "https://openalex.org/A5100353819",
+          "orcid": "https://orcid.org/0000-0002-2158-3319"
+        },
+        {
+          "name": "Lihong Gao",
+          "url": "https://openalex.org/A5124300376",
+          "orcid": null
+        },
+        {
+          "name": "Yongqiang Tian",
+          "url": "https://openalex.org/A5101743051",
+          "orcid": "https://orcid.org/0000-0002-6599-9025"
+        },
+        {
+          "name": "Si Ma",
+          "url": "https://openalex.org/A5063569207",
+          "orcid": "https://orcid.org/0000-0002-3301-2046"
+        }
+      ],
+      "institutions": [
+        {
+          "name": "Shanghai Academy of Agricultural Sciences",
+          "url": "https://openalex.org/I4210139732",
+          "country": "CN"
+        },
+        {
+          "name": "China Agricultural University",
+          "url": "https://openalex.org/I52158045",
+          "country": "CN"
+        }
+      ],
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "pdf_url": null,
+      "is_retracted": false
+    },
+    "metadata": {
+      "status": "matched",
+      "bibliography": {
+        "title": "An Anther-Specific Sugar Transporter\n                    SlSTP9\n                    Is Modulated by SlDof12 to Regulate Anther Elongation and Reproductive Success in Tomato",
+        "doi": "10.1093/plphys/kiag823",
+        "journal": "Plant Physiology",
+        "date": "2026-11-05",
+        "authors": [
+          {
+            "family": "Wang",
+            "given": "Xingyi"
+          },
+          {
+            "family": "Li",
+            "given": "Shihui"
+          },
+          {
+            "family": "Liu",
+            "given": "Zijian"
+          },
+          {
+            "family": "Liang",
+            "given": "Meiting"
+          },
+          {
+            "family": "Tang",
+            "given": "Yuxi"
+          },
+          {
+            "family": "Li",
+            "given": "Xin"
+          },
+          {
+            "family": "Gao",
+            "given": "Lihong"
+          },
+          {
+            "family": "Tian",
+            "given": "Yongqiang"
+          },
+          {
+            "family": "Ma",
+            "given": "Si"
+          }
+        ],
+        "type": "journal-article"
+      },
+      "differences": [],
+      "relations": [],
+      "updates": [],
+      "checked_at": "2026-11-20T08:47:35.124188+00:00",
+      "source_url": "https://api.crossref.org/works/10.1093%2Fplphys%2Fkiag823",
+      "update_check": "completed"
+    },
+    "issues": [
+      "2026-11-20"
     ],
     "related_papers": []
   }

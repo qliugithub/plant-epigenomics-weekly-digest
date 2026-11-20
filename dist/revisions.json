@@ -5743,5 +5743,324 @@
         }
       }
     }
+  ],
+  "paper-6c41c34f6cc83150": [
+    {
+      "version": 1,
+      "at": "2026-11-20T08:42:33.617788+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "53e1fb2ff32600f305a04dc4b58723e13ece83c06d135f0b65ea5ab34f8d7aa1",
+      "content": {
+        "title": "Histone deacetylase SlHDA6 influences fruit ripening and shelf life in tomato (Solanum lycopersicum).",
+        "heading": "番茄SlHDA6敲除伴随类胡萝卜素增加、成熟加速与货架期缩短",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "摘要报告，敲除番茄SlHDA6后，PSY1表达上调而LCY-B、LCY-E和CYC-B表达下调，类胡萝卜素积累增加；乙烯合成及多种成熟相关基因表达上调，并伴随乙烯增加、成熟加快和温室储藏条件下货架期缩短。总组蛋白H4乙酰化升高与这些表型同时出现。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "研究通过SlHDA6敲除考察其功能，结果支持SlHDA6对成熟进程具有负向调节作用，但摘要未证明它直接调控相关基因启动子。H4总乙酰化升高是整体层面的观察，不能等同于特定位点的组蛋白标记或直接的染色质机制。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "番茄成熟与类胡萝卜素、乙烯和成熟转录网络的联系，可为辣椒果实成熟及色素性状研究提供茄科参照。SlHDA6在辣椒中的同源关系、功能保守性及其对辣椒果实的效应均未由该摘要建立，属于待验证问题。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "研究启示：在辣椒图谱中为果实成熟阶段设置清晰的发育分期，并联合RNA-seq、ATAC-seq、WGBS与H3K4me1、H3K4me3、H3K27ac和H3K27me3 CUT&Tag，检验成熟网络与染色质状态是否协同变化。H3K27ac等既定标记不能替代摘要所述的总H4乙酰化测量；若要比较该现象，需另行设计相应检测，且关联变化不能单独证明因果。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "摘要称成熟相关表达变化与乙烯增加和成熟加速相关，不能据此认定SlHDA6对每个下游基因均有直接作用；作者也明确指出启动子层面的直接调控尚待确定。货架期结果是在温室储藏条件下报告，摘要未给出可用于跨品种或跨环境外推的细节。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先核对摘要涉及的SlHDA6敲除表型、类胡萝卜素相关基因与成熟基因表达、乙烯和货架期观察之间的对应关系。进一步关注作者如何区分总H4乙酰化变化与具体位点调控，以及直接启动子作用尚缺少哪些证据。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "Tomato SlHDA6 knockout is accompanied by increased carotenoids, accelerated ripening, and a shorter shelf life",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "The abstract reports that knockout of tomato SlHDA6 upregulated PSY1 while downregulating LCY-B, LCY-E, and CYC-B, and increased carotenoid accumulation; expression of ethylene-biosynthesis and several ripening-associated genes also increased, accompanied by higher ethylene, faster ripening, and a shorter shelf life under greenhouse storage conditions. Increased total histone H4 acetylation was observed alongside these phenotypes."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The study examined SlHDA6 function through knockout, and the results support a negative regulatory role for SlHDA6 in the ripening process, but the abstract does not show that it directly regulates the promoters of the genes concerned. Increased total H4 acetylation is a global-level observation and is not equivalent to a specific histone mark at a particular locus or a direct chromatin mechanism."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "The links in tomato between ripening, carotenoids, ethylene, and ripening transcriptional networks provide a Solanaceae reference for research on pepper fruit ripening and pigmentation traits. The abstract does not establish SlHDA6 orthology in pepper, conservation of its function, or its effects on pepper fruit; these remain to be tested."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Research implication: define clear developmental stages for pepper fruit in the atlas and combine RNA-seq, ATAC-seq, WGBS, and CUT&Tag for H3K4me1, H3K4me3, H3K27ac, and H3K27me3 to test whether ripening networks and chromatin states change together. The planned marks such as H3K27ac cannot substitute for the total H4 acetylation measurement reported in the abstract; assessing that observation would require a separately designed assay, and correlated changes alone would not prove causality."
+              },
+              {
+                "label": "Limitations",
+                "text": "The abstract describes ripening-associated expression changes as correlated with increased ethylene and accelerated ripening; this does not establish that SlHDA6 directly acts on every downstream gene. The authors also state that direct promoter-level regulation remains to be determined. The shelf-life result was reported under greenhouse storage conditions, and the abstract does not provide details that would support extrapolation across cultivars or environments."
+              },
+              {
+                "label": "What to read first",
+                "text": "First examine how the SlHDA6 knockout phenotype, expression of carotenoid-related and ripening-associated genes, ethylene, and shelf-life observations correspond to one another in the abstract. Then focus on how the study distinguishes a change in total H4 acetylation from locus-specific regulation, and what evidence for direct promoter action is still missing."
+              }
+            ]
+          }
+        },
+        "priority": "全文精读",
+        "date": "2026-11-16",
+        "journal": "Plant physiology and biochemistry : PPB",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1016/j.plaphy.2026.111974",
+        "doi": "10.1016/j.plaphy.2026.111974",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "番茄",
+          "果实成熟",
+          "组蛋白乙酰化",
+          "类胡萝卜素",
+          "采后"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1016/j.plaphy.2026.111974",
+          "retrieved_at": "2026-11-20T08:42:33.614457+00:00",
+          "abstract": "Fruit development and ripening is a complex biological process regulated by plant hormones, transcription factors, and epigenetic modifications. Histone deacetylation represents a key epigenetic mechanism, yet its role in fruit ripening remains poorly understood. In this study, we constructed a knockout vector targeting SlHDA6 and successfully transformed it into wild-type tomato to investigate its function. Knockout of SlHDA6 upregulated PSY1 expression, downregulated LCY-B, LCY-E, and CYC-B transcription, and increased carotenoid accumulation. Moreover, the expression of ethylene biosynthetic genes (ACS2, ACS4, ACO1, ACO3) and ripening-associated genes (RIN, E4, E8, PG, Pti4, LOXB) were significantly upregulated, correlating with increased ethylene production, accelerated ripening, and shortened shelf life under greenhouse storage conditions. Additionally, elevated total histone H4 acetylation was observed, supporting a link between epigenetic regulation and fruit ripening. Collectively, these results indicate that SlHDA6 acts as an inhibitor of ethylene biosynthesis and influences carotenoid accumulation during tomato fruit ripening, and that it functions as a negative regulator of fruit ripening. These effects were accompanied by elevated global H4 acetylation, suggesting that histone deacetylation may contribute to the epigenetic regulation of ripening-associated gene expression. However, direct promoter-level regulation by SlHDA6 remains to be determined. Our findings provide new insights into the epigenetic regulatory network underlying tomato fruit ripening, highlighting the crucial role of histone deacetylation in controlling ripening-associated gene expression. Our work expands the current understanding of HDAC functions in fleshy fruit species and may offer potential targets for improving fruit quality and postharvest shelf life through epigenetic manipulation.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
+  ],
+  "paper-de3ec553ad0ca688": [
+    {
+      "version": 1,
+      "at": "2026-11-20T08:42:33.630119+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "d597110c37307607bc90acec14239d4da7524803061f5829fd75a8dff9daa9a9",
+      "content": {
+        "title": "Multi-omics analyses reveal dynamic interactions between DNA methylation and transcriptional regulation during black raspberry ripening.",
+        "heading": "黑树莓成熟期出现启动子低甲基化与转座子富集区CHH甲基化增加（补录）",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "该发育序列研究整合黑树莓果实转录组、甲基组和代谢组，报告成熟过程中启动子区域在各类胞嘧啶背景下甲基化逐步下降，而转座子富集区的CHG和CHH甲基化增加。作者还发现花青素积累与相关生物合成和调控基因表达呈协同变化。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "摘要提出启动子低甲基化和CHH甲基化增加与成熟期转录变化相联系，并指出具有激活潜力的甲基化结合转录因子可能参与CHH甲基化相关的转录激活。摘要也报告异染色质非CG甲基化升高与组蛋白变体转录增加同时出现；这些是多组学关联或可能解释，不能据此认定直接因果。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "黑树莓提供了果实成熟中不同基因组区域、不同甲基化背景可能呈相反动态的参照，提示辣椒成熟网络分析不宜只用全局甲基化水平概括。其物种、果实类型及色素背景与辣椒不同，摘要没有证明这些模式在茄科或辣椒中保守。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "补录研究启示：在辣椒22组织图谱中，将果实成熟阶段的WGBS按启动子、基因体和转座子富集区分层，并与RNA-seq及ATAC-seq整合，区分CG、CHG和CHH变化与表达、可及性的对应关系。可进一步将H3K4me1、H3K4me3、H3K27ac和H3K27me3 CUT&Tag信号纳入果实成熟TF网络，但黑树莓摘要没有测量这些标记，也没有证明甲基化变化导致表达变化。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "这是一项黑树莓的发育序列多组学关联研究；摘要没有报告位点编辑、遗传扰动或直接结合验证。摘要中的甲基化结合转录因子作用以可能性表述，异染色质与组蛋白变体的关系也不能从共变推断为因果。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先关注不同胞嘧啶背景和基因组区段的甲基化动态、它们与成熟期转录变化的对应方式，以及花青素相关基因表达与代谢积累的整合分析。再核对作者对相关性、可能机制和直接证据的区分；摘要未提供可据以指认具体图表的依据。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "Promoter hypomethylation and increased CHH methylation in transposon-rich regions during black raspberry ripening (Backfill)",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "This developmental-series study integrated black raspberry fruit transcriptomics, methylomics, and metabolomics, and reports progressively decreasing methylation in promoter regions across cytosine contexts during ripening, while CHG and CHH methylation increased in transposon-rich regions. The authors also found coordinated changes between anthocyanin accumulation and expression of related biosynthetic and regulatory genes."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "The abstract links promoter hypomethylation and increased CHH methylation with transcriptional changes during ripening, and notes that methylation-binding transcription factors with activation potential may participate in CHH-methylation-associated transcriptional activation. It also reports that increased non-CG methylation in heterochromatin coincided with increased transcription of histone variants; these are multi-omics associations or possible explanations and do not establish direct causality."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "Black raspberry provides a reference in which methylation dynamics may differ across genomic regions and cytosine contexts during fruit ripening, suggesting that analyses of pepper ripening networks should not be summarized by global methylation levels alone. Its species, fruit type, and pigment context differ from pepper, and the abstract does not establish that these patterns are conserved in Solanaceae or pepper."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Backfill research implication: in the pepper 22-tissue atlas, stratify WGBS data from fruit-ripening stages by promoters, gene bodies, and transposon-rich regions, and integrate them with RNA-seq and ATAC-seq to distinguish how CG, CHG, and CHH changes correspond to expression and accessibility. CUT&Tag signals for H3K4me1, H3K4me3, H3K27ac, and H3K27me3 could also be incorporated into fruit-ripening TF networks, but the black raspberry abstract did not measure these marks or show that methylation changes cause expression changes."
+              },
+              {
+                "label": "Limitations",
+                "text": "This is a developmental-series multi-omics association study in black raspberry; the abstract reports no locus editing, genetic perturbation, or direct-binding validation. The proposed role of methylation-binding transcription factors is expressed as a possibility, and the relationship between heterochromatin and histone variants cannot be inferred as causal from covariation."
+              },
+              {
+                "label": "What to read first",
+                "text": "First focus on methylation dynamics across cytosine contexts and genomic regions, how they correspond to transcriptional changes during ripening, and the integrated analysis of anthocyanin-related gene expression and metabolite accumulation. Then check how the authors distinguish association, possible mechanisms, and direct evidence; the abstract does not provide a basis for identifying specific figures."
+              }
+            ]
+          }
+        },
+        "priority": "全文精读",
+        "date": "2026-11-12",
+        "journal": "Communications biology",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1038/s42003-026-11289-3",
+        "doi": "10.1038/s42003-026-11289-3",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "黑树莓",
+          "果实成熟",
+          "DNA甲基化",
+          "多组学",
+          "补录"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1038/s42003-026-11289-3",
+          "retrieved_at": "2026-11-20T08:42:33.614528+00:00",
+          "abstract": "Fruit ripening is a complex developmental process involving coordinated changes in gene expression, metabolism, and epigenetic regulation. How DNA methylation dynamics influence gene transcription and metabolite accumulation during black raspberry (Rubus occidentalis) fruit ripening remains poorly understood. Here, we performed developmental-series transcriptome, methylome, and metabolome analysis; the results from this analysis reveal extensive epigenetic reprogramming during black raspberry fruit ripening. Fruit tissues exhibit globally higher DNA methylation than leaves, particularly in CHG and CHH contexts. Local methylation in all cytosine contexts progressively decreases in promoter regions during ripening, whereas CHG and CHH methylation increase in transposon-rich regions. Two primary methylation transitions-promoter hypomethylation and CHH hypermethylation-govern transcriptional shifts in genes involved in ripening processes. Methyl-binding transcription factors with activation potential likely promote CHH hypermethylation-linked transcriptional activation. Multi-omics integration reveals that coordinated anthocyanin accumulation parallels expression of biosynthetic and regulatory genes within coherent networks. Elevated non-CG methylation in heterochromatin coincides with increased transcription of histone variants mediating chromatin compaction, suggesting chromatin remodelers fine-tune accessibility for methyltransferases. Our study highlights both genome-wide and locus-specific epigenetic reprogramming and demonstrates a coordinated interplay between DNA methylation and transcriptional regulation during black raspberry fruit ripening.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
+  ],
+  "paper-00786766c47619cf": [
+    {
+      "version": 1,
+      "at": "2026-11-20T08:42:33.639260+00:00",
+      "reason": "Weekly bilingual abstract commentary",
+      "hash": "e3c455c62abc16f34e179415aa03f0f41b47ace18a10e6eaae7b12b3657e5441",
+      "content": {
+        "title": "An Anther-Specific Sugar Transporter SlSTP9 Is Modulated by SlDof12 to Regulate Anther Elongation and Reproductive Success in Tomato.",
+        "heading": "番茄SlDof12–SlSTP9调控花药伸长并影响坐果（补录）",
+        "sections": [
+          {
+            "label": "真正的新发现",
+            "text": "研究报告，花药特异的质膜糖转运蛋白SlSTP9参与花药内壁和中层细胞扩张；敲除后花药变短、提前开裂并出现柱头外露和授粉失败，而SlSTP9过表达提高坐果。摘要还指出SlDof12过表达可重现部分花部缺陷，并将其描述为SlSTP9表达的直接抑制因子。",
+            "kind": "reported"
+          },
+          {
+            "label": "机制或方法上的关键点",
+            "text": "遗传与功能分析将SlSTP9的糖转运功能、半乳糖积累、苯丙烷代谢增强和内壁细胞提前木质化联系起来；研究报告SlSTP9对果糖和半乳糖具有较高亲和力。CRISPR/Cas9、酵母功能互补、微尺度热泳及转录组和代谢分析被用于研究，但摘要没有给出SlDof12直接结合DNA的具体实验细节。",
+            "kind": "reported"
+          },
+          {
+            "label": "与你的辣椒研究关系",
+            "text": "该研究提示授粉器官性状和糖运输可能与坐果相连，可作为辣椒坐果和产量性状的候选研究方向，而非辣椒中的已证实机制。摘要未提供辣椒SlSTP9或SlDof12对应基因的同源、旁系同源及功能证据。",
+            "kind": "application"
+          },
+          {
+            "label": "对22组织图谱的具体启示",
+            "text": "补录研究启示：辣椒22组织图谱若包含花药和其他花部组织，可将RNA-seq与ATAC-seq、WGBS及四类CUT&Tag标记联合分析，筛选组织特异的糖运输基因和可能的上游TF，并与果实坐果阶段表达联系起来。该番茄研究未报告DNA甲基化或组蛋白标记数据，因此图谱中的表观信号只能作为待验证的候选调控层。",
+            "kind": "application"
+          },
+          {
+            "label": "需要注意",
+            "text": "研究对象是番茄，且SlSTP9敲除造成的授粉缺陷与过表达提高坐果方向相反，说明调控剂量和花部发育背景需谨慎评估。摘要没有证明辣椒中同源基因的功能或过表达效果，也未说明坐果增加是否带来最终产量提升。",
+            "kind": "limitation"
+          },
+          {
+            "label": "建议优先看",
+            "text": "优先看SlSTP9敲除、过表达及SlDof12过表达所支持的花药结构和坐果表型，再看糖转运、半乳糖积累、木质化与转录代谢变化之间的证据链。对于辣椒应用，应先核实候选基因关系及花药表达，而不是直接照搬番茄改造方案。",
+            "kind": "reading"
+          }
+        ],
+        "translations": {
+          "en": {
+            "heading": "The tomato SlDof12–SlSTP9 module regulates anther elongation and affects fruit set (Backfill)",
+            "sections": [
+              {
+                "label": "What is new",
+                "text": "The study reports that the anther-specific plasma-membrane sugar transporter SlSTP9 contributes to expansion of anther endothecium and middle-layer cells; knockout shortened anthers and caused premature dehiscence, stigma exsertion, and pollination failure, whereas SlSTP9 overexpression increased fruit set. The abstract also states that SlDof12 overexpression recapitulated some floral defects and describes SlDof12 as a direct repressor of SlSTP9 expression."
+              },
+              {
+                "label": "Mechanistic or methodological key point",
+                "text": "Genetic and functional analyses link SlSTP9 sugar transport with galactose accumulation, enhanced phenylpropanoid metabolism, and premature lignification of endothecium cells; the study reports that SlSTP9 has high affinity for fructose and galactose. CRISPR/Cas9, yeast functional complementation, microscale thermophoresis, and transcriptomic and metabolic analyses were used, but the abstract does not provide the specific experimental details for direct DNA binding by SlDof12."
+              },
+              {
+                "label": "Relevance to pepper research",
+                "text": "The study suggests that pollination-organ traits and sugar transport may be connected to fruit set, providing a candidate research direction for pepper fruit set and yield traits rather than an established mechanism in pepper. The abstract provides no evidence on orthology, paralogy, or function of corresponding pepper genes for SlSTP9 or SlDof12."
+              },
+              {
+                "label": "Implications for the 22-tissue atlas",
+                "text": "Backfill research implication: if the pepper 22-tissue atlas includes anthers and other floral tissues, RNA-seq could be combined with ATAC-seq, WGBS, and the four CUT&Tag marks to identify tissue-specific sugar-transport genes and possible upstream TFs, and relate them to expression during fruit set. The tomato study did not report DNA methylation or histone-mark data, so epigenomic signals in the atlas would be candidate regulatory layers to test."
+              },
+              {
+                "label": "Limitations",
+                "text": "The study is in tomato, and the pollination defects caused by SlSTP9 knockout contrast with the increased fruit set under overexpression, making dosage and floral developmental context important to assess. The abstract does not establish the function or overexpression effect of an orthologous gene in pepper, nor whether increased fruit set leads to higher final yield."
+              },
+              {
+                "label": "What to read first",
+                "text": "First examine the anther-structure and fruit-set phenotypes supported by SlSTP9 knockout, overexpression, and SlDof12 overexpression, then the evidence connecting sugar transport, galactose accumulation, lignification, and transcriptomic and metabolic changes. For pepper applications, first verify candidate gene relationships and anther expression rather than directly copying the tomato engineering strategy."
+              }
+            ]
+          }
+        },
+        "priority": "快速浏览",
+        "date": "2026-11-05",
+        "journal": "Plant physiology",
+        "kind": "期刊记录（审稿状态请核对原文）",
+        "url": "https://doi.org/10.1093/plphys/kiag823",
+        "doi": "10.1093/plphys/kiag823",
+        "classification": {
+          "species": [],
+          "process": [],
+          "regulation": [],
+          "methods": [],
+          "evidence_type": [],
+          "article_type": []
+        },
+        "tags": [
+          "番茄",
+          "糖运输",
+          "花药发育",
+          "坐果",
+          "基因编辑",
+          "补录"
+        ],
+        "evidence": {
+          "source_type": "abstract",
+          "reading_depth": "仅摘要",
+          "verification": "待核验",
+          "classification_status": "由摘要自动归类，待核验",
+          "source_url": "https://doi.org/10.1093/plphys/kiag823",
+          "retrieved_at": "2026-11-20T08:42:33.614571+00:00",
+          "abstract": "Successful pollination in crops relies on the intricate coordination between the anther and the style. However, the role of sugar transporters in modulating floral architecture and influencing pollination success remains poorly understood. This study investigates the function and transcriptional regulation of the tomato sugar transporter, SlSTP9, using a combination of CRISPR/Cas9-mediated gene editing, yeast functional complementation, microscale thermophoresis, transcriptomic, and metabolic profiling. We identify SlSTP9 as an anther endothecium/middle-layer-specific sugar transporter localized to the plasma membrane. Loss of SlSTP9 function results in impaired endothecium and middle-layer cell expansion, leading to shortened anthers, premature dehiscence, stigma exsertion, and ultimately pollination failure. In contrast, overexpression of SlSTP9 enhances fruit set. Functional assays show that SlSTP9 exhibits high affinity for fructose and galactose, and its loss in the slstp9 mutant leads to excessive accumulation of galactose, activation of phenylpropanoid metabolism, and premature lignification of endothecium cells. Furthermore, we demonstrate that the Dof-family transcription factor SlDof12, which is also localized in the anther endothecium and middle layer, directly represses SlSTP9 expression. Overexpression of SlDof12 recapitulates the floral defects observed in the slstp9 mutant. These findings reveal a regulatory module involving SlDof12 and SlSTP9 that controls anther elongation by preventing premature lignification, highlighting a novel role for sugar transporters in shaping floral architecture and modulating reproductive success.",
+          "note": "AI 解读仅依据检索摘要，未核对全文、图表或补充材料。研究关系与图谱启示是待验证的应用建议。"
+        }
+      }
+    }
   ]
 }
